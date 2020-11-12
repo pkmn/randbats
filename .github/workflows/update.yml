@@ -1,0 +1,29 @@
+name: Update
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '6,36 * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Update submodule
+      run:  |-
+        git submodule update --init --recursive --remote
+        npm -C vendor/pokemon-showdown --no-package-lock --no-optional install
+        node vendor/pokemon-showdown/build
+    - name: Fetch latest data
+      run: node update
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        HEAD=$(git -C vendor/pokemon-showdown rev-parse HEAD | cut -c1-8)
+        git commit -m "Import smogon/pokemon-showdown@${HEAD}" || exit 0
+        git push

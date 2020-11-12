@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+'use strict';
+
+const fs = require('fs');
+
+const {Dex} = require('./vendor/pokemon-showdown');
+Dex.includeModData();
+
+const SEED = [1, 2, 3, 4];
+const N = +process.argv[2] || 100_000;
+
+for (let gen = 1; gen <= 8; gen++) {
+  const format = `gen${gen}randombattle`;
+  const generator = Dex.getTeamGenerator(format, SEED);
+
+  const species = {};
+  for (let i = 0; i < N; i++) {
+    for (const set of generator.getTeam()) {
+      const s = species[set.species] || (species[set.species] = {
+        level: set.level, abilities: new Set(), items: new Set(), moves: new Set(),
+      });
+      if (set.ability) s.abilities.add(set.ability);
+      if (set.item) s.items.add(set.item)
+      for (const move of set.moves) s.moves.add(move)
+    }
+  }
+
+  const options = {};
+  for (const [name, stats] of Object.entries(species).sort((a, b) => a[0].localeCompare(b[0]))) {
+    const opts = {level: stats.level};
+    if (gen >= 3) opts.abilities = Array.from(stats.abilities).sort();
+    if (gen >= 2) opts.items = Array.from(stats.items).sort();
+    opts.moves = Array.from(stats.moves).map(m => Dex.getMove(m).name).sort();
+    options[name] = opts;
+  }
+
+  fs.writeFileSync(`data/${format}.json`, JSON.stringify(options, null, 2));
+}
