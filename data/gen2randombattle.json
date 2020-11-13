@@ -137,7 +137,11 @@
       "Sludge Bomb",
       "Substitute",
       "Swords Dance"
-    ]
+    ],
+    "ivs": {
+      "hp": 14,
+      "atk": 24
+    }
   },
   "Bellossom": {
     "level": 71,
@@ -361,7 +365,12 @@
       "Reflect",
       "Rest",
       "Thunder"
-    ]
+    ],
+    "ivs": {
+      "hp": 14,
+      "atk": 24,
+      "def": 26
+    }
   },
   "Dugtrio": {
     "level": 77,
@@ -532,7 +541,11 @@
       "Reflect",
       "Spikes",
       "Toxic"
-    ]
+    ],
+    "ivs": {
+      "atk": 26,
+      "def": 26
+    }
   },
   "Furret": {
     "level": 77,
@@ -676,7 +689,12 @@
       "Curse",
       "Hidden Power Ghost",
       "High Jump Kick"
-    ]
+    ],
+    "ivs": {
+      "hp": 22,
+      "atk": 26,
+      "def": 28
+    }
   },
   "Hitmonlee": {
     "level": 77,
@@ -688,7 +706,12 @@
       "Hidden Power Ghost",
       "High Jump Kick",
       "Rest"
-    ]
+    ],
+    "ivs": {
+      "hp": 22,
+      "atk": 26,
+      "def": 28
+    }
   },
   "Hitmontop": {
     "level": 77,
@@ -973,7 +996,10 @@
       "Substitute",
       "Thunder Wave",
       "Thunderbolt"
-    ]
+    ],
+    "ivs": {
+      "def": 26
+    }
   },
   "Mantine": {
     "level": 77,
@@ -1000,7 +1026,11 @@
       "Hidden Power Bug",
       "Rock Slide",
       "Swords Dance"
-    ]
+    ],
+    "ivs": {
+      "atk": 26,
+      "def": 26
+    }
   },
   "Meganium": {
     "level": 67,
@@ -1270,7 +1300,10 @@
       "Substitute",
       "Surf",
       "Thunderbolt"
-    ]
+    ],
+    "ivs": {
+      "def": 26
+    }
   },
   "Piloswine": {
     "level": 71,
@@ -1302,7 +1335,11 @@
       "Rest",
       "Submission",
       "Swords Dance"
-    ]
+    ],
+    "ivs": {
+      "atk": 26,
+      "def": 26
+    }
   },
   "Politoed": {
     "level": 71,
@@ -1488,7 +1525,11 @@
       "Hidden Power Bug",
       "Return",
       "Swords Dance"
-    ]
+    ],
+    "ivs": {
+      "atk": 26,
+      "def": 26
+    }
   },
   "Scyther": {
     "level": 71,
@@ -1699,7 +1740,10 @@
       "Hidden Power Fire",
       "Hidden Power Water",
       "Synthesis"
-    ]
+    ],
+    "ivs": {
+      "atk": 28
+    }
   },
   "Tangela": {
     "level": 77,
@@ -1807,7 +1851,11 @@
     ],
     "moves": [
       "Hidden Power Psychic"
-    ]
+    ],
+    "ivs": {
+      "hp": 22,
+      "def": 24
+    }
   },
   "Ursaring": {
     "level": 67,
@@ -1964,7 +2012,10 @@
       "Return",
       "Screech",
       "Thief"
-    ]
+    ],
+    "ivs": {
+      "def": 26
+    }
   },
   "Zapdos": {
     "level": 65,
@@ -1976,6 +2027,9 @@
       "Rest",
       "Sleep Talk",
       "Thunder"
-    ]
+    ],
+    "ivs": {
+      "def": 26
+    }
   }
 }

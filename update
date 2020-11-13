@@ -12,13 +12,40 @@ const N = +process.argv[2] || 100_000;
 for (let gen = 1; gen <= 8; gen++) {
   const format = `gen${gen}randombattle`;
   const generator = Dex.getTeamGenerator(format, SEED);
+  const IVS = gen < 3 ? 30 : 31;
+  const EVS = gen < 3 ? 255 : 85;
 
   const species = {};
   for (let i = 0; i < N; i++) {
     for (const set of generator.getTeam()) {
       const s = species[set.species] || (species[set.species] = {
-        level: set.level, abilities: new Set(), items: new Set(), moves: new Set(),
+        level: set.level,
+        abilities: new Set(),
+        items: new Set(),
+        moves: new Set(),
+        ivs: {},
+        evs: {},
       });
+      for (const stat in set.ivs) {
+        if (set.ivs[stat] !== IVS) {
+          if (!(stat in s.ivs)) {
+            s.ivs[stat] = set.ivs[stat];
+          } else if (s.ivs[stat] !== set.ivs[stat]) {
+            s.ivs[stat] = -1;
+          }
+        } else  if (s.ivs[stat]) {
+          s.ivs[stat] = -1;
+        }
+        if (set.evs[stat] !== EVS) {
+          if (!(stat in s.evs)) {
+            s.evs[stat] = set.evs[stat];
+          } else if (s.evs[stat] !== set.evs[stat]) {
+            s.evs[stat] = -1;
+          }
+        } else if (s.evs[stat]) {
+          s.evs[stat] = -1;
+        }
+      }
       if (set.ability) s.abilities.add(set.ability);
       if (set.item) s.items.add(set.item)
       for (const move of set.moves) s.moves.add(move)
@@ -31,6 +58,18 @@ for (let gen = 1; gen <= 8; gen++) {
     if (gen >= 3) opts.abilities = Array.from(stats.abilities).sort();
     if (gen >= 2) opts.items = Array.from(stats.items).sort();
     opts.moves = Array.from(stats.moves).map(m => Dex.getMove(m).name).sort();
+    for (const stat in stats.evs) {
+      if (stats.evs[stat] !== -1) {
+        opts.evs = opts.evs || {};
+        opts.evs[stat] = stats.evs[stat];
+      }
+    }
+    for (const stat in stats.ivs) {
+      if (stats.ivs[stat] !== -1) {
+        opts.ivs = opts.ivs || {};
+        opts.ivs[stat] = stats.ivs[stat];
+      }
+    }
     options[name] = opts;
   }
 

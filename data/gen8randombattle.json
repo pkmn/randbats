@@ -14,7 +14,10 @@
       "Earthquake",
       "Ice Shard",
       "Wood Hammer"
-    ]
+    ],
+    "evs": {
+      "hp": 77
+    }
   },
   "Absol": {
     "level": 86,
@@ -52,7 +55,13 @@
       "Spikes",
       "Toxic",
       "Yawn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Aegislash": {
     "level": 82,
@@ -75,7 +84,13 @@
       "Substitute",
       "Swords Dance",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Aerodactyl": {
     "level": 84,
@@ -129,7 +144,13 @@
       "Nasty Plot",
       "Psychic",
       "Shadow Ball"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Alcremie": {
     "level": 88,
@@ -147,7 +168,13 @@
       "Mystical Fire",
       "Psychic",
       "Recover"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Altaria": {
     "level": 88,
@@ -166,7 +193,13 @@
       "Fire Blast",
       "Roost",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Amoonguss": {
     "level": 82,
@@ -182,7 +215,13 @@
       "Spore",
       "Synthesis",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Appletun": {
     "level": 88,
@@ -198,7 +237,13 @@
       "Dragon Pulse",
       "Leech Seed",
       "Recover"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Araquanid": {
     "level": 82,
@@ -322,7 +367,13 @@
       "Protect",
       "Toxic",
       "Wish"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Articuno": {
     "level": 84,
@@ -338,7 +389,13 @@
       "Heal Bell",
       "Roost",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Articuno-Galar": {
     "level": 82,
@@ -354,7 +411,13 @@
       "Calm Mind",
       "Freezing Glare",
       "Recover"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Audino": {
     "level": 86,
@@ -370,7 +433,13 @@
       "Protect",
       "Toxic",
       "Wish"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Aurorus": {
     "level": 86,
@@ -389,7 +458,13 @@
       "Freeze-Dry",
       "Stealth Rock",
       "Thunder Wave"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Avalugg": {
     "level": 88,
@@ -427,7 +502,13 @@
       "Stealth Rock",
       "Taunt",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Azumarill": {
     "level": 84,
@@ -443,7 +524,13 @@
       "Seismic Toss",
       "Toxic",
       "Whirlpool"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Barbaracle": {
     "level": 82,
@@ -547,7 +634,15 @@
       "Thunderbolt",
       "Trick",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "atk": 0,
+      "spe": 0
+    },
+    "ivs": {
+      "atk": 0,
+      "spe": 0
+    }
   },
   "Bellossom": {
     "level": 88,
@@ -563,7 +658,13 @@
       "Quiver Dance",
       "Sleep Powder",
       "Strength Sap"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Bewear": {
     "level": 84,
@@ -617,7 +718,13 @@
       "Psyshock",
       "Shadow Ball",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Blastoise": {
     "level": 82,
@@ -638,7 +745,13 @@
       "Scald",
       "Shell Smash",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Blaziken": {
     "level": 80,
@@ -671,7 +784,13 @@
       "Seismic Toss",
       "Toxic",
       "Wish"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Boltund": {
     "level": 88,
@@ -763,7 +882,13 @@
       "Hurricane",
       "Quiver Dance",
       "Sleep Powder"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Buzzwole": {
     "level": 80,
@@ -796,7 +921,13 @@
       "Giga Drain",
       "Psyshock",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Calyrex-Ice": {
     "level": 76,
@@ -812,7 +943,13 @@
       "Glacial Lance",
       "High Horsepower",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Calyrex-Shadow": {
     "level": 74,
@@ -830,7 +967,13 @@
       "Psyshock",
       "Substitute",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Carbink": {
     "level": 86,
@@ -847,7 +990,13 @@
       "Moonblast",
       "Reflect",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Carracosta": {
     "level": 88,
@@ -886,7 +1035,13 @@
       "Recover",
       "Stealth Rock",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Celesteela": {
     "level": 82,
@@ -904,7 +1059,13 @@
       "Flash Cannon",
       "Leech Seed",
       "Protect"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Centiskorch": {
     "level": 86,
@@ -941,7 +1102,13 @@
       "Shadow Ball",
       "Substitute",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Chansey": {
     "level": 82,
@@ -957,7 +1124,13 @@
       "Soft-Boiled",
       "Stealth Rock",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Charizard": {
     "level": 82,
@@ -974,7 +1147,13 @@
       "Fire Blast",
       "Focus Blast",
       "Roost"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Cherrim": {
     "level": 88,
@@ -996,7 +1175,13 @@
       "Substitute",
       "Sunny Day",
       "Weather Ball"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Cinccino": {
     "level": 88,
@@ -1049,7 +1234,13 @@
       "Scald",
       "U-turn",
       "Water Pulse"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Claydol": {
     "level": 86,
@@ -1086,7 +1277,13 @@
       "Soft-Boiled",
       "Stealth Rock",
       "Thunder Wave"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Cloyster": {
     "level": 82,
@@ -1102,7 +1299,10 @@
       "Icicle Spear",
       "Rock Blast",
       "Shell Smash"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Coalossal": {
     "level": 86,
@@ -1155,7 +1355,13 @@
       "Shadow Ball",
       "Toxic Spikes",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Comfey": {
     "level": 84,
@@ -1172,7 +1378,13 @@
       "Synthesis",
       "Taunt",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Conkeldurr": {
     "level": 82,
@@ -1226,7 +1438,13 @@
       "Scald",
       "Stealth Rock",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Corsola-Galar": {
     "level": 88,
@@ -1242,7 +1460,13 @@
       "Stealth Rock",
       "Strength Sap",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Corviknight": {
     "level": 80,
@@ -1328,7 +1552,13 @@
       "Psyshock",
       "Thunder Wave",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Crobat": {
     "level": 86,
@@ -1383,7 +1613,13 @@
       "Rapid Spin",
       "Recover",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Cursola": {
     "level": 88,
@@ -1402,7 +1638,13 @@
       "Shadow Ball",
       "Stealth Rock",
       "Strength Sap"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Darmanitan": {
     "level": 82,
@@ -1474,7 +1716,13 @@
       "Recycle",
       "Thunderbolt",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Delibird": {
     "level": 100,
@@ -1529,7 +1777,13 @@
       "Stealth Rock",
       "Thunderbolt",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Diancie": {
     "level": 84,
@@ -1647,7 +1901,13 @@
       "Focus Blast",
       "Sludge Wave",
       "Toxic Spikes"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Dragapult": {
     "level": 80,
@@ -1664,7 +1924,13 @@
       "Shadow Ball",
       "Thunderbolt",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Dragonite": {
     "level": 80,
@@ -1700,7 +1966,13 @@
       "Hyper Voice",
       "Roost",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Drapion": {
     "level": 84,
@@ -1752,7 +2024,13 @@
       "Shadow Ball",
       "Strength Sap",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Druddigon": {
     "level": 84,
@@ -1855,7 +2133,13 @@
       "Flash Cannon",
       "Stealth Rock",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Durant": {
     "level": 80,
@@ -1928,7 +2212,13 @@
       "Pollen Puff",
       "Rapid Spin",
       "Sleep Powder"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Electivire": {
     "level": 86,
@@ -1964,7 +2254,13 @@
       "Roost",
       "Toxic",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Entei": {
     "level": 82,
@@ -2016,7 +2312,13 @@
       "Morning Sun",
       "Psychic",
       "Shadow Ball"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Eternatus": {
     "level": 72,
@@ -2033,7 +2335,13 @@
       "Recover",
       "Sludge Wave",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Excadrill": {
     "level": 80,
@@ -2071,7 +2379,13 @@
       "Psychic",
       "Sleep Powder",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Exeggutor-Alola": {
     "level": 86,
@@ -2088,7 +2402,15 @@
       "Giga Drain",
       "Leaf Storm",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "atk": 0,
+      "spe": 0
+    },
+    "ivs": {
+      "atk": 0,
+      "spe": 0
+    }
   },
   "Exploud": {
     "level": 84,
@@ -2103,7 +2425,13 @@
       "Fire Blast",
       "Focus Blast",
       "Surf"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Falinks": {
     "level": 88,
@@ -2156,7 +2484,13 @@
       "Protect",
       "Spikes",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Flapple": {
     "level": 86,
@@ -2244,7 +2578,13 @@
       "Hurricane",
       "Ice Beam",
       "Quiver Dance"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Gallade": {
     "level": 86,
@@ -2283,7 +2623,13 @@
       "Sticky Web",
       "Thunder",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Garbodor": {
     "level": 86,
@@ -2346,7 +2692,13 @@
       "Substitute",
       "Trick",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Gastrodon": {
     "level": 86,
@@ -2419,7 +2771,13 @@
       "Shadow Ball",
       "Sludge Wave",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Gigalith": {
     "level": 84,
@@ -2453,7 +2811,13 @@
       "Rest",
       "Toxic",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Giratina-Origin": {
     "level": 74,
@@ -2485,7 +2849,13 @@
       "Shadow Ball",
       "Toxic",
       "Wish"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Glalie": {
     "level": 76,
@@ -2501,7 +2871,13 @@
       "Freeze-Dry",
       "Protect",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Glastrier": {
     "level": 82,
@@ -2537,7 +2913,13 @@
       "Psyshock",
       "Scald",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Golisopod": {
     "level": 84,
@@ -2591,7 +2973,13 @@
       "Power Whip",
       "Sludge Bomb",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Gothitelle": {
     "level": 88,
@@ -2608,7 +2996,13 @@
       "Shadow Ball",
       "Thunderbolt",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Gourgeist": {
     "level": 88,
@@ -2676,7 +3070,13 @@
       "Rock Slide",
       "Shadow Sneak",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Grapploct": {
     "level": 88,
@@ -2791,7 +3191,13 @@
       "Fire Blast",
       "Knock Off",
       "Sludge Bomb"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Gyarados": {
     "level": 80,
@@ -2829,7 +3235,15 @@
       "Mystical Fire",
       "Psychic",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "atk": 0,
+      "spe": 0
+    },
+    "ivs": {
+      "atk": 0,
+      "spe": 0
+    }
   },
   "Hawlucha": {
     "level": 80,
@@ -2906,7 +3320,13 @@
       "Stealth Rock",
       "Taunt",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Heliolisk": {
     "level": 82,
@@ -2922,7 +3342,13 @@
       "Hyper Voice",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Heracross": {
     "level": 84,
@@ -3060,7 +3486,13 @@
       "Nasty Plot",
       "Roost",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Incineroar": {
     "level": 82,
@@ -3097,7 +3529,13 @@
       "Hyper Voice",
       "Mystical Fire",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Indeedee-F": {
     "level": 84,
@@ -3115,7 +3553,13 @@
       "Healing Wish",
       "Hyper Voice",
       "Mystical Fire"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Inteleon": {
     "level": 84,
@@ -3136,7 +3580,13 @@
       "Scald",
       "Surf",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Jellicent": {
     "level": 86,
@@ -3152,7 +3602,13 @@
       "Scald",
       "Shadow Ball",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Jirachi": {
     "level": 82,
@@ -3187,7 +3643,13 @@
       "Shadow Ball",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Jynx": {
     "level": 88,
@@ -3208,7 +3670,13 @@
       "Nasty Plot",
       "Psyshock",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Kabutops": {
     "level": 84,
@@ -3285,7 +3753,13 @@
       "Scald",
       "Secret Sword",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Kingdra": {
     "level": 86,
@@ -3302,7 +3776,13 @@
       "Hurricane",
       "Hydro Pump",
       "Rain Dance"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Kingler": {
     "level": 86,
@@ -3408,7 +3888,13 @@
       "Surf",
       "Thunder",
       "Water Spout"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Kyurem": {
     "level": 82,
@@ -3428,7 +3914,13 @@
       "Ice Beam",
       "Roost",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Kyurem-Black": {
     "level": 76,
@@ -3461,7 +3953,13 @@
       "Freeze-Dry",
       "Fusion Flare",
       "Ice Beam"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Landorus": {
     "level": 76,
@@ -3479,7 +3977,13 @@
       "Rock Slide",
       "Sludge Wave",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Landorus-Therian": {
     "level": 80,
@@ -3519,7 +4023,13 @@
       "Thunderbolt",
       "Toxic",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Lapras": {
     "level": 88,
@@ -3538,7 +4048,13 @@
       "Sparkling Aria",
       "Thunderbolt",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Latias": {
     "level": 82,
@@ -3556,7 +4072,13 @@
       "Mystical Fire",
       "Psychic",
       "Roost"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Latios": {
     "level": 80,
@@ -3575,7 +4097,13 @@
       "Psyshock",
       "Roost",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Leafeon": {
     "level": 88,
@@ -3653,7 +4181,13 @@
       "Pollen Puff",
       "Quiver Dance",
       "Sleep Powder"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Linoone": {
     "level": 84,
@@ -3722,7 +4256,13 @@
       "Ice Beam",
       "Rain Dance",
       "Scald"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Lugia": {
     "level": 72,
@@ -3740,7 +4280,13 @@
       "Roost",
       "Substitute",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Lunala": {
     "level": 74,
@@ -3756,7 +4302,13 @@
       "Moongeist Beam",
       "Psyshock",
       "Roost"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Lunatone": {
     "level": 88,
@@ -3777,7 +4329,13 @@
       "Psychic",
       "Rock Polish",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Lurantis": {
     "level": 88,
@@ -3907,7 +4465,13 @@
       "Fleur Cannon",
       "Focus Blast",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Magearna-Original": {
     "level": 76,
@@ -3926,7 +4490,13 @@
       "Fleur Cannon",
       "Focus Blast",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Magmortar": {
     "level": 88,
@@ -3946,7 +4516,13 @@
       "Focus Blast",
       "Taunt",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Magnezone": {
     "level": 82,
@@ -3963,7 +4539,13 @@
       "Mirror Coat",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Malamar": {
     "level": 82,
@@ -4036,7 +4618,13 @@
       "Switcheroo",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Mantine": {
     "level": 84,
@@ -4054,7 +4642,13 @@
       "Roost",
       "Scald",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Maractus": {
     "level": 88,
@@ -4074,7 +4668,13 @@
       "Spikes",
       "Spiky Shield",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Marowak": {
     "level": 88,
@@ -4181,7 +4781,13 @@
       "Reflect",
       "Thunder Wave",
       "Yawn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Meowstic-F": {
     "level": 88,
@@ -4200,7 +4806,13 @@
       "Psychic",
       "Shadow Ball",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Mesprit": {
     "level": 86,
@@ -4221,7 +4833,13 @@
       "Stealth Rock",
       "Thunder Wave",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Metagross": {
     "level": 82,
@@ -4278,7 +4896,13 @@
       "Nasty Plot",
       "Psystrike",
       "Recover"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Mienshao": {
     "level": 84,
@@ -4315,7 +4939,13 @@
       "Recover",
       "Scald",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Miltank": {
     "level": 86,
@@ -4367,7 +4997,13 @@
       "Fire Blast",
       "Roost",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Moltres-Galar": {
     "level": 82,
@@ -4383,7 +5019,13 @@
       "Hurricane",
       "Nasty Plot",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Morpeko": {
     "level": 88,
@@ -4420,7 +5062,13 @@
       "Healing Wish",
       "Nasty Plot",
       "Psychic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Mr. Mime-Galar": {
     "level": 88,
@@ -4437,7 +5085,13 @@
       "Nasty Plot",
       "Psychic",
       "Rapid Spin"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Mr. Rime": {
     "level": 88,
@@ -4457,7 +5111,13 @@
       "Rapid Spin",
       "Slack Off",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Mudsdale": {
     "level": 84,
@@ -4490,7 +5150,13 @@
       "Moonlight",
       "Psychic",
       "Thunder Wave"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Naganadel": {
     "level": 76,
@@ -4508,7 +5174,13 @@
       "Flamethrower",
       "Nasty Plot",
       "Sludge Wave"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Necrozma": {
     "level": 82,
@@ -4524,7 +5196,13 @@
       "Moonlight",
       "Photon Geyser",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Necrozma-Dawn-Wings": {
     "level": 74,
@@ -4540,7 +5218,13 @@
       "Moongeist Beam",
       "Photon Geyser",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Necrozma-Dusk-Mane": {
     "level": 72,
@@ -4572,7 +5256,13 @@
       "Sludge Wave",
       "Substitute",
       "Superpower"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Nidoqueen": {
     "level": 84,
@@ -4588,7 +5278,13 @@
       "Sludge Wave",
       "Stealth Rock",
       "Toxic Spikes"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Nihilego": {
     "level": 82,
@@ -4607,7 +5303,13 @@
       "Stealth Rock",
       "Thunderbolt",
       "Toxic Spikes"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Ninetales": {
     "level": 84,
@@ -4626,7 +5328,13 @@
       "Scorching Sands",
       "Solar Beam",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Ninetales-Alola": {
     "level": 82,
@@ -4647,7 +5355,13 @@
       "Freeze-Dry",
       "Moonblast",
       "Nasty Plot"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Ninjask": {
     "level": 86,
@@ -4679,7 +5393,13 @@
       "Hurricane",
       "Nasty Plot",
       "Roost"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Noivern": {
     "level": 82,
@@ -4698,7 +5418,13 @@
       "Hurricane",
       "Roost",
       "Switcheroo"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Obstagoon": {
     "level": 82,
@@ -4732,7 +5458,13 @@
       "Gunk Shot",
       "Hydro Pump",
       "Ice Beam"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Omastar": {
     "level": 86,
@@ -4751,7 +5483,13 @@
       "Shell Smash",
       "Spikes",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Oranguru": {
     "level": 88,
@@ -4767,7 +5505,15 @@
       "Psychic",
       "Thunderbolt",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "atk": 0,
+      "spe": 0
+    },
+    "ivs": {
+      "atk": 0,
+      "spe": 0
+    }
   },
   "Orbeetle": {
     "level": 88,
@@ -4787,7 +5533,13 @@
       "Sticky Web",
       "Stored Power",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Palkia": {
     "level": 74,
@@ -4805,7 +5557,13 @@
       "Hydro Pump",
       "Spacial Rend",
       "Thunder Wave"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Palossand": {
     "level": 86,
@@ -4823,7 +5581,13 @@
       "Shore Up",
       "Stealth Rock",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Pangoro": {
     "level": 84,
@@ -4876,7 +5640,13 @@
       "Roost",
       "Scald",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Perrserker": {
     "level": 88,
@@ -4931,7 +5701,13 @@
       "Nasty Plot",
       "Power Gem",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Pheromosa": {
     "level": 76,
@@ -5111,7 +5887,13 @@
       "Spikes",
       "Sucker Punch",
       "Toxic Spikes"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Pinsir": {
     "level": 88,
@@ -5151,7 +5933,13 @@
       "Rest",
       "Scald",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Poliwrath": {
     "level": 86,
@@ -5182,7 +5970,13 @@
       "Shell Smash",
       "Stored Power",
       "Strength Sap"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Porygon-Z": {
     "level": 82,
@@ -5203,7 +5997,13 @@
       "Thunderbolt",
       "Tri Attack",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Porygon2": {
     "level": 86,
@@ -5220,7 +6020,13 @@
       "Recover",
       "Toxic",
       "Tri Attack"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Primarina": {
     "level": 82,
@@ -5237,7 +6043,13 @@
       "Moonblast",
       "Psychic",
       "Sparkling Aria"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Pyukumuku": {
     "level": 88,
@@ -5252,7 +6064,13 @@
       "Mirror Coat",
       "Recover",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Quagsire": {
     "level": 88,
@@ -5307,7 +6125,13 @@
       "Nasty Plot",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Raichu-Alola": {
     "level": 84,
@@ -5326,7 +6150,13 @@
       "Psyshock",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Raikou": {
     "level": 84,
@@ -5345,7 +6175,13 @@
       "Substitute",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Rapidash": {
     "level": 86,
@@ -5419,7 +6255,14 @@
       "Rock Polish",
       "Sleep Talk",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "hp": 81,
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Regidrago": {
     "level": 82,
@@ -5504,7 +6347,13 @@
       "Sleep Talk",
       "Stealth Rock",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Relicanth": {
     "level": 88,
@@ -5544,7 +6393,13 @@
       "Earth Power",
       "Roost",
       "Stone Edge"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Reuniclus": {
     "level": 84,
@@ -5561,7 +6416,15 @@
       "Recover",
       "Shadow Ball",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "atk": 0,
+      "spe": 0
+    },
+    "ivs": {
+      "atk": 0,
+      "spe": 0
+    }
   },
   "Rhyperior": {
     "level": 84,
@@ -5600,7 +6463,13 @@
       "Sticky Web",
       "Stun Spore",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Rillaboom": {
     "level": 80,
@@ -5639,7 +6508,13 @@
       "Spikes",
       "Synthesis",
       "Toxic Spikes"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Rotom": {
     "level": 86,
@@ -5657,7 +6532,13 @@
       "Thunderbolt",
       "Volt Switch",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Rotom-Fan": {
     "level": 88,
@@ -5674,7 +6555,13 @@
       "Thunderbolt",
       "Volt Switch",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Rotom-Frost": {
     "level": 86,
@@ -5691,7 +6578,13 @@
       "Thunderbolt",
       "Volt Switch",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Rotom-Heat": {
     "level": 82,
@@ -5709,7 +6602,13 @@
       "Thunderbolt",
       "Volt Switch",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Rotom-Mow": {
     "level": 82,
@@ -5726,7 +6625,13 @@
       "Trick",
       "Volt Switch",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Rotom-Wash": {
     "level": 82,
@@ -5743,7 +6648,13 @@
       "Trick",
       "Volt Switch",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Runerigus": {
     "level": 88,
@@ -5811,7 +6722,13 @@
       "Protect",
       "Substitute",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Sandaconda": {
     "level": 88,
@@ -6068,7 +6985,13 @@
       "Leaf Storm",
       "Nasty Plot",
       "Sucker Punch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Shiinotic": {
     "level": 88,
@@ -6085,7 +7008,13 @@
       "Moonblast",
       "Spore",
       "Strength Sap"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Shuckle": {
     "level": 88,
@@ -6103,7 +7032,13 @@
       "Stealth Rock",
       "Sticky Web",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Sigilyph": {
     "level": 84,
@@ -6121,7 +7056,13 @@
       "Energy Ball",
       "Heat Wave",
       "Psychic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Silvally": {
     "level": 86,
@@ -6268,7 +7209,10 @@
       "Multi-Attack",
       "Rock Slide",
       "Swords Dance"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Silvally-Ghost": {
     "level": 86,
@@ -6483,7 +7427,13 @@
       "Scald",
       "Slack Off",
       "Teleport"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Slowbro-Galar": {
     "level": 82,
@@ -6500,7 +7450,13 @@
       "Shell Side Arm",
       "Trick",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Slowking": {
     "level": 84,
@@ -6520,7 +7476,13 @@
       "Teleport",
       "Toxic",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Slowking-Galar": {
     "level": 82,
@@ -6539,7 +7501,15 @@
       "Sludge Bomb",
       "Trick",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "atk": 0,
+      "spe": 0
+    },
+    "ivs": {
+      "atk": 0,
+      "spe": 0
+    }
   },
   "Slurpuff": {
     "level": 84,
@@ -6554,7 +7524,10 @@
       "Drain Punch",
       "Facade",
       "Play Rough"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Snorlax": {
     "level": 84,
@@ -6625,7 +7598,13 @@
       "Nasty Plot",
       "Shadow Ball",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Spiritomb": {
     "level": 86,
@@ -6645,7 +7624,13 @@
       "Shadow Sneak",
       "Sleep Talk",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Stakataka": {
     "level": 82,
@@ -6663,7 +7648,13 @@
       "Stealth Rock",
       "Stone Edge",
       "Trick Room"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Starmie": {
     "level": 84,
@@ -6685,7 +7676,13 @@
       "Recover",
       "Scald",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Steelix": {
     "level": 84,
@@ -6753,7 +7750,13 @@
       "Foul Play",
       "Sludge Bomb",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Stunfisk-Galar": {
     "level": 86,
@@ -6803,7 +7806,13 @@
       "Rest",
       "Scald",
       "Sleep Talk"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Swampert": {
     "level": 82,
@@ -6839,7 +7848,13 @@
       "Heat Wave",
       "Roost",
       "Stored Power"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Sylveon": {
     "level": 82,
@@ -6859,7 +7874,13 @@
       "Psyshock",
       "Shadow Ball",
       "Wish"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Talonflame": {
     "level": 82,
@@ -6894,7 +7915,13 @@
       "Leech Seed",
       "Sleep Powder",
       "Sludge Bomb"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Tapu Bulu": {
     "level": 82,
@@ -6930,7 +7957,13 @@
       "Moonblast",
       "Surf",
       "Taunt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Tapu Koko": {
     "level": 80,
@@ -6950,7 +7983,13 @@
       "Substitute",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Tapu Lele": {
     "level": 82,
@@ -6970,7 +8009,13 @@
       "Psychic",
       "Psyshock",
       "Taunt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Tauros": {
     "level": 86,
@@ -7006,7 +8051,13 @@
       "Scald",
       "Sludge Bomb",
       "Toxic Spikes"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Terrakion": {
     "level": 82,
@@ -7043,7 +8094,13 @@
       "Nasty Plot",
       "Parting Shot",
       "Psychic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Throh": {
     "level": 88,
@@ -7083,7 +8140,13 @@
       "Superpower",
       "Thunder Wave",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Thundurus-Therian": {
     "level": 82,
@@ -7105,7 +8168,13 @@
       "Psychic",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Togedemaru": {
     "level": 88,
@@ -7145,7 +8214,13 @@
       "Roost",
       "Thunder Wave",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Torkoal": {
     "level": 84,
@@ -7180,7 +8255,13 @@
       "Heat Wave",
       "Hurricane",
       "Nasty Plot"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Tornadus-Therian": {
     "level": 80,
@@ -7214,7 +8295,13 @@
       "Scald",
       "Toxic",
       "Toxic Spikes"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Toxicroak": {
     "level": 86,
@@ -7253,7 +8340,13 @@
       "Shift Gear",
       "Sludge Wave",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Toxtricity-Low-Key": {
     "level": 82,
@@ -7269,7 +8362,13 @@
       "Overdrive",
       "Sludge Wave",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Trevenant": {
     "level": 86,
@@ -7287,7 +8386,13 @@
       "Rock Slide",
       "Trick Room",
       "Wood Hammer"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Tsareena": {
     "level": 82,
@@ -7330,7 +8435,13 @@
       "Rapid Spin",
       "Shell Smash",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Type: Null": {
     "level": 88,
@@ -7417,7 +8528,10 @@
       "Night Slash",
       "Roost",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Urshifu": {
     "level": 80,
@@ -7476,7 +8590,13 @@
       "Stealth Rock",
       "U-turn",
       "Yawn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Vanilluxe": {
     "level": 84,
@@ -7493,7 +8613,14 @@
       "Explosion",
       "Flash Cannon",
       "Freeze-Dry"
-    ]
+    ],
+    "evs": {
+      "hp": 77,
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Vaporeon": {
     "level": 86,
@@ -7510,7 +8637,13 @@
       "Scald",
       "Toxic",
       "Wish"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Venusaur": {
     "level": 82,
@@ -7527,7 +8660,13 @@
       "Sleep Powder",
       "Sludge Bomb",
       "Substitute"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Vespiquen": {
     "level": 88,
@@ -7543,7 +8682,13 @@
       "Roost",
       "Toxic",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Victini": {
     "level": 82,
@@ -7580,7 +8725,13 @@
       "Sticky Web",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Vileplume": {
     "level": 84,
@@ -7598,7 +8749,13 @@
       "Sleep Powder",
       "Sludge Bomb",
       "Strength Sap"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Virizion": {
     "level": 84,
@@ -7634,7 +8791,13 @@
       "Flamethrower",
       "Sludge Bomb",
       "Steam Eruption"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Volcarona": {
     "level": 82,
@@ -7651,7 +8814,13 @@
       "Giga Drain",
       "Quiver Dance",
       "Roost"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Wailord": {
     "level": 88,
@@ -7666,7 +8835,13 @@
       "Hyper Voice",
       "Ice Beam",
       "Water Spout"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Walrein": {
     "level": 88,
@@ -7681,7 +8856,13 @@
       "Protect",
       "Surf",
       "Toxic"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Weavile": {
     "level": 82,
@@ -7717,7 +8898,13 @@
       "Sludge Bomb",
       "Toxic Spikes",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Weezing-Galar": {
     "level": 82,
@@ -7736,7 +8923,13 @@
       "Strange Steam",
       "Toxic Spikes",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Whimsicott": {
     "level": 86,
@@ -7755,7 +8948,13 @@
       "Stun Spore",
       "Taunt",
       "U-turn"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Whiscash": {
     "level": 88,
@@ -7792,7 +8991,13 @@
       "Light Screen",
       "Reflect",
       "Stealth Rock"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Wishiwashi": {
     "level": 86,
@@ -7824,7 +9029,13 @@
       "Counter",
       "Encore",
       "Mirror Coat"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Xatu": {
     "level": 84,
@@ -7841,7 +9052,13 @@
       "Roost",
       "Teleport",
       "Thunder Wave"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Xerneas": {
     "level": 72,
@@ -7859,7 +9076,13 @@
       "Moonblast",
       "Psyshock",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Xurkitree": {
     "level": 84,
@@ -7877,7 +9100,13 @@
       "Hypnosis",
       "Thunderbolt",
       "Volt Switch"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Yveltal": {
     "level": 74,
@@ -7978,7 +9207,13 @@
       "Heat Wave",
       "Hurricane",
       "Roost"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Zapdos-Galar": {
     "level": 80,
@@ -8069,7 +9304,13 @@
       "Nasty Plot",
       "Sludge Bomb",
       "Trick"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Zygarde": {
     "level": 76,
@@ -8084,7 +9325,10 @@
       "Outrage",
       "Substitute",
       "Thousand Arrows"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Zygarde-10%": {
     "level": 86,
