@@ -8,9 +8,14 @@ Dex.includeModData();
 
 const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
+const SKIP = ['factory', 'unrated', 'cup', 'brawl', 'cap', 'monotype'];
 
-for (let gen = 1; gen <= 8; gen++) {
-  const format = `gen${gen}randombattle`;
+for (const format in Dex.formats) {
+  if (!Dex.getFormat(format).team) continue;
+  if (SKIP.some(s => format.includes(s))) continue;
+
+  const gen = Number(format.charAt(3));
+  const letsgo = format.includes('letsgo');
   const generator = Dex.getTeamGenerator(format, SEED);
   const IVS = gen < 3 ? 30 : 31;
   const EVS = gen < 3 ? 255 : 85;
@@ -55,13 +60,15 @@ for (let gen = 1; gen <= 8; gen++) {
   const options = {};
   for (const [name, stats] of Object.entries(species).sort((a, b) => a[0].localeCompare(b[0]))) {
     const opts = {level: stats.level};
-    if (gen >= 3) opts.abilities = Array.from(stats.abilities).sort();
-    if (gen >= 2) opts.items = Array.from(stats.items).sort();
+    if (gen >= 3 && !letsgo) opts.abilities = Array.from(stats.abilities).sort();
+    if (stats.items.size) opts.items = Array.from(stats.items).sort();
     opts.moves = Array.from(stats.moves).map(m => Dex.getMove(m).name).sort();
-    for (const stat in stats.evs) {
-      if (stats.evs[stat] !== -1) {
-        opts.evs = opts.evs || {};
-        opts.evs[stat] = stats.evs[stat];
+    if (!letsgo) {
+      for (const stat in stats.evs) {
+        if (stats.evs[stat] !== -1) {
+          opts.evs = opts.evs || {};
+          opts.evs[stat] = stats.evs[stat];
+        }
       }
     }
     for (const stat in stats.ivs) {

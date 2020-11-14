@@ -1,60 +1,20 @@
 {
   "Abomasnow": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Snow Warning"
     ],
     "items": [
-      "Assault Vest",
+      "Life Orb",
       "Light Clay"
     ],
     "moves": [
       "Aurora Veil",
       "Blizzard",
-      "Earthquake",
-      "Ice Shard",
-      "Wood Hammer"
-    ],
-    "evs": {
-      "hp": 77
-    }
-  },
-  "Absol": {
-    "level": 86,
-    "abilities": [
-      "Justified"
-    ],
-    "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
-    ],
-    "moves": [
-      "Close Combat",
-      "Knock Off",
-      "Play Rough",
-      "Sucker Punch",
-      "Swords Dance"
-    ]
-  },
-  "Accelgor": {
-    "level": 88,
-    "abilities": [
-      "Sticky Hold"
-    ],
-    "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
-    ],
-    "moves": [
-      "Bug Buzz",
-      "Energy Ball",
       "Focus Blast",
-      "Spikes",
-      "Toxic",
-      "Yawn"
+      "Ice Shard",
+      "Protect",
+      "Wood Hammer"
     ],
     "evs": {
       "atk": 0
@@ -63,15 +23,54 @@
       "atk": 0
     }
   },
+  "Absol": {
+    "level": 88,
+    "abilities": [
+      "Justified"
+    ],
+    "items": [
+      "Life Orb",
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Close Combat",
+      "Knock Off",
+      "Protect",
+      "Sucker Punch",
+      "Swords Dance"
+    ]
+  },
+  "Accelgor": {
+    "level": 88,
+    "abilities": [
+      "Unburden"
+    ],
+    "items": [
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Acid Spray",
+      "Bug Buzz",
+      "Encore",
+      "Energy Ball",
+      "Focus Blast"
+    ],
+    "evs": {
+      "hp": 81,
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
+  },
   "Aegislash": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Stance Change"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
@@ -81,16 +80,8 @@
       "Shadow Ball",
       "Shadow Claw",
       "Shadow Sneak",
-      "Substitute",
-      "Swords Dance",
-      "Toxic"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+      "Swords Dance"
+    ]
   },
   "Aerodactyl": {
     "level": 84,
@@ -99,49 +90,49 @@
     ],
     "items": [
       "Choice Band",
-      "Focus Sash",
-      "Heavy-Duty Boots",
       "Life Orb"
     ],
     "moves": [
       "Aqua Tail",
+      "Dragon Dance",
       "Dual Wingbeat",
       "Earthquake",
-      "Hone Claws",
-      "Stone Edge"
-    ]
+      "Rock Slide"
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Aggron": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Rock Head"
     ],
     "items": [
-      "Air Balloon",
-      "Choice Band"
+      "Choice Band",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Aqua Tail",
       "Body Press",
-      "Earthquake",
       "Head Smash",
       "Heavy Slam",
-      "Rock Polish",
-      "Stealth Rock"
+      "High Horsepower",
+      "Rock Polish"
     ]
   },
   "Alakazam": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Magic Guard"
     ],
     "items": [
-      "Focus Sash",
       "Life Orb"
     ],
     "moves": [
-      "Counter",
       "Focus Blast",
       "Nasty Plot",
+      "Protect",
       "Psychic",
       "Shadow Ball"
     ],
@@ -153,20 +144,19 @@
     }
   },
   "Alcremie": {
-    "level": 88,
+    "level": 84,
     "abilities": [
       "Aroma Veil",
       "Sweet Veil"
     ],
     "items": [
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
       "Dazzling Gleam",
+      "Decorate",
       "Mystical Fire",
-      "Psychic",
+      "Protect",
       "Recover"
     ],
     "evs": {
@@ -177,21 +167,19 @@
     }
   },
   "Altaria": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Natural Cure"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Defog",
       "Draco Meteor",
-      "Earthquake",
       "Fire Blast",
       "Roost",
+      "Tailwind",
       "Toxic"
     ],
     "evs": {
@@ -202,19 +190,19 @@
     }
   },
   "Amoonguss": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Regenerator"
     ],
     "items": [
-      "Black Sludge"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Giga Drain",
-      "Sludge Bomb",
-      "Spore",
-      "Synthesis",
-      "Toxic"
+      "Clear Smog",
+      "Pollen Puff",
+      "Protect",
+      "Rage Powder",
+      "Spore"
     ],
     "evs": {
       "atk": 0
@@ -226,16 +214,17 @@
   "Appletun": {
     "level": 88,
     "abilities": [
-      "Thick Fat"
+      "Ripen"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Apple Acid",
       "Draco Meteor",
       "Dragon Pulse",
       "Leech Seed",
+      "Protect",
       "Recover"
     ],
     "evs": {
@@ -246,93 +235,101 @@
     }
   },
   "Araquanid": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Water Bubble"
     ],
     "items": [
-      "Mystic Water"
+      "Sitrus Berry"
     ],
     "moves": [
       "Leech Life",
       "Liquidation",
-      "Mirror Coat",
+      "Lunge",
+      "Protect",
       "Sticky Web",
-      "Toxic"
+      "Wide Guard"
     ]
   },
   "Arcanine": {
     "level": 84,
     "abilities": [
-      "Flash Fire",
       "Intimidate"
     ],
     "items": [
-      "Choice Band",
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Assault Vest",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
       "Extreme Speed",
       "Flare Blitz",
       "Morning Sun",
-      "Toxic",
-      "Wild Charge",
+      "Protect",
+      "Snarl",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "hp": 77
+    }
   },
   "Archeops": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Defeatist"
     ],
     "items": [
-      "Choice Band"
+      "Choice Band",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Aqua Tail",
       "Dual Wingbeat",
       "Earthquake",
-      "Stone Edge",
+      "Heat Wave",
+      "Protect",
+      "Rock Slide",
       "U-turn"
     ]
   },
   "Arctovish": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Slush Rush",
       "Water Absorb"
     ],
     "items": [
       "Assault Vest",
-      "Choice Band"
+      "Blunder Policy",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Body Slam",
+      "Blizzard",
       "Fishious Rend",
-      "Freeze-Dry",
       "Icicle Crash",
-      "Psychic Fangs"
+      "Protect",
+      "Super Fang"
     ]
   },
   "Arctozolt": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Slush Rush",
       "Volt Absorb"
     ],
     "items": [
       "Assault Vest",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Blunder Policy",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Blizzard",
       "Bolt Beak",
-      "Freeze-Dry",
       "Icicle Crash",
-      "Stomping Tantrum",
-      "Thunder Wave"
+      "Low Kick",
+      "Protect"
     ]
   },
   "Armaldo": {
@@ -341,56 +338,59 @@
       "Swift Swim"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Choice Band"
     ],
     "moves": [
-      "Earthquake",
       "Knock Off",
-      "Rapid Spin",
-      "Stealth Rock",
+      "Liquidation",
       "Stone Edge",
-      "Swords Dance"
+      "Superpower",
+      "X-Scissor"
     ]
   },
   "Aromatisse": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Aroma Veil"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
+      "Heal Pulse",
       "Moonblast",
       "Protect",
-      "Toxic",
+      "Thunderbolt",
+      "Trick Room",
       "Wish"
     ],
     "evs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Articuno": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Pressure"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
       "Freeze-Dry",
       "Heal Bell",
+      "Hurricane",
+      "Ice Beam",
       "Roost",
       "Toxic"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -398,21 +398,22 @@
     }
   },
   "Articuno-Galar": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Competitive"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Air Slash",
       "Calm Mind",
       "Freezing Glare",
-      "Recover"
+      "Hurricane",
+      "Recover",
+      "Tailwind"
     ],
     "evs": {
+      "hp": 77,
       "atk": 0
     },
     "ivs": {
@@ -420,46 +421,39 @@
     }
   },
   "Audino": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Regenerator"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Heal Bell",
+      "Body Slam",
+      "Heal Pulse",
+      "Helping Hand",
       "Knock Off",
       "Protect",
-      "Toxic",
-      "Wish"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+      "Thunder Wave"
+    ]
   },
   "Aurorus": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Snow Warning"
     ],
     "items": [
-      "Choice Specs",
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Ancient Power",
       "Blizzard",
       "Earth Power",
       "Freeze-Dry",
-      "Stealth Rock",
+      "Protect",
       "Thunder Wave"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -472,35 +466,34 @@
       "Sturdy"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Avalanche",
       "Body Press",
       "Curse",
-      "Rapid Spin",
+      "High Horsepower",
+      "Protect",
       "Recover"
     ]
   },
   "Azelf": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate"
     ],
     "items": [
       "Choice Specs",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Dazzling Gleam",
+      "Energy Ball",
       "Fire Blast",
       "Nasty Plot",
-      "Psyshock",
-      "Stealth Rock",
-      "Taunt",
+      "Protect",
+      "Psychic",
+      "Shadow Ball",
       "U-turn"
     ],
     "evs": {
@@ -511,43 +504,36 @@
     }
   },
   "Azumarill": {
-    "level": 84,
+    "level": 88,
     "abilities": [
-      "Sap Sipper"
+      "Huge Power"
     ],
     "items": [
-      "Chesto Berry"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Protect",
-      "Rest",
-      "Seismic Toss",
-      "Toxic",
-      "Whirlpool"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+      "Aqua Jet",
+      "Knock Off",
+      "Liquidation",
+      "Play Rough",
+      "Protect"
+    ]
   },
   "Barbaracle": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Tough Claws"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
       "White Herb"
     ],
     "moves": [
-      "Cross Chop",
-      "Earthquake",
       "Liquidation",
+      "Protect",
+      "Rock Slide",
       "Shell Smash",
-      "Stone Edge"
+      "Superpower"
     ]
   },
   "Barraskewda": {
@@ -556,83 +542,95 @@
       "Swift Swim"
     ],
     "items": [
-      "Choice Band"
+      "Choice Band",
+      "Life Orb"
     ],
     "moves": [
       "Close Combat",
       "Crunch",
+      "Drill Run",
+      "Flip Turn",
       "Liquidation",
-      "Poison Jab",
-      "Psychic Fangs"
+      "Poison Jab"
     ]
   },
   "Basculin": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Adaptability"
     ],
     "items": [
-      "Choice Band"
+      "Choice Band",
+      "Choice Scarf",
+      "Life Orb"
     ],
     "moves": [
-      "Aqua Jet",
-      "Crunch",
       "Flip Turn",
       "Head Smash",
+      "Ice Beam",
       "Liquidation",
-      "Psychic Fangs"
+      "Muddy Water",
+      "Protect",
+      "Psychic Fangs",
+      "Superpower"
     ]
   },
   "Basculin-Blue-Striped": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Adaptability"
     ],
     "items": [
-      "Choice Band"
+      "Choice Band",
+      "Choice Scarf",
+      "Life Orb"
     ],
     "moves": [
       "Aqua Jet",
-      "Crunch",
       "Flip Turn",
       "Head Smash",
+      "Ice Beam",
       "Liquidation",
-      "Psychic Fangs"
+      "Protect",
+      "Psychic Fangs",
+      "Superpower"
     ]
   },
   "Beartic": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Slush Rush"
     ],
     "items": [
-      "Choice Band",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Aqua Jet",
       "Icicle Crash",
+      "Protect",
+      "Rock Slide",
       "Superpower",
       "Swords Dance",
       "Throat Chop"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Beheeyem": {
     "level": 88,
     "abilities": [
-      "Analytic"
+      "Telepathy"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Protect",
       "Psychic",
       "Shadow Ball",
       "Thunderbolt",
-      "Trick",
       "Trick Room"
     ],
     "evs": {
@@ -645,15 +643,15 @@
     }
   },
   "Bellossom": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Chlorophyll"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Giga Drain",
+      "Energy Ball",
       "Moonblast",
       "Quiver Dance",
       "Sleep Powder",
@@ -667,7 +665,7 @@
     }
   },
   "Bewear": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Fluffy"
     ],
@@ -680,46 +678,49 @@
       "Close Combat",
       "Darkest Lariat",
       "Double-Edge",
+      "Drain Punch",
+      "High Horsepower",
       "Ice Punch",
-      "Swords Dance"
+      "Protect",
+      "Wide Guard"
     ]
   },
   "Bisharp": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Defiant"
     ],
     "items": [
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Brick Break",
       "Iron Head",
       "Knock Off",
-      "Stealth Rock",
+      "Protect",
       "Sucker Punch",
       "Swords Dance"
     ]
   },
   "Blacephalon": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Beast Boost"
     ],
     "items": [
       "Choice Scarf",
-      "Focus Sash",
-      "Heavy-Duty Boots",
       "Life Orb"
     ],
     "moves": [
-      "Calm Mind",
       "Fire Blast",
+      "Protect",
       "Psyshock",
       "Shadow Ball",
       "Trick"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -727,24 +728,25 @@
     }
   },
   "Blastoise": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Torrent"
     ],
     "items": [
-      "Leftovers",
+      "Assault Vest",
+      "Sitrus Berry",
       "White Herb"
     ],
     "moves": [
-      "Earthquake",
-      "Focus Blast",
-      "Hydro Pump",
+      "Fake Out",
+      "Flip Turn",
+      "Follow Me",
       "Ice Beam",
+      "Icy Wind",
+      "Life Dew",
+      "Muddy Water",
       "Protect",
-      "Rapid Spin",
-      "Scald",
-      "Shell Smash",
-      "Toxic"
+      "Shell Smash"
     ],
     "evs": {
       "atk": 0
@@ -754,36 +756,36 @@
     }
   },
   "Blaziken": {
-    "level": 80,
+    "level": 78,
     "abilities": [
       "Speed Boost"
     ],
     "items": [
-      "Choice Band",
       "Life Orb"
     ],
     "moves": [
       "Close Combat",
       "Flare Blitz",
       "Knock Off",
-      "Swords Dance",
-      "U-turn"
+      "Protect",
+      "Swords Dance"
     ]
   },
   "Blissey": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Natural Cure"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Heal Bell",
+      "Ally Switch",
       "Protect",
       "Seismic Toss",
-      "Toxic",
-      "Wish"
+      "Soft-Boiled",
+      "Thunder Wave",
+      "Toxic"
     ],
     "evs": {
       "atk": 0
@@ -793,41 +795,41 @@
     }
   },
   "Boltund": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Strong Jaw"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Bulk Up",
       "Crunch",
       "Fire Fang",
+      "Nuzzle",
       "Play Rough",
+      "Protect",
       "Psychic Fangs",
-      "Thunder Fang",
-      "Volt Switch"
+      "Snarl",
+      "Thunder Fang"
     ]
   },
   "Bouffalant": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Reckless",
       "Sap Sipper"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
-      "Earthquake",
       "Head Charge",
-      "Megahorn",
-      "Swords Dance"
+      "Lash Out",
+      "Protect",
+      "Wild Charge"
     ]
   },
   "Braviary": {
@@ -836,52 +838,55 @@
       "Defiant"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Brave Bird",
-      "Bulk Up",
       "Close Combat",
-      "Retaliate",
+      "Protect",
       "Roost",
-      "U-turn"
+      "Tailwind"
     ]
   },
   "Bronzong": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Ally Switch",
+      "Body Press",
+      "Explosion",
       "Iron Head",
-      "Protect",
-      "Stealth Rock",
-      "Toxic"
-    ]
+      "Trick Room"
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Butterfree": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Compound Eyes",
       "Tinted Lens"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Air Slash",
-      "Bug Buzz",
-      "Energy Ball",
       "Hurricane",
+      "Pollen Puff",
+      "Protect",
       "Quiver Dance",
-      "Sleep Powder"
+      "Rage Powder",
+      "Sleep Powder",
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -914,13 +919,14 @@
       "Unnerve"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
-      "Giga Drain",
-      "Psyshock",
-      "Substitute"
+      "Encore",
+      "Helping Hand",
+      "Leaf Storm",
+      "Pollen Puff",
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -930,18 +936,18 @@
     }
   },
   "Calyrex-Ice": {
-    "level": 76,
+    "level": 72,
     "abilities": [
       "As One (Glastrier)"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
       "Glacial Lance",
       "High Horsepower",
+      "Swords Dance",
       "Trick Room"
     ],
     "evs": {
@@ -952,21 +958,19 @@
     }
   },
   "Calyrex-Shadow": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "As One (Spectrier)"
     ],
     "items": [
-      "Choice Specs",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Astral Barrage",
       "Nasty Plot",
       "Pollen Puff",
-      "Psyshock",
-      "Substitute",
-      "Trick"
+      "Protect",
+      "Psyshock"
     ],
     "evs": {
       "atk": 0
@@ -976,27 +980,19 @@
     }
   },
   "Carbink": {
-    "level": 86,
+    "level": 90,
     "abilities": [
       "Sturdy"
     ],
     "items": [
-      "Leftovers",
-      "Light Clay"
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Press",
-      "Light Screen",
+      "Iron Defense",
       "Moonblast",
-      "Reflect",
       "Stealth Rock"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+    ]
   },
   "Carracosta": {
     "level": 88,
@@ -1005,36 +1001,32 @@
       "Swift Swim"
     ],
     "items": [
+      "Choice Band",
       "White Herb"
     ],
     "moves": [
       "Aqua Jet",
-      "Hydro Pump",
+      "Liquidation",
       "Shell Smash",
       "Stone Edge",
       "Superpower"
     ]
   },
   "Celebi": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Natural Cure"
     ],
     "items": [
-      "Choice Scarf",
-      "Choice Specs",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Earth Power",
-      "Giga Drain",
-      "Leaf Storm",
+      "Energy Ball",
       "Nasty Plot",
+      "Protect",
       "Psychic",
-      "Recover",
-      "Stealth Rock",
-      "U-turn"
+      "Recover"
     ],
     "evs": {
       "atk": 0
@@ -1044,21 +1036,20 @@
     }
   },
   "Celesteela": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Beast Boost"
     ],
     "items": [
       "Assault Vest",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Air Slash",
+      "Autotomize",
       "Earthquake",
       "Fire Blast",
-      "Flash Cannon",
-      "Leech Seed",
-      "Protect"
+      "Flash Cannon"
     ],
     "evs": {
       "atk": 0
@@ -1068,7 +1059,7 @@
     }
   },
   "Centiskorch": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Flash Fire"
     ],
@@ -1080,27 +1071,27 @@
       "Fire Lash",
       "Knock Off",
       "Leech Life",
-      "Power Whip"
+      "Power Whip",
+      "Protect"
     ]
   },
   "Chandelure": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Flash Fire"
     ],
     "items": [
       "Choice Scarf",
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
       "Energy Ball",
-      "Fire Blast",
+      "Heat Wave",
+      "Overheat",
+      "Protect",
       "Shadow Ball",
-      "Substitute",
       "Trick"
     ],
     "evs": {
@@ -1110,45 +1101,27 @@
       "atk": 0
     }
   },
-  "Chansey": {
-    "level": 82,
-    "abilities": [
-      "Natural Cure"
-    ],
-    "items": [
-      "Eviolite"
-    ],
-    "moves": [
-      "Heal Bell",
-      "Seismic Toss",
-      "Soft-Boiled",
-      "Stealth Rock",
-      "Toxic"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
-  },
   "Charizard": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Blaze",
       "Solar Power"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Life Orb"
     ],
     "moves": [
       "Air Slash",
-      "Earthquake",
       "Fire Blast",
       "Focus Blast",
-      "Roost"
+      "Heat Wave",
+      "Overheat",
+      "Protect",
+      "Scorching Sands",
+      "Tailwind"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -1156,23 +1129,22 @@
     }
   },
   "Cherrim": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Flower Gift"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Dazzling Gleam",
+      "Aromatherapy",
       "Energy Ball",
-      "Healing Wish",
-      "Leech Seed",
+      "Helping Hand",
       "Play Rough",
+      "Pollen Puff",
+      "Protect",
       "Solar Blade",
-      "Substitute",
       "Sunny Day",
       "Weather Ball"
     ],
@@ -1184,39 +1156,43 @@
     }
   },
   "Cinccino": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Skill Link"
     ],
     "items": [
       "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Bullet Seed",
       "Knock Off",
+      "Protect",
       "Rock Blast",
       "Tail Slap",
+      "Triple Axel",
       "U-turn"
     ]
   },
   "Cinderace": {
-    "level": 76,
+    "level": 80,
     "abilities": [
       "Libero"
     ],
     "items": [
       "Choice Band",
-      "Heavy-Duty Boots"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Court Change",
       "Gunk Shot",
       "High Jump Kick",
+      "Protect",
       "Pyro Ball",
-      "U-turn",
-      "Zen Headbutt"
+      "Sucker Punch",
+      "U-turn"
     ]
   },
   "Clawitzer": {
@@ -1225,15 +1201,15 @@
       "Mega Launcher"
     ],
     "items": [
+      "Assault Vest",
       "Choice Specs"
     ],
     "moves": [
       "Aura Sphere",
       "Dark Pulse",
       "Ice Beam",
-      "Scald",
-      "U-turn",
-      "Water Pulse"
+      "Muddy Water",
+      "U-turn"
     ],
     "evs": {
       "atk": 0
@@ -1243,39 +1219,46 @@
     }
   },
   "Claydol": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Levitate"
     ],
     "items": [
       "Assault Vest",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Ally Switch",
+      "Earth Power",
       "Ice Beam",
       "Psychic",
       "Rapid Spin",
-      "Stealth Rock",
-      "Toxic"
-    ]
+      "Stealth Rock"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Clefable": {
-    "level": 80,
+    "level": 86,
     "abilities": [
       "Magic Guard",
       "Unaware"
     ],
     "items": [
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
       "Fire Blast",
+      "Follow Me",
+      "Heal Pulse",
+      "Helping Hand",
       "Moonblast",
-      "Soft-Boiled",
-      "Stealth Rock",
+      "Protect",
       "Thunder Wave"
     ],
     "evs": {
@@ -1285,76 +1268,19 @@
       "atk": 0
     }
   },
-  "Cloyster": {
-    "level": 82,
+  "Clefairy": {
+    "level": 95,
     "abilities": [
-      "Skill Link"
+      "Friend Guard"
     ],
     "items": [
-      "White Herb"
+      "Eviolite"
     ],
     "moves": [
-      "Explosion",
-      "Hydro Pump",
-      "Icicle Spear",
-      "Rock Blast",
-      "Shell Smash"
-    ],
-    "evs": {
-      "hp": 81
-    }
-  },
-  "Coalossal": {
-    "level": 86,
-    "abilities": [
-      "Flame Body"
-    ],
-    "items": [
-      "Air Balloon",
-      "Heavy-Duty Boots"
-    ],
-    "moves": [
-      "Overheat",
-      "Rapid Spin",
-      "Spikes",
-      "Stealth Rock",
-      "Stone Edge",
-      "Will-O-Wisp"
-    ]
-  },
-  "Cobalion": {
-    "level": 82,
-    "abilities": [
-      "Justified"
-    ],
-    "items": [
-      "Assault Vest",
-      "Leftovers",
-      "Lum Berry"
-    ],
-    "moves": [
-      "Close Combat",
-      "Iron Head",
-      "Stealth Rock",
-      "Stone Edge",
-      "Swords Dance",
-      "Volt Switch"
-    ]
-  },
-  "Cofagrigus": {
-    "level": 86,
-    "abilities": [
-      "Mummy"
-    ],
-    "items": [
-      "Leftovers"
-    ],
-    "moves": [
-      "Body Press",
-      "Memento",
-      "Shadow Ball",
-      "Toxic Spikes",
-      "Will-O-Wisp"
+      "Follow Me",
+      "Helping Hand",
+      "Moonblast",
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -1363,21 +1289,99 @@
       "atk": 0
     }
   },
-  "Comfey": {
+  "Cloyster": {
     "level": 84,
     "abilities": [
-      "Natural Cure"
+      "Overcoat",
+      "Skill Link"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry",
+      "White Herb"
     ],
     "moves": [
-      "Dazzling Gleam",
-      "Leech Seed",
-      "Synthesis",
-      "Taunt",
-      "U-turn"
+      "Ice Shard",
+      "Icicle Spear",
+      "Liquidation",
+      "Protect",
+      "Rock Blast",
+      "Shell Smash"
+    ]
+  },
+  "Coalossal": {
+    "level": 84,
+    "abilities": [
+      "Flame Body"
+    ],
+    "items": [
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Fire Blast",
+      "Incinerate",
+      "Protect",
+      "Stealth Rock",
+      "Stone Edge",
+      "Will-O-Wisp"
+    ]
+  },
+  "Cobalion": {
+    "level": 84,
+    "abilities": [
+      "Justified"
+    ],
+    "items": [
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Close Combat",
+      "Iron Head",
+      "Protect",
+      "Stone Edge",
+      "Swords Dance",
+      "Thunder Wave"
+    ]
+  },
+  "Cofagrigus": {
+    "level": 88,
+    "abilities": [
+      "Mummy"
+    ],
+    "items": [
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Body Press",
+      "Iron Defense",
+      "Pain Split",
+      "Shadow Ball",
+      "Trick Room",
+      "Will-O-Wisp"
+    ],
+    "evs": {
+      "spe": 0,
+      "atk": 0
+    },
+    "ivs": {
+      "spe": 0,
+      "atk": 0
+    }
+  },
+  "Comfey": {
+    "level": 88,
+    "abilities": [
+      "Triage"
+    ],
+    "items": [
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Defog",
+      "Draining Kiss",
+      "Floral Healing",
+      "Giga Drain",
+      "Helping Hand",
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -1387,7 +1391,7 @@
     }
   },
   "Conkeldurr": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Guts"
     ],
@@ -1397,69 +1401,45 @@
     "moves": [
       "Close Combat",
       "Drain Punch",
-      "Facade",
+      "High Horsepower",
+      "Ice Punch",
       "Knock Off",
-      "Mach Punch"
+      "Mach Punch",
+      "Protect"
     ]
   },
   "Copperajah": {
-    "level": 84,
+    "level": 88,
     "abilities": [
-      "Heavy Metal",
       "Sheer Force"
     ],
     "items": [
-      "Choice Band",
       "Life Orb"
     ],
     "moves": [
-      "Earthquake",
       "Heat Crash",
-      "Heavy Slam",
+      "High Horsepower",
       "Iron Head",
       "Play Rough",
       "Power Whip",
-      "Rock Slide",
-      "Stealth Rock",
+      "Protect",
       "Stone Edge"
     ]
   },
   "Corsola": {
-    "level": 88,
+    "level": 95,
     "abilities": [
       "Regenerator"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Power Gem",
+      "Icy Wind",
+      "Life Dew",
       "Recover",
       "Scald",
-      "Stealth Rock",
       "Toxic"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
-  },
-  "Corsola-Galar": {
-    "level": 88,
-    "abilities": [
-      "Cursed Body"
-    ],
-    "items": [
-      "Eviolite"
-    ],
-    "moves": [
-      "Haze",
-      "Night Shade",
-      "Stealth Rock",
-      "Strength Sap",
-      "Will-O-Wisp"
     ],
     "evs": {
       "atk": 0
@@ -1471,87 +1451,93 @@
   "Corviknight": {
     "level": 80,
     "abilities": [
-      "Mirror Armor",
-      "Pressure"
+      "Mirror Armor"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Press",
       "Brave Bird",
       "Bulk Up",
-      "Defog",
-      "Roost"
+      "Iron Head",
+      "Roost",
+      "Tailwind"
     ]
   },
   "Cradily": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Storm Drain"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Power Whip",
+      "Protect",
       "Recover",
       "Stealth Rock",
       "Stone Edge",
-      "Swords Dance",
+      "String Shot",
       "Toxic"
     ]
   },
   "Cramorant": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Gulp Missile"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Brave Bird",
-      "Defog",
+      "Hurricane",
+      "Ice Beam",
+      "Protect",
       "Roost",
-      "Superpower",
-      "Surf"
-    ]
+      "Surf",
+      "Tailwind"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Crawdaunt": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Adaptability"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Aqua Jet",
       "Close Combat",
       "Crabhammer",
-      "Dragon Dance",
-      "Knock Off"
+      "Knock Off",
+      "Protect",
+      "Swords Dance"
     ]
   },
   "Cresselia": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
-      "Moonblast",
+      "Ally Switch",
+      "Helping Hand",
+      "Icy Wind",
       "Moonlight",
-      "Psyshock",
-      "Thunder Wave",
-      "Toxic"
+      "Psychic"
     ],
     "evs": {
       "atk": 0
@@ -1566,35 +1552,32 @@
       "Infiltrator"
     ],
     "items": [
-      "Black Sludge",
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
       "Brave Bird",
       "Defog",
       "Roost",
       "Super Fang",
-      "Taunt",
-      "Toxic",
-      "U-turn"
+      "Tailwind",
+      "Taunt"
     ]
   },
   "Crustle": {
-    "level": 88,
+    "level": 84,
     "abilities": [
       "Sturdy"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers",
+      "Choice Band",
       "White Herb"
     ],
     "moves": [
-      "Earthquake",
+      "Knock Off",
+      "Protect",
+      "Rock Slide",
       "Shell Smash",
-      "Spikes",
-      "Stealth Rock",
-      "Stone Edge",
+      "Stomping Tantrum",
       "X-Scissor"
     ]
   },
@@ -1604,17 +1587,19 @@
       "Levitate"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Freeze-Dry",
       "Haze",
+      "Ice Beam",
+      "Icy Wind",
       "Rapid Spin",
       "Recover",
       "Toxic"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -1627,16 +1612,15 @@
       "Perish Body"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Earth Power",
       "Hydro Pump",
       "Ice Beam",
+      "Protect",
       "Shadow Ball",
-      "Stealth Rock",
       "Strength Sap"
     ],
     "evs": {
@@ -1663,41 +1647,35 @@
     ]
   },
   "Darmanitan-Galar": {
-    "level": 76,
+    "level": 80,
     "abilities": [
-      "Gorilla Tactics",
-      "Zen Mode"
+      "Gorilla Tactics"
     ],
     "items": [
-      "Choice Scarf",
-      "Salac Berry"
+      "Choice Scarf"
     ],
     "moves": [
-      "Belly Drum",
       "Earthquake",
-      "Fire Punch",
       "Flare Blitz",
       "Icicle Crash",
-      "Substitute",
+      "Rock Slide",
       "Superpower",
       "U-turn"
     ]
   },
   "Decidueye": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Overgrow"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
       "Life Orb",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
       "Brave Bird",
       "Leaf Blade",
-      "Roost",
+      "Protect",
       "Shadow Sneak",
       "Spirit Shackle",
       "Swords Dance"
@@ -1712,10 +1690,12 @@
       "Sitrus Berry"
     ],
     "moves": [
-      "Protect",
+      "Eerie Impulse",
+      "Helping Hand",
+      "Nuzzle",
       "Recycle",
-      "Thunderbolt",
-      "Toxic"
+      "Super Fang",
+      "Thunderbolt"
     ],
     "evs": {
       "atk": 0
@@ -1727,56 +1707,57 @@
   "Delibird": {
     "level": 100,
     "abilities": [
-      "Vital Spirit"
+      "Hustle"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Freeze-Dry",
+      "Brave Bird",
+      "Defog",
+      "Fake Out",
+      "Helping Hand",
+      "Ice Punch",
       "Memento",
-      "Rapid Spin",
-      "Spikes"
-    ]
+      "Tailwind"
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Dhelmise": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Steelworker"
     ],
     "items": [
-      "Assault Vest",
-      "Choice Band",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
       "Anchor Shot",
-      "Earthquake",
+      "Knock Off",
       "Poltergeist",
       "Power Whip",
-      "Rapid Spin",
-      "Swords Dance"
+      "Protect"
     ]
   },
   "Dialga": {
     "level": 74,
     "abilities": [
-      "Pressure"
+      "Telepathy"
     ],
     "items": [
-      "Assault Vest",
       "Choice Scarf",
       "Choice Specs",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Draco Meteor",
-      "Dragon Tail",
-      "Fire Blast",
+      "Earth Power",
       "Flash Cannon",
-      "Stealth Rock",
-      "Thunderbolt",
-      "Toxic"
+      "Protect",
+      "Thunder Wave",
+      "Thunderbolt"
     ],
     "evs": {
       "atk": 0
@@ -1786,45 +1767,43 @@
     }
   },
   "Diancie": {
-    "level": 84,
+    "level": 80,
     "abilities": [
       "Clear Body"
     ],
     "items": [
-      "Assault Vest",
-      "Leftovers"
+      "Assault Vest"
     ],
     "moves": [
       "Body Press",
       "Diamond Storm",
       "Earth Power",
-      "Moonblast",
-      "Stealth Rock",
-      "Toxic"
+      "Moonblast"
     ]
   },
   "Diggersby": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Huge Power"
     ],
     "items": [
       "Choice Band",
       "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Slam",
-      "Earthquake",
+      "High Horsepower",
       "Knock Off",
+      "Protect",
       "Quick Attack",
       "Swords Dance",
       "U-turn"
     ]
   },
   "Ditto": {
-    "level": 80,
+    "level": 88,
     "abilities": [
       "Imposter"
     ],
@@ -1835,41 +1814,26 @@
       "Transform"
     ]
   },
-  "Doublade": {
-    "level": 82,
-    "abilities": [
-      "No Guard"
-    ],
-    "items": [
-      "Eviolite"
-    ],
-    "moves": [
-      "Iron Head",
-      "Sacred Sword",
-      "Shadow Claw",
-      "Shadow Sneak",
-      "Swords Dance"
-    ]
-  },
   "Dracovish": {
-    "level": 76,
+    "level": 80,
     "abilities": [
       "Sand Rush",
       "Strong Jaw"
     ],
     "items": [
-      "Choice Band"
+      "Choice Band",
+      "Choice Scarf"
     ],
     "moves": [
       "Crunch",
+      "Dragon Rush",
       "Fishious Rend",
       "Ice Fang",
-      "Low Kick",
       "Psychic Fangs"
     ]
   },
   "Dracozolt": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Hustle"
     ],
@@ -1880,27 +1844,26 @@
     "moves": [
       "Aerial Ace",
       "Bolt Beak",
-      "Earthquake",
-      "Low Kick",
-      "Outrage"
+      "Dragon Claw",
+      "High Horsepower",
+      "Rock Slide"
     ]
   },
   "Dragalge": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Adaptability"
     ],
     "items": [
-      "Black Sludge",
-      "Choice Specs"
+      "Choice Specs",
+      "Sitrus Berry"
     ],
     "moves": [
       "Draco Meteor",
       "Dragon Pulse",
-      "Flip Turn",
       "Focus Blast",
-      "Sludge Wave",
-      "Toxic Spikes"
+      "Protect",
+      "Sludge Bomb"
     ],
     "evs": {
       "atk": 0
@@ -1912,60 +1875,59 @@
   "Dragapult": {
     "level": 80,
     "abilities": [
-      "Clear Body",
-      "Infiltrator"
+      "Clear Body"
     ],
     "items": [
-      "Choice Specs"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Draco Meteor",
+      "Dragon Dance",
+      "Dragon Darts",
       "Fire Blast",
+      "Phantom Force",
+      "Protect",
       "Shadow Ball",
       "Thunderbolt",
-      "U-turn"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+      "Will-O-Wisp"
+    ]
   },
   "Dragonite": {
-    "level": 80,
+    "level": 82,
     "abilities": [
       "Multiscale"
     ],
     "items": [
       "Choice Band",
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Dragon Claw",
       "Dragon Dance",
-      "Earthquake",
+      "Dual Wingbeat",
       "Extreme Speed",
-      "Fire Punch",
-      "Outrage"
+      "Fire Punch"
     ]
   },
   "Drampa": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Berserk",
       "Sap Sipper"
     ],
     "items": [
       "Choice Specs",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Draco Meteor",
-      "Fire Blast",
+      "Dragon Pulse",
       "Glare",
+      "Heat Wave",
+      "Hurricane",
       "Hyper Voice",
-      "Roost",
-      "Thunderbolt"
+      "Protect",
+      "Roost"
     ],
     "evs": {
       "atk": 0
@@ -1975,44 +1937,44 @@
     }
   },
   "Drapion": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Sniper"
     ],
     "items": [
-      "Black Sludge",
-      "Choice Band",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Aqua Tail",
-      "Earthquake",
       "Knock Off",
       "Poison Jab",
-      "Swords Dance",
-      "Taunt",
-      "Toxic Spikes"
+      "Protect",
+      "Rock Slide",
+      "Taunt"
     ]
   },
   "Drednaw": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Swift Swim"
     ],
     "items": [
-      "Focus Sash",
-      "Life Orb"
+      "Choice Band",
+      "Choice Scarf",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "High Horsepower",
       "Liquidation",
-      "Stealth Rock",
-      "Stone Edge",
+      "Protect",
+      "Rock Slide",
       "Superpower",
       "Swords Dance"
     ]
   },
   "Drifblim": {
-    "level": 88,
+    "level": 84,
     "abilities": [
       "Unburden"
     ],
@@ -2020,10 +1982,11 @@
       "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
-      "Shadow Ball",
-      "Strength Sap",
-      "Thunderbolt"
+      "Destiny Bond",
+      "Hex",
+      "Tailwind",
+      "Thunder Wave",
+      "Will-O-Wisp"
     ],
     "evs": {
       "atk": 0
@@ -2033,52 +1996,58 @@
     }
   },
   "Druddigon": {
-    "level": 84,
+    "level": 86,
     "abilities": [
-      "Mold Breaker"
+      "Mold Breaker",
+      "Sheer Force"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Fire Punch",
       "Glare",
-      "Outrage",
-      "Stealth Rock",
-      "Sucker Punch",
-      "Superpower"
+      "Gunk Shot",
+      "Protect",
+      "Scale Shot",
+      "Sucker Punch"
     ]
   },
   "Dubwool": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Bulletproof",
       "Fluffy"
     ],
     "items": [
-      "Leftovers"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Body Press",
-      "Cotton Guard",
-      "Rest",
-      "Sleep Talk"
+      "Double-Edge",
+      "Protect",
+      "Swords Dance",
+      "Thunder Wave",
+      "Wild Charge",
+      "Zen Headbutt"
     ]
   },
   "Dugtrio": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Arena Trap"
     ],
     "items": [
-      "Choice Band"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "High Horsepower",
       "Memento",
-      "Stone Edge",
+      "Protect",
+      "Rock Slide",
+      "Substitute",
       "Sucker Punch"
     ]
   },
@@ -2089,49 +2058,52 @@
       "Tangling Hair"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "High Horsepower",
       "Iron Head",
-      "Stealth Rock",
-      "Stone Edge",
+      "Memento",
+      "Protect",
+      "Rock Slide",
       "Sucker Punch"
     ]
   },
   "Dunsparce": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Serene Grace"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Body Slam",
-      "Coil",
-      "Rock Slide",
-      "Roost",
-      "Stealth Rock"
+      "Glare",
+      "Headbutt",
+      "Protect",
+      "Rock Slide"
     ]
   },
   "Duraludon": {
-    "level": 86,
+    "level": 88,
     "abilities": [
-      "Light Metal"
+      "Stalwart"
     ],
     "items": [
       "Assault Vest",
-      "Focus Sash",
-      "Life Orb"
+      "Choice Scarf",
+      "Choice Specs",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Press",
       "Draco Meteor",
+      "Dragon Pulse",
       "Flash Cannon",
-      "Stealth Rock",
+      "Protect",
+      "Snarl",
       "Thunderbolt"
     ],
     "evs": {
@@ -2142,76 +2114,105 @@
     }
   },
   "Durant": {
-    "level": 80,
+    "level": 82,
     "abilities": [
       "Hustle"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
       "Life Orb"
     ],
     "moves": [
       "First Impression",
-      "Hone Claws",
       "Iron Head",
+      "Protect",
       "Rock Slide",
-      "Superpower"
+      "Superpower",
+      "X-Scissor"
     ]
   },
-  "Dusknoir": {
-    "level": 88,
+  "Dusclops": {
+    "level": 84,
     "abilities": [
-      "Frisk",
-      "Pressure"
+      "Frisk"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers"
+      "Eviolite"
+    ],
+    "moves": [
+      "Ally Switch",
+      "Haze",
+      "Helping Hand",
+      "Night Shade",
+      "Pain Split",
+      "Trick Room",
+      "Will-O-Wisp"
+    ],
+    "evs": {
+      "atk": 0,
+      "spe": 0
+    },
+    "ivs": {
+      "atk": 0,
+      "spe": 0
+    }
+  },
+  "Dusknoir": {
+    "level": 86,
+    "abilities": [
+      "Frisk"
+    ],
+    "items": [
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Earthquake",
+      "Haze",
       "Ice Punch",
-      "Pain Split",
       "Poltergeist",
       "Shadow Sneak",
-      "Substitute",
+      "Trick Room",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Eiscue": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Ice Face"
     ],
     "items": [
-      "Choice Band",
       "Sitrus Berry"
     ],
     "moves": [
       "Belly Drum",
       "Icicle Crash",
       "Liquidation",
-      "Reversal",
+      "Protect",
       "Zen Headbutt"
     ]
   },
   "Eldegoss": {
-    "level": 86,
+    "level": 90,
     "abilities": [
       "Regenerator"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Charm",
       "Energy Ball",
+      "Helping Hand",
       "Leech Seed",
       "Pollen Puff",
-      "Rapid Spin",
-      "Sleep Powder"
+      "Protect",
+      "Sleep Powder",
+      "Synthesis"
     ],
     "evs": {
       "atk": 0
@@ -2221,21 +2222,18 @@
     }
   },
   "Electivire": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Motor Drive"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
       "Life Orb"
     ],
     "moves": [
       "Cross Chop",
-      "Earthquake",
       "Flamethrower",
       "Ice Punch",
-      "Volt Switch",
+      "Stomping Tantrum",
       "Wild Charge"
     ]
   },
@@ -2244,35 +2242,31 @@
     "abilities": [
       "Motor Drive"
     ],
-    "items": [
-      "Heavy-Duty Boots"
-    ],
     "moves": [
-      "Air Slash",
-      "Encore",
-      "Energy Ball",
-      "Roost",
-      "Toxic",
-      "Volt Switch"
+      "Acrobatics",
+      "Helping Hand",
+      "Nuzzle",
+      "Tailwind",
+      "Taunt"
     ],
     "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
+      "hp": 81
     }
   },
   "Entei": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Inner Focus"
     ],
     "items": [
-      "Choice Band"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Extreme Speed",
-      "Flare Blitz",
+      "Protect",
+      "Sacred Fire",
+      "Snarl",
       "Stomping Tantrum",
       "Stone Edge"
     ]
@@ -2284,8 +2278,8 @@
       "Swarm"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
@@ -2293,6 +2287,7 @@
       "Iron Head",
       "Knock Off",
       "Megahorn",
+      "Protect",
       "Swords Dance"
     ]
   },
@@ -2302,14 +2297,14 @@
       "Magic Bounce"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
       "Dazzling Gleam",
       "Morning Sun",
+      "Protect",
       "Psychic",
       "Shadow Ball"
     ],
@@ -2326,15 +2321,13 @@
       "Pressure"
     ],
     "items": [
-      "Black Sludge",
-      "Metronome"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Cosmic Power",
       "Dynamax Cannon",
       "Flamethrower",
-      "Recover",
-      "Sludge Wave",
-      "Toxic"
+      "Recover"
     ],
     "evs": {
       "atk": 0
@@ -2351,13 +2344,13 @@
     ],
     "items": [
       "Assault Vest",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "High Horsepower",
       "Iron Head",
+      "Protect",
       "Rapid Spin",
       "Rock Slide",
       "Swords Dance"
@@ -2366,41 +2359,40 @@
   "Exeggutor": {
     "level": 88,
     "abilities": [
-      "Chlorophyll",
       "Harvest"
     ],
     "items": [
-      "Leftovers",
       "Sitrus Berry"
     ],
     "moves": [
-      "Giga Drain",
-      "Leech Seed",
+      "Energy Ball",
+      "Protect",
       "Psychic",
       "Sleep Powder",
-      "Substitute"
+      "Trick Room"
     ],
     "evs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Exeggutor-Alola": {
-    "level": 86,
+    "level": 88,
     "abilities": [
-      "Frisk"
+      "Harvest"
     ],
     "items": [
-      "Choice Specs",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Draco Meteor",
+      "Dragon Pulse",
+      "Energy Ball",
       "Flamethrower",
-      "Giga Drain",
-      "Leaf Storm",
+      "Protect",
       "Trick Room"
     ],
     "evs": {
@@ -2413,18 +2405,22 @@
     }
   },
   "Exploud": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Scrappy"
     ],
     "items": [
-      "Choice Specs"
+      "Assault Vest",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Boomburst",
       "Fire Blast",
       "Focus Blast",
-      "Surf"
+      "Hyper Voice",
+      "Icy Wind",
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -2434,14 +2430,13 @@
     }
   },
   "Falinks": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Defiant"
     ],
     "items": [
       "Choice Band",
       "Choice Scarf",
-      "Focus Sash",
       "Life Orb"
     ],
     "moves": [
@@ -2453,7 +2448,7 @@
     ]
   },
   "Farfetch’d": {
-    "level": 88,
+    "level": 95,
     "abilities": [
       "Defiant"
     ],
@@ -2463,8 +2458,9 @@
     "moves": [
       "Brave Bird",
       "Close Combat",
-      "Knock Off",
       "Leaf Blade",
+      "Protect",
+      "Quick Attack",
       "Slash",
       "Swords Dance"
     ]
@@ -2475,15 +2471,17 @@
       "Iron Barbs"
     ],
     "items": [
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Body Press",
       "Gyro Ball",
+      "Knock Off",
       "Leech Seed",
       "Power Whip",
       "Protect",
-      "Spikes",
-      "Stealth Rock"
+      "Toxic"
     ],
     "evs": {
       "spe": 0
@@ -2495,19 +2493,17 @@
   "Flapple": {
     "level": 86,
     "abilities": [
-      "Hustle"
+      "Ripen"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Acrobatics",
       "Dragon Dance",
+      "Dragon Rush",
       "Grav Apple",
-      "Outrage",
-      "Sucker Punch",
-      "U-turn"
+      "Protect"
     ]
   },
   "Flareon": {
@@ -2522,50 +2518,57 @@
       "Facade",
       "Flame Charge",
       "Flare Blitz",
+      "Protect",
       "Quick Attack",
       "Superpower"
     ]
   },
   "Flygon": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Levitate"
     ],
     "items": [
       "Choice Band",
       "Choice Scarf",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
+      "Dragon Claw",
       "Dragon Dance",
       "Earthquake",
       "Fire Punch",
-      "Outrage",
-      "U-turn"
+      "Protect",
+      "Rock Slide",
+      "Tailwind"
     ]
   },
   "Froslass": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Cursed Body"
     ],
     "items": [
-      "Wide Lens"
+      "Sitrus Berry"
     ],
     "moves": [
       "Destiny Bond",
-      "Poltergeist",
-      "Spikes",
-      "Taunt",
-      "Triple Axel",
+      "Ice Beam",
+      "Icy Wind",
+      "Protect",
+      "Shadow Ball",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Frosmoth": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Ice Scales"
     ],
@@ -2577,7 +2580,9 @@
       "Giga Drain",
       "Hurricane",
       "Ice Beam",
-      "Quiver Dance"
+      "Protect",
+      "Quiver Dance",
+      "Wide Guard"
     ],
     "evs": {
       "atk": 0
@@ -2594,35 +2599,35 @@
     "items": [
       "Choice Band",
       "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
+      "Feint",
       "Knock Off",
-      "Shadow Sneak",
+      "Protect",
       "Swords Dance",
-      "Trick",
+      "Triple Axel",
       "Zen Headbutt"
     ]
   },
   "Galvantula": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Compound Eyes"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Bug Buzz",
-      "Giga Drain",
+      "Electroweb",
+      "Energy Ball",
+      "Protect",
       "Sticky Web",
-      "Thunder",
-      "Volt Switch"
+      "Thunder"
     ],
     "evs": {
       "atk": 0
@@ -2632,21 +2637,19 @@
     }
   },
   "Garbodor": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Aftermath"
     ],
     "items": [
-      "Black Sludge",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Drain Punch",
       "Explosion",
       "Gunk Shot",
-      "Pain Split",
-      "Spikes",
+      "Protect",
       "Toxic Spikes"
     ]
   },
@@ -2657,39 +2660,129 @@
     ],
     "items": [
       "Assault Vest",
-      "Choice Band",
-      "Choice Scarf",
-      "Leftovers",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Dragon Claw",
       "Earthquake",
       "Fire Blast",
-      "Fire Fang",
-      "Outrage",
-      "Stealth Rock",
-      "Stone Edge",
+      "Protect",
+      "Rock Slide",
       "Swords Dance"
     ]
   },
   "Gardevoir": {
     "level": 84,
     "abilities": [
-      "Synchronize",
       "Trace"
     ],
     "items": [
       "Choice Scarf",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
+      "Dazzling Gleam",
       "Moonblast",
       "Mystical Fire",
+      "Protect",
       "Psyshock",
-      "Substitute",
+      "Trick"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
+  },
+  "Gastrodon": {
+    "level": 80,
+    "abilities": [
+      "Storm Drain"
+    ],
+    "items": [
+      "Assault Vest",
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Clear Smog",
+      "Earth Power",
+      "Icy Wind",
+      "Protect",
+      "Recover",
+      "Scald",
+      "Yawn"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
+  },
+  "Gastrodon-East": {
+    "level": 80,
+    "abilities": [
+      "Storm Drain"
+    ],
+    "items": [
+      "Assault Vest",
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Clear Smog",
+      "Earth Power",
+      "Icy Wind",
+      "Protect",
+      "Recover",
+      "Scald",
+      "Yawn"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
+  },
+  "Genesect": {
+    "level": 78,
+    "abilities": [
+      "Download"
+    ],
+    "items": [
+      "Life Orb",
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Blaze Kick",
+      "Iron Head",
+      "Leech Life",
+      "Protect",
+      "Shift Gear",
+      "Thunderbolt",
+      "U-turn"
+    ]
+  },
+  "Gengar": {
+    "level": 82,
+    "abilities": [
+      "Cursed Body"
+    ],
+    "items": [
+      "Choice Specs",
+      "Life Orb",
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Focus Blast",
+      "Nasty Plot",
+      "Protect",
+      "Shadow Ball",
+      "Sludge Bomb",
+      "Thunderbolt",
       "Trick",
       "Will-O-Wisp"
     ],
@@ -2700,116 +2793,41 @@
       "atk": 0
     }
   },
-  "Gastrodon": {
-    "level": 86,
-    "abilities": [
-      "Storm Drain"
-    ],
-    "items": [
-      "Leftovers"
-    ],
-    "moves": [
-      "Clear Smog",
-      "Earthquake",
-      "Ice Beam",
-      "Recover",
-      "Scald",
-      "Toxic"
-    ]
-  },
-  "Gastrodon-East": {
-    "level": 86,
-    "abilities": [
-      "Storm Drain"
-    ],
-    "items": [
-      "Leftovers"
-    ],
-    "moves": [
-      "Clear Smog",
-      "Earthquake",
-      "Ice Beam",
-      "Recover",
-      "Scald",
-      "Toxic"
-    ]
-  },
-  "Genesect": {
-    "level": 76,
-    "abilities": [
-      "Download"
-    ],
-    "items": [
-      "Assault Vest",
-      "Choice Band",
-      "Life Orb"
-    ],
-    "moves": [
-      "Blaze Kick",
-      "Extreme Speed",
-      "Flamethrower",
-      "Ice Beam",
-      "Iron Head",
-      "Shift Gear",
-      "Thunderbolt",
-      "U-turn"
-    ]
-  },
-  "Gengar": {
-    "level": 80,
-    "abilities": [
-      "Cursed Body"
-    ],
-    "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Life Orb"
-    ],
-    "moves": [
-      "Focus Blast",
-      "Nasty Plot",
-      "Shadow Ball",
-      "Sludge Wave",
-      "Trick"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
-  },
   "Gigalith": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Sand Stream"
     ],
     "items": [
       "Choice Band",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Body Press",
       "Explosion",
-      "Rock Blast",
+      "Heavy Slam",
+      "Protect",
+      "Rock Slide",
       "Stealth Rock",
+      "Stomping Tantrum",
       "Stone Edge",
-      "Superpower"
+      "Wide Guard"
     ]
   },
   "Giratina": {
     "level": 74,
     "abilities": [
-      "Pressure"
+      "Telepathy"
     ],
     "items": [
-      "Leftovers"
+      "Chesto Berry",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
-      "Hex",
+      "Calm Mind",
+      "Dragon Pulse",
       "Rest",
-      "Toxic",
+      "Shadow Ball",
       "Will-O-Wisp"
     ],
     "evs": {
@@ -2828,12 +2846,20 @@
       "Griseous Orb"
     ],
     "moves": [
-      "Dual Wingbeat",
-      "Hone Claws",
-      "Outrage",
-      "Poltergeist",
-      "Shadow Sneak"
-    ]
+      "Breaking Swipe",
+      "Draco Meteor",
+      "Protect",
+      "Shadow Ball",
+      "Shadow Sneak",
+      "Tailwind",
+      "Will-O-Wisp"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Glaceon": {
     "level": 88,
@@ -2841,13 +2867,16 @@
       "Snow Cloak"
     ],
     "items": [
-      "Leftovers"
+      "Blunder Policy",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Blizzard",
       "Freeze-Dry",
+      "Helping Hand",
       "Protect",
       "Shadow Ball",
-      "Toxic",
       "Wish"
     ],
     "evs": {
@@ -2858,7 +2887,7 @@
     }
   },
   "Glalie": {
-    "level": 76,
+    "level": 84,
     "abilities": [
       "Moody"
     ],
@@ -2873,6 +2902,7 @@
       "Substitute"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -2880,19 +2910,18 @@
     }
   },
   "Glastrier": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Chilling Neigh"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Avalanche",
       "Close Combat",
       "High Horsepower",
-      "Icicle Crash",
-      "Swords Dance"
+      "Protect"
     ]
   },
   "Golduck": {
@@ -2901,18 +2930,14 @@
       "Swift Swim"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
-      "Focus Blast",
+      "Encore",
       "Ice Beam",
-      "Psyshock",
-      "Scald",
-      "Substitute"
+      "Muddy Water",
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -2922,55 +2947,61 @@
     }
   },
   "Golisopod": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Emergency Exit"
     ],
     "items": [
-      "Choice Band",
-      "Heavy-Duty Boots"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Aqua Jet",
+      "Close Combat",
       "First Impression",
       "Knock Off",
       "Leech Life",
       "Liquidation",
-      "Spikes"
+      "Protect",
+      "Wide Guard"
     ]
   },
   "Golurk": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "No Guard"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Dynamic Punch",
       "Earthquake",
+      "High Horsepower",
+      "Ice Punch",
       "Poltergeist",
-      "Rock Polish",
-      "Stone Edge"
+      "Protect"
     ]
   },
   "Goodra": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Sap Sipper"
     ],
     "items": [
       "Assault Vest",
       "Choice Scarf",
-      "Choice Specs"
+      "Choice Specs",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Breaking Swipe",
       "Draco Meteor",
-      "Earthquake",
       "Fire Blast",
+      "Muddy Water",
       "Power Whip",
+      "Protect",
       "Sludge Bomb",
       "Thunderbolt"
     ],
@@ -2982,26 +3013,31 @@
     }
   },
   "Gothitelle": {
-    "level": 88,
+    "level": 80,
     "abilities": [
-      "Competitive"
+      "Shadow Tag"
     ],
     "items": [
-      "Choice Scarf",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Nasty Plot",
+      "Ally Switch",
+      "Fake Out",
+      "Heal Pulse",
+      "Helping Hand",
+      "Hypnosis",
+      "Protect",
       "Psychic",
       "Shadow Ball",
-      "Thunderbolt",
-      "Trick"
+      "Trick Room"
     ],
     "evs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Gourgeist": {
@@ -3010,14 +3046,13 @@
       "Frisk"
     ],
     "items": [
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Leech Seed",
       "Poltergeist",
       "Power Whip",
-      "Shadow Sneak",
-      "Synthesis",
+      "Substitute",
       "Will-O-Wisp"
     ]
   },
@@ -3027,16 +3062,22 @@
       "Frisk"
     ],
     "items": [
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Poltergeist",
       "Power Whip",
+      "Protect",
       "Shadow Sneak",
-      "Synthesis",
-      "Will-O-Wisp"
-    ]
+      "Trick Room"
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Gourgeist-Small": {
     "level": 88,
@@ -3044,8 +3085,7 @@
       "Frisk"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Leech Seed",
@@ -3061,13 +3101,12 @@
       "Frisk"
     ],
     "items": [
-      "Choice Band",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Poltergeist",
       "Power Whip",
-      "Rock Slide",
+      "Protect",
       "Shadow Sneak",
       "Trick Room"
     ],
@@ -3085,15 +3124,16 @@
       "Technician"
     ],
     "items": [
-      "Focus Sash",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Brutal Swing",
-      "Bulk Up",
+      "Close Combat",
+      "Coaching",
       "Drain Punch",
       "Ice Punch",
-      "Sucker Punch"
+      "Octolock",
+      "Payback",
+      "Protect"
     ]
   },
   "Greedent": {
@@ -3106,37 +3146,36 @@
     ],
     "moves": [
       "Body Slam",
-      "Earthquake",
-      "Fire Fang",
-      "Payback",
+      "Crunch",
+      "Gyro Ball",
+      "Protect",
+      "Stomping Tantrum",
       "Swords Dance"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Grimmsnarl": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Prankster"
     ],
     "items": [
-      "Chesto Berry",
-      "Choice Band",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb",
-      "Light Clay"
+      "Light Clay",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Bulk Up",
       "Darkest Lariat",
+      "Fake Out",
       "Light Screen",
-      "Play Rough",
       "Reflect",
-      "Rest",
       "Spirit Break",
-      "Sucker Punch",
       "Taunt",
-      "Thunder Wave",
-      "Trick"
+      "Thunder Wave"
     ]
   },
   "Groudon": {
@@ -3145,94 +3184,63 @@
       "Drought"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
       "Heat Crash",
-      "Heavy Slam",
-      "Stealth Rock",
+      "Precipice Blades",
+      "Rock Polish",
       "Stone Edge",
-      "Swords Dance",
-      "Thunder Wave"
-    ]
-  },
-  "Gurdurr": {
-    "level": 86,
-    "abilities": [
-      "Guts",
-      "Iron Fist"
-    ],
-    "items": [
-      "Eviolite"
-    ],
-    "moves": [
-      "Bulk Up",
-      "Defog",
-      "Drain Punch",
-      "Knock Off",
-      "Mach Punch"
+      "Swords Dance"
     ]
   },
   "Guzzlord": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Beast Boost"
     ],
     "items": [
       "Assault Vest",
-      "Choice Specs"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Dark Pulse",
       "Draco Meteor",
       "Fire Blast",
       "Knock Off",
+      "Protect",
       "Sludge Bomb"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+    ]
   },
   "Gyarados": {
-    "level": 80,
+    "level": 82,
     "abilities": [
-      "Intimidate",
-      "Moxie"
+      "Intimidate"
     ],
     "items": [
-      "Choice Band",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Bounce",
       "Dragon Dance",
-      "Earthquake",
+      "Ice Fang",
       "Power Whip",
+      "Protect",
       "Waterfall"
     ]
   },
   "Hatterene": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Magic Bounce"
     ],
     "items": [
-      "Choice Specs",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
       "Dazzling Gleam",
-      "Draining Kiss",
       "Mystical Fire",
+      "Protect",
       "Psychic",
       "Trick Room"
     ],
@@ -3252,35 +3260,32 @@
       "Unburden"
     ],
     "items": [
-      "Choice Band",
+      "Life Orb",
       "White Herb"
     ],
     "moves": [
       "Brave Bird",
       "Close Combat",
-      "Roost",
-      "Stone Edge",
+      "Protect",
       "Swords Dance",
       "Throat Chop"
     ]
   },
   "Haxorus": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Mold Breaker"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
+      "Dragon Claw",
       "Dragon Dance",
-      "Earthquake",
-      "Outrage",
-      "Poison Jab"
+      "Poison Jab",
+      "Protect"
     ]
   },
   "Heatmor": {
@@ -3289,18 +3294,18 @@
       "Flash Fire"
     ],
     "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Fire Lash",
       "Giga Drain",
-      "Knock Off",
-      "Substitute",
+      "Incinerate",
+      "Protect",
+      "Rock Tomb",
       "Sucker Punch",
-      "Superpower"
+      "Superpower",
+      "Will-O-Wisp"
     ]
   },
   "Heatran": {
@@ -3309,17 +3314,15 @@
       "Flash Fire"
     ],
     "items": [
-      "Air Balloon",
-      "Leftovers"
+      "Choice Scarf",
+      "Sitrus Berry"
     ],
     "moves": [
       "Earth Power",
+      "Eruption",
       "Flash Cannon",
-      "Lava Plume",
-      "Protect",
-      "Stealth Rock",
-      "Taunt",
-      "Toxic"
+      "Magma Storm",
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -3329,17 +3332,20 @@
     }
   },
   "Heliolisk": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Dry Skin"
     ],
     "items": [
-      "Choice Specs"
+      "Choice Specs",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Focus Blast",
+      "Glare",
       "Grass Knot",
       "Hyper Voice",
+      "Protect",
       "Thunderbolt",
       "Volt Switch"
     ],
@@ -3353,37 +3359,36 @@
   "Heracross": {
     "level": 84,
     "abilities": [
-      "Guts",
-      "Moxie"
+      "Guts"
     ],
     "items": [
-      "Flame Orb",
-      "Focus Sash",
-      "Life Orb"
+      "Flame Orb"
     ],
     "moves": [
       "Close Combat",
       "Facade",
       "Knock Off",
       "Megahorn",
-      "Spikes"
+      "Protect",
+      "Swords Dance"
     ]
   },
   "Hippowdon": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Sand Stream"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "High Horsepower",
+      "Protect",
+      "Rock Slide",
       "Slack Off",
       "Stealth Rock",
-      "Stone Edge",
-      "Toxic",
-      "Whirlwind"
+      "Whirlwind",
+      "Yawn"
     ]
   },
   "Hitmonchan": {
@@ -3392,61 +3397,54 @@
       "Iron Fist"
     ],
     "items": [
-      "Assault Vest",
       "Choice Band",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Bulk Up",
+      "Coaching",
       "Drain Punch",
+      "Feint",
+      "Fire Punch",
       "Ice Punch",
       "Mach Punch",
-      "Rapid Spin",
-      "Throat Chop"
+      "Protect"
     ]
   },
   "Hitmonlee": {
-    "level": 84,
+    "level": 86,
     "abilities": [
-      "Reckless",
       "Unburden"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Leftovers",
       "White Herb"
     ],
     "moves": [
       "Close Combat",
-      "Curse",
-      "High Jump Kick",
+      "Fake Out",
       "Knock Off",
-      "Mach Punch",
       "Poison Jab",
-      "Stone Edge"
+      "Protect",
+      "Rock Slide"
     ]
   },
   "Hitmontop": {
-    "level": 86,
+    "level": 88,
     "abilities": [
-      "Intimidate",
-      "Technician"
+      "Intimidate"
     ],
     "items": [
       "Assault Vest",
-      "Choice Band",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
-      "Earthquake",
+      "Coaching",
+      "Fake Out",
+      "Helping Hand",
       "Rapid Spin",
       "Sucker Punch",
-      "Toxic",
       "Triple Axel"
     ]
   },
@@ -3456,36 +3454,40 @@
       "Regenerator"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
       "Brave Bird",
-      "Defog",
-      "Earthquake",
+      "Earth Power",
+      "Protect",
       "Roost",
       "Sacred Fire",
-      "Toxic"
-    ]
+      "Tailwind"
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Hydreigon": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate"
     ],
     "items": [
       "Choice Scarf",
       "Choice Specs",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Dark Pulse",
       "Draco Meteor",
+      "Dragon Pulse",
+      "Earth Power",
       "Fire Blast",
-      "Flash Cannon",
       "Nasty Plot",
-      "Roost",
-      "U-turn"
+      "Protect",
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -3495,39 +3497,38 @@
     }
   },
   "Incineroar": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Intimidate"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Heavy-Duty Boots"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Fake Out",
       "Flare Blitz",
       "Knock Off",
       "Parting Shot",
-      "U-turn",
-      "Will-O-Wisp"
+      "Snarl"
     ]
   },
   "Indeedee": {
-    "level": 84,
+    "level": 80,
     "abilities": [
       "Psychic Surge"
     ],
     "items": [
       "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
+      "Encore",
       "Expanding Force",
       "Hyper Voice",
       "Mystical Fire",
+      "Protect",
       "Trick"
     ],
     "evs": {
@@ -3538,21 +3539,19 @@
     }
   },
   "Indeedee-F": {
-    "level": 84,
+    "level": 80,
     "abilities": [
       "Psychic Surge"
     ],
     "items": [
-      "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
       "Expanding Force",
-      "Healing Wish",
-      "Hyper Voice",
-      "Mystical Fire"
+      "Follow Me",
+      "Heal Pulse",
+      "Helping Hand",
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -3569,16 +3568,16 @@
     ],
     "items": [
       "Choice Specs",
+      "Life Orb",
       "Scope Lens"
     ],
     "moves": [
       "Air Slash",
-      "Dark Pulse",
       "Focus Energy",
       "Hydro Pump",
       "Ice Beam",
-      "Scald",
-      "Surf",
+      "Muddy Water",
+      "Shadow Ball",
       "U-turn"
     ],
     "evs": {
@@ -3589,45 +3588,45 @@
     }
   },
   "Jellicent": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Water Absorb"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Ice Beam",
-      "Recover",
+      "Protect",
       "Scald",
       "Shadow Ball",
+      "Strength Sap",
+      "Trick Room",
       "Will-O-Wisp"
     ],
     "evs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Jirachi": {
-    "level": 82,
+    "level": 76,
     "abilities": [
       "Serene Grace"
     ],
     "items": [
-      "Assault Vest",
-      "Choice Scarf",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Body Slam",
       "Fire Punch",
+      "Follow Me",
       "Iron Head",
-      "Stealth Rock",
-      "Toxic",
-      "Trick",
-      "U-turn"
+      "Life Dew",
+      "Protect",
+      "Thunder Wave"
     ]
   },
   "Jolteon": {
@@ -3636,11 +3635,14 @@
       "Volt Absorb"
     ],
     "items": [
-      "Choice Specs"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Hyper Voice",
+      "Fake Tears",
+      "Protect",
       "Shadow Ball",
+      "Thunder Wave",
       "Thunderbolt",
       "Volt Switch"
     ],
@@ -3652,26 +3654,23 @@
     }
   },
   "Jynx": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Dry Skin"
     ],
     "items": [
-      "Choice Scarf",
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Focus Blast",
       "Ice Beam",
       "Lovely Kiss",
       "Nasty Plot",
-      "Psyshock",
-      "Trick"
+      "Psychic"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -3679,24 +3678,23 @@
     }
   },
   "Kabutops": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Swift Swim"
     ],
     "items": [
-      "Assault Vest",
       "Choice Band",
-      "Focus Sash",
+      "Choice Scarf",
       "Life Orb",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Aqua Jet",
       "Knock Off",
-      "Liquidation",
-      "Rapid Spin",
+      "Protect",
       "Stone Edge",
-      "Swords Dance"
+      "Superpower",
+      "Swords Dance",
+      "Waterfall"
     ]
   },
   "Kangaskhan": {
@@ -3706,13 +3704,14 @@
     ],
     "items": [
       "Assault Vest",
-      "Choice Band"
+      "Life Orb"
     ],
     "moves": [
       "Double-Edge",
-      "Earthquake",
+      "Drain Punch",
       "Fake Out",
-      "Hammer Arm",
+      "Protect",
+      "Rock Slide",
       "Sucker Punch"
     ]
   },
@@ -3722,8 +3721,6 @@
       "Beast Boost"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
       "Life Orb"
     ],
     "moves": [
@@ -3734,25 +3731,22 @@
       "Swords Dance"
     ]
   },
-  "Keldeo-Resolute": {
-    "level": 82,
+  "Keldeo": {
+    "level": 84,
     "abilities": [
       "Justified"
     ],
     "items": [
-      "Choice Scarf",
       "Choice Specs",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Air Slash",
       "Calm Mind",
       "Hydro Pump",
       "Icy Wind",
+      "Protect",
       "Scald",
-      "Secret Sword",
-      "Substitute"
+      "Secret Sword"
     ],
     "evs": {
       "atk": 0
@@ -3762,19 +3756,21 @@
     }
   },
   "Kingdra": {
-    "level": 86,
+    "level": 82,
     "abilities": [
       "Swift Swim"
     ],
     "items": [
+      "Choice Scarf",
       "Choice Specs",
       "Life Orb"
     ],
     "moves": [
       "Draco Meteor",
-      "Flip Turn",
       "Hurricane",
       "Hydro Pump",
+      "Ice Beam",
+      "Muddy Water",
       "Rain Dance"
     ],
     "evs": {
@@ -3794,29 +3790,26 @@
     ],
     "moves": [
       "Agility",
+      "Knock Off",
       "Liquidation",
-      "Rock Slide",
+      "Protect",
       "Superpower",
-      "Swords Dance",
       "X-Scissor"
     ]
   },
   "Klefki": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Prankster"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Dazzling Gleam",
       "Foul Play",
-      "Magnet Rise",
-      "Play Rough",
       "Spikes",
-      "Thunder Wave",
-      "Toxic"
+      "Thunder Wave"
     ]
   },
   "Klinklang": {
@@ -3825,51 +3818,47 @@
       "Clear Body"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Gear Grind",
+      "Protect",
       "Shift Gear",
-      "Substitute",
+      "Thunder Wave",
       "Wild Charge"
     ]
   },
   "Kommo-o": {
-    "level": 82,
+    "level": 80,
     "abilities": [
-      "Bulletproof",
-      "Soundproof"
+      "Bulletproof"
     ],
     "items": [
-      "Leftovers",
-      "Throat Spray"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Clanging Scales",
-      "Clangorous Soul",
-      "Close Combat",
-      "Poison Jab",
-      "Stealth Rock"
+      "Body Press",
+      "Draco Meteor",
+      "Iron Defense",
+      "Protect"
     ]
   },
   "Krookodile": {
-    "level": 82,
+    "level": 84,
     "abilities": [
-      "Intimidate",
-      "Moxie"
+      "Intimidate"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
-      "Earthquake",
+      "High Horsepower",
       "Knock Off",
-      "Stealth Rock",
-      "Stone Edge"
+      "Protect",
+      "Rock Slide",
+      "Taunt"
     ]
   },
   "Kyogre": {
@@ -3878,14 +3867,11 @@
       "Drizzle"
     ],
     "items": [
-      "Choice Scarf",
-      "Choice Specs",
-      "Leftovers"
+      "Choice Scarf"
     ],
     "moves": [
-      "Calm Mind",
       "Ice Beam",
-      "Surf",
+      "Origin Pulse",
       "Thunder",
       "Water Spout"
     ],
@@ -3897,23 +3883,22 @@
     }
   },
   "Kyurem": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Pressure"
     ],
     "items": [
       "Choice Scarf",
       "Choice Specs",
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Draco Meteor",
       "Earth Power",
       "Freeze-Dry",
-      "Ice Beam",
-      "Roost",
-      "Substitute"
+      "Glaciate",
+      "Protect",
+      "Roost"
     ],
     "evs": {
       "atk": 0
@@ -3923,36 +3908,41 @@
     }
   },
   "Kyurem-Black": {
-    "level": 76,
+    "level": 72,
     "abilities": [
       "Teravolt"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Dragon Claw",
       "Dragon Dance",
       "Fusion Bolt",
       "Icicle Spear",
-      "Outrage"
+      "Protect",
+      "Roost"
     ]
   },
   "Kyurem-White": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "Turboblaze"
     ],
     "items": [
       "Choice Scarf",
-      "Choice Specs"
+      "Choice Specs",
+      "Sitrus Berry"
     ],
     "moves": [
       "Draco Meteor",
+      "Dragon Pulse",
       "Earth Power",
       "Freeze-Dry",
       "Fusion Flare",
-      "Ice Beam"
+      "Ice Beam",
+      "Protect",
+      "Roost"
     ],
     "evs": {
       "atk": 0
@@ -3962,7 +3952,7 @@
     }
   },
   "Landorus": {
-    "level": 76,
+    "level": 80,
     "abilities": [
       "Sheer Force"
     ],
@@ -3970,13 +3960,12 @@
       "Life Orb"
     ],
     "moves": [
+      "Calm Mind",
       "Earth Power",
       "Focus Blast",
-      "Knock Off",
-      "Rock Polish",
-      "Rock Slide",
-      "Sludge Wave",
-      "Stealth Rock"
+      "Protect",
+      "Psychic",
+      "Sludge Bomb"
     ],
     "evs": {
       "atk": 0
@@ -3993,36 +3982,33 @@
     "items": [
       "Choice Band",
       "Choice Scarf",
-      "Leftovers",
       "Life Orb"
     ],
     "moves": [
-      "Defog",
       "Earthquake",
       "Fly",
-      "Stealth Rock",
+      "Knock Off",
       "Stone Edge",
       "Swords Dance",
       "U-turn"
     ]
   },
   "Lanturn": {
-    "level": 86,
+    "level": 90,
     "abilities": [
       "Volt Absorb"
     ],
     "items": [
-      "Choice Specs",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Heal Bell",
       "Ice Beam",
+      "Protect",
       "Scald",
-      "Thunderbolt",
-      "Toxic",
-      "Volt Switch"
+      "Thunder Wave",
+      "Thunderbolt"
     ],
     "evs": {
       "atk": 0
@@ -4032,24 +4018,24 @@
     }
   },
   "Lapras": {
-    "level": 88,
+    "level": 84,
     "abilities": [
       "Water Absorb"
     ],
     "items": [
-      "Choice Specs",
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Freeze-Dry",
-      "Ice Beam",
+      "Helping Hand",
+      "Hydro Pump",
+      "Icy Wind",
       "Protect",
-      "Sparkling Aria",
-      "Thunderbolt",
-      "Toxic"
+      "Thunderbolt"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -4057,21 +4043,21 @@
     }
   },
   "Latias": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Choice Scarf",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
       "Draco Meteor",
-      "Healing Wish",
+      "Heal Pulse",
       "Mystical Fire",
-      "Psychic",
-      "Roost"
+      "Psyshock",
+      "Roost",
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -4087,15 +4073,17 @@
     ],
     "items": [
       "Choice Specs",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Aura Sphere",
-      "Calm Mind",
       "Draco Meteor",
+      "Dragon Pulse",
+      "Mystical Fire",
+      "Psychic",
       "Psyshock",
       "Roost",
+      "Tailwind",
       "Trick"
     ],
     "evs": {
@@ -4106,23 +4094,20 @@
     }
   },
   "Leafeon": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Chlorophyll"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
       "Life Orb",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
       "Double-Edge",
       "Knock Off",
       "Leaf Blade",
-      "Swords Dance",
-      "Synthesis",
-      "X-Scissor"
+      "Protect",
+      "Swords Dance"
     ]
   },
   "Lickilicky": {
@@ -4131,18 +4116,16 @@
       "Oblivious"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Slam",
-      "Earthquake",
       "Explosion",
-      "Heal Bell",
+      "Helping Hand",
+      "Icy Wind",
       "Knock Off",
-      "Protect",
-      "Swords Dance",
-      "Wish"
+      "Protect"
     ]
   },
   "Liepard": {
@@ -4151,33 +4134,28 @@
       "Prankster"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Copycat",
       "Encore",
-      "Knock Off",
-      "Play Rough",
-      "Thunder Wave",
-      "U-turn"
+      "Fake Out",
+      "Foul Play",
+      "Snarl",
+      "Taunt",
+      "Thunder Wave"
     ]
   },
   "Lilligant": {
-    "level": 88,
+    "level": 84,
     "abilities": [
-      "Chlorophyll",
-      "Own Tempo"
+      "Chlorophyll"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Giga Drain",
-      "Petal Dance",
+      "Energy Ball",
       "Pollen Puff",
       "Quiver Dance",
       "Sleep Powder"
@@ -4190,7 +4168,7 @@
     }
   },
   "Linoone": {
-    "level": 84,
+    "level": 90,
     "abilities": [
       "Gluttony"
     ],
@@ -4204,58 +4182,63 @@
     "moves": [
       "Belly Drum",
       "Extreme Speed",
-      "Stomping Tantrum",
+      "Protect",
       "Throat Chop"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Lopunny": {
-    "level": 88,
+    "level": 92,
     "abilities": [
-      "Limber"
+      "Klutz"
     ],
     "items": [
-      "Toxic Orb"
+      "Iron Ball"
     ],
     "moves": [
       "Close Combat",
-      "Facade",
-      "Healing Wish",
-      "Switcheroo"
+      "Fake Out",
+      "Switcheroo",
+      "U-turn"
     ]
   },
   "Lucario": {
     "level": 84,
     "abilities": [
-      "Justified"
+      "Inner Focus"
     ],
     "items": [
       "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
+      "Dark Pulse",
       "Extreme Speed",
       "Ice Punch",
       "Meteor Mash",
+      "Protect",
       "Swords Dance"
     ]
   },
   "Ludicolo": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Swift Swim"
     ],
     "items": [
-      "Choice Specs",
+      "Assault Vest",
       "Life Orb"
     ],
     "moves": [
-      "Giga Drain",
+      "Energy Ball",
+      "Fake Out",
       "Hydro Pump",
       "Ice Beam",
-      "Rain Dance",
-      "Scald"
+      "Rain Dance"
     ],
     "evs": {
       "atk": 0
@@ -4270,18 +4253,17 @@
       "Multiscale"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
       "Aeroblast",
       "Calm Mind",
-      "Earthquake",
       "Psyshock",
       "Roost",
-      "Substitute",
       "Toxic"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -4289,17 +4271,18 @@
     }
   },
   "Lunala": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "Shadow Shield"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
       "Moonblast",
       "Moongeist Beam",
+      "Protect",
       "Psyshock",
       "Roost"
     ],
@@ -4316,25 +4299,25 @@
       "Levitate"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Power Herb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Earth Power",
       "Ice Beam",
-      "Nasty Plot",
-      "Power Gem",
+      "Meteor Beam",
+      "Protect",
       "Psychic",
-      "Rock Polish",
-      "Stealth Rock"
+      "Trick Room"
     ],
     "evs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Lurantis": {
@@ -4343,71 +4326,67 @@
       "Contrary"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Defog",
       "Knock Off",
       "Leaf Storm",
-      "Superpower",
-      "Synthesis"
+      "Protect",
+      "Superpower"
     ]
   },
   "Luxray": {
-    "level": 88,
+    "level": 84,
     "abilities": [
-      "Guts",
       "Intimidate"
     ],
     "items": [
-      "Assault Vest",
-      "Flame Orb",
       "Life Orb"
     ],
     "moves": [
-      "Agility",
-      "Crunch",
-      "Facade",
+      "Play Rough",
+      "Protect",
       "Superpower",
       "Volt Switch",
       "Wild Charge"
     ]
   },
   "Lycanroc": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Sand Rush"
     ],
     "items": [
       "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Accelerock",
       "Close Combat",
-      "Psychic Fangs",
-      "Stone Edge",
+      "Drill Run",
+      "Protect",
+      "Rock Slide",
       "Swords Dance"
     ]
   },
   "Lycanroc-Dusk": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Tough Claws"
     ],
     "items": [
       "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Accelerock",
       "Close Combat",
-      "Psychic Fangs",
-      "Stone Edge",
+      "Drill Run",
+      "Protect",
+      "Rock Slide",
       "Swords Dance"
     ]
   },
@@ -4417,54 +4396,51 @@
       "No Guard"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
       "Iron Tail",
-      "Stealth Rock",
+      "Protect",
       "Stone Edge",
-      "Sucker Punch"
+      "Sucker Punch",
+      "Swords Dance"
     ]
   },
   "Machamp": {
-    "level": 84,
+    "level": 88,
     "abilities": [
-      "Guts",
-      "No Guard"
+      "Guts"
     ],
     "items": [
-      "Choice Band",
       "Flame Orb"
     ],
     "moves": [
       "Bullet Punch",
       "Close Combat",
-      "Dynamic Punch",
       "Facade",
       "Knock Off",
-      "Stone Edge"
+      "Protect"
     ]
   },
   "Magearna": {
-    "level": 76,
+    "level": 72,
     "abilities": [
       "Soul-Heart"
     ],
     "items": [
       "Choice Scarf",
-      "Choice Specs",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Agility",
-      "Calm Mind",
+      "Aura Sphere",
+      "Dazzling Gleam",
       "Flash Cannon",
       "Fleur Cannon",
-      "Focus Blast",
-      "Volt Switch"
+      "Protect",
+      "Trick"
     ],
     "evs": {
       "atk": 0
@@ -4474,22 +4450,22 @@
     }
   },
   "Magearna-Original": {
-    "level": 76,
+    "level": 72,
     "abilities": [
       "Soul-Heart"
     ],
     "items": [
       "Choice Scarf",
-      "Choice Specs",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Agility",
-      "Calm Mind",
+      "Aura Sphere",
+      "Dazzling Gleam",
       "Flash Cannon",
       "Fleur Cannon",
-      "Focus Blast",
-      "Volt Switch"
+      "Protect",
+      "Trick"
     ],
     "evs": {
       "atk": 0
@@ -4505,16 +4481,13 @@
       "Vital Spirit"
     ],
     "items": [
-      "Assault Vest",
-      "Focus Sash",
-      "Heavy-Duty Boots",
       "Life Orb"
     ],
     "moves": [
-      "Earthquake",
       "Fire Blast",
       "Focus Blast",
-      "Taunt",
+      "Heat Wave",
+      "Protect",
       "Thunderbolt"
     ],
     "evs": {
@@ -4525,18 +4498,20 @@
     }
   },
   "Magnezone": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Magnet Pull"
     ],
     "items": [
       "Assault Vest",
-      "Choice Scarf"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Ally Switch",
       "Body Press",
+      "Electroweb",
       "Flash Cannon",
-      "Mirror Coat",
+      "Protect",
       "Thunderbolt",
       "Volt Switch"
     ],
@@ -4548,59 +4523,50 @@
     }
   },
   "Malamar": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Contrary"
     ],
     "items": [
-      "Chesto Berry",
-      "Leftovers"
+      "Chesto Berry"
     ],
     "moves": [
       "Knock Off",
       "Psycho Cut",
       "Rest",
-      "Sleep Talk",
-      "Substitute",
       "Superpower"
     ]
   },
   "Mamoswine": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Thick Fat"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Focus Sash",
       "Life Orb"
     ],
     "moves": [
-      "Earthquake",
+      "High Horsepower",
       "Ice Shard",
       "Icicle Crash",
-      "Knock Off",
-      "Stealth Rock",
-      "Superpower"
+      "Protect",
+      "Rock Slide"
     ]
   },
   "Mandibuzz": {
-    "level": 80,
+    "level": 88,
     "abilities": [
       "Overcoat"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
       "Foul Play",
       "Roost",
-      "Taunt",
-      "Toxic",
-      "U-turn"
+      "Snarl",
+      "Tailwind",
+      "Taunt"
     ]
   },
   "Manectric": {
@@ -4609,13 +4575,14 @@
       "Lightning Rod"
     ],
     "items": [
-      "Choice Scarf",
-      "Choice Specs"
+      "Choice Specs",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Flamethrower",
       "Overheat",
-      "Switcheroo",
+      "Protect",
+      "Snarl",
       "Thunderbolt",
       "Volt Switch"
     ],
@@ -4627,21 +4594,20 @@
     }
   },
   "Mantine": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Water Absorb"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
+      "Haze",
+      "Helping Hand",
       "Hurricane",
-      "Ice Beam",
       "Roost",
       "Scald",
-      "Toxic"
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -4653,46 +4619,35 @@
   "Maractus": {
     "level": 88,
     "abilities": [
-      "Chlorophyll",
-      "Storm Drain",
-      "Water Absorb"
+      "Storm Drain"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Acupressure",
       "Drain Punch",
-      "Energy Ball",
-      "Leech Seed",
-      "Spikes",
+      "Helping Hand",
+      "Leaf Storm",
       "Spiky Shield",
-      "Toxic"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+      "Sucker Punch"
+    ]
   },
   "Marowak": {
     "level": 88,
     "abilities": [
-      "Battle Armor",
-      "Rock Head"
+      "Battle Armor"
     ],
     "items": [
       "Thick Club"
     ],
     "moves": [
       "Bonemerang",
-      "Double-Edge",
-      "Earthquake",
       "Knock Off",
+      "Protect",
       "Stealth Rock",
-      "Stone Edge",
-      "Substitute"
+      "Stone Edge"
     ]
   },
   "Marowak-Alola": {
@@ -4705,12 +4660,11 @@
       "Thick Club"
     ],
     "moves": [
-      "Earthquake",
+      "Bonemerang",
       "Flame Charge",
       "Flare Blitz",
-      "Shadow Bone",
-      "Stealth Rock",
-      "Stone Edge"
+      "Protect",
+      "Shadow Bone"
     ]
   },
   "Marshadow": {
@@ -4723,9 +4677,8 @@
       "Life Orb"
     ],
     "moves": [
-      "Bulk Up",
       "Close Combat",
-      "Ice Punch",
+      "Protect",
       "Rock Tomb",
       "Shadow Sneak",
       "Spectral Thief"
@@ -4734,17 +4687,16 @@
   "Mawile": {
     "level": 88,
     "abilities": [
-      "Intimidate",
-      "Sheer Force"
+      "Intimidate"
     ],
     "items": [
-      "Focus Sash",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Fire Fang",
       "Iron Head",
       "Play Rough",
-      "Stealth Rock",
+      "Protect",
       "Sucker Punch",
       "Swords Dance"
     ]
@@ -4755,32 +4707,32 @@
       "Iron Fist"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Acid Armor",
+      "Body Press",
       "Double Iron Bash",
-      "Earthquake",
-      "Substitute",
-      "Superpower",
-      "Thunder Punch"
+      "Protect",
+      "Thunder Punch",
+      "Thunder Wave"
     ]
   },
   "Meowstic": {
-    "level": 88,
+    "level": 84,
     "abilities": [
       "Prankster"
     ],
     "items": [
-      "Leftovers",
-      "Light Clay"
+      "Light Clay",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Fake Out",
       "Light Screen",
       "Psychic",
       "Reflect",
-      "Thunder Wave",
-      "Yawn"
+      "Thunder Wave"
     ],
     "evs": {
       "atk": 0
@@ -4792,16 +4744,14 @@
   "Meowstic-F": {
     "level": 88,
     "abilities": [
-      "Competitive",
-      "Infiltrator"
+      "Competitive"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Energy Ball",
+      "Fake Out",
       "Nasty Plot",
       "Psychic",
       "Shadow Ball",
@@ -4820,19 +4770,16 @@
       "Levitate"
     ],
     "items": [
-      "Choice Scarf",
-      "Choice Specs",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Energy Ball",
-      "Healing Wish",
-      "Ice Beam",
+      "Dazzling Gleam",
+      "Knock Off",
       "Nasty Plot",
       "Psychic",
-      "Stealth Rock",
       "Thunder Wave",
-      "U-turn"
+      "Thunderbolt"
     ],
     "evs": {
       "atk": 0
@@ -4842,44 +4789,49 @@
     }
   },
   "Metagross": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Clear Body"
     ],
     "items": [
+      "Assault Vest",
       "Choice Band",
       "Choice Scarf",
-      "Leftovers",
-      "Weakness Policy"
+      "Sitrus Berry"
     ],
     "moves": [
       "Agility",
       "Bullet Punch",
-      "Earthquake",
-      "Explosion",
+      "Ice Punch",
       "Meteor Mash",
-      "Stealth Rock",
-      "Thunder Punch"
+      "Stomping Tantrum",
+      "Trick",
+      "Zen Headbutt"
     ]
   },
   "Mew": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Synchronize"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Brave Bird",
-      "Close Combat",
-      "Dragon Dance",
-      "Flare Blitz",
-      "Psychic Fangs",
-      "Swords Dance"
-    ]
+      "Fake Out",
+      "Pollen Puff",
+      "Psychic",
+      "Stealth Rock",
+      "Tailwind",
+      "Toxic Spikes",
+      "Transform"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Mewtwo": {
     "level": 72,
@@ -4887,11 +4839,10 @@
       "Unnerve"
     ],
     "items": [
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Fire Blast",
+      "Aura Sphere",
       "Ice Beam",
       "Nasty Plot",
       "Psystrike",
@@ -4911,34 +4862,31 @@
     ],
     "items": [
       "Choice Band",
-      "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
       "Fake Out",
       "Knock Off",
       "Poison Jab",
-      "Swords Dance",
+      "Protect",
       "U-turn"
     ]
   },
   "Milotic": {
-    "level": 84,
+    "level": 80,
     "abilities": [
-      "Competitive",
-      "Marvel Scale"
+      "Competitive"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Haze",
-      "Ice Beam",
-      "Recover",
-      "Scald",
-      "Toxic"
+      "Coil",
+      "Hypnosis",
+      "Muddy Water",
+      "Recover"
     ],
     "evs": {
       "atk": 0
@@ -4955,70 +4903,71 @@
       "Thick Fat"
     ],
     "items": [
-      "Leftovers"
+      "Assault Vest",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Body Press",
       "Body Slam",
-      "Earthquake",
-      "Heal Bell",
+      "Helping Hand",
+      "Icy Wind",
       "Milk Drink",
-      "Stealth Rock",
-      "Toxic"
+      "Protect",
+      "Rock Slide"
     ]
   },
   "Mimikyu": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Disguise"
     ],
     "items": [
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Drain Punch",
       "Play Rough",
+      "Protect",
       "Shadow Claw",
       "Shadow Sneak",
       "Swords Dance"
     ]
   },
   "Moltres": {
-    "level": 80,
+    "level": 84,
     "abilities": [
-      "Flame Body",
-      "Pressure"
+      "Flame Body"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Air Slash",
-      "Defog",
+      "Brave Bird",
       "Fire Blast",
+      "Heat Wave",
+      "Protect",
       "Roost",
-      "U-turn"
+      "Tailwind"
     ],
     "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
+      "hp": 77
     }
   },
   "Moltres-Galar": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Berserk"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Fiery Wrath",
       "Hurricane",
       "Nasty Plot",
-      "Substitute"
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -5033,35 +4982,34 @@
       "Hunger Switch"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Aura Wheel",
-      "Foul Play",
+      "Fake Out",
       "Parting Shot",
       "Protect",
-      "Psychic Fangs",
-      "Rapid Spin"
+      "Rapid Spin",
+      "Super Fang"
     ]
   },
   "Mr. Mime": {
     "level": 88,
     "abilities": [
-      "Filter"
+      "Filter",
+      "Technician"
     ],
     "items": [
-      "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Light Clay",
+      "Sitrus Berry"
     ],
     "moves": [
       "Dazzling Gleam",
-      "Focus Blast",
-      "Healing Wish",
-      "Nasty Plot",
-      "Psychic"
+      "Fake Out",
+      "Icy Wind",
+      "Light Screen",
+      "Psychic",
+      "Reflect"
     ],
     "evs": {
       "atk": 0
@@ -5071,7 +5019,7 @@
     }
   },
   "Mr. Mime-Galar": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Screen Cleaner",
       "Vital Spirit"
@@ -5080,11 +5028,12 @@
       "Eviolite"
     ],
     "moves": [
+      "Fake Out",
       "Focus Blast",
       "Freeze-Dry",
       "Nasty Plot",
-      "Psychic",
-      "Rapid Spin"
+      "Protect",
+      "Psychic"
     ],
     "evs": {
       "atk": 0
@@ -5100,19 +5049,21 @@
       "Tangled Feet"
     ],
     "items": [
-      "Choice Scarf",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Assault Vest",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Fake Out",
       "Focus Blast",
       "Freeze-Dry",
+      "Icy Wind",
+      "Protect",
       "Psychic",
-      "Rapid Spin",
-      "Slack Off",
-      "Trick"
+      "Rapid Spin"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -5120,20 +5071,22 @@
     }
   },
   "Mudsdale": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Stamina"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers"
+      "Assault Vest",
+      "Chesto Berry",
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Press",
-      "Earthquake",
       "Heavy Slam",
-      "Rock Slide",
-      "Stealth Rock"
+      "High Horsepower",
+      "Protect",
+      "Rest",
+      "Rock Tomb"
     ]
   },
   "Musharna": {
@@ -5142,20 +5095,23 @@
       "Synchronize"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
+      "Helping Hand",
+      "Hypnosis",
       "Moonblast",
-      "Moonlight",
+      "Protect",
       "Psychic",
-      "Thunder Wave"
+      "Trick Room"
     ],
     "evs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Naganadel": {
@@ -5165,15 +5121,14 @@
     ],
     "items": [
       "Choice Specs",
-      "Focus Sash",
       "Life Orb"
     ],
     "moves": [
-      "Air Slash",
       "Draco Meteor",
       "Flamethrower",
       "Nasty Plot",
-      "Sludge Wave"
+      "Sludge Bomb",
+      "U-turn"
     ],
     "evs": {
       "atk": 0
@@ -5183,19 +5138,20 @@
     }
   },
   "Necrozma": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Prism Armor"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
+      "Earth Power",
       "Heat Wave",
       "Moonlight",
       "Photon Geyser",
-      "Stealth Rock"
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -5205,19 +5161,19 @@
     }
   },
   "Necrozma-Dawn-Wings": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "Prism Armor"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
       "Heat Wave",
       "Moongeist Beam",
       "Photon Geyser",
-      "Stealth Rock"
+      "Protect",
+      "Thunder Wave"
     ],
     "evs": {
       "atk": 0
@@ -5236,14 +5192,13 @@
     ],
     "moves": [
       "Dragon Dance",
-      "Earthquake",
-      "Morning Sun",
       "Photon Geyser",
+      "Protect",
       "Sunsteel Strike"
     ]
   },
   "Nidoking": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Sheer Force"
     ],
@@ -5252,9 +5207,10 @@
     ],
     "moves": [
       "Earth Power",
+      "Fire Blast",
       "Ice Beam",
-      "Sludge Wave",
-      "Substitute",
+      "Protect",
+      "Sludge Bomb",
       "Superpower"
     ],
     "evs": {
@@ -5275,9 +5231,9 @@
     "moves": [
       "Earth Power",
       "Ice Beam",
-      "Sludge Wave",
-      "Stealth Rock",
-      "Toxic Spikes"
+      "Protect",
+      "Sludge Bomb",
+      "Stealth Rock"
     ],
     "evs": {
       "atk": 0
@@ -5287,22 +5243,20 @@
     }
   },
   "Nihilego": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Beast Boost"
     ],
     "items": [
-      "Black Sludge",
-      "Choice Scarf",
-      "Choice Specs"
+      "Power Herb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Grass Knot",
-      "Power Gem",
-      "Sludge Wave",
-      "Stealth Rock",
-      "Thunderbolt",
-      "Toxic Spikes"
+      "Meteor Beam",
+      "Protect",
+      "Sludge Bomb",
+      "Thunderbolt"
     ],
     "evs": {
       "atk": 0
@@ -5317,19 +5271,18 @@
       "Drought"
     ],
     "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Fire Blast",
+      "Heat Wave",
       "Nasty Plot",
+      "Protect",
       "Scorching Sands",
-      "Solar Beam",
-      "Will-O-Wisp"
+      "Solar Beam"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -5337,14 +5290,11 @@
     }
   },
   "Ninetales-Alola": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Snow Warning"
     ],
     "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
       "Life Orb",
       "Light Clay"
     ],
@@ -5353,10 +5303,10 @@
       "Blizzard",
       "Encore",
       "Freeze-Dry",
-      "Moonblast",
-      "Nasty Plot"
+      "Moonblast"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -5364,34 +5314,34 @@
     }
   },
   "Ninjask": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Speed Boost"
     ],
     "moves": [
       "Acrobatics",
+      "Defog",
       "Leech Life",
-      "Swords Dance",
-      "U-turn"
+      "Protect",
+      "Swords Dance"
     ]
   },
   "Noctowl": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Tinted Lens"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Air Slash",
-      "Defog",
       "Heat Wave",
-      "Hurricane",
+      "Hyper Voice",
       "Nasty Plot",
-      "Roost"
+      "Roost",
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -5401,24 +5351,24 @@
     }
   },
   "Noivern": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Infiltrator"
     ],
     "items": [
       "Choice Specs",
-      "Heavy-Duty Boots",
       "Life Orb"
     ],
     "moves": [
-      "Defog",
+      "Boomburst",
       "Draco Meteor",
       "Flamethrower",
       "Hurricane",
-      "Roost",
-      "Switcheroo"
+      "Protect",
+      "Tailwind"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -5426,7 +5376,7 @@
     }
   },
   "Obstagoon": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Guts"
     ],
@@ -5434,29 +5384,29 @@
       "Flame Orb"
     ],
     "moves": [
-      "Bulk Up",
       "Close Combat",
       "Facade",
       "Knock Off",
-      "Parting Shot"
+      "Obstruct",
+      "Parting Shot",
+      "Taunt"
     ]
   },
   "Octillery": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Moody"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Life Orb"
+      "Leftovers"
     ],
     "moves": [
-      "Energy Ball",
       "Fire Blast",
       "Gunk Shot",
       "Hydro Pump",
-      "Ice Beam"
+      "Ice Beam",
+      "Protect",
+      "Substitute"
     ],
     "evs": {
       "atk": 0
@@ -5471,17 +5421,13 @@
       "Swift Swim"
     ],
     "items": [
-      "Leftovers",
-      "Life Orb",
       "White Herb"
     ],
     "moves": [
       "Earth Power",
-      "Hydro Pump",
       "Ice Beam",
-      "Shell Smash",
-      "Spikes",
-      "Stealth Rock"
+      "Muddy Water",
+      "Shell Smash"
     ],
     "evs": {
       "atk": 0
@@ -5491,18 +5437,19 @@
     }
   },
   "Oranguru": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Inner Focus"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Ally Switch",
       "Focus Blast",
-      "Nasty Plot",
+      "Instruct",
+      "Protect",
       "Psychic",
-      "Thunderbolt",
       "Trick Room"
     ],
     "evs": {
@@ -5517,21 +5464,21 @@
   "Orbeetle": {
     "level": 88,
     "abilities": [
-      "Frisk"
+      "Frisk",
+      "Swarm"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Light Clay",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Body Press",
-      "Bug Buzz",
-      "Calm Mind",
+      "Helping Hand",
+      "Hypnosis",
+      "Light Screen",
       "Psychic",
-      "Recover",
+      "Reflect",
       "Sticky Web",
-      "Stored Power",
-      "U-turn"
+      "Struggle Bug"
     ],
     "evs": {
       "atk": 0
@@ -5543,19 +5490,20 @@
   "Palkia": {
     "level": 74,
     "abilities": [
-      "Pressure"
+      "Telepathy"
     ],
     "items": [
       "Choice Scarf",
       "Choice Specs",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Draco Meteor",
       "Fire Blast",
       "Hydro Pump",
+      "Protect",
       "Spacial Rend",
-      "Thunder Wave"
+      "Thunder Wave",
+      "Thunderbolt"
     ],
     "evs": {
       "atk": 0
@@ -5571,15 +5519,15 @@
       "Water Compaction"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earth Power",
+      "Hypnosis",
+      "Protect",
       "Scorching Sands",
       "Shadow Ball",
       "Shore Up",
-      "Stealth Rock",
-      "Toxic"
+      "Stealth Rock"
     ],
     "evs": {
       "atk": 0
@@ -5589,24 +5537,27 @@
     }
   },
   "Pangoro": {
-    "level": 84,
+    "level": 88,
     "abilities": [
+      "Iron Fist",
       "Scrappy"
     ],
     "items": [
-      "Choice Band"
+      "Choice Band",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Bullet Punch",
       "Close Combat",
-      "Darkest Lariat",
+      "Drain Punch",
       "Gunk Shot",
       "Ice Punch",
       "Knock Off",
-      "Parting Shot"
+      "Protect"
     ]
   },
   "Passimian": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Defiant"
     ],
@@ -5616,7 +5567,6 @@
     ],
     "moves": [
       "Close Combat",
-      "Earthquake",
       "Gunk Shot",
       "Knock Off",
       "Rock Slide",
@@ -5629,16 +5579,15 @@
       "Drizzle"
     ],
     "items": [
-      "Choice Specs",
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
       "Hurricane",
       "Hydro Pump",
+      "Protect",
       "Roost",
-      "Scald",
-      "U-turn"
+      "Tailwind",
+      "Wide Guard"
     ],
     "evs": {
       "atk": 0
@@ -5655,80 +5604,75 @@
     ],
     "items": [
       "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
-      "Crunch",
       "Fake Out",
       "Iron Head",
+      "Lash Out",
+      "Protect",
       "U-turn"
     ]
   },
   "Persian": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Limber",
       "Technician"
     ],
     "items": [
-      "Choice Band",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Double-Edge",
       "Fake Out",
+      "Hypnosis",
+      "Icy Wind",
       "Knock Off",
-      "Play Rough",
-      "U-turn"
+      "Taunt"
     ]
   },
   "Persian-Alola": {
-    "level": 86,
+    "level": 88,
     "abilities": [
-      "Fur Coat"
+      "Fur Coat",
+      "Technician"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Dark Pulse",
-      "Hypnosis",
-      "Nasty Plot",
-      "Power Gem",
-      "Thunderbolt"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+      "Fake Out",
+      "Foul Play",
+      "Icy Wind",
+      "Parting Shot",
+      "Protect",
+      "Snarl",
+      "Taunt"
+    ]
   },
   "Pheromosa": {
-    "level": 76,
+    "level": 78,
     "abilities": [
       "Beast Boost"
     ],
     "items": [
       "Choice Band",
-      "Expert Belt",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
       "Ice Beam",
       "Poison Jab",
+      "Protect",
       "Throat Chop",
       "U-turn"
     ]
   },
   "Pikachu": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5736,15 +5680,17 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pikachu-Alola": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5752,15 +5698,17 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pikachu-Hoenn": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5768,15 +5716,17 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pikachu-Kalos": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5784,15 +5734,17 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pikachu-Original": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5800,15 +5752,17 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pikachu-Partner": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5816,15 +5770,17 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pikachu-Sinnoh": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5832,15 +5788,17 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pikachu-Unova": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5848,15 +5806,17 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pikachu-World": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Lightning Rod"
     ],
@@ -5864,28 +5824,29 @@
       "Light Ball"
     ],
     "moves": [
-      "Iron Tail",
+      "Extreme Speed",
+      "Fake Out",
+      "Grass Knot",
       "Knock Off",
+      "Protect",
       "Surf",
-      "Volt Switch",
       "Volt Tackle"
     ]
   },
   "Pincurchin": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Electric Surge"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Acupressure",
+      "Protect",
       "Rising Voltage",
       "Scald",
-      "Spikes",
-      "Sucker Punch",
-      "Toxic Spikes"
+      "Sucker Punch"
     ],
     "evs": {
       "atk": 0
@@ -5901,18 +5862,15 @@
       "Moxie"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
-      "Earthquake",
-      "Knock Off",
-      "Stealth Rock",
-      "Stone Edge",
+      "Feint",
+      "Protect",
+      "Rock Slide",
+      "Swords Dance",
       "X-Scissor"
     ]
   },
@@ -5922,16 +5880,15 @@
       "Drizzle"
     ],
     "items": [
-      "Chesto Berry",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Encore",
-      "Ice Beam",
-      "Protect",
-      "Rest",
-      "Scald",
-      "Toxic"
+      "Earth Power",
+      "Haze",
+      "Helping Hand",
+      "Icy Wind",
+      "Muddy Water",
+      "Protect"
     ],
     "evs": {
       "atk": 0
@@ -5941,22 +5898,26 @@
     }
   },
   "Poliwrath": {
-    "level": 86,
+    "level": 88,
     "abilities": [
-      "Swift Swim"
+      "Water Absorb"
     ],
     "items": [
-      "Life Orb"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
+      "Coaching",
       "Darkest Lariat",
+      "Helping Hand",
+      "Icy Wind",
       "Liquidation",
-      "Rain Dance"
+      "Protect"
     ]
   },
   "Polteageist": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Cursed Body"
     ],
@@ -5965,10 +5926,10 @@
     ],
     "moves": [
       "Giga Drain",
+      "Protect",
       "Shadow Ball",
       "Shell Smash",
-      "Stored Power",
-      "Strength Sap"
+      "Stored Power"
     ],
     "evs": {
       "atk": 0
@@ -5978,21 +5939,19 @@
     }
   },
   "Porygon-Z": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Adaptability",
       "Download"
     ],
     "items": [
       "Choice Scarf",
-      "Focus Sash",
-      "Leftovers",
       "Life Orb"
     ],
     "moves": [
-      "Agility",
       "Dark Pulse",
-      "Nasty Plot",
+      "Ice Beam",
+      "Protect",
       "Thunderbolt",
       "Tri Attack",
       "Trick"
@@ -6005,7 +5964,7 @@
     }
   },
   "Porygon2": {
-    "level": 86,
+    "level": 82,
     "abilities": [
       "Download",
       "Trace"
@@ -6014,9 +5973,10 @@
       "Eviolite"
     ],
     "moves": [
-      "Discharge",
       "Ice Beam",
+      "Protect",
       "Recover",
+      "Thunderbolt",
       "Toxic",
       "Tri Attack"
     ],
@@ -6030,18 +5990,20 @@
   "Primarina": {
     "level": 82,
     "abilities": [
-      "Torrent"
+      "Liquid Voice"
     ],
     "items": [
       "Choice Scarf",
-      "Choice Specs"
+      "Choice Specs",
+      "Life Orb"
     ],
     "moves": [
-      "Energy Ball",
-      "Hydro Pump",
+      "Dazzling Gleam",
+      "Flip Turn",
+      "Hyper Voice",
       "Moonblast",
-      "Psychic",
-      "Sparkling Aria"
+      "Protect",
+      "Psychic"
     ],
     "evs": {
       "atk": 0
@@ -6051,18 +6013,18 @@
     }
   },
   "Pyukumuku": {
-    "level": 88,
+    "level": 100,
     "abilities": [
       "Unaware"
     ],
     "items": [
-      "Leftovers"
+      "Light Clay"
     ],
     "moves": [
-      "Counter",
-      "Mirror Coat",
-      "Recover",
-      "Toxic"
+      "Helping Hand",
+      "Light Screen",
+      "Memento",
+      "Reflect"
     ],
     "evs": {
       "atk": 0
@@ -6077,12 +6039,11 @@
       "Unaware"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
-      "Encore",
-      "Ice Beam",
+      "High Horsepower",
+      "Protect",
       "Recover",
       "Scald",
       "Toxic"
@@ -6094,16 +6055,15 @@
       "Intimidate"
     ],
     "items": [
-      "Black Sludge",
-      "Focus Sash"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Destiny Bond",
-      "Spikes",
+      "Liquidation",
+      "Poison Jab",
+      "Protect",
       "Taunt",
       "Thunder Wave",
-      "Toxic Spikes",
-      "Waterfall"
+      "Toxic Spikes"
     ]
   },
   "Raichu": {
@@ -6112,16 +6072,16 @@
       "Lightning Rod"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Encore",
-      "Focus Blast",
+      "Fake Out",
       "Grass Knot",
-      "Nasty Plot",
+      "Helping Hand",
+      "Nuzzle",
+      "Protect",
       "Thunderbolt",
       "Volt Switch"
     ],
@@ -6133,18 +6093,16 @@
     }
   },
   "Raichu-Alola": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Surge Surfer"
     ],
     "items": [
       "Choice Specs",
-      "Focus Sash",
       "Life Orb"
     ],
     "moves": [
       "Focus Blast",
-      "Grass Knot",
       "Nasty Plot",
       "Psyshock",
       "Thunderbolt",
@@ -6163,15 +6121,17 @@
       "Pressure"
     ],
     "items": [
+      "Assault Vest",
       "Choice Specs",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Aura Sphere",
       "Calm Mind",
+      "Protect",
       "Scald",
-      "Substitute",
+      "Snarl",
       "Thunderbolt",
       "Volt Switch"
     ],
@@ -6183,22 +6143,21 @@
     }
   },
   "Rapidash": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Flash Fire"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Flare Blitz",
       "High Horsepower",
       "Morning Sun",
+      "Protect",
       "Swords Dance",
-      "Wild Charge",
-      "Will-O-Wisp"
+      "Wild Charge"
     ]
   },
   "Rapidash-Galar": {
@@ -6207,14 +6166,13 @@
       "Pastel Veil"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "High Horsepower",
-      "Morning Sun",
       "Play Rough",
+      "Protect",
       "Swords Dance",
       "Zen Headbutt"
     ]
@@ -6226,33 +6184,33 @@
     ],
     "items": [
       "Assault Vest",
-      "Heavy-Duty Boots",
-      "Lum Berry"
+      "Choice Band",
+      "Sitrus Berry"
     ],
     "moves": [
       "Draco Meteor",
       "Dragon Ascent",
+      "Dragon Claw",
+      "Dragon Dance",
+      "Earth Power",
       "Extreme Speed",
-      "Swords Dance",
       "V-create"
     ]
   },
   "Regice": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Clear Body"
     ],
     "items": [
-      "Chesto Berry",
-      "Leftovers",
+      "Assault Vest",
       "Weakness Policy"
     ],
     "moves": [
       "Focus Blast",
       "Ice Beam",
-      "Rest",
+      "Icy Wind",
       "Rock Polish",
-      "Sleep Talk",
       "Thunderbolt"
     ],
     "evs": {
@@ -6264,88 +6222,35 @@
     }
   },
   "Regidrago": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Dragon's Maw"
     ],
     "items": [
-      "Assault Vest",
-      "Lum Berry"
+      "Choice Scarf"
     ],
     "moves": [
-      "Draco Meteor",
-      "Dragon Dance",
-      "Hammer Arm",
-      "Outrage",
-      "Thunder Fang"
+      "Crunch",
+      "Dragon Claw",
+      "Dragon Energy",
+      "Fire Fang"
     ]
   },
   "Regieleki": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Transistor"
     ],
     "items": [
-      "Normal Gem"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Explosion",
-      "Substitute",
-      "Thunderbolt",
+      "Eerie Impulse",
+      "Extreme Speed",
+      "Protect",
+      "Thunder Cage",
       "Volt Switch"
-    ]
-  },
-  "Regigigas": {
-    "level": 84,
-    "abilities": [
-      "Slow Start"
-    ],
-    "items": [
-      "Leftovers"
-    ],
-    "moves": [
-      "Body Slam",
-      "Protect",
-      "Substitute",
-      "Toxic"
-    ]
-  },
-  "Regirock": {
-    "level": 86,
-    "abilities": [
-      "Sturdy"
-    ],
-    "items": [
-      "Chesto Berry",
-      "Choice Band",
-      "Leftovers"
-    ],
-    "moves": [
-      "Body Press",
-      "Curse",
-      "Earthquake",
-      "Explosion",
-      "Rest",
-      "Rock Slide",
-      "Stone Edge"
-    ]
-  },
-  "Registeel": {
-    "level": 84,
-    "abilities": [
-      "Clear Body"
-    ],
-    "items": [
-      "Chesto Berry",
-      "Leftovers"
-    ],
-    "moves": [
-      "Protect",
-      "Rest",
-      "Seismic Toss",
-      "Sleep Talk",
-      "Stealth Rock",
-      "Toxic"
     ],
     "evs": {
       "atk": 0
@@ -6354,18 +6259,63 @@
       "atk": 0
     }
   },
+  "Regigigas": {
+    "level": 88,
+    "abilities": [
+      "Slow Start"
+    ],
+    "items": [
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Body Slam",
+      "Knock Off",
+      "Protect",
+      "Thunder Wave"
+    ]
+  },
+  "Regirock": {
+    "level": 86,
+    "abilities": [
+      "Sturdy"
+    ],
+    "items": [
+      "Chesto Berry"
+    ],
+    "moves": [
+      "Body Press",
+      "Curse",
+      "Rest",
+      "Rock Slide"
+    ]
+  },
+  "Registeel": {
+    "level": 86,
+    "abilities": [
+      "Clear Body"
+    ],
+    "items": [
+      "Chesto Berry",
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Body Press",
+      "Curse",
+      "Iron Head",
+      "Rest",
+      "Toxic"
+    ]
+  },
   "Relicanth": {
     "level": 88,
     "abilities": [
       "Rock Head"
     ],
     "items": [
-      "Choice Band",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Press",
-      "Earthquake",
       "Head Smash",
       "Liquidation",
       "Stealth Rock",
@@ -6373,25 +6323,22 @@
     ]
   },
   "Reshiram": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "Turboblaze"
     ],
     "items": [
-      "Assault Vest",
       "Choice Scarf",
       "Choice Specs",
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Blue Flare",
-      "Defog",
       "Draco Meteor",
-      "Dragon Pulse",
       "Earth Power",
+      "Heat Wave",
       "Roost",
-      "Stone Edge"
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -6409,10 +6356,9 @@
       "Life Orb"
     ],
     "moves": [
-      "Calm Mind",
       "Focus Blast",
+      "Protect",
       "Psychic",
-      "Recover",
       "Shadow Ball",
       "Trick Room"
     ],
@@ -6432,36 +6378,33 @@
     ],
     "items": [
       "Choice Band",
-      "Leftovers",
-      "Weakness Policy"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
-      "Fire Punch",
+      "High Horsepower",
+      "Ice Punch",
       "Megahorn",
-      "Rock Blast",
-      "Rock Polish",
-      "Stealth Rock",
+      "Protect",
+      "Rock Slide",
       "Stone Edge"
     ]
   },
   "Ribombee": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Shield Dust",
       "Sweet Veil"
     ],
     "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Helping Hand",
       "Moonblast",
-      "Psychic",
+      "Pollen Puff",
+      "Speed Swap",
       "Sticky Web",
-      "Stun Spore",
-      "U-turn"
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -6476,37 +6419,34 @@
       "Grassy Surge"
     ],
     "items": [
+      "Assault Vest",
       "Choice Band",
-      "Choice Scarf",
-      "Grassy Seed",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Acrobatics",
+      "Fake Out",
       "Grassy Glide",
       "High Horsepower",
-      "Knock Off",
-      "Swords Dance",
+      "Protect",
       "U-turn",
       "Wood Hammer"
     ]
   },
   "Roserade": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Natural Cure"
     ],
     "items": [
-      "Black Sludge",
-      "Focus Sash"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Energy Ball",
       "Leaf Storm",
+      "Protect",
       "Sleep Powder",
-      "Sludge Bomb",
-      "Spikes",
-      "Synthesis",
-      "Toxic Spikes"
+      "Sludge Bomb"
     ],
     "evs": {
       "atk": 0
@@ -6516,17 +6456,18 @@
     }
   },
   "Rotom": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Nasty Plot",
+      "Ally Switch",
+      "Electroweb",
+      "Protect",
       "Shadow Ball",
       "Thunderbolt",
       "Volt Switch",
@@ -6540,20 +6481,18 @@
     }
   },
   "Rotom-Fan": {
-    "level": 88,
+    "level": 84,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Air Slash",
       "Nasty Plot",
-      "Thunderbolt",
-      "Volt Switch",
-      "Will-O-Wisp"
+      "Protect",
+      "Thunderbolt"
     ],
     "evs": {
       "atk": 0
@@ -6568,14 +6507,14 @@
       "Levitate"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Blunder Policy",
+      "Sitrus Berry"
     ],
     "moves": [
       "Blizzard",
       "Nasty Plot",
+      "Protect",
       "Thunderbolt",
-      "Volt Switch",
       "Will-O-Wisp"
     ],
     "evs": {
@@ -6586,18 +6525,18 @@
     }
   },
   "Rotom-Heat": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
-      "Nasty Plot",
+      "Electroweb",
       "Overheat",
+      "Protect",
       "Thunderbolt",
       "Volt Switch",
       "Will-O-Wisp"
@@ -6610,18 +6549,19 @@
     }
   },
   "Rotom-Mow": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Choice Scarf",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Electroweb",
       "Leaf Storm",
+      "Protect",
       "Thunderbolt",
-      "Trick",
       "Volt Switch",
       "Will-O-Wisp"
     ],
@@ -6633,18 +6573,20 @@
     }
   },
   "Rotom-Wash": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Choice Scarf",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Ally Switch",
       "Hydro Pump",
+      "Protect",
+      "Thunder Wave",
       "Thunderbolt",
-      "Trick",
       "Volt Switch",
       "Will-O-Wisp"
     ],
@@ -6661,66 +6603,73 @@
       "Wandering Spirit"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Ally Switch",
       "Earthquake",
-      "Haze",
       "Poltergeist",
-      "Stealth Rock",
-      "Toxic Spikes",
+      "Protect",
+      "Trick Room",
       "Will-O-Wisp"
-    ]
+    ],
+    "evs": {
+      "spe": 0
+    },
+    "ivs": {
+      "spe": 0
+    }
   },
   "Sableye": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Prankster"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Disable",
+      "Encore",
+      "Fake Out",
+      "Foul Play",
       "Knock Off",
+      "Quash",
       "Recover",
-      "Taunt",
-      "Toxic",
       "Will-O-Wisp"
     ]
   },
   "Salamence": {
     "level": 82,
     "abilities": [
-      "Intimidate",
-      "Moxie"
+      "Intimidate"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Life Orb",
-      "Lum Berry"
+      "Life Orb"
     ],
     "moves": [
-      "Defog",
-      "Dragon Dance",
-      "Earthquake",
+      "Dragon Claw",
+      "Fire Blast",
       "Hurricane",
-      "Outrage",
-      "Roost"
+      "Protect",
+      "Tailwind"
     ]
   },
   "Salazzle": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Corrosion"
     ],
     "items": [
-      "Black Sludge"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Flamethrower",
+      "Encore",
+      "Fake Out",
+      "Fire Blast",
+      "Nasty Plot",
       "Protect",
-      "Substitute",
-      "Toxic"
+      "Sludge Bomb"
     ],
     "evs": {
       "atk": 0
@@ -6730,19 +6679,18 @@
     }
   },
   "Sandaconda": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Shed Skin"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Coil",
-      "Earthquake",
       "Glare",
-      "Rest",
-      "Stealth Rock",
+      "High Horsepower",
+      "Protect",
       "Stone Edge"
     ]
   },
@@ -6752,41 +6700,37 @@
       "Sand Rush"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Drill Run",
       "Knock Off",
-      "Rapid Spin",
+      "Protect",
       "Stealth Rock",
-      "Swords Dance",
-      "Toxic"
+      "Stone Edge",
+      "Swords Dance"
     ]
   },
   "Sandslash-Alola": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Slush Rush"
     ],
     "items": [
-      "Assault Vest",
-      "Choice Band",
-      "Choice Scarf",
       "Life Orb",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Drill Run",
       "Iron Head",
-      "Knock Off",
-      "Rapid Spin",
+      "Protect",
       "Swords Dance",
       "Triple Axel"
     ]
   },
   "Sawk": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Mold Breaker",
       "Sturdy"
@@ -6794,107 +6738,108 @@
     "items": [
       "Choice Band",
       "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Bulk Up",
       "Close Combat",
+      "Helping Hand",
       "Knock Off",
       "Poison Jab",
-      "Stone Edge"
+      "Protect",
+      "Rock Slide"
     ]
   },
   "Sceptile": {
-    "level": 86,
+    "level": 88,
     "abilities": [
-      "Overgrow"
+      "Unburden"
     ],
     "items": [
-      "Focus Sash",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Breaking Swipe",
+      "Dragon Pulse",
       "Focus Blast",
-      "Giga Drain",
       "Leaf Storm",
-      "Leech Seed"
-    ]
+      "Protect"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Scizor": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Technician"
     ],
     "items": [
       "Choice Band",
-      "Leftovers"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Bug Bite",
       "Bullet Punch",
       "Dual Wingbeat",
-      "Knock Off",
-      "Roost",
+      "Feint",
+      "Protect",
       "Superpower",
       "Swords Dance",
       "U-turn"
     ]
   },
   "Scolipede": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Speed Boost"
     ],
     "items": [
-      "Black Sludge",
-      "Focus Sash",
-      "Heavy-Duty Boots",
       "Life Orb"
     ],
     "moves": [
-      "Earthquake",
       "Megahorn",
       "Poison Jab",
       "Protect",
-      "Spikes",
-      "Swords Dance",
-      "Toxic Spikes"
+      "Rock Slide",
+      "Superpower",
+      "Swords Dance"
     ]
   },
   "Scrafty": {
     "level": 84,
     "abilities": [
-      "Intimidate",
-      "Moxie"
+      "Intimidate"
     ],
     "items": [
-      "Choice Band",
-      "Lum Berry"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
-      "Dragon Dance",
+      "Coaching",
+      "Drain Punch",
+      "Fake Out",
       "Ice Punch",
-      "Knock Off",
-      "Poison Jab"
+      "Knock Off"
     ]
   },
   "Scyther": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Technician"
     ],
     "items": [
-      "Eviolite",
-      "Heavy-Duty Boots"
+      "Choice Band"
     ],
     "moves": [
       "Brick Break",
+      "Bug Bite",
       "Dual Wingbeat",
-      "Knock Off",
-      "Roost",
-      "Swords Dance",
       "U-turn"
     ]
   },
@@ -6905,20 +6850,21 @@
       "Swift Swim"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Drill Run",
       "Knock Off",
       "Megahorn",
+      "Protect",
+      "Scale Shot",
       "Swords Dance",
       "Waterfall"
     ]
   },
   "Seismitoad": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Swift Swim",
       "Water Absorb"
@@ -6927,63 +6873,12 @@
       "Life Orb"
     ],
     "moves": [
-      "Earthquake",
-      "Liquidation",
-      "Rain Dance",
-      "Sludge Bomb",
-      "Stealth Rock"
-    ]
-  },
-  "Sharpedo": {
-    "level": 82,
-    "abilities": [
-      "Speed Boost"
-    ],
-    "items": [
-      "Life Orb"
-    ],
-    "moves": [
-      "Close Combat",
-      "Crunch",
-      "Destiny Bond",
-      "Hydro Pump",
-      "Protect"
-    ]
-  },
-  "Shedinja": {
-    "level": 88,
-    "abilities": [
-      "Wonder Guard"
-    ],
-    "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots"
-    ],
-    "moves": [
-      "Poltergeist",
-      "Shadow Sneak",
-      "Swords Dance",
-      "Will-O-Wisp",
-      "X-Scissor"
-    ]
-  },
-  "Shiftry": {
-    "level": 84,
-    "abilities": [
-      "Chlorophyll",
-      "Early Bird"
-    ],
-    "items": [
-      "Focus Sash",
-      "Life Orb"
-    ],
-    "moves": [
-      "Dark Pulse",
-      "Defog",
-      "Heat Wave",
-      "Leaf Storm",
-      "Nasty Plot",
-      "Sucker Punch"
+      "Earth Power",
+      "Knock Off",
+      "Muddy Water",
+      "Power Whip",
+      "Protect",
+      "Rain Dance"
     ],
     "evs": {
       "atk": 0
@@ -6992,19 +6887,73 @@
       "atk": 0
     }
   },
+  "Sharpedo": {
+    "level": 84,
+    "abilities": [
+      "Speed Boost"
+    ],
+    "items": [
+      "Choice Band",
+      "Life Orb"
+    ],
+    "moves": [
+      "Close Combat",
+      "Crunch",
+      "Flip Turn",
+      "Ice Beam",
+      "Protect",
+      "Waterfall"
+    ]
+  },
+  "Shedinja": {
+    "level": 88,
+    "abilities": [
+      "Wonder Guard"
+    ],
+    "items": [
+      "Focus Sash"
+    ],
+    "moves": [
+      "Ally Switch",
+      "Poltergeist",
+      "Protect",
+      "Shadow Sneak",
+      "Swords Dance",
+      "Will-O-Wisp",
+      "X-Scissor"
+    ]
+  },
+  "Shiftry": {
+    "level": 88,
+    "abilities": [
+      "Chlorophyll",
+      "Pickpocket"
+    ],
+    "items": [
+      "Life Orb",
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Fake Out",
+      "Knock Off",
+      "Leaf Blade",
+      "Sucker Punch",
+      "Swords Dance",
+      "Tailwind"
+    ]
+  },
   "Shiinotic": {
     "level": 88,
     "abilities": [
       "Effect Spore"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Energy Ball",
-      "Leech Seed",
       "Moonblast",
+      "Protect",
       "Spore",
       "Strength Sap"
     ],
@@ -7016,17 +6965,19 @@
     }
   },
   "Shuckle": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Sturdy"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Mental Herb"
+      "Mental Herb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Encore",
+      "Acupressure",
+      "Guard Split",
+      "Helping Hand",
+      "Infestation",
       "Knock Off",
       "Stealth Rock",
       "Sticky Web",
@@ -7040,21 +6991,19 @@
     }
   },
   "Sigilyph": {
-    "level": 84,
+    "level": 86,
     "abilities": [
-      "Magic Guard",
-      "Tinted Lens"
+      "Magic Guard"
     ],
     "items": [
-      "Choice Specs",
       "Life Orb"
     ],
     "moves": [
       "Air Slash",
-      "Defog",
-      "Energy Ball",
       "Heat Wave",
-      "Psychic"
+      "Protect",
+      "Psychic",
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -7064,24 +7013,21 @@
     }
   },
   "Silvally": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "RKS System"
     ],
     "items": [
       "Assault Vest",
-      "Choice Band",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Crunch",
       "Explosion",
-      "Flame Charge",
       "Flamethrower",
       "Multi-Attack",
-      "Swords Dance",
-      "U-turn"
+      "Protect",
+      "Tailwind"
     ]
   },
   "Silvally-Bug": {
@@ -7095,13 +7041,13 @@
     "moves": [
       "Flamethrower",
       "Multi-Attack",
-      "Parting Shot",
       "Psychic Fangs",
-      "Thunderbolt"
+      "Tailwind",
+      "U-turn"
     ]
   },
   "Silvally-Dark": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7111,13 +7057,13 @@
     "moves": [
       "Iron Head",
       "Multi-Attack",
-      "Parting Shot",
       "Psychic Fangs",
-      "Swords Dance"
+      "Swords Dance",
+      "Tailwind"
     ]
   },
   "Silvally-Dragon": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "RKS System"
     ],
@@ -7128,8 +7074,8 @@
       "Fire Fang",
       "Iron Head",
       "Multi-Attack",
-      "Parting Shot",
-      "Swords Dance"
+      "Swords Dance",
+      "Tailwind"
     ]
   },
   "Silvally-Electric": {
@@ -7142,14 +7088,14 @@
     ],
     "moves": [
       "Flamethrower",
+      "Grass Pledge",
       "Ice Beam",
       "Multi-Attack",
-      "Parting Shot",
-      "Toxic"
+      "Tailwind"
     ]
   },
   "Silvally-Fairy": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "RKS System"
     ],
@@ -7157,10 +7103,10 @@
       "Fairy Memory"
     ],
     "moves": [
-      "Fire Fang",
+      "Flamethrower",
       "Multi-Attack",
-      "Psychic Fangs",
-      "Swords Dance"
+      "Parting Shot",
+      "Tailwind"
     ]
   },
   "Silvally-Fighting": {
@@ -7173,10 +7119,10 @@
     ],
     "moves": [
       "Crunch",
-      "Iron Head",
       "Multi-Attack",
+      "Rock Slide",
       "Swords Dance",
-      "U-turn"
+      "Tailwind"
     ]
   },
   "Silvally-Fire": {
@@ -7188,11 +7134,18 @@
       "Fire Memory"
     ],
     "moves": [
-      "Crunch",
-      "Iron Head",
+      "Heat Wave",
+      "Ice Beam",
       "Multi-Attack",
-      "Swords Dance"
-    ]
+      "Tailwind",
+      "Thunderbolt"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Silvally-Flying": {
     "level": 86,
@@ -7206,15 +7159,15 @@
       "Fire Fang",
       "Iron Head",
       "Multi-Attack",
-      "Rock Slide",
-      "Swords Dance"
+      "Swords Dance",
+      "Tailwind"
     ],
     "evs": {
       "hp": 81
     }
   },
   "Silvally-Ghost": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "RKS System"
     ],
@@ -7223,8 +7176,8 @@
     ],
     "moves": [
       "Multi-Attack",
-      "Parting Shot",
       "Swords Dance",
+      "Tailwind",
       "X-Scissor"
     ]
   },
@@ -7237,11 +7190,11 @@
       "Grass Memory"
     ],
     "moves": [
-      "Defog",
       "Flamethrower",
       "Ice Beam",
       "Multi-Attack",
-      "Parting Shot"
+      "Parting Shot",
+      "Tailwind"
     ]
   },
   "Silvally-Ground": {
@@ -7253,12 +7206,10 @@
       "Ground Memory"
     ],
     "moves": [
-      "Defog",
-      "Flamethrower",
-      "Ice Beam",
       "Multi-Attack",
-      "Parting Shot",
-      "Toxic"
+      "Rock Slide",
+      "Swords Dance",
+      "Tailwind"
     ]
   },
   "Silvally-Ice": {
@@ -7270,10 +7221,11 @@
       "Ice Memory"
     ],
     "moves": [
-      "Fire Fang",
+      "Flamethrower",
       "Multi-Attack",
-      "Psychic Fangs",
-      "Swords Dance"
+      "Parting Shot",
+      "Tailwind",
+      "Thunderbolt"
     ]
   },
   "Silvally-Poison": {
@@ -7285,12 +7237,12 @@
       "Poison Memory"
     ],
     "moves": [
-      "Defog",
       "Flamethrower",
       "Grass Pledge",
       "Multi-Attack",
       "Parting Shot",
-      "Toxic"
+      "Snarl",
+      "Tailwind"
     ]
   },
   "Silvally-Psychic": {
@@ -7302,10 +7254,11 @@
       "Psychic Memory"
     ],
     "moves": [
-      "Crunch",
+      "Flamethrower",
       "Multi-Attack",
-      "Swords Dance",
-      "U-turn"
+      "Parting Shot",
+      "Tailwind",
+      "X-Scissor"
     ]
   },
   "Silvally-Rock": {
@@ -7317,15 +7270,15 @@
       "Rock Memory"
     ],
     "moves": [
-      "Fire Fang",
+      "Flamethrower",
       "Multi-Attack",
       "Parting Shot",
       "Psychic Fangs",
-      "Swords Dance"
+      "Tailwind"
     ]
   },
   "Silvally-Steel": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "RKS System"
     ],
@@ -7333,12 +7286,11 @@
       "Steel Memory"
     ],
     "moves": [
-      "Defog",
       "Flamethrower",
       "Multi-Attack",
       "Parting Shot",
-      "Thunderbolt",
-      "Toxic"
+      "Tailwind",
+      "Thunderbolt"
     ]
   },
   "Silvally-Water": {
@@ -7350,12 +7302,11 @@
       "Water Memory"
     ],
     "moves": [
-      "Defog",
       "Ice Beam",
       "Multi-Attack",
       "Parting Shot",
-      "Thunderbolt",
-      "Toxic"
+      "Tailwind",
+      "Thunderbolt"
     ]
   },
   "Sirfetch’d": {
@@ -7365,96 +7316,103 @@
     ],
     "items": [
       "Choice Band",
-      "Life Orb"
+      "Choice Scarf",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Brave Bird",
       "Close Combat",
       "First Impression",
       "Knock Off",
+      "Poison Jab",
+      "Protect",
       "Swords Dance"
     ]
   },
   "Skarmory": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Sturdy"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Press",
       "Brave Bird",
-      "Roost",
-      "Spikes",
-      "Stealth Rock",
-      "Whirlwind"
+      "Iron Defense",
+      "Roost"
     ]
   },
   "Skuntank": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Aftermath"
     ],
     "items": [
-      "Black Sludge",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Crunch",
-      "Defog",
       "Fire Blast",
+      "Haze",
       "Poison Jab",
       "Sucker Punch",
-      "Toxic"
+      "Taunt"
     ]
   },
   "Slowbro": {
-    "level": 80,
+    "level": 84,
     "abilities": [
       "Regenerator"
     ],
     "items": [
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
+      "Fire Blast",
       "Ice Beam",
-      "Psyshock",
+      "Psychic",
       "Scald",
       "Slack Off",
-      "Teleport"
+      "Trick Room"
     ],
     "evs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Slowbro-Galar": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Regenerator"
     ],
     "items": [
-      "Choice Specs",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Flamethrower",
+      "Fire Blast",
+      "Heal Pulse",
+      "Protect",
       "Psychic",
       "Shell Side Arm",
-      "Trick",
       "Trick Room"
     ],
     "evs": {
-      "spe": 0
+      "spe": 0,
+      "atk": 0
     },
     "ivs": {
-      "spe": 0
+      "spe": 0,
+      "atk": 0
     }
   },
   "Slowking": {
@@ -7463,40 +7421,41 @@
       "Regenerator"
     ],
     "items": [
-      "Choice Specs",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Fire Blast",
-      "Future Sight",
-      "Psyshock",
+      "Ice Beam",
+      "Nasty Plot",
+      "Psychic",
       "Scald",
       "Slack Off",
-      "Teleport",
-      "Toxic",
-      "Trick"
+      "Trick Room"
     ],
     "evs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Slowking-Galar": {
-    "level": 82,
+    "level": 86,
     "abilities": [
+      "Curious Medicine",
       "Regenerator"
     ],
     "items": [
-      "Black Sludge",
       "Choice Specs",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Eerie Spell",
       "Fire Blast",
-      "Psyshock",
-      "Slack Off",
+      "Protect",
       "Sludge Bomb",
       "Trick",
       "Trick Room"
@@ -7519,50 +7478,51 @@
       "Sitrus Berry"
     ],
     "moves": [
-      "Belly Drum",
-      "Drain Punch",
-      "Facade",
-      "Play Rough"
-    ],
-    "evs": {
-      "hp": 81
-    }
+      "Fake Tears",
+      "Flamethrower",
+      "Helping Hand",
+      "Play Rough",
+      "Sticky Web"
+    ]
   },
   "Snorlax": {
     "level": 84,
     "abilities": [
+      "Gluttony",
       "Thick Fat"
     ],
     "items": [
-      "Chesto Berry",
-      "Choice Band",
-      "Leftovers"
+      "Aguav Berry",
+      "Figy Berry",
+      "Iapapa Berry",
+      "Mago Berry",
+      "Sitrus Berry",
+      "Wiki Berry"
     ],
     "moves": [
       "Body Slam",
       "Curse",
       "Darkest Lariat",
-      "Double-Edge",
-      "Earthquake",
-      "Facade",
-      "Heat Crash",
-      "Rest"
+      "High Horsepower",
+      "Recycle"
     ]
   },
   "Solgaleo": {
-    "level": 74,
+    "level": 76,
     "abilities": [
       "Full Metal Body"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
       "Flare Blitz",
-      "Knock Off",
+      "Morning Sun",
+      "Protect",
       "Psychic Fangs",
+      "Stone Edge",
       "Sunsteel Strike"
     ]
   },
@@ -7572,15 +7532,13 @@
       "Levitate"
     ],
     "items": [
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
-      "Explosion",
-      "Morning Sun",
+      "Ally Switch",
+      "Flare Blitz",
+      "Helping Hand",
       "Rock Slide",
-      "Stealth Rock",
       "Will-O-Wisp"
     ]
   },
@@ -7590,13 +7548,13 @@
       "Grim Neigh"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Dark Pulse",
       "Nasty Plot",
-      "Shadow Ball",
-      "Substitute"
+      "Protect",
+      "Shadow Ball"
     ],
     "evs": {
       "atk": 0
@@ -7606,30 +7564,22 @@
     }
   },
   "Spiritomb": {
-    "level": 86,
+    "level": 88,
     "abilities": [
-      "Infiltrator",
-      "Pressure"
+      "Infiltrator"
     ],
     "items": [
-      "Chesto Berry",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
-      "Dark Pulse",
-      "Psychic",
-      "Rest",
-      "Shadow Sneak",
-      "Sleep Talk",
+      "Foul Play",
+      "Poltergeist",
+      "Protect",
+      "Snarl",
+      "Sucker Punch",
       "Will-O-Wisp"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+    ]
   },
   "Stakataka": {
     "level": 82,
@@ -7637,15 +7587,14 @@
       "Beast Boost"
     ],
     "items": [
-      "Air Balloon",
-      "Choice Band"
+      "Choice Band",
+      "Sitrus Berry"
     ],
     "moves": [
       "Body Press",
-      "Earthquake",
       "Gyro Ball",
-      "Stealth Rock",
-      "Stone Edge",
+      "High Horsepower",
+      "Rock Slide",
       "Trick Room"
     ],
     "evs": {
@@ -7658,22 +7607,18 @@
   "Starmie": {
     "level": 84,
     "abilities": [
-      "Analytic",
       "Natural Cure"
     ],
     "items": [
       "Choice Specs",
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
       "Life Orb"
     ],
     "moves": [
+      "Flip Turn",
       "Hydro Pump",
+      "Ice Beam",
+      "Protect",
       "Psyshock",
-      "Rapid Spin",
-      "Recover",
-      "Scald",
       "Thunderbolt"
     ],
     "evs": {
@@ -7684,19 +7629,21 @@
     }
   },
   "Steelix": {
-    "level": 84,
+    "level": 88,
     "abilities": [
-      "Rock Head"
+      "Rock Head",
+      "Sturdy"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry",
+      "Weakness Policy"
     ],
     "moves": [
-      "Dragon Dance",
-      "Earthquake",
       "Head Smash",
       "Heavy Slam",
-      "Stealth Rock"
+      "High Horsepower",
+      "Protect",
+      "Rock Polish"
     ]
   },
   "Stonjourner": {
@@ -7705,33 +7652,37 @@
       "Power Spot"
     ],
     "items": [
-      "Life Orb"
+      "Choice Band",
+      "Choice Scarf",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Body Press",
       "Heat Crash",
+      "Heavy Slam",
+      "Protect",
       "Rock Polish",
-      "Stealth Rock",
-      "Stone Edge"
+      "Stone Edge",
+      "Wide Guard"
     ]
   },
   "Stoutland": {
-    "level": 88,
+    "level": 90,
     "abilities": [
-      "Intimidate",
-      "Sand Rush",
-      "Scrappy"
+      "Intimidate"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Crunch",
       "Facade",
-      "Play Rough",
+      "Helping Hand",
+      "Protect",
       "Superpower",
-      "Wild Charge"
+      "Thunder Wave"
     ]
   },
   "Stunfisk": {
@@ -7741,14 +7692,15 @@
     ],
     "items": [
       "Assault Vest",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Discharge",
       "Earth Power",
+      "Electroweb",
       "Foul Play",
-      "Sludge Bomb",
-      "Stealth Rock"
+      "Muddy Water",
+      "Stealth Rock",
+      "Thunderbolt"
     ],
     "evs": {
       "atk": 0
@@ -7758,16 +7710,17 @@
     }
   },
   "Stunfisk-Galar": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Mimicry"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Earthquake",
-      "Pain Split",
+      "Foul Play",
+      "Protect",
       "Stealth Rock",
       "Stone Edge",
       "Thunder Wave"
@@ -7779,32 +7732,33 @@
       "Rock Head"
     ],
     "items": [
+      "Assault Vest",
       "Choice Band",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
+      "Body Press",
+      "Fire Punch",
       "Head Smash",
-      "Stealth Rock",
+      "Protect",
       "Sucker Punch",
       "Wood Hammer"
     ]
   },
   "Suicune": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Pressure"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Air Slash",
-      "Calm Mind",
       "Ice Beam",
-      "Rest",
       "Scald",
-      "Sleep Talk"
+      "Snarl",
+      "Tailwind",
+      "Toxic"
     ],
     "evs": {
       "atk": 0
@@ -7814,39 +7768,35 @@
     }
   },
   "Swampert": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Torrent"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
-      "Ice Beam",
+      "High Horsepower",
+      "Icy Wind",
+      "Muddy Water",
       "Protect",
-      "Scald",
       "Stealth Rock",
-      "Toxic"
+      "Wide Guard"
     ]
   },
   "Swoobat": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Simple"
     ],
     "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
       "Life Orb"
     ],
     "moves": [
       "Air Slash",
       "Calm Mind",
       "Heat Wave",
-      "Roost",
-      "Stored Power"
+      "Psychic"
     ],
     "evs": {
       "atk": 0
@@ -7856,23 +7806,19 @@
     }
   },
   "Sylveon": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Pixilate"
     ],
     "items": [
-      "Choice Scarf",
-      "Choice Specs",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
       "Hyper Voice",
       "Mystical Fire",
       "Protect",
-      "Psyshock",
-      "Shadow Ball",
-      "Wish"
+      "Psyshock"
     ],
     "evs": {
       "atk": 0
@@ -7882,61 +7828,58 @@
     }
   },
   "Talonflame": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Gale Wings"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Brave Bird",
       "Defog",
-      "Flare Blitz",
+      "Incinerate",
+      "Overheat",
       "Roost",
-      "Swords Dance",
-      "U-turn"
-    ]
+      "Tailwind",
+      "U-turn",
+      "Will-O-Wisp"
+    ],
+    "evs": {
+      "hp": 77
+    }
   },
   "Tangrowth": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Regenerator"
     ],
     "items": [
-      "Assault Vest",
-      "Rocky Helmet"
+      "Sitrus Berry"
     ],
     "moves": [
       "Focus Blast",
-      "Giga Drain",
       "Knock Off",
-      "Leech Seed",
-      "Sleep Powder",
-      "Sludge Bomb"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+      "Power Whip",
+      "Rage Powder",
+      "Sleep Powder"
+    ]
   },
   "Tapu Bulu": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Grassy Surge"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Life Orb",
-      "Lum Berry"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
+      "High Horsepower",
       "Horn Leech",
-      "Megahorn",
+      "Protect",
       "Stone Edge",
       "Swords Dance",
       "Wood Hammer"
@@ -7948,13 +7891,15 @@
       "Misty Surge"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
-      "Defog",
+      "Haze",
+      "Heal Pulse",
       "Moonblast",
-      "Surf",
+      "Muddy Water",
+      "Nature's Madness",
+      "Protect",
       "Taunt"
     ],
     "evs": {
@@ -7971,17 +7916,16 @@
     ],
     "items": [
       "Choice Specs",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Calm Mind",
+      "Brave Bird",
       "Dazzling Gleam",
       "Grass Knot",
-      "Substitute",
+      "Taunt",
       "Thunderbolt",
-      "Volt Switch"
+      "U-turn"
     ],
     "evs": {
       "atk": 0
@@ -7991,23 +7935,21 @@
     }
   },
   "Tapu Lele": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Psychic Surge"
     ],
     "items": [
-      "Choice Scarf",
-      "Choice Specs",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Calm Mind",
+      "Dazzling Gleam",
       "Focus Blast",
       "Moonblast",
-      "Psychic",
-      "Psyshock",
-      "Taunt"
+      "Protect",
+      "Psyshock"
     ],
     "evs": {
       "atk": 0
@@ -8017,9 +7959,9 @@
     }
   },
   "Tauros": {
-    "level": 86,
+    "level": 84,
     "abilities": [
-      "Sheer Force"
+      "Intimidate"
     ],
     "items": [
       "Life Orb"
@@ -8027,29 +7969,27 @@
     "moves": [
       "Body Slam",
       "Close Combat",
-      "Rock Slide",
-      "Throat Chop",
-      "Zen Headbutt"
+      "Lash Out",
+      "Protect",
+      "Rock Slide"
     ]
   },
   "Tentacruel": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Clear Body",
       "Liquid Ooze"
     ],
     "items": [
-      "Assault Vest",
-      "Black Sludge",
-      "Life Orb"
+      "Assault Vest"
     ],
     "moves": [
-      "Haze",
+      "Acid Spray",
+      "Icy Wind",
       "Knock Off",
+      "Muddy Water",
       "Rapid Spin",
-      "Scald",
-      "Sludge Bomb",
-      "Toxic Spikes"
+      "Sludge Bomb"
     ],
     "evs": {
       "atk": 0
@@ -8059,19 +7999,17 @@
     }
   },
   "Terrakion": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Justified"
     ],
     "items": [
-      "Choice Band",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
-      "Earthquake",
-      "Quick Attack",
-      "Stone Edge",
+      "Protect",
+      "Rock Slide",
       "Swords Dance"
     ]
   },
@@ -8081,43 +8019,31 @@
       "Stakeout"
     ],
     "items": [
-      "Choice Specs",
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Dark Pulse",
+      "Fake Tears",
       "Foul Play",
-      "Grass Knot",
-      "Nasty Plot",
       "Parting Shot",
-      "Psychic"
-    ],
-    "evs": {
-      "atk": 0
-    },
-    "ivs": {
-      "atk": 0
-    }
+      "Snarl",
+      "Taunt"
+    ]
   },
   "Throh": {
-    "level": 88,
+    "level": 86,
     "abilities": [
-      "Guts",
-      "Mold Breaker"
+      "Guts"
     ],
     "items": [
-      "Leftovers"
+      "Flame Orb"
     ],
     "moves": [
-      "Bulk Up",
-      "Circle Throw",
-      "Ice Punch",
+      "Facade",
       "Knock Off",
-      "Rest",
-      "Sleep Talk",
-      "Storm Throw"
+      "Poison Jab",
+      "Protect",
+      "Storm Throw",
+      "Wide Guard"
     ]
   },
   "Thundurus": {
@@ -8127,20 +8053,20 @@
       "Prankster"
     ],
     "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Grass Knot",
       "Knock Off",
       "Nasty Plot",
-      "Sludge Wave",
-      "Superpower",
+      "Protect",
+      "Sludge Bomb",
       "Thunder Wave",
       "Thunderbolt"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -8153,22 +8079,21 @@
       "Volt Absorb"
     ],
     "items": [
-      "Choice Scarf",
       "Choice Specs",
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Agility",
       "Focus Blast",
+      "Grass Knot",
       "Nasty Plot",
-      "Psychic",
+      "Sludge Bomb",
       "Thunderbolt",
       "Volt Switch"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -8182,16 +8107,14 @@
       "Sturdy"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Encore",
+      "Fake Out",
       "Iron Head",
       "Nuzzle",
       "Spiky Shield",
-      "U-turn",
-      "Wish",
       "Zing Zap"
     ]
   },
@@ -8201,18 +8124,15 @@
       "Serene Grace"
     ],
     "items": [
-      "Choice Scarf",
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Air Slash",
-      "Aura Sphere",
-      "Fire Blast",
-      "Nasty Plot",
-      "Roost",
-      "Thunder Wave",
-      "Trick"
+      "Dazzling Gleam",
+      "Follow Me",
+      "Heat Wave",
+      "Protect",
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -8227,33 +8147,41 @@
       "Drought"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
-      "Lava Plume",
-      "Rapid Spin",
+      "Body Press",
+      "Earth Power",
+      "Fire Blast",
+      "Heat Wave",
+      "Protect",
       "Solar Beam",
-      "Stealth Rock"
-    ]
+      "Will-O-Wisp"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Tornadus": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Prankster"
     ],
     "items": [
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
-      "Grass Knot",
       "Heat Wave",
       "Hurricane",
-      "Nasty Plot"
+      "Nasty Plot",
+      "Superpower",
+      "Tailwind",
+      "Taunt"
     ],
     "evs": {
       "atk": 0
@@ -8268,24 +8196,30 @@
       "Regenerator"
     ],
     "items": [
-      "Assault Vest",
-      "Heavy-Duty Boots"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
+      "Heat Wave",
       "Hurricane",
       "Knock Off",
-      "Superpower",
-      "U-turn"
-    ]
+      "Nasty Plot",
+      "Protect"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Toxapex": {
-    "level": 80,
+    "level": 88,
     "abilities": [
       "Regenerator"
     ],
     "items": [
-      "Black Sludge"
+      "Sitrus Berry"
     ],
     "moves": [
       "Baneful Bunker",
@@ -8308,36 +8242,38 @@
       "Dry Skin"
     ],
     "items": [
-      "Black Sludge",
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Drain Punch",
+      "Fake Out",
       "Gunk Shot",
       "Ice Punch",
-      "Substitute",
+      "Protect",
       "Sucker Punch",
-      "Swords Dance"
+      "Swords Dance",
+      "Taunt"
     ]
   },
   "Toxtricity": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Punk Rock"
     ],
     "items": [
       "Choice Scarf",
       "Choice Specs",
-      "Focus Sash",
+      "Life Orb",
+      "Sitrus Berry",
       "Throat Spray"
     ],
     "moves": [
       "Boomburst",
       "Overdrive",
       "Shift Gear",
-      "Sludge Wave",
+      "Sludge Bomb",
+      "Snarl",
       "Volt Switch"
     ],
     "evs": {
@@ -8348,18 +8284,20 @@
     }
   },
   "Toxtricity-Low-Key": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Punk Rock"
     ],
     "items": [
       "Choice Scarf",
-      "Choice Specs"
+      "Choice Specs",
+      "Sitrus Berry"
     ],
     "moves": [
       "Boomburst",
       "Overdrive",
-      "Sludge Wave",
+      "Sludge Bomb",
+      "Snarl",
       "Volt Switch"
     ],
     "evs": {
@@ -8370,20 +8308,19 @@
     }
   },
   "Trevenant": {
-    "level": 86,
+    "level": 88,
     "abilities": [
-      "Natural Cure"
+      "Harvest"
     ],
     "items": [
-      "Choice Band",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Earthquake",
-      "Horn Leech",
+      "Ally Switch",
       "Poltergeist",
       "Rock Slide",
       "Trick Room",
+      "Will-O-Wisp",
       "Wood Hammer"
     ],
     "evs": {
@@ -8394,7 +8331,7 @@
     }
   },
   "Tsareena": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Queenly Majesty"
     ],
@@ -8402,8 +8339,6 @@
       "Assault Vest",
       "Choice Band",
       "Choice Scarf",
-      "Heavy-Duty Boots",
-      "Leftovers",
       "Life Orb"
     ],
     "moves": [
@@ -8412,28 +8347,24 @@
       "Play Rough",
       "Power Whip",
       "Rapid Spin",
-      "Synthesis",
+      "Triple Axel",
       "U-turn"
     ]
   },
   "Turtonator": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Shell Armor"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers",
       "White Herb"
     ],
     "moves": [
-      "Body Press",
-      "Draco Meteor",
-      "Earthquake",
+      "Dragon Pulse",
       "Fire Blast",
-      "Rapid Spin",
-      "Shell Smash",
-      "Will-O-Wisp"
+      "Protect",
+      "Scorching Sands",
+      "Shell Smash"
     ],
     "evs": {
       "atk": 0
@@ -8441,22 +8372,6 @@
     "ivs": {
       "atk": 0
     }
-  },
-  "Type: Null": {
-    "level": 88,
-    "abilities": [
-      "Battle Armor"
-    ],
-    "items": [
-      "Eviolite"
-    ],
-    "moves": [
-      "Crush Claw",
-      "Payback",
-      "Rest",
-      "Sleep Talk",
-      "Swords Dance"
-    ]
   },
   "Tyranitar": {
     "level": 80,
@@ -8466,15 +8381,15 @@
     "items": [
       "Choice Band",
       "Choice Scarf",
-      "Leftovers",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Crunch",
       "Dragon Dance",
-      "Earthquake",
       "Fire Punch",
-      "Stealth Rock",
+      "High Horsepower",
+      "Lash Out",
+      "Protect",
+      "Rock Slide",
       "Stone Edge"
     ]
   },
@@ -8490,31 +8405,31 @@
     ],
     "moves": [
       "Close Combat",
+      "Dragon Claw",
       "Dragon Dance",
-      "Earthquake",
       "Head Smash",
-      "Outrage",
-      "Stealth Rock"
+      "High Horsepower"
     ]
   },
   "Umbreon": {
-    "level": 82,
+    "level": 88,
     "abilities": [
       "Synchronize"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Foul Play",
+      "Helping Hand",
+      "Moonlight",
       "Protect",
-      "Toxic",
-      "Wish",
-      "Yawn"
+      "Snarl",
+      "Toxic"
     ]
   },
   "Unfezant": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Super Luck"
     ],
@@ -8523,33 +8438,26 @@
     ],
     "moves": [
       "Brave Bird",
-      "Defog",
       "Night Slash",
+      "Quick Attack",
       "Roost",
+      "Tailwind",
       "U-turn"
-    ],
-    "evs": {
-      "hp": 81
-    }
+    ]
   },
   "Urshifu": {
-    "level": 80,
+    "level": 76,
     "abilities": [
       "Unseen Fist"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Leftovers"
+      "Life Orb"
     ],
     "moves": [
-      "Bulk Up",
       "Close Combat",
-      "Drain Punch",
       "Iron Head",
-      "Substitute",
+      "Protect",
       "Sucker Punch",
-      "U-turn",
       "Wicked Blow"
     ]
   },
@@ -8561,33 +8469,32 @@
     "items": [
       "Choice Band",
       "Choice Scarf",
-      "Leftovers",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Bulk Up",
+      "Aqua Jet",
       "Close Combat",
-      "Drain Punch",
-      "Substitute",
+      "Poison Jab",
+      "Protect",
       "Surging Strikes",
-      "Thunder Punch",
       "U-turn"
     ]
   },
   "Uxie": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Levitate"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Heal Bell",
+      "Helping Hand",
       "Knock Off",
       "Psychic",
       "Stealth Rock",
-      "U-turn",
+      "Thunder Wave",
       "Yawn"
     ],
     "evs": {
@@ -8598,23 +8505,22 @@
     }
   },
   "Vanilluxe": {
-    "level": 84,
+    "level": 82,
     "abilities": [
       "Snow Warning"
     ],
     "items": [
-      "Assault Vest",
+      "Life Orb",
       "Light Clay"
     ],
     "moves": [
       "Aurora Veil",
       "Blizzard",
-      "Explosion",
-      "Flash Cannon",
-      "Freeze-Dry"
+      "Freeze-Dry",
+      "Ice Shard",
+      "Protect"
     ],
     "evs": {
-      "hp": 77,
       "atk": 0
     },
     "ivs": {
@@ -8622,16 +8528,16 @@
     }
   },
   "Vaporeon": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Water Absorb"
     ],
     "items": [
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
       "Heal Bell",
-      "Ice Beam",
+      "Icy Wind",
       "Protect",
       "Scald",
       "Toxic",
@@ -8645,20 +8551,22 @@
     }
   },
   "Venusaur": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Chlorophyll",
       "Overgrow"
     ],
     "items": [
-      "Black Sludge"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Giga Drain",
+      "Earth Power",
+      "Energy Ball",
       "Leech Seed",
+      "Protect",
       "Sleep Powder",
-      "Sludge Bomb",
-      "Substitute"
+      "Sludge Bomb"
     ],
     "evs": {
       "atk": 0
@@ -8668,19 +8576,18 @@
     }
   },
   "Vespiquen": {
-    "level": 88,
+    "level": 95,
     "abilities": [
-      "Pressure"
+      "Unnerve"
     ],
     "items": [
-      "Heavy-Duty Boots"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Air Slash",
-      "Defog",
+      "Defend Order",
+      "Infestation",
       "Roost",
-      "Toxic",
-      "U-turn"
+      "Toxic"
     ],
     "evs": {
       "atk": 0
@@ -8695,32 +8602,33 @@
       "Victory Star"
     ],
     "items": [
+      "Assault Vest",
       "Choice Band",
-      "Choice Scarf"
+      "Choice Scarf",
+      "Sitrus Berry"
     ],
     "moves": [
       "Bolt Strike",
-      "Trick",
+      "Glaciate",
+      "Protect",
       "U-turn",
       "V-create",
       "Zen Headbutt"
     ]
   },
   "Vikavolt": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Levitate"
     ],
     "items": [
       "Choice Specs",
-      "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Sitrus Berry"
     ],
     "moves": [
       "Bug Buzz",
       "Energy Ball",
-      "Roost",
+      "Protect",
       "Sticky Web",
       "Thunderbolt",
       "Volt Switch"
@@ -8733,18 +8641,18 @@
     }
   },
   "Vileplume": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Chlorophyll",
       "Effect Spore"
     ],
     "items": [
-      "Black Sludge",
-      "Focus Sash"
+      "Sitrus Berry"
     ],
     "moves": [
       "Aromatherapy",
-      "Giga Drain",
+      "Energy Ball",
+      "Pollen Puff",
       "Sleep Powder",
       "Sludge Bomb",
       "Strength Sap"
@@ -8757,41 +8665,40 @@
     }
   },
   "Virizion": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Justified"
     ],
     "items": [
-      "Assault Vest",
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Air Slash",
       "Close Combat",
+      "Coaching",
       "Leaf Blade",
-      "Leaf Storm",
+      "Protect",
       "Stone Edge",
       "Swords Dance"
     ]
   },
   "Volcanion": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Water Absorb"
     ],
     "items": [
-      "Choice Scarf",
-      "Choice Specs",
-      "Heavy-Duty Boots"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
       "Earth Power",
-      "Flamethrower",
+      "Heat Wave",
+      "Protect",
       "Sludge Bomb",
       "Steam Eruption"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -8799,7 +8706,7 @@
     }
   },
   "Volcarona": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Flame Body",
       "Swarm"
@@ -8809,10 +8716,11 @@
     ],
     "moves": [
       "Bug Buzz",
-      "Fire Blast",
       "Giga Drain",
-      "Quiver Dance",
-      "Roost"
+      "Heat Wave",
+      "Hurricane",
+      "Protect",
+      "Quiver Dance"
     ],
     "evs": {
       "atk": 0
@@ -8827,7 +8735,7 @@
       "Water Veil"
     ],
     "items": [
-      "Choice Specs"
+      "Choice Scarf"
     ],
     "moves": [
       "Hydro Pump",
@@ -8843,20 +8751,21 @@
     }
   },
   "Walrein": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Thick Fat"
     ],
     "items": [
-      "Leftovers"
+      "Assault Vest"
     ],
     "moves": [
+      "Brine",
       "Ice Beam",
-      "Protect",
-      "Surf",
-      "Toxic"
+      "Icy Wind",
+      "Super Fang"
     ],
     "evs": {
+      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -8864,32 +8773,30 @@
     }
   },
   "Weavile": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Pickpocket"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Fake Out",
       "Ice Shard",
-      "Icicle Crash",
       "Knock Off",
-      "Low Kick",
-      "Swords Dance"
+      "Swords Dance",
+      "Triple Axel"
     ]
   },
   "Weezing": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Levitate",
       "Neutralizing Gas"
     ],
     "items": [
-      "Black Sludge"
+      "Sitrus Berry"
     ],
     "moves": [
       "Fire Blast",
@@ -8906,19 +8813,19 @@
     }
   },
   "Weezing-Galar": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate",
       "Neutralizing Gas"
     ],
     "items": [
-      "Black Sludge"
+      "Sitrus Berry"
     ],
     "moves": [
+      "Clear Smog",
       "Defog",
       "Fire Blast",
       "Pain Split",
-      "Sludge Bomb",
       "Strange Steam",
       "Toxic Spikes",
       "Will-O-Wisp"
@@ -8931,22 +8838,20 @@
     }
   },
   "Whimsicott": {
-    "level": 86,
+    "level": 82,
     "abilities": [
       "Prankster"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers"
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
+      "Encore",
       "Energy Ball",
-      "Leech Seed",
+      "Helping Hand",
       "Moonblast",
-      "Stun Spore",
-      "Taunt",
-      "U-turn"
+      "Tailwind",
+      "Taunt"
     ],
     "evs": {
       "atk": 0
@@ -8956,40 +8861,36 @@
     }
   },
   "Whiscash": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Oblivious"
     ],
     "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Dragon Dance",
       "Earthquake",
       "Liquidation",
-      "Stone Edge",
-      "Zen Headbutt"
+      "Protect",
+      "Stone Edge"
     ]
   },
   "Wigglytuff": {
-    "level": 88,
+    "level": 90,
     "abilities": [
-      "Competitive",
-      "Frisk"
+      "Competitive"
     ],
     "items": [
-      "Leftovers",
-      "Light Clay"
+      "Sitrus Berry"
     ],
     "moves": [
       "Dazzling Gleam",
-      "Fire Blast",
-      "Heal Bell",
-      "Light Screen",
-      "Reflect",
-      "Stealth Rock"
+      "Heal Pulse",
+      "Helping Hand",
+      "Hyper Voice",
+      "Thunder Wave"
     ],
     "evs": {
       "atk": 0
@@ -8999,24 +8900,31 @@
     }
   },
   "Wishiwashi": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Schooling"
     ],
     "items": [
       "Assault Vest",
-      "Choice Specs"
+      "Sitrus Berry"
     ],
     "moves": [
       "Earthquake",
+      "Helping Hand",
       "Hydro Pump",
       "Ice Beam",
-      "Scald",
-      "U-turn"
-    ]
+      "Muddy Water",
+      "Protect"
+    ],
+    "evs": {
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Wobbuffet": {
-    "level": 82,
+    "level": 100,
     "abilities": [
       "Shadow Tag"
     ],
@@ -9037,20 +8945,23 @@
     }
   },
   "Xatu": {
-    "level": 84,
+    "level": 88,
     "abilities": [
       "Magic Bounce"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Leftovers"
+      "Life Orb",
+      "Light Clay",
+      "Sitrus Berry"
     ],
     "moves": [
+      "Air Slash",
       "Heat Wave",
+      "Light Screen",
       "Psychic",
+      "Reflect",
       "Roost",
-      "Teleport",
-      "Thunder Wave"
+      "Tailwind"
     ],
     "evs": {
       "atk": 0
@@ -9065,15 +8976,13 @@
       "Fairy Aura"
     ],
     "items": [
-      "Choice Scarf",
-      "Choice Specs",
       "Power Herb"
     ],
     "moves": [
+      "Dazzling Gleam",
       "Focus Blast",
       "Geomancy",
       "Moonblast",
-      "Psyshock",
       "Thunderbolt"
     ],
     "evs": {
@@ -9089,14 +8998,12 @@
       "Beast Boost"
     ],
     "items": [
-      "Blunder Policy",
       "Choice Scarf",
       "Choice Specs"
     ],
     "moves": [
       "Dazzling Gleam",
       "Energy Ball",
-      "Hypnosis",
       "Thunderbolt",
       "Volt Switch"
     ],
@@ -9108,23 +9015,33 @@
     }
   },
   "Yveltal": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "Dark Aura"
     ],
     "items": [
       "Assault Vest",
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Choice Scarf",
+      "Choice Specs",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
+      "Dark Pulse",
       "Heat Wave",
       "Knock Off",
       "Oblivion Wing",
       "Roost",
-      "Sucker Punch"
-    ]
+      "Sucker Punch",
+      "Tailwind",
+      "U-turn"
+    ],
+    "evs": {
+      "hp": 77,
+      "atk": 0
+    },
+    "ivs": {
+      "atk": 0
+    }
   },
   "Zacian": {
     "level": 72,
@@ -9132,19 +9049,20 @@
       "Intrepid Sword"
     ],
     "items": [
-      "Choice Band",
-      "Lum Berry"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
       "Crunch",
       "Play Rough",
+      "Protect",
       "Psychic Fangs",
       "Swords Dance"
     ]
   },
   "Zacian-Crowned": {
-    "level": 72,
+    "level": 69,
     "abilities": [
       "Intrepid Sword"
     ],
@@ -9154,8 +9072,8 @@
     "moves": [
       "Behemoth Blade",
       "Close Combat",
-      "Crunch",
       "Play Rough",
+      "Protect",
       "Psychic Fangs",
       "Swords Dance"
     ]
@@ -9166,17 +9084,19 @@
       "Dauntless Shield"
     ],
     "items": [
-      "Choice Band"
+      "Choice Band",
+      "Sitrus Berry"
     ],
     "moves": [
       "Close Combat",
       "Crunch",
-      "Psychic Fangs",
-      "Wild Charge"
+      "Play Rough",
+      "Protect",
+      "Psychic Fangs"
     ]
   },
   "Zamazenta-Crowned": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "Dauntless Shield"
     ],
@@ -9186,26 +9106,30 @@
     "moves": [
       "Behemoth Bash",
       "Close Combat",
+      "Coaching",
       "Crunch",
+      "Protect",
       "Psychic Fangs"
     ]
   },
   "Zapdos": {
     "level": 80,
     "abilities": [
-      "Pressure",
       "Static"
     ],
     "items": [
-      "Heavy-Duty Boots",
-      "Life Orb"
+      "Choice Scarf",
+      "Choice Specs",
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Defog",
-      "Discharge",
+      "Air Slash",
       "Heat Wave",
-      "Hurricane",
-      "Roost"
+      "Roost",
+      "Tailwind",
+      "Thunderbolt",
+      "Volt Switch"
     ],
     "evs": {
       "atk": 0
@@ -9229,26 +9153,26 @@
       "Bulk Up",
       "Close Combat",
       "Throat Chop",
+      "Thunderous Kick",
       "U-turn"
     ]
   },
   "Zarude": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Leaf Guard"
     ],
     "items": [
-      "Choice Band",
-      "Choice Scarf",
-      "Leftovers"
+      "Assault Vest",
+      "Sitrus Berry"
     ],
     "moves": [
-      "Bulk Up",
       "Close Combat",
       "Darkest Lariat",
       "Jungle Healing",
       "Power Whip",
-      "U-turn"
+      "Protect",
+      "Rock Slide"
     ]
   },
   "Zekrom": {
@@ -9257,52 +9181,50 @@
       "Teravolt"
     ],
     "items": [
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
       "Bolt Strike",
+      "Dragon Claw",
       "Dragon Dance",
-      "Outrage",
-      "Substitute"
+      "Roost"
     ]
   },
   "Zeraora": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Volt Absorb"
     ],
     "items": [
       "Assault Vest",
-      "Choice Band",
-      "Focus Sash",
       "Life Orb"
     ],
     "moves": [
-      "Bulk Up",
       "Close Combat",
+      "Fake Out",
       "Grass Knot",
       "Knock Off",
       "Plasma Fists",
       "Play Rough",
-      "Volt Switch"
+      "Snarl"
     ]
   },
   "Zoroark": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Illusion"
     ],
     "items": [
-      "Choice Scarf",
-      "Focus Sash",
-      "Life Orb"
+      "Life Orb",
+      "Sitrus Berry"
     ],
     "moves": [
       "Dark Pulse",
       "Flamethrower",
+      "Focus Blast",
       "Nasty Plot",
-      "Sludge Bomb",
-      "Trick"
+      "Protect",
+      "Sludge Bomb"
     ],
     "evs": {
       "atk": 0
@@ -9312,38 +9234,36 @@
     }
   },
   "Zygarde": {
+    "level": 72,
+    "abilities": [
+      "Power Construct"
+    ],
+    "items": [
+      "Sitrus Berry"
+    ],
+    "moves": [
+      "Coil",
+      "Dragon Dance",
+      "Extreme Speed",
+      "Glare",
+      "Iron Tail",
+      "Thousand Arrows"
+    ]
+  },
+  "Zygarde-10%": {
     "level": 76,
     "abilities": [
       "Power Construct"
     ],
     "items": [
-      "Lum Berry"
+      "Sitrus Berry"
     ],
     "moves": [
       "Dragon Dance",
-      "Outrage",
-      "Substitute",
-      "Thousand Arrows"
-    ],
-    "evs": {
-      "hp": 81
-    }
-  },
-  "Zygarde-10%": {
-    "level": 86,
-    "abilities": [
-      "Aura Break"
-    ],
-    "items": [
-      "Choice Band",
-      "Focus Sash",
-      "Life Orb"
-    ],
-    "moves": [
-      "Coil",
       "Extreme Speed",
       "Iron Tail",
-      "Outrage",
+      "Protect",
+      "Rock Slide",
       "Thousand Arrows"
     ]
   }
