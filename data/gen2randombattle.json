@@ -325,15 +325,20 @@
   "Dodrio": {
     "level": 71,
     "items": [
-      "Leftovers"
+      "Leftovers",
+      "Mint Berry"
     ],
     "moves": [
       "Double-Edge",
       "Drill Peck",
       "Hidden Power Ground",
-      "Quick Attack",
+      "Rest",
       "Substitute"
-    ]
+    ],
+    "ivs": {
+      "hp": 14,
+      "atk": 24
+    }
   },
   "Donphan": {
     "level": 67,
@@ -666,8 +671,7 @@
   "Heracross": {
     "level": 65,
     "items": [
-      "Leftovers",
-      "Mint Berry"
+      "Leftovers"
     ],
     "moves": [
       "Curse",
@@ -873,8 +877,7 @@
   "Lanturn": {
     "level": 71,
     "items": [
-      "Leftovers",
-      "Mint Berry"
+      "Leftovers"
     ],
     "moves": [
       "Ice Beam",
@@ -1266,7 +1269,6 @@
     "moves": [
       "Body Slam",
       "Hypnosis",
-      "Ice Beam",
       "Iron Tail",
       "Rest",
       "Return",
@@ -1840,8 +1842,7 @@
       "Growth",
       "Hidden Power Dark",
       "Mean Look",
-      "Moonlight",
-      "Toxic"
+      "Moonlight"
     ]
   },
   "Unown": {

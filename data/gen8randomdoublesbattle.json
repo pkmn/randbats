@@ -281,7 +281,6 @@
     ],
     "items": [
       "Choice Band",
-      "Life Orb",
       "Sitrus Berry"
     ],
     "moves": [
@@ -1104,7 +1103,6 @@
   "Charizard": {
     "level": 80,
     "abilities": [
-      "Blaze",
       "Solar Power"
     ],
     "items": [
@@ -2206,13 +2204,12 @@
       "Sitrus Berry"
     ],
     "moves": [
+      "Charm",
       "Energy Ball",
       "Helping Hand",
-      "Leech Seed",
       "Pollen Puff",
       "Protect",
-      "Sleep Powder",
-      "Synthesis"
+      "Sleep Powder"
     ],
     "evs": {
       "atk": 0
@@ -9106,8 +9103,8 @@
     "moves": [
       "Behemoth Bash",
       "Close Combat",
-      "Coaching",
       "Crunch",
+      "Howl",
       "Protect",
       "Psychic Fangs"
     ]
@@ -9210,7 +9207,7 @@
     ]
   },
   "Zoroark": {
-    "level": 88,
+    "level": 84,
     "abilities": [
       "Illusion"
     ],
