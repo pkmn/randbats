@@ -2,6 +2,7 @@
 'use strict';
 
 const fs = require('fs');
+const stringify = require('json-stringify-pretty-compact');
 
 const {Dex} = require('./vendor/pokemon-showdown');
 Dex.includeModData();
@@ -9,28 +10,89 @@ Dex.includeModData();
 const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
 const SKIP = ['factory', 'unrated', 'cup', 'brawl', 'cap', 'monotype'];
+const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
+const CMP = {
+  stats: (a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]),
+  str: (a, b) => a[0].localeCompare(b[0]),
+};
+
+const getForme = (dex, pool, set) => {
+  if (set.gigantamax) return dex.getSpecies(`${set.species}-Gmax`);
+
+  const item = dex.getItem(set.item);
+  if (item.megaStone) return dex.getSpecies(item.megaStone);
+
+  const formes = Object.keys(pool[set.species] || pool[set.name]);
+  if (formes.length === 1) return dex.getSpecies(formes[0]);
+
+  const matches = [];
+  for (const f in pool[set.species]) {
+    const forme = dex.getSpecies(f);
+    if (forme.requiredItem) {
+     if (set.item !== forme.requiredItem) continue;
+     return forme;
+    }
+    if (forme.requiredAbility && set.ability !== forme.requiredAbility) continue;
+    if (set.moves.every(m => pool[set.species][f].has(m))) {
+      matches.push(forme);
+    }
+  }
+
+  return dex.getSpecies(matches[0]);
+};
+
+const getMoves = (species, doubles) => {
+  const moves = new Set();
+  if (doubles && species.randomDoubleBattleMoves) {
+    species.randomDoubleBattleMoves.forEach(m => moves.add(m));
+  } else {
+    if (species.essentialMove) moves.add(species.essentialMove);
+    if (species.exclusiveMoves) species.exclusiveMoves.forEach(m => moves.add(m));
+    if (species.comboMoves) species.comboMoves.forEach(m => moves.add(m));
+    if (species.randomBattleMoves) species.randomBattleMoves.forEach(m => moves.add(m));
+  }
+  return moves;
+};
 
 for (const format in Dex.formats) {
   if (!Dex.getFormat(format).team) continue;
   if (SKIP.some(s => format.includes(s))) continue;
 
   const gen = Number(format.charAt(3));
+  const dex = Dex.forFormat(format);
   const letsgo = format.includes('letsgo');
+  const doubles = format.includes('doubles');
   const generator = Dex.getTeamGenerator(format, SEED);
   const IVS = gen < 3 ? 30 : 31;
   const EVS = gen < 3 ? 255 : 85;
 
-  const species = {};
+  const pool = {};
+  for (const s in dex.data.Pokedex) {
+    const species = dex.getSpecies(s);
+    if  (species.gen > gen) continue;
+    if (letsgo && (species.num < 1 || species.num > 151 && ![808, 809].includes(species.num))) {
+      continue;
+    }
+    const moves = getMoves(species, doubles);
+    if (!moves.size) continue;
+    const base = typeof species.battleOnly === 'string' ? species.battleOnly : species.name;
+    pool[base] = (pool[base] || {});
+    pool[base][species.name] = moves;
+  }
+
+  const formes = {};
   for (let i = 0; i < N; i++) {
     for (const set of generator.getTeam()) {
-      const s = species[set.species] || (species[set.species] = {
-        level: set.level,
+      const forme = getForme(dex, pool, set);
+      const s = formes[forme.name] || (formes[forme.name] = {
+        level: set.species === 'Zoroark' ? 0 : set.level,
         abilities: new Set(),
         items: new Set(),
-        moves: new Set(),
+        moves: getMoves(forme, doubles),
         ivs: {},
         evs: {},
       });
+      for (const m of set.moves) s.moves.add(m);
       for (const stat in set.ivs) {
         if (set.ivs[stat] !== IVS) {
           if (!(stat in s.ivs)) {
@@ -52,33 +114,32 @@ for (const format in Dex.formats) {
         }
       }
       if (set.ability) s.abilities.add(set.ability);
-      if (set.item) s.items.add(set.item)
-      for (const move of set.moves) s.moves.add(move)
+      if (set.item) s.items.add(set.item);
     }
   }
 
   const options = {};
-  for (const [name, stats] of Object.entries(species).sort((a, b) => a[0].localeCompare(b[0]))) {
+  for (const [name, stats] of Object.entries(formes).sort(CMP.str)) {
     const opts = {level: stats.level};
     if (gen >= 3 && !letsgo) opts.abilities = Array.from(stats.abilities).sort();
     if (stats.items.size) opts.items = Array.from(stats.items).sort();
     opts.moves = Array.from(stats.moves).map(m => Dex.getMove(m).name).sort();
     if (!letsgo) {
-      for (const stat in stats.evs) {
-        if (stats.evs[stat] !== -1) {
+      for (const [stat, val] of Object.entries(stats.evs).sort((CMP.stats))) {
+        if (val !== -1) {
           opts.evs = opts.evs || {};
-          opts.evs[stat] = stats.evs[stat];
+          opts.evs[stat] = val;
         }
       }
     }
-    for (const stat in stats.ivs) {
-      if (stats.ivs[stat] !== -1) {
+    for (const [stat, val] of Object.entries(stats.ivs).sort((CMP.stats))) {
+      if (val !== -1) {
         opts.ivs = opts.ivs || {};
-        opts.ivs[stat] = stats.ivs[stat];
+        opts.ivs[stat] = val;
       }
     }
     options[name] = opts;
   }
 
-  fs.writeFileSync(`data/${format}.json`, JSON.stringify(options, null, 2));
+  fs.writeFileSync(`data/${format}.json`, stringify(options, {maxLength: 1000}));
 }

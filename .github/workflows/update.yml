@@ -1,7 +1,6 @@
 name: Update
 
 on:
-  push:
   workflow_dispatch:
   schedule:
     - cron:  '6,26,46 * * * *'
@@ -19,7 +18,10 @@ jobs:
         npm -C vendor/pokemon-showdown --no-package-lock --no-optional install
         node vendor/pokemon-showdown/build
     - name: Fetch latest data
-      run: git diff --quiet || node update
+      run: |-
+        git diff --quiet && exit 0
+        npm install --no-package-lock --no-save json-stringify-pretty-compact
+        node update
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"

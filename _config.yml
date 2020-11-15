@@ -1,0 +1,3 @@
+exclude:
+  - update
+  - node_modules
