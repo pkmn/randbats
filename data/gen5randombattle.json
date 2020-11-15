@@ -856,12 +856,12 @@
       "Toxic"
     ],
     "evs": {
-      "spe": 0,
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "spe": 0,
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Beartic": {
@@ -2395,7 +2395,6 @@
       "Torrent"
     ],
     "items": [
-      "Choice Scarf",
       "Focus Sash",
       "Leftovers",
       "Life Orb"
@@ -6401,6 +6400,7 @@
       "Sap Sipper"
     ],
     "items": [
+      "Choice Band",
       "Focus Sash",
       "Leftovers",
       "Life Orb"
@@ -7250,7 +7250,6 @@
       "Pressure"
     ],
     "items": [
-      "Chesto Berry",
       "Choice Specs",
       "Leftovers"
     ],
@@ -9009,7 +9008,7 @@
     }
   },
   "Zoroark": {
-    "level": 87,
+    "level": 81,
     "abilities": [
       "Illusion"
     ],
