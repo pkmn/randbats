@@ -101,6 +101,7 @@
       "Choice Band",
       "Focus Sash",
       "Heavy-Duty Boots",
+      "Leftovers",
       "Life Orb"
     ],
     "moves": [
@@ -108,6 +109,7 @@
       "Dual Wingbeat",
       "Earthquake",
       "Hone Claws",
+      "Roost",
       "Stone Edge"
     ]
   },
@@ -289,11 +291,13 @@
       "Defeatist"
     ],
     "items": [
-      "Choice Band"
+      "Choice Band",
+      "Heavy-Duty Boots"
     ],
     "moves": [
       "Dual Wingbeat",
       "Earthquake",
+      "Roost",
       "Stone Edge",
       "U-turn"
     ]
@@ -420,7 +424,7 @@
     }
   },
   "Audino": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Regenerator"
     ],
@@ -511,7 +515,7 @@
     }
   },
   "Azumarill": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Sap Sipper"
     ],
@@ -551,7 +555,7 @@
     ]
   },
   "Barraskewda": {
-    "level": 84,
+    "level": 82,
     "abilities": [
       "Swift Swim"
     ],
@@ -645,7 +649,7 @@
     }
   },
   "Bellossom": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Chlorophyll"
     ],
@@ -727,7 +731,7 @@
     }
   },
   "Blastoise": {
-    "level": 84,
+    "level": 82,
     "abilities": [
       "Torrent"
     ],
@@ -771,7 +775,7 @@
     ]
   },
   "Blissey": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Natural Cure"
     ],
@@ -851,7 +855,7 @@
     ]
   },
   "Bronzong": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate"
     ],
@@ -952,7 +956,7 @@
     }
   },
   "Calyrex-Shadow": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "As One (Spectrier)"
     ],
@@ -976,7 +980,7 @@
     }
   },
   "Carbink": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Sturdy"
     ],
@@ -1016,7 +1020,7 @@
     ]
   },
   "Celebi": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Natural Cure"
     ],
@@ -1044,7 +1048,7 @@
     }
   },
   "Celesteela": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Beast Boost"
     ],
@@ -1084,7 +1088,7 @@
     ]
   },
   "Chandelure": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Flash Fire"
     ],
@@ -1156,25 +1160,19 @@
     }
   },
   "Cherrim": {
-    "level": 88,
+    "level": 90,
     "abilities": [
       "Flower Gift"
     ],
     "items": [
-      "Focus Sash",
-      "Leftovers",
-      "Life Orb"
+      "Choice Scarf"
     ],
     "moves": [
       "Dazzling Gleam",
       "Energy Ball",
       "Healing Wish",
-      "Leech Seed",
-      "Play Rough",
-      "Solar Blade",
-      "Substitute",
-      "Sunny Day",
-      "Weather Ball"
+      "Petal Dance",
+      "Pollen Puff"
     ],
     "evs": {
       "atk": 0
@@ -1364,7 +1362,7 @@
     }
   },
   "Comfey": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Natural Cure"
     ],
@@ -1430,7 +1428,7 @@
       "Regenerator"
     ],
     "items": [
-      "Leftovers"
+      "Rocky Helmet"
     ],
     "moves": [
       "Power Gem",
@@ -1561,7 +1559,7 @@
     }
   },
   "Crobat": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Infiltrator"
     ],
@@ -1580,7 +1578,7 @@
     ]
   },
   "Crustle": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Sturdy"
     ],
@@ -1663,7 +1661,7 @@
     ]
   },
   "Darmanitan-Galar": {
-    "level": 76,
+    "level": 78,
     "abilities": [
       "Gorilla Tactics",
       "Zen Mode"
@@ -1740,7 +1738,7 @@
     ]
   },
   "Dhelmise": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Steelworker"
     ],
@@ -1836,7 +1834,7 @@
     ]
   },
   "Doublade": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "No Guard"
     ],
@@ -1852,7 +1850,7 @@
     ]
   },
   "Dracovish": {
-    "level": 76,
+    "level": 80,
     "abilities": [
       "Sand Rush",
       "Strong Jaw"
@@ -1950,7 +1948,7 @@
     ]
   },
   "Drampa": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Berserk",
       "Sap Sipper"
@@ -2033,7 +2031,7 @@
     }
   },
   "Druddigon": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Mold Breaker"
     ],
@@ -2197,7 +2195,7 @@
     ]
   },
   "Eldegoss": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Regenerator"
     ],
@@ -2548,7 +2546,7 @@
     ]
   },
   "Froslass": {
-    "level": 82,
+    "level": 86,
     "abilities": [
       "Cursed Body"
     ],
@@ -2607,7 +2605,7 @@
     ]
   },
   "Galvantula": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Compound Eyes"
     ],
@@ -2632,7 +2630,7 @@
     }
   },
   "Garbodor": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Aftermath"
     ],
@@ -2748,7 +2746,6 @@
       "Blaze Kick",
       "Extreme Speed",
       "Flamethrower",
-      "Ice Beam",
       "Iron Head",
       "Shift Gear",
       "Thunderbolt",
@@ -2803,12 +2800,13 @@
       "Pressure"
     ],
     "items": [
+      "Chesto Berry",
       "Leftovers"
     ],
     "moves": [
-      "Defog",
       "Hex",
       "Rest",
+      "Sleep Talk",
       "Toxic",
       "Will-O-Wisp"
     ],
@@ -2858,7 +2856,7 @@
     }
   },
   "Glalie": {
-    "level": 76,
+    "level": 78,
     "abilities": [
       "Moody"
     ],
@@ -2922,7 +2920,7 @@
     }
   },
   "Golisopod": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Emergency Exit"
     ],
@@ -3039,7 +3037,7 @@
     ]
   },
   "Gourgeist-Small": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Frisk"
     ],
@@ -3113,7 +3111,7 @@
     ]
   },
   "Grimmsnarl": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Prankster"
     ],
@@ -3231,9 +3229,9 @@
     "moves": [
       "Calm Mind",
       "Dazzling Gleam",
-      "Draining Kiss",
       "Mystical Fire",
       "Psychic",
+      "Psyshock",
       "Trick Room"
     ],
     "evs": {
@@ -3265,7 +3263,7 @@
     ]
   },
   "Haxorus": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Mold Breaker"
     ],
@@ -3329,7 +3327,7 @@
     }
   },
   "Heliolisk": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Dry Skin"
     ],
@@ -3562,7 +3560,7 @@
     }
   },
   "Inteleon": {
-    "level": 84,
+    "level": 82,
     "abilities": [
       "Sniper",
       "Torrent"
@@ -3631,7 +3629,7 @@
     ]
   },
   "Jolteon": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Volt Absorb"
     ],
@@ -3717,7 +3715,7 @@
     ]
   },
   "Kartana": {
-    "level": 80,
+    "level": 78,
     "abilities": [
       "Beast Boost"
     ],
@@ -3762,7 +3760,7 @@
     }
   },
   "Kingdra": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Swift Swim"
     ],
@@ -3802,7 +3800,7 @@
     ]
   },
   "Klefki": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Prankster"
     ],
@@ -3986,7 +3984,7 @@
     }
   },
   "Landorus-Therian": {
-    "level": 80,
+    "level": 78,
     "abilities": [
       "Intimidate"
     ],
@@ -4265,7 +4263,7 @@
     }
   },
   "Lugia": {
-    "level": 72,
+    "level": 74,
     "abilities": [
       "Multiscale"
     ],
@@ -4499,7 +4497,7 @@
     }
   },
   "Magmortar": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Flame Body",
       "Vital Spirit"
@@ -4525,7 +4523,7 @@
     }
   },
   "Magnezone": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Magnet Pull"
     ],
@@ -4548,7 +4546,7 @@
     }
   },
   "Malamar": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Contrary"
     ],
@@ -4586,7 +4584,7 @@
     ]
   },
   "Mandibuzz": {
-    "level": 80,
+    "level": 82,
     "abilities": [
       "Overcoat"
     ],
@@ -4696,7 +4694,7 @@
     ]
   },
   "Marowak-Alola": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Lightning Rod",
       "Rock Head"
@@ -4967,7 +4965,7 @@
     ]
   },
   "Mimikyu": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Disguise"
     ],
@@ -5011,6 +5009,7 @@
       "Berserk"
     ],
     "items": [
+      "Chesto Berry",
       "Heavy-Duty Boots",
       "Leftovers"
     ],
@@ -5018,6 +5017,7 @@
       "Fiery Wrath",
       "Hurricane",
       "Nasty Plot",
+      "Rest",
       "Substitute"
     ],
     "evs": {
@@ -5205,7 +5205,7 @@
     }
   },
   "Necrozma-Dawn-Wings": {
-    "level": 74,
+    "level": 76,
     "abilities": [
       "Prism Armor"
     ],
@@ -5376,7 +5376,7 @@
     ]
   },
   "Noctowl": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Tinted Lens"
     ],
@@ -5401,7 +5401,7 @@
     }
   },
   "Noivern": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Infiltrator"
     ],
@@ -5442,7 +5442,7 @@
     ]
   },
   "Octillery": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Moody"
     ],
@@ -5624,7 +5624,7 @@
     ]
   },
   "Pelipper": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Drizzle"
     ],
@@ -5956,7 +5956,7 @@
     ]
   },
   "Polteageist": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Cursed Body"
     ],
@@ -6051,7 +6051,7 @@
     }
   },
   "Pyukumuku": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "Unaware"
     ],
@@ -6158,7 +6158,7 @@
     }
   },
   "Raikou": {
-    "level": 84,
+    "level": 82,
     "abilities": [
       "Pressure"
     ],
@@ -6220,7 +6220,7 @@
     ]
   },
   "Rayquaza": {
-    "level": 72,
+    "level": 74,
     "abilities": [
       "Air Lock"
     ],
@@ -6238,7 +6238,7 @@
     ]
   },
   "Regice": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Clear Body"
     ],
@@ -6256,7 +6256,6 @@
       "Thunderbolt"
     ],
     "evs": {
-      "hp": 81,
       "atk": 0
     },
     "ivs": {
@@ -6281,7 +6280,7 @@
     ]
   },
   "Regieleki": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Transistor"
     ],
@@ -6446,7 +6445,7 @@
     ]
   },
   "Ribombee": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Shield Dust",
       "Sweet Veil"
@@ -6492,7 +6491,7 @@
     ]
   },
   "Roserade": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Natural Cure"
     ],
@@ -6610,7 +6609,7 @@
     }
   },
   "Rotom-Mow": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate"
     ],
@@ -6673,7 +6672,7 @@
     ]
   },
   "Sableye": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Prankster"
     ],
@@ -6935,7 +6934,7 @@
     ]
   },
   "Sharpedo": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Speed Boost"
     ],
@@ -6968,7 +6967,7 @@
     ]
   },
   "Shiftry": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Chlorophyll",
       "Early Bird"
@@ -7085,7 +7084,7 @@
     ]
   },
   "Silvally-Bug": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7098,10 +7097,13 @@
       "Parting Shot",
       "Psychic Fangs",
       "Thunderbolt"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Silvally-Dark": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7133,7 +7135,7 @@
     ]
   },
   "Silvally-Electric": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7164,7 +7166,7 @@
     ]
   },
   "Silvally-Fighting": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7180,7 +7182,7 @@
     ]
   },
   "Silvally-Fire": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7192,7 +7194,10 @@
       "Iron Head",
       "Multi-Attack",
       "Swords Dance"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Silvally-Flying": {
     "level": 86,
@@ -7229,7 +7234,7 @@
     ]
   },
   "Silvally-Grass": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7245,7 +7250,7 @@
     ]
   },
   "Silvally-Ground": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7262,7 +7267,7 @@
     ]
   },
   "Silvally-Ice": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7274,10 +7279,13 @@
       "Multi-Attack",
       "Psychic Fangs",
       "Swords Dance"
-    ]
+    ],
+    "evs": {
+      "hp": 81
+    }
   },
   "Silvally-Poison": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7294,7 +7302,7 @@
     ]
   },
   "Silvally-Psychic": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7309,7 +7317,7 @@
     ]
   },
   "Silvally-Rock": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7325,7 +7333,7 @@
     ]
   },
   "Silvally-Steel": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7342,7 +7350,7 @@
     ]
   },
   "Silvally-Water": {
-    "level": 88,
+    "level": 86,
     "abilities": [
       "RKS System"
     ],
@@ -7420,12 +7428,12 @@
       "Leftovers"
     ],
     "moves": [
-      "Calm Mind",
+      "Future Sight",
       "Ice Beam",
-      "Psyshock",
       "Scald",
       "Slack Off",
-      "Teleport"
+      "Teleport",
+      "Thunder Wave"
     ],
     "evs": {
       "atk": 0
@@ -7435,7 +7443,7 @@
     }
   },
   "Slowbro-Galar": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Regenerator"
     ],
@@ -7484,7 +7492,7 @@
     }
   },
   "Slowking-Galar": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Regenerator"
     ],
@@ -7585,7 +7593,7 @@
     ]
   },
   "Spectrier": {
-    "level": 80,
+    "level": 78,
     "abilities": [
       "Grim Neigh"
     ],
@@ -7606,7 +7614,7 @@
     }
   },
   "Spiritomb": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Infiltrator",
       "Pressure"
@@ -7796,6 +7804,7 @@
       "Pressure"
     ],
     "items": [
+      "Chesto Berry",
       "Leftovers"
     ],
     "moves": [
@@ -7856,7 +7865,7 @@
     }
   },
   "Sylveon": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Pixilate"
     ],
@@ -8017,7 +8026,7 @@
     }
   },
   "Tauros": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Sheer Force"
     ],
@@ -8059,7 +8068,7 @@
     }
   },
   "Terrakion": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Justified"
     ],
@@ -8196,7 +8205,7 @@
     ]
   },
   "Togekiss": {
-    "level": 80,
+    "level": 82,
     "abilities": [
       "Serene Grace"
     ],
@@ -8222,7 +8231,7 @@
     }
   },
   "Torkoal": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Drought"
     ],
@@ -8323,7 +8332,7 @@
     ]
   },
   "Toxtricity": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Punk Rock"
     ],
@@ -8348,7 +8357,7 @@
     }
   },
   "Toxtricity-Low-Key": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Punk Rock"
     ],
@@ -8370,7 +8379,7 @@
     }
   },
   "Trevenant": {
-    "level": 86,
+    "level": 88,
     "abilities": [
       "Natural Cure"
     ],
@@ -8394,7 +8403,7 @@
     }
   },
   "Tsareena": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Queenly Majesty"
     ],
@@ -8479,7 +8488,7 @@
     ]
   },
   "Tyrantrum": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Rock Head"
     ],
@@ -8498,7 +8507,7 @@
     ]
   },
   "Umbreon": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Synchronize"
     ],
@@ -8714,8 +8723,7 @@
     "items": [
       "Choice Specs",
       "Heavy-Duty Boots",
-      "Leftovers",
-      "Life Orb"
+      "Leftovers"
     ],
     "moves": [
       "Bug Buzz",
@@ -8799,7 +8807,7 @@
     }
   },
   "Volcarona": {
-    "level": 82,
+    "level": 80,
     "abilities": [
       "Flame Body",
       "Swarm"
@@ -8906,7 +8914,7 @@
     }
   },
   "Weezing-Galar": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Levitate",
       "Neutralizing Gas"
@@ -9016,7 +9024,7 @@
     ]
   },
   "Wobbuffet": {
-    "level": 82,
+    "level": 84,
     "abilities": [
       "Shadow Tag"
     ],
@@ -9037,7 +9045,7 @@
     }
   },
   "Xatu": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Magic Bounce"
     ],
@@ -9084,7 +9092,7 @@
     }
   },
   "Xurkitree": {
-    "level": 84,
+    "level": 82,
     "abilities": [
       "Beast Boost"
     ],
@@ -9108,7 +9116,7 @@
     }
   },
   "Yveltal": {
-    "level": 74,
+    "level": 72,
     "abilities": [
       "Dark Aura"
     ],
@@ -9144,7 +9152,7 @@
     ]
   },
   "Zacian-Crowned": {
-    "level": 72,
+    "level": 70,
     "abilities": [
       "Intrepid Sword"
     ],
@@ -9288,7 +9296,7 @@
     ]
   },
   "Zoroark": {
-    "level": 84,
+    "level": 86,
     "abilities": [
       "Illusion"
     ],
@@ -9312,7 +9320,7 @@
     }
   },
   "Zygarde": {
-    "level": 76,
+    "level": 74,
     "abilities": [
       "Power Construct"
     ],
@@ -9326,11 +9334,11 @@
       "Thousand Arrows"
     ],
     "evs": {
-      "hp": 81
+      "hp": 77
     }
   },
   "Zygarde-10%": {
-    "level": 86,
+    "level": 84,
     "abilities": [
       "Aura Break"
     ],

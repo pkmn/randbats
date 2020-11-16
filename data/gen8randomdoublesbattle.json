@@ -1357,12 +1357,12 @@
       "Will-O-Wisp"
     ],
     "evs": {
-      "spe": 0,
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     },
     "ivs": {
-      "spe": 0,
-      "atk": 0
+      "atk": 0,
+      "spe": 0
     }
   },
   "Comfey": {
@@ -6483,10 +6483,12 @@
       "Levitate"
     ],
     "items": [
+      "Life Orb",
       "Sitrus Berry"
     ],
     "moves": [
       "Air Slash",
+      "Dark Pulse",
       "Nasty Plot",
       "Protect",
       "Thunderbolt"
@@ -8619,6 +8621,7 @@
       "Levitate"
     ],
     "items": [
+      "Choice Specs",
       "Sitrus Berry"
     ],
     "moves": [
