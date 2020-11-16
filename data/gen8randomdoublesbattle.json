@@ -1357,12 +1357,12 @@
       "Will-O-Wisp"
     ],
     "evs": {
-      "atk": 0,
-      "spe": 0
+      "spe": 0,
+      "atk": 0
     },
     "ivs": {
-      "atk": 0,
-      "spe": 0
+      "spe": 0,
+      "atk": 0
     }
   },
   "Comfey": {
@@ -9209,7 +9209,7 @@
     ]
   },
   "Zoroark": {
-    "level": 80,
+    "level": 88,
     "abilities": [
       "Illusion"
     ],

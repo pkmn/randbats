@@ -8723,7 +8723,8 @@
     "items": [
       "Choice Specs",
       "Heavy-Duty Boots",
-      "Leftovers"
+      "Leftovers",
+      "Life Orb"
     ],
     "moves": [
       "Bug Buzz",
@@ -9296,7 +9297,7 @@
     ]
   },
   "Zoroark": {
-    "level": 86,
+    "level": 82,
     "abilities": [
       "Illusion"
     ],
