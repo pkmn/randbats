@@ -321,7 +321,7 @@
   "Rillaboom": {"level": 80, "abilities": ["Grassy Surge"], "items": ["Assault Vest", "Choice Band", "Life Orb", "Sitrus Berry"], "moves": ["Fake Out", "Grassy Glide", "High Horsepower", "Protect", "U-turn", "Wood Hammer"]},
   "Roserade": {"level": 86, "abilities": ["Natural Cure"], "items": ["Sitrus Berry"], "moves": ["Energy Ball", "Leaf Storm", "Protect", "Sleep Powder", "Sludge Bomb"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Rotom": {"level": 88, "abilities": ["Levitate"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Ally Switch", "Electroweb", "Protect", "Shadow Ball", "Thunderbolt", "Volt Switch", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Rotom-Fan": {"level": 84, "abilities": ["Levitate"], "items": ["Sitrus Berry"], "moves": ["Air Slash", "Dark Pulse", "Nasty Plot", "Protect", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Rotom-Fan": {"level": 84, "abilities": ["Levitate"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Air Slash", "Dark Pulse", "Nasty Plot", "Protect", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Rotom-Frost": {"level": 86, "abilities": ["Levitate"], "items": ["Blunder Policy", "Sitrus Berry"], "moves": ["Blizzard", "Nasty Plot", "Protect", "Thunderbolt", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Rotom-Heat": {"level": 84, "abilities": ["Levitate"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Electroweb", "Overheat", "Protect", "Thunderbolt", "Volt Switch", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Rotom-Mow": {"level": 88, "abilities": ["Levitate"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Electroweb", "Leaf Storm", "Protect", "Thunderbolt", "Volt Switch", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
