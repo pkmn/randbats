@@ -1,5 +1,4 @@
 {
-  "": {"level": 83, "abilities": ["Flower Gift"], "items": ["Heat Rock"], "moves": ["Hidden Power Ice", "Solar Beam", "Sunny Day", "Weather Ball"], "evs": {"atk": 0}, "ivs": {"atk": 3}},
   "Abomasnow": {"level": 77, "abilities": ["Snow Warning"], "items": ["Expert Belt", "Leftovers"], "moves": ["Blizzard", "Earthquake", "Energy Ball", "Hidden Power Fire", "Ice Shard", "Leech Seed", "Substitute", "Wood Hammer"], "evs": {"atk": 0}},
   "Absol": {"level": 79, "abilities": ["Pressure", "Super Luck"], "items": ["Choice Band", "Choice Scarf", "Focus Sash", "Life Orb"], "moves": ["Night Slash", "Psycho Cut", "Pursuit", "Sucker Punch", "Superpower", "Swords Dance"]},
   "Aerodactyl": {"level": 75, "abilities": ["Pressure"], "items": ["Focus Sash", "Leftovers", "Life Orb"], "moves": ["Earthquake", "Rock Slide", "Roost", "Stealth Rock", "Stone Edge", "Taunt"], "evs": {"hp": 81}},
@@ -52,6 +51,7 @@
   "Charizard": {"level": 83, "abilities": ["Blaze"], "items": ["Choice Scarf", "Choice Specs", "Life Orb"], "moves": ["Air Slash", "Dragon Pulse", "Fire Blast", "Flamethrower", "Hidden Power Grass", "Roost"], "evs": {"atk": 0}},
   "Chatot": {"level": 83, "abilities": ["Keen Eye", "Tangled Feet"], "items": ["Choice Scarf", "Choice Specs", "Focus Sash", "Leftovers", "Life Orb"], "moves": ["Encore", "Heat Wave", "Hidden Power Grass", "Hyper Voice", "Nasty Plot", "U-turn"], "evs": {"atk": 0}},
   "Cherrim": {"level": 83, "abilities": ["Flower Gift"], "items": ["Leftovers"], "moves": ["Aromatherapy", "Energy Ball", "Grass Whistle", "Hidden Power Fire", "Hidden Power Ground", "Synthesis"], "evs": {"atk": 0}},
+  "Cherrim-Sunshine": {"level": 83, "abilities": ["Flower Gift"], "items": ["Heat Rock"], "moves": ["Hidden Power Ice", "Solar Beam", "Sunny Day", "Weather Ball"], "evs": {"atk": 0}, "ivs": {"atk": 3}},
   "Chimecho": {"level": 83, "abilities": ["Levitate"], "items": ["Focus Sash", "Leftovers", "Life Orb"], "moves": ["Calm Mind", "Hidden Power Fire", "Psychic", "Recover", "Signal Beam", "Thunder Wave", "Yawn"], "evs": {"atk": 0}},
   "Claydol": {"level": 79, "abilities": ["Levitate"], "items": ["Leftovers", "Light Clay"], "moves": ["Earthquake", "Explosion", "Ice Beam", "Light Screen", "Rapid Spin", "Reflect", "Stealth Rock"]},
   "Clefable": {"level": 79, "abilities": ["Magic Guard"], "items": ["Life Orb"], "moves": ["Calm Mind", "Double-Edge", "Fire Blast", "Ice Beam", "Soft-Boiled", "Stealth Rock", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
