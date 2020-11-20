@@ -1,5 +1,5 @@
 [Automatically updating repository](https://simonwillison.net/2020/Oct/9/git-scraping/) containing
-the latest options for Pokémon Showdown's standard Random Battle formats. Every [20
+the latest options for Pokémon Showdown's standard Random Battle formats. Every [30
 minutes](https://github.com/pkmn/randbats/tree/main/.github/workflows/update.yml) the submodule of
 [smogon/pokemon-showdown](https://github.com/smogon/pokemon-showdown) in
 [`vendor/`](https://github.com/pkmn/randbats/tree/main/vendor) is synced and the
