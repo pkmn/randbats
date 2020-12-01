@@ -369,7 +369,7 @@
   "Skarmory": {"level": 84, "abilities": ["Sturdy"], "items": ["Sitrus Berry"], "moves": ["Body Press", "Brave Bird", "Iron Defense", "Roost"]},
   "Skuntank": {"level": 88, "abilities": ["Aftermath"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Crunch", "Fire Blast", "Haze", "Poison Jab", "Sucker Punch", "Taunt"]},
   "Slowbro": {"level": 84, "abilities": ["Regenerator"], "items": ["Assault Vest", "Sitrus Berry"], "moves": ["Calm Mind", "Fire Blast", "Ice Beam", "Psychic", "Scald", "Slack Off", "Trick Room"], "evs": {"atk": 0, "spe": 0}, "ivs": {"atk": 0, "spe": 0}},
-  "Slowbro-Galar": {"level": 84, "abilities": ["Regenerator"], "items": ["Sitrus Berry"], "moves": ["Fire Blast", "Heal Pulse", "Protect", "Psychic", "Shell Side Arm", "Trick Room"], "evs": {"atk": 0, "spe": 0}, "ivs": {"atk": 0, "spe": 0}},
+  "Slowbro-Galar": {"level": 84, "abilities": ["Regenerator"], "items": ["Sitrus Berry"], "moves": ["Fire Blast", "Heal Pulse", "Protect", "Psychic", "Shell Side Arm", "Trick Room"], "evs": {"spe": 0}, "ivs": {"spe": 0}},
   "Slowking": {"level": 84, "abilities": ["Regenerator"], "items": ["Assault Vest", "Sitrus Berry"], "moves": ["Fire Blast", "Ice Beam", "Nasty Plot", "Psychic", "Scald", "Slack Off", "Trick Room"], "evs": {"atk": 0, "spe": 0}, "ivs": {"atk": 0, "spe": 0}},
   "Slowking-Galar": {"level": 86, "abilities": ["Curious Medicine", "Regenerator"], "items": ["Choice Specs", "Sitrus Berry"], "moves": ["Eerie Spell", "Fire Blast", "Protect", "Sludge Bomb", "Trick", "Trick Room"], "evs": {"atk": 0, "spe": 0}, "ivs": {"atk": 0, "spe": 0}},
   "Slurpuff": {"level": 84, "abilities": ["Unburden"], "items": ["Sitrus Berry"], "moves": ["Fake Tears", "Flamethrower", "Helping Hand", "Play Rough", "Sticky Web"]},
