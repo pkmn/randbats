@@ -86,7 +86,7 @@
   "Darmanitan": {"level": 82, "abilities": ["Sheer Force"], "items": ["Life Orb"], "moves": ["Earthquake", "Flare Blitz", "Rock Slide", "Superpower", "U-turn"]},
   "Darmanitan-Galar": {"level": 78, "abilities": ["Gorilla Tactics"], "items": ["Choice Scarf"], "moves": ["Earthquake", "Flare Blitz", "Icicle Crash", "Superpower", "U-turn"], "evs": {"hp": 81}},
   "Darmanitan-Galar-Zen": {"level": 78, "abilities": ["Zen Mode"], "items": ["Salac Berry"], "moves": ["Belly Drum", "Earthquake", "Fire Punch", "Icicle Crash", "Substitute"]},
-  "Decidueye": {"level": 84, "abilities": ["Overgrow"], "items": ["Choice Band", "Focus Sash", "Life Orb", "Lum Berry"], "moves": ["Brave Bird", "Leaf Blade", "Roost", "Shadow Sneak", "Spirit Shackle", "Swords Dance"]},
+  "Decidueye": {"level": 84, "abilities": ["Overgrow"], "items": ["Choice Band", "Life Orb", "Lum Berry"], "moves": ["Brave Bird", "Leaf Blade", "Roost", "Shadow Sneak", "Spirit Shackle", "Swords Dance"]},
   "Dedenne": {"level": 88, "abilities": ["Cheek Pouch"], "items": ["Sitrus Berry"], "moves": ["Protect", "Recycle", "Thunderbolt", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Delibird": {"level": 100, "abilities": ["Vital Spirit"], "items": ["Heavy-Duty Boots"], "moves": ["Freeze-Dry", "Memento", "Rapid Spin", "Spikes"]},
   "Dhelmise": {"level": 84, "abilities": ["Steelworker"], "items": ["Assault Vest", "Choice Band", "Lum Berry"], "moves": ["Anchor Shot", "Earthquake", "Poltergeist", "Power Whip", "Rapid Spin", "Swords Dance"]},
