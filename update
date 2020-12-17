@@ -2,6 +2,7 @@
 'use strict';
 
 const fs = require('fs');
+const util = require('util');
 const stringify = require('json-stringify-pretty-compact');
 
 const {Dex} = require('./vendor/pokemon-showdown');
@@ -142,4 +143,11 @@ for (const format in Dex.formats) {
   }
 
   fs.writeFileSync(`data/${format}.json`, stringify(options, {maxLength: 1000}));
+  const code = util.inspect(options, {
+    depth: Infinity,
+    maxArrayLength: Infinity,
+    compact: true,
+    breakLength: 1000,
+  }).slice(1, -1);
+  fs.writeFileSync(`data/${format}.js`, `var ${format.toUpperCase()} = {\n ${code}\n};`);
 }
