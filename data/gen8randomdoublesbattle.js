@@ -453,6 +453,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   Zapdos: { level: 80, abilities: [ 'Static' ], items: [ 'Choice Scarf', 'Choice Specs', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Heat Wave', 'Hurricane', 'Roost', 'Tailwind', 'Thunderbolt', 'Volt Switch' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Zapdos-Galar': { level: 78, abilities: [ 'Defiant' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb' ], moves: [ 'Brave Bird', 'Bulk Up', 'Close Combat', 'Throat Chop', 'Thunderous Kick', 'U-turn' ] },
   Zarude: { level: 80, abilities: [ 'Leaf Guard' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Close Combat', 'Darkest Lariat', 'Jungle Healing', 'Power Whip', 'Protect', 'Rock Slide' ] },
+  'Zarude-Dada': { level: 80, abilities: [ 'Leaf Guard' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Close Combat', 'Darkest Lariat', 'Jungle Healing', 'Power Whip', 'Protect', 'Rock Slide' ] },
   Zekrom: { level: 72, abilities: [ 'Teravolt' ], items: [ 'Sitrus Berry' ], moves: [ 'Bolt Strike', 'Dragon Claw', 'Dragon Dance', 'Roost' ] },
   Zeraora: { level: 78, abilities: [ 'Volt Absorb' ], items: [ 'Assault Vest', 'Life Orb' ], moves: [ 'Close Combat', 'Fake Out', 'Grass Knot', 'Knock Off', 'Plasma Fists', 'Play Rough', 'Snarl' ] },
   Zoroark: { level: 0, abilities: [ 'Illusion' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Dark Pulse', 'Flamethrower', 'Focus Blast', 'Nasty Plot', 'Protect', 'Sludge Bomb' ], evs: { atk: 0 }, ivs: { atk: 0 } },
