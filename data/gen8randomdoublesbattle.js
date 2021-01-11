@@ -124,7 +124,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   'Exeggutor-Alola': { level: 88, abilities: [ 'Harvest' ], items: [ 'Sitrus Berry' ], moves: [ 'Dragon Pulse', 'Energy Ball', 'Flamethrower', 'Protect', 'Trick Room' ], evs: { atk: 0, spe: 0 }, ivs: { atk: 0, spe: 0 } },
   Exploud: { level: 88, abilities: [ 'Scrappy' ], items: [ 'Assault Vest', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Boomburst', 'Fire Blast', 'Focus Blast', 'Hyper Voice', 'Icy Wind', 'Protect' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Falinks: { level: 86, abilities: [ 'Defiant' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb' ], moves: [ 'Close Combat', 'No Retreat', 'Poison Jab', 'Rock Slide', 'Throat Chop' ] },
-  'Farfetch’d': { level: 95, abilities: [ 'Defiant' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Brave Bird', 'Close Combat', 'Leaf Blade', 'Protect', 'Quick Attack', 'Swords Dance' ] },
+  'Farfetch’d': { level: 95, abilities: [ 'Defiant' ], items: [ 'Leek' ], moves: [ 'Brave Bird', 'Close Combat', 'Leaf Blade', 'Protect', 'Quick Attack', 'Swords Dance' ] },
   Ferrothorn: { level: 80, abilities: [ 'Iron Barbs' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Body Press', 'Gyro Ball', 'Knock Off', 'Leech Seed', 'Power Whip', 'Protect', 'Toxic' ], evs: { spe: 0 }, ivs: { spe: 0 } },
   Flapple: { level: 86, abilities: [ 'Ripen' ], items: [ 'Sitrus Berry' ], moves: [ 'Acrobatics', 'Dragon Dance', 'Dragon Rush', 'Grav Apple', 'Protect' ] },
   Flareon: { level: 88, abilities: [ 'Guts' ], items: [ 'Toxic Orb' ], moves: [ 'Facade', 'Flame Charge', 'Flare Blitz', 'Protect', 'Quick Attack', 'Superpower' ] },

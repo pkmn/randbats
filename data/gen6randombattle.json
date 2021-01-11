@@ -474,7 +474,7 @@
   "Wobbuffet": {"level": 82, "abilities": ["Shadow Tag"], "items": ["Custap Berry", "Leftovers", "Sitrus Berry"], "moves": ["Counter", "Destiny Bond", "Encore", "Mirror Coat", "Safeguard"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Wormadam": {"level": 88, "abilities": ["Overcoat"], "items": ["Leftovers"], "moves": ["Giga Drain", "Protect", "Signal Beam", "Synthesis", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Wormadam-Sandy": {"level": 88, "abilities": ["Overcoat"], "items": ["Leftovers"], "moves": ["Earthquake", "Protect", "Stealth Rock", "Toxic"]},
-  "Wormadam-Trash": {"level": 88, "abilities": ["Overcoat"], "items": ["Leftovers"], "moves": ["Gyro Ball", "Protect", "Stealth Rock", "Toxic"], "evs": {"spe": 0}, "ivs": {"spe": 0}},
+  "Wormadam-Trash": {"level": 88, "abilities": ["Overcoat"], "items": ["Leftovers"], "moves": ["Flash Cannon", "Protect", "Stealth Rock", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Xatu": {"level": 86, "abilities": ["Magic Bounce"], "items": ["Focus Sash", "Leftovers"], "moves": ["Calm Mind", "Heat Wave", "Psychic", "Reflect", "Roost", "Thunder Wave", "Toxic", "U-turn"], "evs": {"hp": 81, "atk": 0}, "ivs": {"atk": 0}},
   "Xerneas": {"level": 76, "abilities": ["Fairy Aura"], "items": ["Assault Vest", "Choice Scarf", "Choice Specs", "Power Herb"], "moves": ["Close Combat", "Focus Blast", "Geomancy", "Hidden Power Fire", "Moonblast", "Psyshock", "Rock Slide", "Thunderbolt"], "evs": {"atk": 0}},
   "Yanmega": {"level": 84, "abilities": ["Speed Boost", "Tinted Lens"], "items": ["Choice Specs", "Life Orb"], "moves": ["Air Slash", "Bug Buzz", "Giga Drain", "Protect", "U-turn"], "evs": {"hp": 81, "atk": 0}, "ivs": {"atk": 0}},
