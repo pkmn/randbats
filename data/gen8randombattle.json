@@ -310,7 +310,7 @@
   "Reuniclus": {"level": 86, "abilities": ["Magic Guard"], "items": ["Life Orb"], "moves": ["Calm Mind", "Focus Blast", "Psychic", "Recover", "Shadow Ball", "Trick Room"], "evs": {"atk": 0, "spe": 0}, "ivs": {"atk": 0, "spe": 0}},
   "Rhyperior": {"level": 84, "abilities": ["Solid Rock"], "items": ["Choice Band", "Leftovers", "Weakness Policy"], "moves": ["Earthquake", "Fire Punch", "Megahorn", "Rock Blast", "Rock Polish", "Stealth Rock", "Stone Edge"]},
   "Ribombee": {"level": 84, "abilities": ["Shield Dust", "Sweet Veil"], "items": ["Focus Sash", "Heavy-Duty Boots", "Leftovers"], "moves": ["Moonblast", "Psychic", "Sticky Web", "Stun Spore", "U-turn"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Rillaboom": {"level": 80, "abilities": ["Grassy Surge"], "items": ["Choice Band", "Choice Scarf"], "moves": ["Grassy Glide", "High Horsepower", "Knock Off", "U-turn", "Wood Hammer"]},
+  "Rillaboom": {"level": 80, "abilities": ["Grassy Surge"], "items": ["Choice Band"], "moves": ["Grassy Glide", "High Horsepower", "Knock Off", "U-turn", "Wood Hammer"]},
   "Rillaboom-Gmax": {"level": 80, "abilities": ["Grassy Surge"], "items": ["Grassy Seed", "Life Orb"], "moves": ["Acrobatics", "Grassy Glide", "High Horsepower", "Knock Off", "Swords Dance"]},
   "Roserade": {"level": 86, "abilities": ["Natural Cure"], "items": ["Black Sludge", "Focus Sash"], "moves": ["Leaf Storm", "Sleep Powder", "Sludge Bomb", "Spikes", "Synthesis", "Toxic Spikes"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Rotom": {"level": 86, "abilities": ["Levitate"], "items": ["Focus Sash", "Leftovers", "Life Orb"], "moves": ["Nasty Plot", "Shadow Ball", "Thunderbolt", "Volt Switch", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
