@@ -46,7 +46,7 @@ var GEN1RANDOMBATTLE = {
   Goldeen: { level: 88, moves: [ 'Agility', 'Blizzard', 'Double-Edge', 'Surf' ] },
   Golduck: { level: 74, moves: [ 'Amnesia', 'Blizzard', 'Body Slam', 'Hydro Pump', 'Rest', 'Seismic Toss', 'Surf' ] },
   Golem: { level: 74, moves: [ 'Body Slam', 'Earthquake', 'Explosion', 'Rock Slide' ] },
-  Graveler: { level: 74, moves: [ 'Body Slam', 'Earthquake', 'Explosion', 'Rock Slide' ] },
+  Graveler: { level: 80, moves: [ 'Body Slam', 'Earthquake', 'Explosion', 'Rock Slide' ] },
   Grimer: { level: 88, moves: [ 'Body Slam', 'Explosion', 'Fire Blast', 'Mega Drain', 'Screech', 'Sludge' ] },
   Growlithe: { level: 88, moves: [ 'Body Slam', 'Fire Blast', 'Flamethrower', 'Reflect' ] },
   Gyarados: { level: 74, moves: [ 'Blizzard', 'Body Slam', 'Hydro Pump', 'Hyper Beam', 'Surf', 'Thunderbolt' ] },
