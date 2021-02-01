@@ -123,7 +123,7 @@ var GEN5RANDOMBATTLE = {
   Fearow: { level: 88, abilities: [ 'Sniper' ], items: [ 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Double-Edge', 'Drill Peck', 'Drill Run', 'Pursuit', 'Quick Attack', 'Return', 'Roost', 'U-turn' ] },
   Feraligatr: { level: 84, abilities: [ 'Torrent' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb' ], moves: [ 'Aqua Jet', 'Dragon Dance', 'Earthquake', 'Ice Punch', 'Superpower', 'Swords Dance', 'Waterfall' ] },
   Ferrothorn: { level: 80, abilities: [ 'Iron Barbs' ], items: [ 'Leftovers' ], moves: [ 'Gyro Ball', 'Leech Seed', 'Power Whip', 'Protect', 'Spikes', 'Stealth Rock', 'Toxic' ], evs: { spe: 0 }, ivs: { spe: 0 } },
-  Flareon: { level: 88, abilities: [ 'Guts' ], items: [ 'Flame Orb' ], moves: [ 'Facade', 'Flame Charge', 'Rest', 'Sleep Talk' ] },
+  Flareon: { level: 88, abilities: [ 'Guts' ], items: [ 'Toxic Orb' ], moves: [ 'Facade', 'Flame Charge', 'Rest', 'Sleep Talk' ] },
   Floatzel: { level: 86, abilities: [ 'Swift Swim', 'Water Veil' ], items: [ 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Aqua Jet', 'Baton Pass', 'Bulk Up', 'Crunch', 'Ice Punch', 'Switcheroo', 'Taunt', 'Waterfall' ] },
   Flygon: { level: 82, abilities: [ 'Levitate' ], items: [ 'Choice Band', 'Choice Scarf', 'Leftovers', 'Life Orb' ], moves: [ 'Earthquake', 'Fire Punch', 'Outrage', 'Roost', 'Stone Edge', 'Superpower', 'U-turn' ] },
   Forretress: { level: 80, abilities: [ 'Sturdy' ], items: [ 'Custap Berry', 'Leftovers' ], moves: [ 'Gyro Ball', 'Rapid Spin', 'Spikes', 'Stealth Rock', 'Toxic', 'Volt Switch' ], evs: { spe: 0 }, ivs: { spe: 0 } },

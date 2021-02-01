@@ -123,7 +123,7 @@
   "Hitmontop": {"level": 84, "abilities": ["Intimidate", "Technician"], "items": ["Leftovers", "Life Orb"], "moves": ["Bulk Up", "Close Combat", "Mach Punch", "Rapid Spin", "Stone Edge", "Sucker Punch", "Toxic"]},
   "Ho-Oh": {"level": 76, "abilities": ["Pressure"], "items": ["Choice Band", "Choice Scarf", "Leftovers"], "moves": ["Brave Bird", "Earthquake", "Punishment", "Roost", "Sacred Fire", "Substitute"], "evs": {"hp": 81}},
   "Honchkrow": {"level": 82, "abilities": ["Insomnia"], "items": ["Life Orb"], "moves": ["Brave Bird", "Heat Wave", "Pursuit", "Sucker Punch", "Superpower"]},
-  "Houndoom": {"level": 84, "abilities": ["Flash Fire"], "items": ["Focus Sash", "Life Orb"], "moves": ["Dark Pulse", "Fire Blast", "Hidden Power Grass", "Nasty Plot", "Sucker Punch"], "evs": {"atk": 0}},
+  "Houndoom": {"level": 84, "abilities": ["Flash Fire"], "items": ["Focus Sash", "Life Orb"], "moves": ["Dark Pulse", "Fire Blast", "Hidden Power Grass", "Nasty Plot", "Sucker Punch"], "evs": {"atk": 0}, "ivs": {"spa": 30}},
   "Huntail": {"level": 88, "abilities": ["Swift Swim"], "items": ["Life Orb"], "moves": ["Double-Edge", "Hidden Power Grass", "Hydro Pump", "Ice Beam", "Rain Dance", "Sucker Punch", "Surf"], "evs": {"atk": 0}},
   "Hypno": {"level": 88, "abilities": ["Insomnia"], "items": ["Leftovers"], "moves": ["Protect", "Seismic Toss", "Thunder Wave", "Toxic", "Wish"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Illumise": {"level": 88, "abilities": ["Tinted Lens"], "items": ["Choice Scarf", "Choice Specs", "Focus Sash", "Life Orb"], "moves": ["Bug Buzz", "Encore", "Hidden Power Ground", "Hidden Power Ice", "Thunderbolt", "U-turn"], "evs": {"atk": 0}},
