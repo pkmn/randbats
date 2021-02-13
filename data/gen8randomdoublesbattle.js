@@ -280,7 +280,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   Persian: { level: 90, abilities: [ 'Limber', 'Technician' ], items: [ 'Sitrus Berry' ], moves: [ 'Double-Edge', 'Fake Out', 'Hypnosis', 'Icy Wind', 'Knock Off', 'Taunt' ] },
   'Persian-Alola': { level: 88, abilities: [ 'Fur Coat', 'Technician' ], items: [ 'Sitrus Berry' ], moves: [ 'Fake Out', 'Foul Play', 'Icy Wind', 'Parting Shot', 'Protect', 'Snarl', 'Taunt' ] },
   Pheromosa: { level: 78, abilities: [ 'Beast Boost' ], items: [ 'Choice Band', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Close Combat', 'Ice Beam', 'Poison Jab', 'Protect', 'Throat Chop', 'U-turn' ] },
-  Pikachu: { level: 90, abilities: [ 'Lightning Rod' ], items: [ 'Eviolite' ], moves: [ 'Fake Out', 'Grass Knot', 'Knock Off', 'Protect', 'Volt Tackle' ] },
+  Pikachu: { level: 90, abilities: [ 'Lightning Rod' ], items: [ 'Light Ball' ], moves: [ 'Fake Out', 'Grass Knot', 'Knock Off', 'Protect', 'Volt Tackle' ] },
   'Pikachu-Alola-Gmax': { level: 90, abilities: [ 'Lightning Rod' ], items: [ 'Light Ball' ], moves: [ 'Extreme Speed', 'Fake Out', 'Knock Off', 'Surf', 'Volt Tackle' ] },
   'Pikachu-Gmax': { level: 90, abilities: [ 'Lightning Rod' ], items: [ 'Light Ball' ], moves: [ 'Extreme Speed', 'Fake Out', 'Knock Off', 'Surf', 'Volt Tackle' ] },
   'Pikachu-Hoenn-Gmax': { level: 90, abilities: [ 'Lightning Rod' ], items: [ 'Light Ball' ], moves: [ 'Extreme Speed', 'Fake Out', 'Knock Off', 'Surf', 'Volt Tackle' ] },

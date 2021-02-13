@@ -281,7 +281,7 @@ var GEN8RANDOMBATTLE = {
   Persian: { level: 88, abilities: [ 'Limber', 'Technician' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Double-Edge', 'Fake Out', 'Knock Off', 'Play Rough', 'U-turn' ] },
   'Persian-Alola': { level: 82, abilities: [ 'Fur Coat' ], items: [ 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Dark Pulse', 'Hypnosis', 'Nasty Plot', 'Power Gem', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Pheromosa: { level: 76, abilities: [ 'Beast Boost' ], items: [ 'Choice Band', 'Expert Belt', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'Ice Beam', 'Poison Jab', 'Throat Chop', 'U-turn' ] },
-  Pikachu: { level: 90, abilities: [ 'Lightning Rod' ], items: [ 'Eviolite' ], moves: [ 'Iron Tail', 'Knock Off', 'Surf', 'Volt Switch', 'Volt Tackle' ] },
+  Pikachu: { level: 90, abilities: [ 'Lightning Rod' ], items: [ 'Light Ball' ], moves: [ 'Iron Tail', 'Knock Off', 'Surf', 'Volt Switch', 'Volt Tackle' ] },
   Pincurchin: { level: 88, abilities: [ 'Electric Surge' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Rising Voltage', 'Scald', 'Spikes', 'Sucker Punch', 'Toxic Spikes' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Pinsir: { level: 84, abilities: [ 'Mold Breaker', 'Moxie' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Heavy-Duty Boots', 'Life Orb' ], moves: [ 'Close Combat', 'Earthquake', 'Knock Off', 'Stealth Rock', 'Stone Edge', 'X-Scissor' ] },
   Politoed: { level: 86, abilities: [ 'Drizzle' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Encore', 'Ice Beam', 'Protect', 'Rest', 'Scald', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
