@@ -261,7 +261,7 @@
   "Necrozma-Dusk-Mane": {"level": 68, "abilities": ["Prism Armor"], "items": ["Weakness Policy"], "moves": ["Dragon Dance", "Earthquake", "Morning Sun", "Photon Geyser", "Sunsteel Strike"]},
   "Nidoking": {"level": 82, "abilities": ["Sheer Force"], "items": ["Life Orb"], "moves": ["Earth Power", "Ice Beam", "Sludge Wave", "Substitute", "Superpower"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Nidoqueen": {"level": 84, "abilities": ["Sheer Force"], "items": ["Life Orb"], "moves": ["Earth Power", "Ice Beam", "Sludge Wave", "Stealth Rock", "Toxic Spikes"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Nihilego": {"level": 80, "abilities": ["Beast Boost"], "items": ["Black Sludge", "Choice Scarf", "Choice Specs"], "moves": ["Grass Knot", "Power Gem", "Sludge Wave", "Stealth Rock", "Thunderbolt", "Toxic Spikes"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Nihilego": {"level": 80, "abilities": ["Beast Boost"], "items": ["Black Sludge", "Choice Scarf", "Choice Specs"], "moves": ["Grass Knot", "Power Gem", "Sludge Wave", "Stealth Rock", "Thunderbolt", "Toxic Spikes"], "evs": {"atk": 0, "spd": 53}, "ivs": {"atk": 0}},
   "Ninetales": {"level": 82, "abilities": ["Drought"], "items": ["Focus Sash", "Heavy-Duty Boots", "Leftovers", "Life Orb"], "moves": ["Fire Blast", "Nasty Plot", "Scorching Sands", "Solar Beam", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Ninetales-Alola": {"level": 80, "abilities": ["Snow Warning"], "items": ["Focus Sash", "Heavy-Duty Boots", "Life Orb", "Light Clay"], "moves": ["Aurora Veil", "Blizzard", "Freeze-Dry", "Moonblast", "Nasty Plot"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Ninjask": {"level": 86, "abilities": ["Speed Boost"], "moves": ["Acrobatics", "Leech Life", "Swords Dance", "U-turn"]},

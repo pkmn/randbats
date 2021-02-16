@@ -260,7 +260,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   'Necrozma-Dusk-Mane': { level: 72, abilities: [ 'Prism Armor' ], items: [ 'Weakness Policy' ], moves: [ 'Dragon Dance', 'Photon Geyser', 'Protect', 'Sunsteel Strike' ] },
   Nidoking: { level: 84, abilities: [ 'Sheer Force' ], items: [ 'Life Orb' ], moves: [ 'Earth Power', 'Fire Blast', 'Ice Beam', 'Protect', 'Sludge Bomb', 'Superpower' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Nidoqueen: { level: 84, abilities: [ 'Sheer Force' ], items: [ 'Life Orb' ], moves: [ 'Earth Power', 'Ice Beam', 'Protect', 'Sludge Bomb', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Nihilego: { level: 82, abilities: [ 'Beast Boost' ], items: [ 'Power Herb', 'Sitrus Berry' ], moves: [ 'Grass Knot', 'Meteor Beam', 'Protect', 'Sludge Bomb', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Nihilego: { level: 82, abilities: [ 'Beast Boost' ], items: [ 'Power Herb', 'Sitrus Berry' ], moves: [ 'Grass Knot', 'Meteor Beam', 'Protect', 'Sludge Bomb', 'Thunderbolt' ], evs: { atk: 0, spd: 53 }, ivs: { atk: 0 } },
   Ninetales: { level: 84, abilities: [ 'Drought' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Heat Wave', 'Nasty Plot', 'Protect', 'Scorching Sands', 'Solar Beam' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
   'Ninetales-Alola': { level: 84, abilities: [ 'Snow Warning' ], items: [ 'Life Orb', 'Light Clay' ], moves: [ 'Aurora Veil', 'Blizzard', 'Encore', 'Freeze-Dry', 'Moonblast' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
   Ninjask: { level: 88, abilities: [ 'Speed Boost' ], moves: [ 'Acrobatics', 'Defog', 'Leech Life', 'Protect', 'Swords Dance' ] },
