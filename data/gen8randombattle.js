@@ -274,7 +274,7 @@ var GEN8RANDOMBATTLE = {
   Orbeetle: { level: 86, abilities: [ 'Frisk', 'Swarm' ], items: [ 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Body Press', 'Bug Buzz', 'Calm Mind', 'Psychic', 'Recover', 'Sticky Web', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Palkia: { level: 74, abilities: [ 'Pressure' ], items: [ 'Choice Scarf', 'Choice Specs', 'Leftovers' ], moves: [ 'Draco Meteor', 'Fire Blast', 'Hydro Pump', 'Spacial Rend', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Palossand: { level: 86, abilities: [ 'Sand Veil', 'Water Compaction' ], items: [ 'Leftovers' ], moves: [ 'Earth Power', 'Scorching Sands', 'Shadow Ball', 'Shore Up', 'Stealth Rock', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Pangoro: { level: 84, abilities: [ 'Scrappy' ], items: [ 'Choice Band' ], moves: [ 'Close Combat', 'Darkest Lariat', 'Gunk Shot', 'Ice Punch', 'Parting Shot' ] },
+  Pangoro: { level: 84, abilities: [ 'Scrappy' ], items: [ 'Choice Band' ], moves: [ 'Close Combat', 'Gunk Shot', 'Ice Punch', 'Knock Off', 'Parting Shot' ] },
   Passimian: { level: 82, abilities: [ 'Defiant' ], items: [ 'Choice Band', 'Choice Scarf' ], moves: [ 'Close Combat', 'Earthquake', 'Gunk Shot', 'Knock Off', 'Rock Slide', 'U-turn' ] },
   Pelipper: { level: 86, abilities: [ 'Drizzle' ], items: [ 'Choice Specs', 'Heavy-Duty Boots' ], moves: [ 'Defog', 'Hurricane', 'Hydro Pump', 'Roost', 'Scald', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Perrserker: { level: 86, abilities: [ 'Steely Spirit', 'Tough Claws' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'Crunch', 'Fake Out', 'Iron Head', 'U-turn' ] },
