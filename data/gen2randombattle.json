@@ -120,7 +120,7 @@
   "Suicune": {"level": 65, "items": ["Leftovers"], "moves": ["Hidden Power Electric", "Ice Beam", "Rest", "Roar", "Sleep Talk", "Surf", "Toxic"]},
   "Sunflora": {"level": 73, "items": ["Leftovers"], "moves": ["Giga Drain", "Growth", "Hidden Power Fire", "Hidden Power Water", "Synthesis"], "ivs": {"atk": 28}},
   "Tangela": {"level": 73, "items": ["Leftovers"], "moves": ["Giga Drain", "Growth", "Hidden Power Ice", "Sleep Powder", "Synthesis"]},
-  "Tauros": {"level": 67, "items": ["Leftovers", "Mint Berry"], "moves": ["Curse", "Double-Edge", "Earthquake", "Quick Attack", "Rest", "Return", "Sleep Talk"]},
+  "Tauros": {"level": 67, "items": ["Leftovers", "Mint Berry"], "moves": ["Curse", "Double-Edge", "Earthquake", "Rest", "Return", "Sleep Talk"]},
   "Tentacruel": {"level": 67, "items": ["Leftovers"], "moves": ["Hydro Pump", "Sludge Bomb", "Substitute", "Swords Dance"]},
   "Togetic": {"level": 73, "items": ["Leftovers"], "moves": ["Fire Blast", "Solar Beam", "Sunny Day", "Zap Cannon"]},
   "Typhlosion": {"level": 67, "items": ["Leftovers"], "moves": ["Earthquake", "Fire Blast", "Rest", "Sleep Talk", "Thunder Punch"]},
