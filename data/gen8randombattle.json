@@ -139,7 +139,7 @@
   "Gardevoir": {"level": 82, "abilities": ["Trace"], "items": ["Choice Scarf", "Focus Sash", "Leftovers", "Life Orb"], "moves": ["Calm Mind", "Moonblast", "Mystical Fire", "Psyshock", "Substitute", "Trick", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Gastrodon": {"level": 84, "abilities": ["Storm Drain"], "items": ["Leftovers"], "moves": ["Clear Smog", "Earthquake", "Ice Beam", "Recover", "Scald", "Toxic"]},
   "Genesect": {"level": 76, "abilities": ["Download"], "items": ["Assault Vest", "Choice Band", "Life Orb"], "moves": ["Blaze Kick", "Extreme Speed", "Iron Head", "Leech Life", "Shift Gear", "Thunderbolt", "U-turn"]},
-  "Genesect-Douse": {"level": 74, "abilities": ["Download"], "items": ["Douse Drive"], "moves": ["Bug Buzz", "Extreme Speed", "Flamethrower", "Ice Beam", "Iron Head", "Techno Blast", "Thunderbolt", "U-turn"]},
+  "Genesect-Douse": {"level": 76, "abilities": ["Download"], "items": ["Douse Drive"], "moves": ["Bug Buzz", "Extreme Speed", "Flamethrower", "Ice Beam", "Iron Head", "Techno Blast", "Thunderbolt", "U-turn"]},
   "Gengar-Gmax": {"level": 80, "abilities": ["Cursed Body"], "items": ["Choice Specs", "Focus Sash", "Life Orb"], "moves": ["Focus Blast", "Nasty Plot", "Shadow Ball", "Sludge Wave", "Trick"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Gigalith": {"level": 82, "abilities": ["Sand Stream"], "items": ["Choice Band", "Leftovers"], "moves": ["Earthquake", "Explosion", "Stealth Rock", "Stone Edge", "Superpower"]},
   "Giratina": {"level": 74, "abilities": ["Pressure"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Hex", "Rest", "Sleep Talk", "Toxic", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
