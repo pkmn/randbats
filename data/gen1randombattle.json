@@ -44,7 +44,7 @@
   "Gloom": {"level": 80, "moves": ["Double-Edge", "Mega Drain", "Sleep Powder", "Stun Spore", "Swords Dance"]},
   "Golbat": {"level": 77, "moves": ["Confuse Ray", "Double-Edge", "Hyper Beam", "Mega Drain"]},
   "Goldeen": {"level": 88, "moves": ["Agility", "Blizzard", "Double-Edge", "Surf"]},
-  "Golduck": {"level": 80, "moves": ["Amnesia", "Blizzard", "Body Slam", "Hydro Pump", "Rest", "Seismic Toss", "Surf"]},
+  "Golduck": {"level": 76, "moves": ["Amnesia", "Blizzard", "Body Slam", "Hydro Pump", "Rest", "Seismic Toss", "Surf"]},
   "Golem": {"level": 77, "moves": ["Body Slam", "Earthquake", "Explosion", "Rock Slide"]},
   "Graveler": {"level": 80, "moves": ["Body Slam", "Earthquake", "Explosion", "Rock Slide"]},
   "Grimer": {"level": 88, "moves": ["Body Slam", "Explosion", "Fire Blast", "Mega Drain", "Screech", "Sludge"]},
