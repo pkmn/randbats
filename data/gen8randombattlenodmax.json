@@ -376,7 +376,7 @@
   "Spiritomb": {"level": 90, "abilities": ["Infiltrator", "Pressure"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Calm Mind", "Dark Pulse", "Psychic", "Rest", "Shadow Sneak", "Sleep Talk", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Stakataka": {"level": 84, "abilities": ["Beast Boost"], "items": ["Air Balloon", "Choice Band"], "moves": ["Body Press", "Earthquake", "Gyro Ball", "Stealth Rock", "Stone Edge", "Trick Room"], "evs": {"spe": 0}, "ivs": {"spe": 0}},
   "Starmie": {"level": 86, "abilities": ["Analytic", "Natural Cure"], "items": ["Choice Specs", "Focus Sash", "Heavy-Duty Boots", "Leftovers", "Life Orb"], "moves": ["Hydro Pump", "Ice Beam", "Psyshock", "Rapid Spin", "Recover", "Scald", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Steelix": {"level": 84, "abilities": ["Rock Head", "Sheer Force", "Sturdy"], "items": ["Leftovers"], "moves": ["Curse", "Dragon Dance", "Earthquake", "Head Smash", "Heavy Slam", "Stealth Rock", "Toxic"]},
+  "Steelix": {"level": 84, "abilities": ["Rock Head", "Sturdy"], "items": ["Leftovers"], "moves": ["Curse", "Dragon Dance", "Earthquake", "Head Smash", "Heavy Slam", "Stealth Rock", "Toxic"]},
   "Stonjourner": {"level": 90, "abilities": ["Power Spot"], "items": ["Life Orb"], "moves": ["Earthquake", "Heat Crash", "Rock Polish", "Stealth Rock", "Stone Edge"]},
   "Stoutland": {"level": 90, "abilities": ["Intimidate", "Sand Rush", "Scrappy"], "items": ["Choice Band", "Choice Scarf"], "moves": ["Crunch", "Facade", "Play Rough", "Superpower", "Wild Charge"]},
   "Stunfisk": {"level": 90, "abilities": ["Static"], "items": ["Assault Vest", "Leftovers"], "moves": ["Discharge", "Earth Power", "Foul Play", "Sludge Bomb", "Stealth Rock"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
