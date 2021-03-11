@@ -44,7 +44,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   Braviary: { level: 82, abilities: [ 'Defiant' ], items: [ 'Sitrus Berry' ], moves: [ 'Brave Bird', 'Close Combat', 'Protect', 'Roost', 'Tailwind' ] },
   Bronzong: { level: 88, abilities: [ 'Levitate' ], items: [ 'Sitrus Berry' ], moves: [ 'Ally Switch', 'Body Press', 'Explosion', 'Iron Head', 'Trick Room' ], evs: { spe: 0 }, ivs: { spe: 0 } },
   Butterfree: { level: 88, abilities: [ 'Compound Eyes', 'Tinted Lens' ], items: [ 'Sitrus Berry' ], moves: [ 'Hurricane', 'Pollen Puff', 'Protect', 'Quiver Dance', 'Rage Powder', 'Sleep Powder', 'Tailwind' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  'Butterfree-Gmax': { level: 88, abilities: [ 'Compound Eyes', 'Tinted Lens' ], items: [ 'Sitrus Berry' ], moves: [ 'Hurricane', 'Pollen Puff', 'Protect', 'Quiver Dance', 'Rage Powder', 'Sleep Powder', 'Tailwind' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  'Butterfree-Gmax': { level: 88, abilities: [ 'Tinted Lens' ], items: [ 'Sitrus Berry' ], moves: [ 'Hurricane', 'Pollen Puff', 'Protect', 'Quiver Dance', 'Rage Powder', 'Sleep Powder', 'Tailwind' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Buzzwole: { level: 80, abilities: [ 'Beast Boost' ], items: [ 'Choice Band', 'Choice Scarf' ], moves: [ 'Close Combat', 'Darkest Lariat', 'Dual Wingbeat', 'Iron Head', 'Leech Life', 'Stone Edge' ] },
   Calyrex: { level: 94, abilities: [ 'Unnerve' ], items: [ 'Sitrus Berry' ], moves: [ 'Encore', 'Helping Hand', 'Leaf Storm', 'Pollen Puff', 'Protect' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Calyrex-Ice': { level: 72, abilities: [ 'As One (Glastrier)' ], items: [ 'Sitrus Berry' ], moves: [ 'Close Combat', 'Glacial Lance', 'High Horsepower', 'Swords Dance', 'Trick Room' ], evs: { spe: 0 }, ivs: { spe: 0 } },
