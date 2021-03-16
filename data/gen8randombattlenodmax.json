@@ -457,5 +457,5 @@
   "Zeraora": {"level": 82, "abilities": ["Volt Absorb"], "items": ["Assault Vest", "Choice Band", "Focus Sash", "Life Orb"], "moves": ["Bulk Up", "Close Combat", "Grass Knot", "Knock Off", "Plasma Fists", "Play Rough", "Volt Switch"]},
   "Zoroark": {"level": 0, "abilities": ["Illusion"], "items": ["Choice Scarf", "Focus Sash", "Life Orb"], "moves": ["Dark Pulse", "Flamethrower", "Nasty Plot", "Sludge Bomb", "Trick"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Zygarde": {"level": 76, "abilities": ["Power Construct"], "items": ["Leftovers"], "moves": ["Dragon Dance", "Outrage", "Substitute", "Thousand Arrows"], "evs": {"hp": 81}},
-  "Zygarde-10%": {"level": 84, "abilities": ["Aura Break"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Coil", "Extreme Speed", "Iron Tail", "Outrage", "Thousand Arrows"]}
+  "Zygarde-10%": {"level": 83, "abilities": ["Aura Break"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Coil", "Extreme Speed", "Iron Tail", "Outrage", "Thousand Arrows"]}
 }
