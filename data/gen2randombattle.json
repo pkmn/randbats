@@ -21,7 +21,7 @@
   "Crobat": {"level": 69, "items": ["Leftovers", "Mint Berry"], "moves": ["Giga Drain", "Haze", "Hidden Power Ground", "Rest", "Whirlwind", "Wing Attack"]},
   "Delibird": {"level": 73, "items": ["Leftovers"], "moves": ["Hidden Power Flying", "Ice Beam", "Present", "Spikes", "Thief"]},
   "Dewgong": {"level": 73, "items": ["Leftovers"], "moves": ["Body Slam", "Encore", "Ice Beam", "Rest", "Sleep Talk", "Surf", "Toxic"]},
-  "Ditto": {"level": 83, "items": ["Metal Powder", "Quick Claw"], "moves": ["Transform"]},
+  "Ditto": {"level": 83, "items": ["Quick Claw"], "moves": ["Transform"]},
   "Dodrio": {"level": 69, "items": ["Leftovers", "Mint Berry"], "moves": ["Double-Edge", "Drill Peck", "Hidden Power Ground", "Rest", "Substitute"], "ivs": {"hp": 14, "atk": 24}},
   "Donphan": {"level": 67, "items": ["Leftovers"], "moves": ["Ancient Power", "Curse", "Earthquake", "Hidden Power Bug", "Rapid Spin", "Rest", "Roar", "Sleep Talk"]},
   "Dragonite": {"level": 67, "items": ["Leftovers", "Mint Berry"], "moves": ["Haze", "Hidden Power Flying", "Ice Beam", "Light Screen", "Reflect", "Rest", "Thunder"], "ivs": {"hp": 14, "atk": 24, "def": 26}},

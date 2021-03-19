@@ -148,7 +148,7 @@
   "Glalie": {"level": 80, "abilities": ["Moody"], "items": ["Leftovers"], "moves": ["Disable", "Earthquake", "Freeze-Dry", "Protect", "Substitute"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Glastrier": {"level": 82, "abilities": ["Chilling Neigh"], "items": ["Heavy-Duty Boots", "Lum Berry"], "moves": ["Close Combat", "High Horsepower", "Icicle Crash", "Swords Dance"]},
   "Golduck": {"level": 86, "abilities": ["Swift Swim"], "items": ["Choice Specs", "Focus Sash", "Leftovers", "Life Orb"], "moves": ["Calm Mind", "Focus Blast", "Ice Beam", "Psyshock", "Scald", "Substitute"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Golisopod": {"level": 84, "abilities": ["Emergency Exit"], "items": ["Choice Band", "Heavy-Duty Boots"], "moves": ["Aqua Jet", "First Impression", "Knock Off", "Leech Life", "Liquidation", "Spikes"]},
+  "Golisopod": {"level": 84, "abilities": ["Emergency Exit"], "items": ["Choice Band", "Heavy-Duty Boots"], "moves": ["First Impression", "Knock Off", "Leech Life", "Liquidation", "Spikes"]},
   "Golurk": {"level": 82, "abilities": ["No Guard"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Dynamic Punch", "Earthquake", "Poltergeist", "Rock Polish", "Stone Edge"]},
   "Goodra": {"level": 82, "abilities": ["Sap Sipper"], "items": ["Assault Vest", "Choice Scarf", "Choice Specs"], "moves": ["Draco Meteor", "Earthquake", "Fire Blast", "Power Whip", "Sludge Bomb", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Gothitelle": {"level": 86, "abilities": ["Competitive"], "items": ["Choice Scarf", "Leftovers"], "moves": ["Nasty Plot", "Psychic", "Shadow Ball", "Thunderbolt", "Trick"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
