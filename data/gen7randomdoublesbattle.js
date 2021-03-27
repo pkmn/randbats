@@ -398,7 +398,7 @@ var GEN7RANDOMDOUBLESBATTLE = {
   Regirock: { level: 71, abilities: [ 'Sturdy' ], items: [ 'Chesto Berry', 'Sitrus Berry' ], moves: [ 'Curse', 'Drain Punch', 'Protect', 'Rest', 'Rock Slide', 'Stealth Rock', 'Stone Edge', 'Thunder Wave' ] },
   Registeel: { level: 71, abilities: [ 'Clear Body' ], items: [ 'Chesto Berry', 'Sitrus Berry' ], moves: [ 'Curse', 'Iron Head', 'Protect', 'Rest', 'Seismic Toss', 'Stealth Rock', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Relicanth: { level: 81, abilities: [ 'Rock Head', 'Sturdy', 'Swift Swim' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Double-Edge', 'Earthquake', 'Head Smash', 'Protect', 'Rock Slide', 'Waterfall' ] },
-  Reshiram: { level: 70, abilities: [ 'Turboblaze' ], items: [ 'Assault Vest', 'Sitrus Berry', 'Weakness Policy' ], moves: [ 'Blue Flare', 'Draco Meteor', 'Dragon Pulse', 'Flame Charge', 'Heat Wave', 'Protect', 'Roost', 'Tailwind' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
+  Reshiram: { level: 70, abilities: [ 'Turboblaze' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Blue Flare', 'Draco Meteor', 'Dragon Pulse', 'Flame Charge', 'Heat Wave', 'Protect', 'Roost', 'Tailwind' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
   Reuniclus: { level: 80, abilities: [ 'Magic Guard' ], items: [ 'Life Orb' ], moves: [ 'Focus Blast', 'Helping Hand', 'Protect', 'Psychic', 'Shadow Ball', 'Trick Room' ], evs: { atk: 0, spe: 0 }, ivs: { atk: 0, spe: 0 } },
   Rhyperior: { level: 76, abilities: [ 'Solid Rock' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Earthquake', 'Ice Punch', 'Megahorn', 'Protect', 'Rock Slide', 'Stealth Rock', 'Stone Edge' ] },
   Ribombee: { level: 83, abilities: [ 'Shield Dust', 'Sweet Veil' ], items: [ 'Sitrus Berry' ], moves: [ 'Moonblast', 'Pollen Puff', 'Protect', 'Quiver Dance', 'Sticky Web' ], evs: { atk: 0 }, ivs: { atk: 0 } },
@@ -439,7 +439,7 @@ var GEN7RANDOMDOUBLESBATTLE = {
   Shiinotic: { level: 88, abilities: [ 'Effect Spore', 'Rain Dish' ], items: [ 'Sitrus Berry' ], moves: [ 'Giga Drain', 'Leech Seed', 'Moonblast', 'Protect', 'Spore', 'Strength Sap' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Shuckle: { level: 79, abilities: [ 'Sturdy' ], items: [ 'Mental Herb', 'Sitrus Berry' ], moves: [ 'Encore', 'Guard Split', 'Helping Hand', 'Knock Off', 'Stealth Rock', 'Sticky Web', 'Toxic' ] },
   Sigilyph: { level: 80, abilities: [ 'Magic Guard' ], items: [ 'Life Orb' ], moves: [ 'Air Slash', 'Calm Mind', 'Heat Wave', 'Protect', 'Psyshock', 'Tailwind' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Silvally: { level: 72, abilities: [ 'RKS System' ], items: [ 'Assault Vest', 'Choice Band', 'Sitrus Berry' ], moves: [ 'Crunch', 'Double-Edge', 'Explosion', 'Flame Charge', 'Ice Beam', 'Parting Shot', 'Protect', 'Swords Dance', 'U-turn' ] },
+  Silvally: { level: 72, abilities: [ 'RKS System' ], items: [ 'Assault Vest', 'Choice Band', 'Choice Scarf', 'Sitrus Berry' ], moves: [ 'Crunch', 'Double-Edge', 'Explosion', 'Flame Charge', 'Ice Beam', 'Parting Shot', 'Protect', 'Swords Dance', 'U-turn' ] },
   'Silvally-Bug': { level: 72, abilities: [ 'RKS System' ], items: [ 'Bug Memory' ], moves: [ 'Flamethrower', 'Ice Beam', 'Protect', 'Thunder Wave', 'Thunderbolt', 'U-turn' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
   'Silvally-Dark': { level: 72, abilities: [ 'RKS System' ], items: [ 'Dark Memory' ], moves: [ 'Ice Beam', 'Multi-Attack', 'Parting Shot', 'Protect', 'Snarl', 'Thunder Wave', 'U-turn' ] },
   'Silvally-Dragon': { level: 72, abilities: [ 'RKS System' ], items: [ 'Dragon Memory' ], moves: [ 'Flamethrower', 'Ice Beam', 'Multi-Attack', 'Parting Shot', 'Protect', 'Thunder Wave', 'U-turn' ] },
@@ -519,7 +519,7 @@ var GEN7RANDOMDOUBLESBATTLE = {
   Typhlosion: { level: 76, abilities: [ 'Flash Fire' ], items: [ 'Choice Scarf', 'Life Orb' ], moves: [ 'Eruption', 'Extrasensory', 'Focus Blast', 'Heat Wave', 'Hidden Power Grass' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
   Tyranitar: { level: 70, abilities: [ 'Sand Stream' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Crunch', 'Fire Blast', 'Ice Beam', 'Protect', 'Rock Slide', 'Stealth Rock', 'Stomping Tantrum', 'Stone Edge' ] },
   'Tyranitar-Mega': { level: 70, abilities: [ 'Sand Stream' ], items: [ 'Tyranitarite' ], moves: [ 'Crunch', 'Dragon Dance', 'Earthquake', 'Ice Punch', 'Protect', 'Rock Slide', 'Stone Edge' ] },
-  Tyrantrum: { level: 77, abilities: [ 'Rock Head', 'Strong Jaw' ], items: [ 'Life Orb' ], moves: [ 'Dragon Claw', 'Dragon Dance', 'Earthquake', 'Head Smash', 'Protect', 'Rock Slide' ] },
+  Tyrantrum: { level: 77, abilities: [ 'Rock Head', 'Strong Jaw' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Dragon Claw', 'Dragon Dance', 'Earthquake', 'Head Smash', 'Protect', 'Rock Slide' ] },
   Umbreon: { level: 77, abilities: [ 'Synchronize' ], items: [ 'Sitrus Berry' ], moves: [ 'Foul Play', 'Helping Hand', 'Moonlight', 'Protect', 'Snarl' ] },
   Unfezant: { level: 80, abilities: [ 'Super Luck' ], items: [ 'Scope Lens' ], moves: [ 'Night Slash', 'Pluck', 'Protect', 'Return', 'Roost', 'Tailwind', 'Taunt', 'U-turn' ] },
   Ursaring: { level: 79, abilities: [ 'Guts' ], items: [ 'Flame Orb' ], moves: [ 'Close Combat', 'Crunch', 'Facade', 'Protect', 'Swords Dance' ] },
@@ -563,5 +563,5 @@ var GEN7RANDOMDOUBLESBATTLE = {
   Zeraora: { level: 70, abilities: [ 'Volt Absorb' ], items: [ 'Assault Vest', 'Life Orb' ], moves: [ 'Close Combat', 'Fake Out', 'Grass Knot', 'Hidden Power Ice', 'Knock Off', 'Plasma Fists', 'Protect', 'Volt Switch' ] },
   Zoroark: { level: 0, abilities: [ 'Illusion' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Dark Pulse', 'Flamethrower', 'Focus Blast', 'Knock Off', 'Nasty Plot', 'Protect', 'Sucker Punch', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Zygarde: { level: 70, abilities: [ 'Power Construct' ], items: [ 'Sitrus Berry' ], moves: [ 'Coil', 'Dragon Dance', 'Extreme Speed', 'Glare', 'Protect', 'Rock Slide', 'Stone Edge', 'Thousand Arrows' ] },
-  'Zygarde-10%': { level: 81, abilities: [ 'Aura Break' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Dragon Dance', 'Extreme Speed', 'Iron Tail', 'Protect', 'Thousand Arrows' ] } 
+  'Zygarde-10%': { level: 81, abilities: [ 'Aura Break' ], items: [ 'Sitrus Berry' ], moves: [ 'Dragon Dance', 'Extreme Speed', 'Iron Tail', 'Protect', 'Thousand Arrows' ] } 
 };
