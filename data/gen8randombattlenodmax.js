@@ -305,7 +305,7 @@ var GEN8RANDOMBATTLENODMAX = {
   Regieleki: { level: 80, abilities: [ 'Transistor' ], items: [ 'Magnet' ], moves: [ 'Explosion', 'Rapid Spin', 'Substitute', 'Thunderbolt', 'Volt Switch' ] },
   Regigigas: { level: 88, abilities: [ 'Slow Start' ], items: [ 'Leftovers' ], moves: [ 'Body Slam', 'Protect', 'Substitute', 'Toxic' ] },
   Regirock: { level: 88, abilities: [ 'Sturdy' ], items: [ 'Chesto Berry', 'Choice Band', 'Leftovers' ], moves: [ 'Body Press', 'Curse', 'Earthquake', 'Explosion', 'Rest', 'Rock Slide', 'Stone Edge' ] },
-  Registeel: { level: 84, abilities: [ 'Clear Body' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Protect', 'Rest', 'Seismic Toss', 'Sleep Talk', 'Stealth Rock', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Registeel: { level: 84, abilities: [ 'Clear Body' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Body Press', 'Curse', 'Iron Head', 'Protect', 'Rest', 'Sleep Talk', 'Stealth Rock', 'Toxic' ] },
   Relicanth: { level: 88, abilities: [ 'Rock Head' ], items: [ 'Choice Band', 'Leftovers' ], moves: [ 'Body Press', 'Earthquake', 'Head Smash', 'Liquidation', 'Stealth Rock', 'Yawn' ] },
   Reshiram: { level: 76, abilities: [ 'Turboblaze' ], items: [ 'Assault Vest', 'Choice Scarf', 'Choice Specs', 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Blue Flare', 'Defog', 'Draco Meteor', 'Dragon Pulse', 'Earth Power', 'Roost', 'Stone Edge' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Reuniclus: { level: 84, abilities: [ 'Magic Guard' ], items: [ 'Life Orb' ], moves: [ 'Calm Mind', 'Focus Blast', 'Psychic', 'Recover', 'Shadow Ball', 'Trick Room' ], evs: { atk: 0, spe: 0 }, ivs: { atk: 0, spe: 0 } },
