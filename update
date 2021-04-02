@@ -56,13 +56,15 @@ const getMoves = (species, doubles) => {
 };
 
 for (const format in Dex.formats) {
-  if (!Dex.getFormat(format).team) continue;
+  const f = Dex.getFormat(format);
+  if (!f.team || !['singles', 'doubles'].includes(f.gameType)) continue;
   if (SKIP.some(s => format.includes(s))) continue;
 
+  // Of course, PS is brain dead and Format#gen always reports 0
   const gen = Number(format.charAt(3));
   const dex = Dex.forFormat(format);
   const letsgo = format.includes('letsgo');
-  const doubles = format.includes('doubles');
+  const doubles = f.gameType === 'doubles';
   const generator = Dex.getTeamGenerator(format, SEED);
   const IVS = gen < 3 ? 30 : 31;
   const EVS = gen < 3 ? 255 : 85;
