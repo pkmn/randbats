@@ -428,7 +428,7 @@
   "Victini": {"level": 81, "abilities": ["Victory Star"], "items": ["Assault Vest", "Choice Band", "Choice Scarf", "Choice Specs"], "moves": ["Blue Flare", "Bolt Strike", "Energy Ball", "Glaciate", "U-turn", "V-create", "Zen Headbutt"]},
   "Vikavolt": {"level": 88, "abilities": ["Levitate"], "items": ["Choice Specs", "Heavy-Duty Boots", "Leftovers"], "moves": ["Bug Buzz", "Energy Ball", "Roost", "Sticky Web", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Vileplume": {"level": 86, "abilities": ["Chlorophyll", "Effect Spore"], "items": ["Black Sludge"], "moves": ["Aromatherapy", "Giga Drain", "Sleep Powder", "Sludge Bomb", "Strength Sap"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Virizion": {"level": 88, "abilities": ["Justified"], "items": ["Lum Berry"], "moves": ["Air Slash", "Close Combat", "Leaf Blade", "Leaf Storm", "Stone Edge", "Swords Dance"]},
+  "Virizion": {"level": 87, "abilities": ["Justified"], "items": ["Lum Berry"], "moves": ["Air Slash", "Close Combat", "Leaf Blade", "Leaf Storm", "Stone Edge", "Swords Dance"]},
   "Volcanion": {"level": 84, "abilities": ["Water Absorb"], "items": ["Choice Scarf", "Choice Specs", "Heavy-Duty Boots"], "moves": ["Defog", "Earth Power", "Flamethrower", "Sludge Bomb", "Steam Eruption"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Volcarona": {"level": 80, "abilities": ["Flame Body", "Swarm"], "items": ["Heavy-Duty Boots"], "moves": ["Bug Buzz", "Fire Blast", "Giga Drain", "Quiver Dance", "Roost"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Wailord": {"level": 88, "abilities": ["Water Veil"], "items": ["Choice Specs"], "moves": ["Hydro Pump", "Hyper Voice", "Ice Beam", "Water Spout"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
