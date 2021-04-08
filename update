@@ -5,7 +5,7 @@ const fs = require('fs');
 const util = require('util');
 const stringify = require('json-stringify-pretty-compact');
 
-const {Dex} = require('./vendor/pokemon-showdown');
+const {Dex, Teams} = require('./vendor/pokemon-showdown');
 Dex.includeModData();
 
 const SEED = [1, 2, 3, 4];
@@ -18,17 +18,21 @@ const CMP = {
 };
 
 const getForme = (dex, pool, set) => {
-  if (set.gigantamax) return dex.getSpecies(`${set.species}-Gmax`);
+  if (set.gigantamax) {
+    return dex.species.get(set.species.startsWith('Pikachu')
+      ? 'Pikachu-Gmax'
+      : `${set.species}-Gmax`);
+  }
 
-  const item = dex.getItem(set.item);
-  if (item.megaStone) return dex.getSpecies(item.megaStone);
+  const item = dex.items.get(set.item);
+  if (item.megaStone) return dex.species.get(item.megaStone);
 
   const formes = Object.keys(pool[set.species] || pool[set.name]);
-  if (formes.length === 1) return dex.getSpecies(formes[0]);
+  if (formes.length === 1) return dex.species.get(formes[0]);
 
   const matches = [];
   for (const f in pool[set.species]) {
-    const forme = dex.getSpecies(f);
+    const forme = dex.species.get(f);
     if (forme.requiredItem) {
      if (set.item !== forme.requiredItem) continue;
      return forme;
@@ -39,7 +43,7 @@ const getForme = (dex, pool, set) => {
     }
   }
 
-  return dex.getSpecies(matches[0]);
+  return dex.species.get(matches[0]);
 };
 
 const getMoves = (species, doubles) => {
@@ -55,23 +59,21 @@ const getMoves = (species, doubles) => {
   return moves;
 };
 
-for (const format in Dex.formats) {
-  const f = Dex.getFormat(format);
-  if (!f.team || !['singles', 'doubles'].includes(f.gameType)) continue;
-  if (SKIP.some(s => format.includes(s))) continue;
+for (const format of Dex.formats.all()) {
+  if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
+  if (SKIP.some(s => format.id.includes(s))) continue;
 
   // Of course, PS is brain dead and Format#gen always reports 0
-  const gen = Number(format.charAt(3));
+  const gen = Number(format.id.charAt(3));
   const dex = Dex.forFormat(format);
-  const letsgo = format.includes('letsgo');
-  const doubles = f.gameType === 'doubles';
-  const generator = Dex.getTeamGenerator(format, SEED);
+  const letsgo = format.id.includes('letsgo');
+  const doubles = format.gameType === 'doubles';
+  const generator = Teams.getGenerator(format, SEED);
   const IVS = gen < 3 ? 30 : 31;
   const EVS = gen < 3 ? 255 : 85;
 
   const pool = {};
-  for (const s in dex.data.Pokedex) {
-    const species = dex.getSpecies(s);
+  for (const species of dex.species.all()) {
     if  (species.gen > gen) continue;
     if (letsgo && (species.num < 1 || species.num > 151 && ![808, 809].includes(species.num))) {
       continue;
@@ -126,7 +128,7 @@ for (const format in Dex.formats) {
     const opts = {level: stats.level};
     if (gen >= 3 && !letsgo) opts.abilities = Array.from(stats.abilities).sort();
     if (stats.items.size) opts.items = Array.from(stats.items).sort();
-    opts.moves = Array.from(stats.moves).map(m => Dex.getMove(m).name).sort();
+    opts.moves = Array.from(stats.moves).map(m => dex.moves.get(m).name).sort();
     if (!letsgo) {
       for (const [stat, val] of Object.entries(stats.evs).sort((CMP.stats))) {
         if (val !== -1) {
@@ -144,12 +146,12 @@ for (const format in Dex.formats) {
     options[name] = opts;
   }
 
-  fs.writeFileSync(`data/${format}.json`, stringify(options, {maxLength: 1000}));
+  fs.writeFileSync(`data/${format.id}.json`, stringify(options, {maxLength: 1000}));
   const code = util.inspect(options, {
     depth: Infinity,
     maxArrayLength: Infinity,
     compact: true,
     breakLength: 1000,
   }).slice(1, -1);
-  fs.writeFileSync(`data/${format}.js`, `var ${format.toUpperCase()} = {\n ${code}\n};`);
+  fs.writeFileSync(`data/${format.id}.js`, `var ${format.id.toUpperCase()} = {\n ${code}\n};`);
 }
