@@ -121,7 +121,7 @@ var GEN8RANDOMBATTLENODMAX = {
   Espeon: { level: 86, abilities: [ 'Magic Bounce' ], items: [ 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Calm Mind', 'Dazzling Gleam', 'Morning Sun', 'Psychic', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Eternatus: { level: 76, abilities: [ 'Pressure' ], items: [ 'Black Sludge', 'Metronome' ], moves: [ 'Dynamax Cannon', 'Flamethrower', 'Recover', 'Sludge Wave', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Excadrill: { level: 80, abilities: [ 'Mold Breaker', 'Sand Rush' ], items: [ 'Assault Vest', 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Earthquake', 'Iron Head', 'Rapid Spin', 'Rock Slide', 'Swords Dance' ] },
-  Exeggutor: { level: 88, abilities: [ 'Harvest' ], items: [ 'Sitrus Berry' ], moves: [ 'Giga Drain', 'Leech Seed', 'Psychic', 'Sleep Powder', 'Substitute' ], evs: { hp: 73, atk: 0 }, ivs: { atk: 0 } },
+  Exeggutor: { level: 88, abilities: [ 'Chlorophyll', 'Harvest' ], items: [ 'Leftovers', 'Sitrus Berry' ], moves: [ 'Giga Drain', 'Leech Seed', 'Psychic', 'Sleep Powder', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Exeggutor-Alola': { level: 88, abilities: [ 'Frisk' ], items: [ 'Choice Specs', 'Life Orb' ], moves: [ 'Draco Meteor', 'Flamethrower', 'Giga Drain', 'Leaf Storm', 'Trick Room' ], evs: { atk: 0, spe: 0 }, ivs: { atk: 0, spe: 0 } },
   Exploud: { level: 86, abilities: [ 'Scrappy' ], items: [ 'Choice Specs' ], moves: [ 'Boomburst', 'Fire Blast', 'Focus Blast', 'Surf' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Falinks: { level: 88, abilities: [ 'Defiant' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'No Retreat', 'Poison Jab', 'Rock Slide', 'Throat Chop' ] },
