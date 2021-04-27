@@ -146,7 +146,7 @@ var GEN8RANDOMBATTLENODMAX = {
   'Giratina-Origin': { level: 76, abilities: [ 'Levitate' ], items: [ 'Griseous Orb' ], moves: [ 'Defog', 'Draco Meteor', 'Dual Wingbeat', 'Earthquake', 'Hone Claws', 'Outrage', 'Poltergeist', 'Shadow Sneak', 'Will-O-Wisp' ] },
   Glaceon: { level: 88, abilities: [ 'Snow Cloak' ], items: [ 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Freeze-Dry', 'Protect', 'Shadow Ball', 'Toxic', 'Wish' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Glalie: { level: 78, abilities: [ 'Moody' ], items: [ 'Leftovers' ], moves: [ 'Disable', 'Earthquake', 'Freeze-Dry', 'Protect', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Glastrier: { level: 85, abilities: [ 'Chilling Neigh' ], items: [ 'Heavy-Duty Boots', 'Lum Berry' ], moves: [ 'Close Combat', 'High Horsepower', 'Icicle Crash', 'Swords Dance' ] },
+  Glastrier: { level: 86, abilities: [ 'Chilling Neigh' ], items: [ 'Heavy-Duty Boots', 'Lum Berry' ], moves: [ 'Close Combat', 'High Horsepower', 'Icicle Crash', 'Swords Dance' ] },
   Golduck: { level: 88, abilities: [ 'Cloud Nine', 'Swift Swim' ], items: [ 'Choice Specs', 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Calm Mind', 'Focus Blast', 'Ice Beam', 'Psyshock', 'Scald', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Golisopod: { level: 84, abilities: [ 'Emergency Exit' ], items: [ 'Choice Band', 'Heavy-Duty Boots' ], moves: [ 'First Impression', 'Knock Off', 'Leech Life', 'Liquidation', 'Spikes' ] },
   Golurk: { level: 86, abilities: [ 'No Guard' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'Dynamic Punch', 'Earthquake', 'Poltergeist', 'Rock Polish', 'Stone Edge' ] },
