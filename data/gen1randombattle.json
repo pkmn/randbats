@@ -111,7 +111,7 @@
   "Porygon": {"level": 77, "moves": ["Blizzard", "Double-Edge", "Psychic", "Recover", "Thunder Wave", "Thunderbolt", "Tri Attack"]},
   "Primeape": {"level": 77, "moves": ["Body Slam", "Counter", "Hyper Beam", "Rock Slide", "Submission"]},
   "Psyduck": {"level": 88, "moves": ["Amnesia", "Blizzard", "Body Slam", "Hydro Pump", "Rest", "Seismic Toss", "Surf"]},
-  "Raichu": {"level": 77, "moves": ["Agility", "Body Slam", "Hyper Beam", "Seismic Toss", "Surf", "Thunder", "Thunder Wave", "Thunderbolt"]},
+  "Raichu": {"level": 76, "moves": ["Agility", "Body Slam", "Hyper Beam", "Seismic Toss", "Surf", "Thunder", "Thunder Wave", "Thunderbolt"]},
   "Rapidash": {"level": 77, "moves": ["Agility", "Body Slam", "Fire Blast", "Hyper Beam"]},
   "Raticate": {"level": 77, "moves": ["Blizzard", "Body Slam", "Hyper Beam", "Super Fang"]},
   "Rattata": {"level": 88, "moves": ["Blizzard", "Body Slam", "Super Fang", "Thunderbolt"]},
