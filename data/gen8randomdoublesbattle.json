@@ -67,7 +67,7 @@
   "Clefable": {"level": 86, "abilities": ["Magic Guard", "Unaware"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Fire Blast", "Follow Me", "Heal Pulse", "Helping Hand", "Moonblast", "Protect", "Thunder Wave"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Clefairy": {"level": 95, "abilities": ["Friend Guard"], "items": ["Eviolite"], "moves": ["Follow Me", "Helping Hand", "Moonblast", "Protect"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Cloyster": {"level": 84, "abilities": ["Skill Link"], "items": ["White Herb"], "moves": ["Hydro Pump", "Icicle Spear", "Protect", "Rock Blast", "Shell Smash"]},
-  "Coalossal-Gmax": {"level": 84, "abilities": ["Flame Body"], "items": ["Sitrus Berry"], "moves": ["Fire Blast", "Incinerate", "Protect", "Stealth Rock", "Stone Edge", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Coalossal-Gmax": {"level": 84, "abilities": ["Flame Body"], "items": ["Sitrus Berry"], "moves": ["Fire Blast", "Incinerate", "Protect", "Stealth Rock", "Stone Edge", "Will-O-Wisp"]},
   "Cobalion": {"level": 84, "abilities": ["Justified"], "items": ["Sitrus Berry"], "moves": ["Close Combat", "Iron Head", "Protect", "Stone Edge", "Swords Dance", "Thunder Wave"]},
   "Cofagrigus": {"level": 88, "abilities": ["Mummy"], "items": ["Sitrus Berry"], "moves": ["Body Press", "Iron Defense", "Pain Split", "Shadow Ball", "Trick Room", "Will-O-Wisp"], "evs": {"spe": 0}, "ivs": {"spe": 0}},
   "Comfey": {"level": 88, "abilities": ["Triage"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Defog", "Draining Kiss", "Giga Drain", "Helping Hand", "Pollen Puff", "Protect"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
