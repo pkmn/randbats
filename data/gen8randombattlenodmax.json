@@ -115,7 +115,7 @@
   "Eiscue": {"level": 88, "abilities": ["Ice Face"], "items": ["Salac Berry", "Sitrus Berry"], "moves": ["Belly Drum", "Icicle Crash", "Liquidation", "Substitute", "Zen Headbutt"]},
   "Eldegoss": {"level": 88, "abilities": ["Regenerator"], "items": ["Heavy-Duty Boots", "Leftovers"], "moves": ["Charm", "Energy Ball", "Leech Seed", "Pollen Puff", "Rapid Spin", "Sleep Powder"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Electivire": {"level": 88, "abilities": ["Motor Drive"], "items": ["Choice Band", "Choice Scarf", "Life Orb"], "moves": ["Cross Chop", "Earthquake", "Flamethrower", "Ice Punch", "Volt Switch", "Wild Charge"]},
-  "Emolga": {"level": 88, "abilities": ["Motor Drive"], "items": ["Choice Specs", "Heavy-Duty Boots", "Leftovers"], "moves": ["Air Slash", "Encore", "Energy Ball", "Roost", "Thunderbolt", "Toxic", "U-turn"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Emolga": {"level": 88, "abilities": ["Motor Drive"], "items": ["Choice Specs", "Heavy-Duty Boots", "Leftovers", "Life Orb"], "moves": ["Air Slash", "Encore", "Energy Ball", "Roost", "Thunderbolt", "Toxic", "U-turn"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Entei": {"level": 85, "abilities": ["Inner Focus"], "items": ["Choice Band"], "moves": ["Extreme Speed", "Flare Blitz", "Sacred Fire", "Stomping Tantrum", "Stone Edge"]},
   "Escavalier": {"level": 86, "abilities": ["Overcoat", "Swarm"], "items": ["Choice Band", "Leftovers"], "moves": ["Close Combat", "Drill Run", "Iron Head", "Knock Off", "Megahorn", "Swords Dance"]},
   "Espeon": {"level": 86, "abilities": ["Magic Bounce"], "items": ["Focus Sash", "Leftovers", "Life Orb"], "moves": ["Calm Mind", "Dazzling Gleam", "Morning Sun", "Psychic", "Shadow Ball"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
