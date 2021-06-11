@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Pokémon Showdown Randbats Tooltip",
-  "description": "Enhanced Tooltip functionality for Pokémon Showdown Random Battle formats.",
-  "version": "0.0.1",
+  "description": "Enhanced tooltip functionality for Pokémon Showdown Random Battle formats.",
+  "version": "0.1.0",
   "icons": {
     "16": "/16x16.png",
     "32": "/32x32.png",

@@ -1,3 +1,4 @@
 #!/bin/sh
+cd "$(dirname "$0")"
 cp index.js *.png chrome
 cp index.js *.png firefox

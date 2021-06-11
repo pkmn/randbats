@@ -27,7 +27,7 @@ for (var format of SUPPORTED) {
         var id =
           toID(species.forme === 'Gmax' ? species.baseSpecies : species.battleOnly || species.name);
         data[pokemon.level][id] = data[pokemon.level][id] || [];
-        data[pokemon.level][id].push({name, ...pokemon});
+        data[pokemon.level][id].push(Object.assign({name: name}, pokemon));
       }
       DATA[f] = data;
     });
@@ -58,26 +58,36 @@ BattleTooltips.prototype.showPokemonTooltip = function (clientPokemon, serverPok
   }
   if (!DATA[format]) return original;
 
-  var data = DATA[format][clientPokemon.level];
+  var data = DATA[format][species.name === 'Zoroark' ? 0 : clientPokemon.level];
   if (!data) return original;
-  var species = Dex.species.get(clientPokemon.speciesForme);
-  var id =
-    toID(species.forme === 'Gmax' ? species.baseSpecies : species.battleOnly || species.name);
+
+  var cosmetic = species.cosmeticFormes && species.cosmeticFormes.includes(species.name);
+  var id = toID((species.forme === 'Gmax' || cosmetic)
+    ? species.baseSpecies : species.battleOnly || species.name);
+  if (id.startsWith('pikachu')) id = id.endsWith('gmax') ? 'pikachugmax' : 'pikachu';
+  var forme = cosmetic ? species.baseSpecies : clientPokemon.speciesForme;
+  if (forme.startsWith('Pikachu')) forme = forme.endsWith('Gmax') ? 'Pikachu-Gmax' : 'Pikachu';
+
   data = data[id];
   if (!data) return original;
 
-  if (data.length === 1) return original + displaySet(gen, gameType, letsgo, species, data[0]);
-  if (toID(clientPokemon.speciesForme) !== id) {
+  if (data.length === 1) {
+    data[0].level = clientPokemon.level;
+    return original + displaySet(gen, gameType, letsgo, species, data[0]);
+  }
+  if (toID(forme) !== id) {
     var match = [];
     for (var set of data) {
-      if (set.name === clientPokemon.speciesForme) {
-        match.push(displaySet(gen, gameType, letsgo, species, set));
-      }
+      set.level = clientPokemon.level;
+      if (set.name === forme) match.push(displaySet(gen, gameType, letsgo, species, set));
     }
     if (match.length === 1) return original + match[0];
   }
   var buf = original;
   for (var set of data) {
+    set.level = clientPokemon.level;
+    // Technically different formes will have different base stats, but given at this stage
+    // we're still in the base forme we simply use the base forme base stats for everything.
     buf += displaySet(gen, gameType, letsgo, species, set, set.name);
   }
   return buf;
@@ -96,30 +106,33 @@ function displaySet(gen, gameType, letsgo, species, data, name) {
   }
 
   var moves = data.moves;
-  if (!['singles', 'doubles'].includes(gameType)) {
-    var ms = [];
-    for (var move of moves) {
-      if (move !== 'Ally Switch') ms.push(move);
-    }
-    moves = ms;
+  var noHP = true;
+  var multi = !['singles', 'doubles'].includes(gameType);
+  var ms = [];
+  for (var move of moves) {
+    if (move.startsWith('Hidden Power')) noHP = false;
+    if (!(multi && move === 'Ally Switch')) ms.push(move);
   }
 
   var buf = '<div style="border-top: 1px solid #888; background: #dedede">';
   if (name) buf += '<p><b>' + name + '</b></p>';
-  buf +=  '<p><small>Max HP:</small> ' + stats.hp + '</p>';
   if (gen >= 3 && !letsgo) buf += '<p><small>Abilities:</small> ' + data.abilities.join(', ') + '</p>';
-  if (gen >= 2) buf += '<p><small>Items:</small> ' + (data.items ? data.items.join(', ') : '(None)') + '</p>';
+  if (gen >= 2) buf += '<p><small>Items:</small> ' + (data.items ? data.items.join(', ') : '(No Item)') + '</p>';
   buf += '<p><small>Moves:</small> ' + moves.join(', ') + '</p>';
 
   buf += '<p>';
   for (var statName of Dex.statNamesExceptHP) {
     if (gen === 1 && statName === 'spd') continue;
+    var known = gen === 1 || (gen === 2 && noHP) ||
+      ('ivs' in data && statName in data.ivs) || ('evs' in data && statName in data.evs);
     var statLabel = gen === 1 && statName === 'spa' ? 'spc' : statName;
     buf += statName === 'atk' ? '<small>' : '<small> / ';
     buf += '' + BattleText[statLabel].statShortName + '&nbsp;</small>';
-    buf += '' + stats[statName];
+    var italic = !known && (statName === 'atk' || statName === 'spe');
+    buf += (italic ? '<i>' : '') + stats[statName] + (italic ? '</i>' : '');
   }
   buf += '</p>';
+
   buf += '</div>';
   return buf;
 }

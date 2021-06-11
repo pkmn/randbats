@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="extension" src="https://pkmn.cc/screenshot.png" />
+  <img alt="extension" src="https://pkmn.cc/chrome.png" />
 </p>
 
 # Pokémon Showdown Randbats Tooltip
@@ -16,10 +16,21 @@ Go, etc - but not Challenge Cup, Battle Factory, SSB, etc), and the additional t
 should be present on any Pokémon which would otherwise only have partial data (ie. any player's
 Pokémon/revealed team while spectating and your opponent's Pokémon/revealed team while battling).
 
+This extension takes advantage of the fact that in practice a Pokémon's abilities and items are
+actually limited. The move pool displayed by the extension is guaranteed be a superset of what is
+returned by Pokémon Showdown's existing `/randbats mon, gen` command. Stats are slightly fuzzier -
+Max `HP` is elided as this stat is adjusted during set generaton hit optimal recovery or chip
+numbers and is impossible to infer in most scenarios without knowing the full set. `Atk` can be
+adjusted to minimize confusion damage and `Spe` can be adjusted if certain speed-related moves
+(Gyro Ball, Trick Room, etc) are included in the set and so are italicized in most cases to indicate
+they are not necessarily always exact (though in the cases where they *are* known to be fixed they
+are not italicized). Sets with Hidden Power in earlier gens may also have had their IVs adjusted to
+account for the move.
+
 ## Install
 
-- [Chrome](https://chrome.google.com/webstore/category/extensions)
-- [Firefox](https://addons.mozilla.org/en-US/firefox/extensions/)
+- [Chrome](https://chrome.google.com/webstore/detail/pok%C3%A9mon-showdown-randbats/iboincafmiolbldihenlnpjlgeggpgdp)
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/pkmn-randbats-tooltip/)
 
 ## Caveats
 
@@ -33,3 +44,9 @@ Furthermore, due to how the set generation logic used by Pokémon Showdown is ba
 battle-only formes, it may not always be possible to disambiguate which formes set to display in the
 tooltip (eg. Darmanitan-Galar vs. Darmanitan-Galar-Zen while the Pokémon is in Darmanitan-Galar
 forme) - in these cases, multiple set options will be displayed.
+
+This extension was written to have no impact on tooltips in non-random formats and to gracefully
+degrade in scenarios where data is unavailable, however, extensions can be inherently problematic
+when it comes to reporting bugs. If you notice any UI inconsistencies anywhere within Pokémon
+Showdown, please do the developers a favor and attempt to reproduce the error after disabling all
+extensions to rule out the possibility that interaction between extensions is causing issues.
