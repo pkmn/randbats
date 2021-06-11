@@ -63,7 +63,7 @@ for (const format of Dex.formats.all()) {
   if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
   if (SKIP.some(s => format.id.includes(s))) continue;
 
-  // Of course, PS is brain dead and Format#gen always reports 0
+  // Of course, PS is braindead and Format#gen always reports 0
   const gen = Number(format.id.charAt(3));
   const dex = Dex.forFormat(format);
   const letsgo = format.id.includes('letsgo');

@@ -1,0 +1,3 @@
+#!/bin/sh
+cp index.js *.png chrome
+cp index.js *.png firefox
