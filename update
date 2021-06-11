@@ -34,8 +34,8 @@ const getForme = (dex, pool, set) => {
   for (const f in pool[set.species]) {
     const forme = dex.species.get(f);
     if (forme.requiredItem) {
-     if (set.item !== forme.requiredItem) continue;
-     return forme;
+      if (set.item !== forme.requiredItem) continue;
+      return forme;
     }
     if (forme.requiredAbility && set.ability !== forme.requiredAbility) continue;
     if (set.moves.every(m => pool[set.species][f].has(m))) {
@@ -43,7 +43,10 @@ const getForme = (dex, pool, set) => {
     }
   }
 
-  return dex.species.get(matches[0]);
+  // Certain generators perform "Moveset modification" on specific Pokémon or moveset combinations.
+  // This can be problematic if the species in question has multiple formes, if so we just give up
+  // and go with the set species (mostly relevant for Aggron/Aggron-Mega in Gen 6/7).
+  return dex.species.get(matches.length ? matches[0] : set.species);
 };
 
 const getMoves = (species, doubles) => {
@@ -105,7 +108,7 @@ for (const format of Dex.formats.all()) {
           } else if (s.ivs[stat] !== set.ivs[stat]) {
             s.ivs[stat] = -1;
           }
-        } else  if (s.ivs[stat]) {
+        } else if (s.ivs[stat]) {
           s.ivs[stat] = -1;
         }
         if (set.evs[stat] !== EVS) {
