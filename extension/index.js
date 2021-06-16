@@ -101,8 +101,9 @@ function displaySet(gen, gameType, letsgo, species, data, name) {
       stat,
       species.baseStats[stat],
       'ivs' in data && stat in data.ivs ? data.ivs[stat] : (gen < 3 ? 30 : 31),
-      'evs' in data && stat in data.evs ? data.evs[stat] : (gen < 3 ? 255 : 85),
-      data.level);
+      'evs' in data && stat in data.evs ? data.evs[stat] : (gen < 3 ? 255 : letsgo ? 0 : 85),
+      data.level,
+      letsgo);
   }
 
   var moves = data.moves;
@@ -116,8 +117,12 @@ function displaySet(gen, gameType, letsgo, species, data, name) {
 
   var buf = '<div style="border-top: 1px solid #888; background: #dedede">';
   if (name) buf += '<p><b>' + name + '</b></p>';
-  if (gen >= 3 && !letsgo) buf += '<p><small>Abilities:</small> ' + data.abilities.join(', ') + '</p>';
-  if (gen >= 2) buf += '<p><small>Items:</small> ' + (data.items ? data.items.join(', ') : '(No Item)') + '</p>';
+  if (gen >= 3 && !letsgo) {
+    buf += '<p><small>Abilities:</small> ' + data.abilities.join(', ') + '</p>';
+  }
+  if (gen >= 2 && !(letsgo && !data.items)) {
+    buf += '<p><small>Items:</small> ' + (data.items ? data.items.join(', ') : '(No Item)') + '</p>';
+  }
   buf += '<p><small>Moves:</small> ' + moves.join(', ') + '</p>';
 
   buf += '<p>';
@@ -141,11 +146,13 @@ function tr(num) {
   return num >>> 0
 }
 
-function calc(gen, stat, base, iv, ev, level) {
+function calc(gen, stat, base, iv, ev, level, letsgo) {
   if (gen < 3) iv = Math.floor(iv / 2) * 2;
   if (stat === 'hp') {
-    return base === 1 ? base : tr(tr(2 * base + iv + tr(ev / 4) + 100) * level / 100 + 10);
+    var val = base === 1 ? base : tr(tr(2 * base + iv + tr(ev / 4) + 100) * level / 100 + 10);
+    return letsgo ? val + 20 : val;
   } else {
-    return tr(tr(2 * base + iv + tr(ev / 4)) * level / 100 + 5);
+    var val = tr(tr(2 * base + iv + tr(ev / 4)) * level / 100 + 5);
+    return letsgo ? tr(val * 102 / 100) + 20 : val;
   }
 }
