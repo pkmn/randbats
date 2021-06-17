@@ -2,3 +2,4 @@ exclude:
   - update
   - node_modules
   - extension
+  - LICENSE
