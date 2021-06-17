@@ -19,7 +19,7 @@ Pokémon/revealed team while spectating and your opponent's Pokémon/revealed te
 This extension takes advantage of the fact that in practice a Pokémon's abilities and items are
 actually limited. The move pool displayed by the extension is guaranteed be a superset of what is
 returned by Pokémon Showdown's existing `/randbats mon, gen` command. Stats are slightly fuzzier -
-Max `HP` is elided as this stat is adjusted during set generaton hit optimal recovery or chip
+Max `HP` is elided as this stat is adjusted during set generation to hit optimal recovery or chip
 numbers and is impossible to infer in most scenarios without knowing the full set. `Atk` can be
 adjusted to minimize confusion damage and `Spe` can be adjusted if certain speed-related moves
 (Gyro Ball, Trick Room, etc) are included in the set and so are italicized in most cases to indicate
@@ -41,8 +41,8 @@ that may crop up. Before reporting any bugs related to the possible set options,
 you are not simply dealing with this stale data scenario.
 
 Furthermore, due to how the set generation logic used by Pokémon Showdown is based off of
-battle-only formes, it may not always be possible to disambiguate which formes set to display in the
-tooltip (eg. Darmanitan-Galar vs. Darmanitan-Galar-Zen while the Pokémon is in Darmanitan-Galar
+battle-only formes, it may not always be possible to disambiguate which forme's set to display in
+the tooltip (eg. Darmanitan-Galar vs. Darmanitan-Galar-Zen while the Pokémon is in Darmanitan-Galar
 forme) - in these cases, multiple set options will be displayed.
 
 This extension was written to have no impact on tooltips in non-random formats and to gracefully
