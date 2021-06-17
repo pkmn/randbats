@@ -1,5 +1,4 @@
 var GEN7RANDOMBATTLE = {
-  '': { level: 88, abilities: [ 'Rock Head' ], items: [ 'Air Balloon' ], moves: [ 'Aqua Tail', 'Earthquake', 'Head Smash', 'Heavy Slam', 'Low Kick', 'Rock Polish' ] },
   Abomasnow: { level: 88, abilities: [ 'Snow Warning' ], items: [ 'Assault Vest', 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Blizzard', 'Earthquake', 'Focus Punch', 'Giga Drain', 'Ice Shard', 'Leech Seed', 'Substitute', 'Wood Hammer' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Abomasnow-Mega': { level: 86, abilities: [ 'Snow Warning' ], items: [ 'Abomasite' ], moves: [ 'Blizzard', 'Earthquake', 'Giga Drain', 'Hidden Power Fire', 'Ice Shard', 'Wood Hammer' ] },
   Absol: { level: 88, abilities: [ 'Justified' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Knock Off', 'Play Rough', 'Pursuit', 'Sucker Punch', 'Superpower', 'Swords Dance' ] },
@@ -9,7 +8,7 @@ var GEN7RANDOMBATTLE = {
   'Aegislash-Blade': { level: 76, abilities: [ 'Stance Change' ], items: [ 'Life Orb' ], moves: [ 'Iron Head', 'Sacred Sword', 'Shadow Claw', 'Shadow Sneak', 'Swords Dance' ] },
   Aerodactyl: { level: 86, abilities: [ 'Pressure', 'Rock Head', 'Unnerve' ], items: [ 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Defog', 'Double-Edge', 'Earthquake', 'Pursuit', 'Roost', 'Stealth Rock', 'Stone Edge', 'Taunt' ] },
   'Aerodactyl-Mega': { level: 82, abilities: [ 'Unnerve' ], items: [ 'Aerodactylite' ], moves: [ 'Aerial Ace', 'Aqua Tail', 'Earthquake', 'Fire Fang', 'Hone Claws', 'Roost', 'Stone Edge' ] },
-  Aggron: { level: 88, abilities: [ 'Rock Head' ], items: [ 'Air Balloon', 'Choice Band' ], moves: [ 'Aqua Tail', 'Autotomize', 'Earthquake', 'Head Smash', 'Heavy Slam', 'Low Kick', 'Stealth Rock' ] },
+  Aggron: { level: 88, abilities: [ 'Rock Head' ], items: [ 'Air Balloon', 'Choice Band' ], moves: [ 'Aqua Tail', 'Autotomize', 'Earthquake', 'Head Smash', 'Heavy Slam', 'Low Kick', 'Rock Polish', 'Stealth Rock' ] },
   'Aggron-Mega': { level: 82, abilities: [ 'Sturdy' ], items: [ 'Aggronite' ], moves: [ 'Earthquake', 'Heavy Slam', 'Roar', 'Rock Slide', 'Stealth Rock', 'Thunder Wave', 'Toxic' ] },
   Alakazam: { level: 82, abilities: [ 'Magic Guard' ], items: [ 'Life Orb' ], moves: [ 'Focus Blast', 'Hidden Power Fire', 'Hidden Power Ice', 'Psychic', 'Psyshock', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Alakazam-Mega': { level: 80, abilities: [ 'Magic Guard' ], items: [ 'Alakazite' ], moves: [ 'Calm Mind', 'Encore', 'Focus Blast', 'Psyshock', 'Shadow Ball', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
