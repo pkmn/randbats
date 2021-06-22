@@ -4,6 +4,8 @@
 const fs = require('fs');
 const util = require('util');
 const stringify = require('json-stringify-pretty-compact');
+const zlib = require('zlib');
+const gzip = util.promisify(zlib.gzip);
 
 const {Dex, Teams} = require('./vendor/pokemon-showdown');
 Dex.includeModData();
@@ -62,99 +64,111 @@ const getMoves = (species, doubles) => {
   return moves;
 };
 
-for (const format of Dex.formats.all()) {
-  if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
-  if (SKIP.some(s => format.id.includes(s))) continue;
+const serialize = async (data, file) => {
+  const json = stringify(data, {maxLength: 1000});
+  await fs.promises.writeFile(`data/${file}`, json);
+  const compressed = await gzip(json);
+  return [json.length, compressed.length];
+};
 
-  // Of course, PS is braindead and Format#gen always reports 0
-  const gen = Number(format.id.charAt(3));
-  const dex = Dex.forFormat(format);
-  const letsgo = format.id.includes('letsgo');
-  const doubles = format.gameType === 'doubles';
-  const generator = Teams.getGenerator(format, SEED);
-  const IVS = gen < 3 ? 30 : 31;
-  const EVS = gen < 3 ? 255 : 85;
+(async () => {
+  const index = {};
+  for (const format of Dex.formats.all()) {
+    if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
+    if (SKIP.some(s => format.id.includes(s))) continue;
 
-  const pool = {};
-  for (const species of dex.species.all()) {
-    if  (species.gen > gen) continue;
-    if (letsgo && (species.num < 1 || species.num > 151 && ![808, 809].includes(species.num))) {
-      continue;
+    // Of course, PS is braindead and Format#gen always reports 0
+    const gen = Number(format.id.charAt(3));
+    const dex = Dex.forFormat(format);
+    const letsgo = format.id.includes('letsgo');
+    const doubles = format.gameType === 'doubles';
+    const generator = Teams.getGenerator(format, SEED);
+    const IVS = gen < 3 ? 30 : 31;
+    const EVS = gen < 3 ? 255 : 85;
+
+    const pool = {};
+    for (const species of dex.species.all()) {
+      if  (species.gen > gen) continue;
+      if (letsgo && (species.num < 1 || species.num > 151 && ![808, 809].includes(species.num))) {
+        continue;
+      }
+      const moves = getMoves(species, doubles);
+      if (!moves.size) continue;
+      const base = typeof species.battleOnly === 'string' ? species.battleOnly : species.name;
+      pool[base] = (pool[base] || {});
+      pool[base][species.name] = moves;
     }
-    const moves = getMoves(species, doubles);
-    if (!moves.size) continue;
-    const base = typeof species.battleOnly === 'string' ? species.battleOnly : species.name;
-    pool[base] = (pool[base] || {});
-    pool[base][species.name] = moves;
-  }
 
-  const formes = {};
-  for (let i = 0; i < N; i++) {
-    for (const set of generator.getTeam()) {
-      const forme = getForme(dex, pool, set);
-      const s = formes[forme.name] || (formes[forme.name] = {
-        level: set.species === 'Zoroark' ? 0 : set.level,
-        abilities: new Set(),
-        items: new Set(),
-        moves: getMoves(forme, doubles),
-        ivs: {},
-        evs: {},
-      });
-      for (const m of set.moves) s.moves.add(m);
-      for (const stat in set.ivs) {
-        if (set.ivs[stat] !== IVS) {
-          if (!(stat in s.ivs)) {
-            s.ivs[stat] = set.ivs[stat];
-          } else if (s.ivs[stat] !== set.ivs[stat]) {
+    const formes = {};
+    for (let i = 0; i < N; i++) {
+      for (const set of generator.getTeam()) {
+        const forme = getForme(dex, pool, set);
+        const s = formes[forme.name] || (formes[forme.name] = {
+          level: set.species === 'Zoroark' ? 0 : set.level,
+          abilities: new Set(),
+          items: new Set(),
+          moves: getMoves(forme, doubles),
+          ivs: {},
+          evs: {},
+        });
+        for (const m of set.moves) s.moves.add(m);
+        for (const stat in set.ivs) {
+          if (set.ivs[stat] !== IVS) {
+            if (!(stat in s.ivs)) {
+              s.ivs[stat] = set.ivs[stat];
+            } else if (s.ivs[stat] !== set.ivs[stat]) {
+              s.ivs[stat] = -1;
+            }
+          } else if (s.ivs[stat]) {
             s.ivs[stat] = -1;
           }
-        } else if (s.ivs[stat]) {
-          s.ivs[stat] = -1;
-        }
-        if (set.evs[stat] !== EVS) {
-          if (!(stat in s.evs)) {
-            s.evs[stat] = set.evs[stat];
-          } else if (s.evs[stat] !== set.evs[stat]) {
+          if (set.evs[stat] !== EVS) {
+            if (!(stat in s.evs)) {
+              s.evs[stat] = set.evs[stat];
+            } else if (s.evs[stat] !== set.evs[stat]) {
+              s.evs[stat] = -1;
+            }
+          } else if (s.evs[stat]) {
             s.evs[stat] = -1;
           }
-        } else if (s.evs[stat]) {
-          s.evs[stat] = -1;
+        }
+        if (set.ability) s.abilities.add(set.ability);
+        if (set.item) s.items.add(set.item);
+      }
+    }
+
+    const options = {};
+    for (const [name, stats] of Object.entries(formes).sort(CMP.str)) {
+      const opts = {level: stats.level};
+      if (gen >= 3 && !letsgo) opts.abilities = Array.from(stats.abilities).sort();
+      if (stats.items.size) opts.items = Array.from(stats.items).sort();
+      opts.moves = Array.from(stats.moves).map(m => dex.moves.get(m).name).sort();
+      if (!letsgo) {
+        for (const [stat, val] of Object.entries(stats.evs).sort((CMP.stats))) {
+          if (val !== -1) {
+            opts.evs = opts.evs || {};
+            opts.evs[stat] = val;
+          }
         }
       }
-      if (set.ability) s.abilities.add(set.ability);
-      if (set.item) s.items.add(set.item);
-    }
-  }
-
-  const options = {};
-  for (const [name, stats] of Object.entries(formes).sort(CMP.str)) {
-    const opts = {level: stats.level};
-    if (gen >= 3 && !letsgo) opts.abilities = Array.from(stats.abilities).sort();
-    if (stats.items.size) opts.items = Array.from(stats.items).sort();
-    opts.moves = Array.from(stats.moves).map(m => dex.moves.get(m).name).sort();
-    if (!letsgo) {
-      for (const [stat, val] of Object.entries(stats.evs).sort((CMP.stats))) {
+      for (const [stat, val] of Object.entries(stats.ivs).sort((CMP.stats))) {
         if (val !== -1) {
-          opts.evs = opts.evs || {};
-          opts.evs[stat] = val;
+          opts.ivs = opts.ivs || {};
+          opts.ivs[stat] = val;
         }
       }
+      options[name] = opts;
     }
-    for (const [stat, val] of Object.entries(stats.ivs).sort((CMP.stats))) {
-      if (val !== -1) {
-        opts.ivs = opts.ivs || {};
-        opts.ivs[stat] = val;
-      }
-    }
-    options[name] = opts;
-  }
 
-  fs.writeFileSync(`data/${format.id}.json`, stringify(options, {maxLength: 1000}));
-  const code = util.inspect(options, {
-    depth: Infinity,
-    maxArrayLength: Infinity,
-    compact: true,
-    breakLength: 1000,
-  }).slice(1, -1);
-  fs.writeFileSync(`data/${format.id}.js`, `var ${format.id.toUpperCase()} = {\n ${code}\n};`);
-}
+    index[`${format.id}.json`] = await serialize(options, `${format.id}.json`);
+    const code = util.inspect(options, {
+      depth: Infinity,
+      maxArrayLength: Infinity,
+      compact: true,
+      breakLength: 1000,
+    }).slice(1, -1);
+    fs.writeFileSync(`data/${format.id}.js`, `var ${format.id.toUpperCase()} = {\n ${code}\n};`);
+  }
+  fs.writeFileSync('data/index.json', stringify(index));
+})();
+
