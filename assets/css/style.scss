@@ -1,7 +1,9 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+// BUG: pages-themes/primer#58
+@import "jekyll-theme-primer";
+//@import "{{ site.theme }}";
 
 // Hide header and “This site is open source. Improve this page.”
 h1, .footer {
