@@ -1,6 +1,6 @@
 var GEN1RANDOMBATTLE = {
   Abra: { level: 88, moves: [ 'Counter', 'Psychic', 'Reflect', 'Seismic Toss', 'Thunder Wave' ] },
-  Aerodactyl: { level: 77, moves: [ 'Double-Edge', 'Fire Blast', 'Hyper Beam', 'Sky Attack' ] },
+  Aerodactyl: { level: 74, moves: [ 'Double-Edge', 'Fire Blast', 'Hyper Beam', 'Sky Attack' ] },
   Alakazam: { level: 68, moves: [ 'Counter', 'Psychic', 'Recover', 'Reflect', 'Seismic Toss', 'Thunder Wave' ] },
   Arbok: { level: 77, moves: [ 'Body Slam', 'Earthquake', 'Glare', 'Hyper Beam', 'Rock Slide' ] },
   Arcanine: { level: 77, moves: [ 'Body Slam', 'Fire Blast', 'Flamethrower', 'Hyper Beam', 'Reflect' ] },
@@ -19,7 +19,7 @@ var GEN1RANDOMBATTLE = {
   Clefairy: { level: 80, moves: [ 'Blizzard', 'Body Slam', 'Counter', 'Psychic', 'Seismic Toss', 'Sing', 'Thunder Wave', 'Thunderbolt' ] },
   Cloyster: { level: 68, moves: [ 'Blizzard', 'Double-Edge', 'Explosion', 'Hyper Beam', 'Surf' ] },
   Cubone: { level: 88, moves: [ 'Blizzard', 'Body Slam', 'Earthquake', 'Seismic Toss' ] },
-  Dewgong: { level: 77, moves: [ 'Blizzard', 'Body Slam', 'Hyper Beam', 'Mimic', 'Rest', 'Surf' ] },
+  Dewgong: { level: 74, moves: [ 'Blizzard', 'Body Slam', 'Hyper Beam', 'Mimic', 'Rest', 'Surf' ] },
   Diglett: { level: 88, moves: [ 'Body Slam', 'Earthquake', 'Rock Slide', 'Slash' ] },
   Ditto: { level: 88, moves: [ 'Transform' ] },
   Dodrio: { level: 74, moves: [ 'Agility', 'Body Slam', 'Drill Peck', 'Hyper Beam' ] },
