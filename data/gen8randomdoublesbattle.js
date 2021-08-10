@@ -143,7 +143,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   Gigalith: { level: 88, abilities: [ 'Sand Stream' ], items: [ 'Choice Band', 'Sitrus Berry' ], moves: [ 'Body Press', 'Explosion', 'Heavy Slam', 'Protect', 'Rock Slide', 'Stealth Rock', 'Stomping Tantrum', 'Stone Edge', 'Wide Guard' ] },
   Giratina: { level: 74, abilities: [ 'Telepathy' ], items: [ 'Chesto Berry', 'Sitrus Berry' ], moves: [ 'Calm Mind', 'Dragon Pulse', 'Rest', 'Shadow Ball', 'Will-O-Wisp' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Giratina-Origin': { level: 74, abilities: [ 'Levitate' ], items: [ 'Griseous Orb' ], moves: [ 'Breaking Swipe', 'Draco Meteor', 'Protect', 'Shadow Ball', 'Shadow Sneak', 'Tailwind', 'Will-O-Wisp' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Glaceon: { level: 88, abilities: [ 'Ice Body', 'Snow Cloak' ], items: [ 'Blunder Policy', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Blizzard', 'Freeze-Dry', 'Helping Hand', 'Protect', 'Shadow Ball', 'Wish' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Glaceon: { level: 88, abilities: [ 'Ice Body', 'Snow Cloak' ], items: [ 'Blunder Policy', 'Sitrus Berry' ], moves: [ 'Blizzard', 'Freeze-Dry', 'Helping Hand', 'Protect', 'Shadow Ball', 'Wish' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Glalie: { level: 84, abilities: [ 'Moody' ], items: [ 'Leftovers', 'Sitrus Berry' ], moves: [ 'Disable', 'Earthquake', 'Freeze-Dry', 'Protect', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Glastrier: { level: 83, abilities: [ 'Chilling Neigh' ], items: [ 'Sitrus Berry' ], moves: [ 'Close Combat', 'High Horsepower', 'Icicle Crash', 'Protect' ] },
   Golduck: { level: 88, abilities: [ 'Swift Swim' ], items: [ 'Sitrus Berry' ], moves: [ 'Calm Mind', 'Encore', 'Ice Beam', 'Muddy Water', 'Protect' ], evs: { atk: 0 }, ivs: { atk: 0 } },
