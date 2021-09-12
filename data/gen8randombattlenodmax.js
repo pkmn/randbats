@@ -111,7 +111,7 @@ var GEN8RANDOMBATTLENODMAX = {
   'Dugtrio-Alola': { level: 88, abilities: [ 'Sand Force', 'Tangling Hair' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'Earthquake', 'Iron Head', 'Stealth Rock', 'Stone Edge', 'Sucker Punch' ] },
   Dunsparce: { level: 88, abilities: [ 'Serene Grace' ], items: [ 'Leftovers' ], moves: [ 'Body Slam', 'Coil', 'Earthquake', 'Roost' ] },
   Duraludon: { level: 87, abilities: [ 'Light Metal' ], items: [ 'Assault Vest', 'Focus Sash', 'Life Orb' ], moves: [ 'Body Press', 'Draco Meteor', 'Flash Cannon', 'Stealth Rock', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Durant: { level: 85, abilities: [ 'Hustle' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'First Impression', 'Hone Claws', 'Iron Head', 'Rock Slide', 'Superpower' ] },
+  Durant: { level: 83, abilities: [ 'Hustle' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'First Impression', 'Hone Claws', 'Iron Head', 'Rock Slide', 'Superpower' ] },
   Dusknoir: { level: 88, abilities: [ 'Frisk', 'Pressure' ], items: [ 'Choice Band', 'Leftovers' ], moves: [ 'Earthquake', 'Ice Punch', 'Pain Split', 'Poltergeist', 'Shadow Sneak', 'Trick', 'Will-O-Wisp' ] },
   Eiscue: { level: 88, abilities: [ 'Ice Face' ], items: [ 'Salac Berry', 'Sitrus Berry' ], moves: [ 'Belly Drum', 'Icicle Crash', 'Liquidation', 'Substitute', 'Zen Headbutt' ] },
   Eldegoss: { level: 88, abilities: [ 'Regenerator' ], items: [ 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Charm', 'Energy Ball', 'Leech Seed', 'Pollen Puff', 'Rapid Spin', 'Sleep Powder' ], evs: { atk: 0 }, ivs: { atk: 0 } },
