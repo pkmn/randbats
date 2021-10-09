@@ -233,7 +233,7 @@ var GEN8RANDOMBATTLE = {
   Mandibuzz: { level: 82, abilities: [ 'Overcoat' ], items: [ 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Brave Bird', 'Defog', 'Foul Play', 'Roost', 'Toxic' ] },
   Manectric: { level: 86, abilities: [ 'Lightning Rod' ], items: [ 'Choice Scarf' ], moves: [ 'Flamethrower', 'Overheat', 'Switcheroo', 'Thunderbolt', 'Volt Switch' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Mantine: { level: 86, abilities: [ 'Water Absorb' ], items: [ 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Defog', 'Hurricane', 'Ice Beam', 'Roost', 'Scald', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Maractus: { level: 94, abilities: [ 'Chlorophyll', 'Storm Drain', 'Water Absorb' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Energy Ball', 'Knock Off', 'Leech Seed', 'Spikes', 'Spiky Shield', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Maractus: { level: 94, abilities: [ 'Storm Drain', 'Water Absorb' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Energy Ball', 'Knock Off', 'Leech Seed', 'Spikes', 'Spiky Shield', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Marowak: { level: 86, abilities: [ 'Battle Armor', 'Rock Head' ], items: [ 'Thick Club' ], moves: [ 'Double-Edge', 'Earthquake', 'Knock Off', 'Stealth Rock', 'Stone Edge', 'Swords Dance' ] },
   'Marowak-Alola': { level: 84, abilities: [ 'Lightning Rod', 'Rock Head' ], items: [ 'Thick Club' ], moves: [ 'Earthquake', 'Flame Charge', 'Flare Blitz', 'Poltergeist', 'Stealth Rock', 'Stone Edge' ] },
   Marshadow: { level: 70, abilities: [ 'Technician' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Bulk Up', 'Close Combat', 'Ice Punch', 'Rock Tomb', 'Shadow Sneak', 'Spectral Thief' ] },
