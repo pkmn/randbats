@@ -434,7 +434,7 @@
   "Volcarona": {"level": 80, "abilities": ["Flame Body", "Swarm"], "items": ["Heavy-Duty Boots"], "moves": ["Bug Buzz", "Fire Blast", "Giga Drain", "Quiver Dance", "Roost"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Wailord": {"level": 88, "abilities": ["Water Veil"], "items": ["Choice Specs"], "moves": ["Hydro Pump", "Hyper Voice", "Ice Beam", "Water Spout"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Walrein": {"level": 88, "abilities": ["Thick Fat"], "items": ["Leftovers"], "moves": ["Ice Beam", "Protect", "Surf", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Weavile": {"level": 80, "abilities": ["Pickpocket"], "items": ["Choice Band", "Heavy-Duty Boots", "Life Orb"], "moves": ["Ice Shard", "Icicle Crash", "Knock Off", "Low Kick", "Swords Dance"]},
+  "Weavile": {"level": 80, "abilities": ["Pickpocket"], "items": ["Choice Band", "Heavy-Duty Boots", "Life Orb"], "moves": ["Ice Shard", "Knock Off", "Low Kick", "Swords Dance", "Triple Axel"]},
   "Weezing": {"level": 88, "abilities": ["Levitate", "Neutralizing Gas"], "items": ["Black Sludge"], "moves": ["Fire Blast", "Pain Split", "Sludge Bomb", "Toxic Spikes", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Weezing-Galar": {"level": 84, "abilities": ["Levitate", "Neutralizing Gas"], "items": ["Black Sludge"], "moves": ["Defog", "Fire Blast", "Pain Split", "Sludge Bomb", "Strange Steam", "Toxic Spikes", "Will-O-Wisp"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Whimsicott": {"level": 88, "abilities": ["Prankster"], "items": ["Leftovers"], "moves": ["Defog", "Encore", "Energy Ball", "Leech Seed", "Moonblast", "Stun Spore", "Taunt", "U-turn"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
