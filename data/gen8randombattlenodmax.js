@@ -101,7 +101,7 @@ var GEN8RANDOMBATTLENODMAX = {
   Dragalge: { level: 86, abilities: [ 'Adaptability' ], items: [ 'Black Sludge', 'Choice Specs' ], moves: [ 'Draco Meteor', 'Dragon Pulse', 'Flip Turn', 'Focus Blast', 'Sludge Wave', 'Toxic Spikes' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Dragapult: { level: 80, abilities: [ 'Clear Body', 'Infiltrator' ], items: [ 'Choice Specs' ], moves: [ 'Draco Meteor', 'Fire Blast', 'Shadow Ball', 'Thunderbolt', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Dragonite: { level: 80, abilities: [ 'Multiscale' ], items: [ 'Heavy-Duty Boots' ], moves: [ 'Dragon Dance', 'Dual Wingbeat', 'Earthquake', 'Extreme Speed', 'Outrage', 'Roost' ] },
-  Drampa: { level: 88, abilities: [ 'Berserk', 'Sap Sipper' ], items: [ 'Choice Specs', 'Leftovers' ], moves: [ 'Draco Meteor', 'Fire Blast', 'Glare', 'Hyper Voice', 'Roost', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Drampa: { level: 87, abilities: [ 'Berserk', 'Sap Sipper' ], items: [ 'Choice Specs', 'Leftovers' ], moves: [ 'Draco Meteor', 'Fire Blast', 'Glare', 'Hyper Voice', 'Roost', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Drapion: { level: 86, abilities: [ 'Sniper' ], items: [ 'Black Sludge', 'Choice Band', 'Life Orb' ], moves: [ 'Aqua Tail', 'Earthquake', 'Knock Off', 'Poison Jab', 'Swords Dance', 'Taunt', 'Toxic Spikes' ] },
   Drednaw: { level: 88, abilities: [ 'Swift Swim' ], items: [ 'Focus Sash', 'Life Orb' ], moves: [ 'Liquidation', 'Rain Dance', 'Stealth Rock', 'Stone Edge', 'Superpower', 'Swords Dance' ] },
   Drifblim: { level: 88, abilities: [ 'Unburden' ], items: [ 'Sitrus Berry' ], moves: [ 'Calm Mind', 'Shadow Ball', 'Strength Sap', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
