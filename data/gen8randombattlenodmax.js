@@ -195,7 +195,7 @@ var GEN8RANDOMBATTLENODMAX = {
   Kingler: { level: 87, abilities: [ 'Sheer Force' ], items: [ 'Life Orb' ], moves: [ 'Agility', 'Liquidation', 'Rock Slide', 'Superpower', 'Swords Dance', 'X-Scissor' ] },
   Klefki: { level: 84, abilities: [ 'Prankster' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Magnet Rise', 'Play Rough', 'Spikes', 'Thunder Wave', 'Toxic' ] },
   Klinklang: { level: 88, abilities: [ 'Clear Body' ], items: [ 'Leftovers' ], moves: [ 'Gear Grind', 'Shift Gear', 'Substitute', 'Wild Charge' ] },
-  'Kommo-o': { level: 82, abilities: [ 'Bulletproof' ], items: [ 'Leftovers', 'Throat Spray' ], moves: [ 'Clanging Scales', 'Clangorous Soul', 'Close Combat', 'Poison Jab', 'Stealth Rock' ] },
+  'Kommo-o': { level: 81, abilities: [ 'Bulletproof' ], items: [ 'Leftovers', 'Throat Spray' ], moves: [ 'Clanging Scales', 'Clangorous Soul', 'Close Combat', 'Poison Jab', 'Stealth Rock' ] },
   Krookodile: { level: 82, abilities: [ 'Intimidate', 'Moxie' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'Earthquake', 'Knock Off', 'Stealth Rock', 'Stone Edge' ] },
   Kyogre: { level: 73, abilities: [ 'Drizzle' ], items: [ 'Choice Scarf', 'Choice Specs', 'Leftovers' ], moves: [ 'Calm Mind', 'Ice Beam', 'Origin Pulse', 'Thunder', 'Water Spout' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Kyurem: { level: 80, abilities: [ 'Pressure' ], items: [ 'Choice Scarf', 'Choice Specs', 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Draco Meteor', 'Earth Power', 'Freeze-Dry', 'Ice Beam', 'Roost', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
