@@ -170,5 +170,8 @@ const serialize = async (data, file) => {
     fs.writeFileSync(`data/${format.id}.js`, `var ${format.id.toUpperCase()} = {\n ${code}\n};`);
   }
   fs.writeFileSync('data/index.json', stringify(index));
-})();
+})().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
 
