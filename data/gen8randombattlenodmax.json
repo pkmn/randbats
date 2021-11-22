@@ -15,7 +15,7 @@
   "Araquanid": {"level": 86, "abilities": ["Water Bubble"], "items": ["Mystic Water"], "moves": ["Leech Life", "Liquidation", "Mirror Coat", "Sticky Web", "Toxic"]},
   "Arcanine": {"level": 86, "abilities": ["Flash Fire", "Intimidate"], "items": ["Choice Band", "Heavy-Duty Boots", "Leftovers", "Life Orb"], "moves": ["Close Combat", "Extreme Speed", "Flare Blitz", "Morning Sun", "Toxic", "Wild Charge", "Will-O-Wisp"]},
   "Archeops": {"level": 88, "abilities": ["Defeatist"], "items": ["Choice Band", "Heavy-Duty Boots"], "moves": ["Dual Wingbeat", "Earthquake", "Roost", "Stone Edge", "U-turn"]},
-  "Arctovish": {"level": 88, "abilities": ["Slush Rush", "Water Absorb"], "items": ["Assault Vest", "Choice Band"], "moves": ["Body Slam", "Fishious Rend", "Freeze-Dry", "Icicle Crash", "Psychic Fangs"]},
+  "Arctovish": {"level": 85, "abilities": ["Slush Rush", "Water Absorb"], "items": ["Assault Vest", "Choice Band"], "moves": ["Body Slam", "Fishious Rend", "Freeze-Dry", "Icicle Crash", "Psychic Fangs"], "evs": {"hp": 81}},
   "Arctozolt": {"level": 88, "abilities": ["Slush Rush", "Volt Absorb"], "items": ["Assault Vest", "Heavy-Duty Boots", "Life Orb"], "moves": ["Bolt Beak", "Freeze-Dry", "Icicle Crash", "Stomping Tantrum", "Thunder Wave"]},
   "Armaldo": {"level": 88, "abilities": ["Swift Swim"], "items": ["Heavy-Duty Boots", "Life Orb"], "moves": ["Earthquake", "Knock Off", "Liquidation", "Rapid Spin", "Stealth Rock", "Stone Edge", "Swords Dance"]},
   "Aromatisse": {"level": 88, "abilities": ["Aroma Veil"], "items": ["Leftovers"], "moves": ["Calm Mind", "Moonblast", "Protect", "Toxic", "Wish"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
