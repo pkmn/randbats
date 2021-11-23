@@ -12,7 +12,7 @@ Dex.includeModData();
 
 const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
-const SKIP = ['factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'bdsp']; // TODO
+const SKIP = ['factory', 'unrated', 'cup', 'staff', 'cap', 'monotype'];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const CMP = {
   stats: (a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]),
