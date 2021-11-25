@@ -4,7 +4,7 @@ var SUPPORTED = [
   'gen1randombattle', 'gen2randombattle',  'gen3randombattle',
   'gen4randombattle', 'gen5randombattle', 'gen6randombattle',
   'gen7randombattle', 'gen7letsgorandombattle', 'gen7randomdoublesbattle',
-  'gen8randombattlenodmax', 'gen8randombattle','gen8randomdoublesbattle',
+  'gen8randombattlenodmax', 'gen8randombattle', 'gen8bdsprandombattle', 'gen8randomdoublesbattle',
 ];
 
 // Random Battle sets are generated based on battle-only forms which makes disambiguating sets
