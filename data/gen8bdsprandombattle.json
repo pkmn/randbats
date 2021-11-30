@@ -36,7 +36,7 @@
   "Beautifly": {"level": 80, "abilities": ["Swarm"], "items": ["Focus Sash", "Leftovers", "Life Orb"], "moves": ["Air Cutter", "Bug Buzz", "Energy Ball", "Quiver Dance", "Roost"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Beedrill": {"level": 80, "abilities": ["Sniper", "Swarm"], "items": ["Black Sludge", "Focus Sash", "Scope Lens"], "moves": ["Poison Jab", "Protect", "Toxic Spikes", "U-turn"]},
   "Bibarel": {"level": 80, "abilities": ["Moody"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Aqua Jet", "Curse", "Quick Attack", "Rest", "Waterfall"]},
-  "Blastoise": {"level": 80, "abilities": ["Torrent"], "items": ["Leftovers"], "moves": ["Earthquake", "Ice Beam", "Protect", "Rapid Spin", "Roar", "Scald"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Blastoise": {"level": 80, "abilities": ["Torrent"], "items": ["Leftovers", "White Herb"], "moves": ["Earthquake", "Ice Beam", "Protect", "Rapid Spin", "Roar", "Scald", "Shell Smash"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Blaziken": {"level": 80, "abilities": ["Speed Boost"], "items": ["Choice Band", "Life Orb"], "moves": ["Close Combat", "Earthquake", "Flare Blitz", "Stone Edge", "Swords Dance"]},
   "Blissey": {"level": 80, "abilities": ["Natural Cure"], "items": ["Leftovers"], "moves": ["Seismic Toss", "Soft-Boiled", "Stealth Rock", "Thunder Wave"]},
   "Breloom": {"level": 80, "abilities": ["Poison Heal", "Technician"], "items": ["Focus Sash", "Life Orb", "Lum Berry"], "moves": ["Bullet Seed", "Mach Punch", "Rock Tomb", "Spore", "Swords Dance"]},
