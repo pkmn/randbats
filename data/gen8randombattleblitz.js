@@ -341,7 +341,7 @@ var GEN8RANDOMBATTLEBLITZ = {
   Shedinja: { level: 88, abilities: [ 'Wonder Guard' ], items: [ 'Focus Sash', 'Heavy-Duty Boots' ], moves: [ 'Poltergeist', 'Shadow Sneak', 'Swords Dance', 'Will-O-Wisp', 'X-Scissor' ] },
   Shiftry: { level: 86, abilities: [ 'Chlorophyll' ], items: [ 'Focus Sash', 'Life Orb' ], moves: [ 'Dark Pulse', 'Defog', 'Heat Wave', 'Leaf Storm', 'Nasty Plot', 'Sucker Punch' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Shiinotic: { level: 86, abilities: [ 'Effect Spore' ], items: [ 'Leftovers' ], moves: [ 'Energy Ball', 'Leech Seed', 'Moonblast', 'Spore', 'Strength Sap' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Shuckle: { level: 86, abilities: [ 'Sturdy' ], items: [ 'Heavy-Duty Boots', 'Leftovers', 'Mental Herb' ], moves: [ 'Encore', 'Knock Off', 'Stealth Rock', 'Sticky Web', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Shuckle: { level: 86, abilities: [ 'Sturdy' ], items: [ 'Heavy-Duty Boots', 'Mental Herb' ], moves: [ 'Encore', 'Knock Off', 'Stealth Rock', 'Sticky Web', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Sigilyph: { level: 83, abilities: [ 'Magic Guard', 'Tinted Lens' ], items: [ 'Choice Specs', 'Life Orb' ], moves: [ 'Air Slash', 'Defog', 'Energy Ball', 'Heat Wave', 'Psychic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Silvally: { level: 84, abilities: [ 'RKS System' ], items: [ 'Assault Vest', 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Crunch', 'Explosion', 'Flame Charge', 'Flamethrower', 'Multi-Attack', 'Swords Dance', 'U-turn' ] },
   'Silvally-Bug': { level: 84, abilities: [ 'RKS System' ], items: [ 'Bug Memory' ], moves: [ 'Flamethrower', 'Multi-Attack', 'Parting Shot', 'Psychic Fangs', 'Thunderbolt' ] },
