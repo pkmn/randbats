@@ -93,7 +93,7 @@ var GEN3RANDOMBATTLE = {
   Kecleon: { level: 88, abilities: [ 'Color Change' ], items: [ 'Choice Band', 'Leftovers' ], moves: [ 'Brick Break', 'Return', 'Shadow Ball', 'Thunder Wave', 'Trick' ] },
   Kingdra: { level: 82, abilities: [ 'Swift Swim' ], items: [ 'Leftovers', 'Petaya Berry' ], moves: [ 'Hidden Power Grass', 'Hydro Pump', 'Ice Beam', 'Rain Dance', 'Substitute', 'Surf' ], evs: { atk: 0 } },
   Kingler: { level: 88, abilities: [ 'Hyper Cutter', 'Shell Armor' ], items: [ 'Salac Berry' ], moves: [ 'Double-Edge', 'Hidden Power Ghost', 'Hidden Power Ground', 'Surf', 'Swords Dance' ], ivs: { spd: 30 } },
-  Kyogre: { level: 76, abilities: [ 'Drizzle' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Calm Mind', 'Ice Beam', 'Rest', 'Sleep Talk', 'Surf', 'Thunder', 'Water Spout' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Kyogre: { level: 76, abilities: [ 'Drizzle' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Calm Mind', 'Ice Beam', 'Rest', 'Sleep Talk', 'Surf', 'Thunder' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Lanturn: { level: 84, abilities: [ 'Volt Absorb' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Confuse Ray', 'Ice Beam', 'Rest', 'Sleep Talk', 'Surf', 'Thunder Wave', 'Thunderbolt', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Lapras: { level: 82, abilities: [ 'Water Absorb' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Heal Bell', 'Ice Beam', 'Rest', 'Sleep Talk', 'Surf', 'Thunderbolt', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Latias: { level: 76, abilities: [ 'Levitate' ], items: [ 'Leftovers' ], moves: [ 'Calm Mind', 'Dragon Claw', 'Hidden Power Fire', 'Recover', 'Refresh', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 2, spa: 30, spe: 30 } },
