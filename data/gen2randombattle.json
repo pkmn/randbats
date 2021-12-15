@@ -7,7 +7,7 @@
   "Arcanine": {"level": 69, "items": ["Leftovers"], "moves": ["Body Slam", "Crunch", "Extreme Speed", "Fire Blast", "Hidden Power Grass", "Rest", "Sleep Talk"]},
   "Ariados": {"level": 73, "items": ["Leftovers"], "moves": ["Baton Pass", "Curse", "Sludge Bomb", "Spider Web"]},
   "Articuno": {"level": 67, "items": ["Leftovers"], "moves": ["Hidden Power Electric", "Ice Beam", "Rest", "Sleep Talk", "Toxic"]},
-  "Azumarill": {"level": 73, "items": ["Mint Berry"], "moves": ["Perish Song", "Rest", "Toxic", "Whirlpool"]},
+  "Azumarill": {"level": 73, "items": ["Mint Berry"], "moves": ["Perish Song", "Rest", "Surf", "Whirlpool"]},
   "Beedrill": {"level": 73, "items": ["Leftovers", "Miracle Berry"], "moves": ["Agility", "Hidden Power Ground", "Sludge Bomb", "Substitute", "Swords Dance"], "ivs": {"hp": 14, "atk": 24}},
   "Bellossom": {"level": 69, "items": ["Leftovers"], "moves": ["Giga Drain", "Hidden Power Fire", "Leech Seed", "Moonlight", "Sleep Powder", "Stun Spore"]},
   "Blastoise": {"level": 69, "items": ["Leftovers"], "moves": ["Ice Beam", "Rapid Spin", "Rest", "Sleep Talk", "Surf", "Toxic", "Zap Cannon"]},
