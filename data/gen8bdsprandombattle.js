@@ -28,7 +28,7 @@ var GEN8BDSPRANDOMBATTLE = {
   'Arceus-Water': { level: 76, abilities: [ 'Multitype' ], items: [ 'Splash Plate' ], moves: [ 'Defog', 'Ice Beam', 'Judgment', 'Recover', 'Roar' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Ariados: { level: 84, abilities: [ 'Sniper', 'Swarm' ], items: [ 'Black Sludge', 'Focus Sash', 'Scope Lens' ], moves: [ 'Lunge', 'Poison Jab', 'Sticky Web', 'Toxic Spikes' ] },
   Armaldo: { level: 84, abilities: [ 'Swift Swim' ], items: [ 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Aqua Jet', 'Knock Off', 'Rapid Spin', 'Stealth Rock', 'Stone Edge', 'X-Scissor' ] },
-  Articuno: { level: 84, abilities: [ 'Pressure' ], items: [ 'Leftovers' ], moves: [ 'Defog', 'Ice Beam', 'Roost', 'U-turn' ], evs: { hp: 77 } },
+  Articuno: { level: 80, abilities: [ 'Pressure' ], items: [ 'Leftovers' ], moves: [ 'Defog', 'Ice Beam', 'Roost', 'U-turn' ] },
   Azelf: { level: 80, abilities: [ 'Levitate' ], items: [ 'Choice Specs', 'Expert Belt', 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Dazzling Gleam', 'Fire Blast', 'Nasty Plot', 'Psychic', 'Stealth Rock', 'Taunt', 'Thunderbolt', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Azumarill: { level: 80, abilities: [ 'Huge Power' ], items: [ 'Choice Band', 'Sitrus Berry' ], moves: [ 'Aqua Jet', 'Belly Drum', 'Play Rough', 'Superpower', 'Waterfall' ] },
   Banette: { level: 84, abilities: [ 'Cursed Body' ], items: [ 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Destiny Bond', 'Knock Off', 'Shadow Claw', 'Shadow Sneak', 'Will-O-Wisp' ] },
