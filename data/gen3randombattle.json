@@ -179,7 +179,7 @@
   "Slowking": {"level": 84, "abilities": ["Own Tempo"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Calm Mind", "Flamethrower", "Ice Beam", "Psychic", "Rest", "Sleep Talk", "Surf", "Thunder Wave"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Smeargle": {"level": 82, "abilities": ["Own Tempo"], "items": ["Leftovers"], "moves": ["Encore", "Explosion", "Spikes", "Spore"]},
   "Sneasel": {"level": 84, "abilities": ["Inner Focus", "Keen Eye"], "items": ["Choice Band", "Leftovers"], "moves": ["Brick Break", "Double-Edge", "Hidden Power Flying", "Shadow Ball", "Substitute", "Swords Dance"]},
-  "Snorlax": {"level": 80, "abilities": ["Thick Fat"], "items": ["Choice Band", "Leftovers"], "moves": ["Body Slam", "Curse", "Earthquake", "Rest", "Return", "Self-Destruct", "Shadow Ball", "Sleep Talk"]},
+  "Snorlax": {"level": 80, "abilities": ["Thick Fat"], "items": ["Chesto Berry", "Choice Band", "Leftovers"], "moves": ["Body Slam", "Curse", "Earthquake", "Rest", "Return", "Self-Destruct", "Shadow Ball", "Sleep Talk"]},
   "Solrock": {"level": 84, "abilities": ["Levitate"], "items": ["Choice Band", "Leftovers"], "moves": ["Earthquake", "Explosion", "Overheat", "Reflect", "Rock Slide", "Shadow Ball"]},
   "Spinda": {"level": 88, "abilities": ["Own Tempo"], "items": ["Leftovers"], "moves": ["Body Slam", "Encore", "Focus Punch", "Shadow Ball", "Substitute", "Teeter Dance", "Toxic"]},
   "Stantler": {"level": 84, "abilities": ["Intimidate"], "items": ["Leftovers"], "moves": ["Earthquake", "Hypnosis", "Return", "Shadow Ball", "Thunderbolt"]},
