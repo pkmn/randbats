@@ -159,7 +159,7 @@
   "Heatmor": {"level": 80, "abilities": ["Flash Fire"], "items": ["Life Orb"], "moves": ["Fire Blast", "Giga Drain", "Sucker Punch", "Superpower"]},
   "Heatran": {"level": 80, "abilities": ["Flash Fire"], "items": ["Air Balloon", "Choice Scarf", "Choice Specs"], "moves": ["Earth Power", "Fire Blast", "Flash Cannon", "Hidden Power Ice", "Lava Plume", "Protect", "Roar", "Stealth Rock", "Toxic"], "evs": {"atk": 0}},
   "Heracross": {"level": 82, "abilities": ["Guts", "Moxie"], "items": ["Choice Band", "Choice Scarf", "Flame Orb"], "moves": ["Close Combat", "Earthquake", "Facade", "Megahorn", "Stone Edge"]},
-  "Hippowdon": {"level": 80, "abilities": ["Sand Stream"], "items": ["Leftovers"], "moves": ["Earthquake", "Ice Fang", "Slack Off", "Stealth Rock", "Toxic", "Whirlwind"]},
+  "Hippowdon": {"level": 82, "abilities": ["Sand Stream"], "items": ["Leftovers"], "moves": ["Earthquake", "Ice Fang", "Slack Off", "Stealth Rock", "Toxic", "Whirlwind"]},
   "Hitmonchan": {"level": 84, "abilities": ["Inner Focus", "Iron Fist"], "items": ["Choice Band", "Choice Scarf", "Leftovers", "Life Orb"], "moves": ["Bulk Up", "Close Combat", "Drain Punch", "Ice Punch", "Mach Punch", "Rapid Spin", "Stone Edge"]},
   "Hitmonlee": {"level": 84, "abilities": ["Unburden"], "items": ["Fighting Gem", "Normal Gem"], "moves": ["Close Combat", "Earthquake", "Fake Out", "Stone Edge", "Sucker Punch"]},
   "Hitmontop": {"level": 82, "abilities": ["Intimidate", "Technician"], "items": ["Choice Band", "Leftovers", "Life Orb"], "moves": ["Close Combat", "Mach Punch", "Rapid Spin", "Stone Edge", "Sucker Punch", "Toxic"]},
