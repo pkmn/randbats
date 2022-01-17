@@ -239,7 +239,7 @@ var GEN5RANDOMBATTLE = {
   Mismagius: { level: 82, abilities: [ 'Levitate' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Hidden Power Fighting', 'Nasty Plot', 'Shadow Ball', 'Taunt', 'Thunderbolt' ], evs: { atk: 0 } },
   Moltres: { level: 84, abilities: [ 'Pressure' ], items: [ 'Choice Specs', 'Leftovers', 'Life Orb' ], moves: [ 'Fire Blast', 'Hidden Power Grass', 'Hurricane', 'Roost', 'Substitute', 'Toxic', 'U-turn', 'Will-O-Wisp' ], evs: { hp: 77, atk: 0 } },
   Mothim: { level: 90, abilities: [ 'Tinted Lens' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Air Slash', 'Bug Buzz', 'Hidden Power Ground', 'Quiver Dance', 'Substitute' ], evs: { hp: 81, atk: 0 } },
-  'Mr. Mime': { level: 88, abilities: [ 'Filter' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Baton Pass', 'Encore', 'Hidden Power Fighting', 'Nasty Plot', 'Psychic', 'Substitute', 'Thunderbolt' ], evs: { atk: 0 } },
+  'Mr. Mime': { level: 90, abilities: [ 'Filter' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Baton Pass', 'Encore', 'Hidden Power Fighting', 'Nasty Plot', 'Psychic', 'Substitute', 'Thunderbolt' ], evs: { atk: 0 } },
   Muk: { level: 90, abilities: [ 'Poison Touch', 'Sticky Hold' ], items: [ 'Black Sludge', 'Chesto Berry', 'Choice Band' ], moves: [ 'Brick Break', 'Curse', 'Fire Punch', 'Gunk Shot', 'Ice Punch', 'Poison Jab', 'Rest', 'Shadow Sneak' ] },
   Murkrow: { level: 88, abilities: [ 'Prankster' ], items: [ 'Eviolite' ], moves: [ 'Foul Play', 'Roost', 'Taunt', 'Thunder Wave', 'Toxic' ] },
   Musharna: { level: 86, abilities: [ 'Synchronize' ], items: [ 'Leftovers' ], moves: [ 'Baton Pass', 'Calm Mind', 'Heal Bell', 'Hidden Power Ground', 'Moonlight', 'Psychic', 'Signal Beam', 'Toxic', 'Trick Room' ], evs: { atk: 0, spe: 0 } },
