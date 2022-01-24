@@ -141,7 +141,7 @@ var GEN5RANDOMBATTLE = {
   Girafarig: { level: 90, abilities: [ 'Sap Sipper' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Baton Pass', 'Calm Mind', 'Hyper Voice', 'Psychic', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Giratina: { level: 76, abilities: [ 'Pressure' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Calm Mind', 'Dragon Pulse', 'Dragon Tail', 'Rest', 'Sleep Talk', 'Will-O-Wisp' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Giratina-Origin': { level: 76, abilities: [ 'Levitate' ], items: [ 'Griseous Orb' ], moves: [ 'Draco Meteor', 'Earthquake', 'Hidden Power Fire', 'Shadow Sneak', 'Will-O-Wisp' ] },
-  Glaceon: { level: 90, abilities: [ 'Ice Body', 'Snow Cloak' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Hidden Power Ground', 'Ice Beam', 'Protect', 'Shadow Ball', 'Wish' ], evs: { atk: 0 } },
+  Glaceon: { level: 90, abilities: [ 'Ice Body', 'Snow Cloak' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Hidden Power Ground', 'Ice Beam', 'Protect', 'Shadow Ball', 'Toxic', 'Wish' ], evs: { atk: 0 } },
   Glalie: { level: 90, abilities: [ 'Ice Body', 'Inner Focus' ], items: [ 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Earthquake', 'Explosion', 'Ice Beam', 'Spikes', 'Taunt' ] },
   Gligar: { level: 82, abilities: [ 'Immunity' ], items: [ 'Eviolite' ], moves: [ 'Earthquake', 'Roost', 'Stealth Rock', 'Taunt', 'Toxic', 'U-turn' ] },
   Gliscor: { level: 80, abilities: [ 'Poison Heal' ], items: [ 'Toxic Orb' ], moves: [ 'Baton Pass', 'Earthquake', 'Ice Fang', 'Protect', 'Substitute', 'Swords Dance', 'Taunt', 'Toxic' ] },

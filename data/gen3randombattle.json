@@ -157,7 +157,7 @@
   "Rayquaza": {"level": 76, "abilities": ["Air Lock"], "items": ["Choice Band", "Lum Berry"], "moves": ["Dragon Dance", "Earthquake", "Extreme Speed", "Hidden Power Flying", "Overheat", "Rock Slide"], "ivs": {"hp": 30, "atk": 30, "def": 30, "spa": 30, "spd": 30}},
   "Regice": {"level": 82, "abilities": ["Clear Body"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Explosion", "Ice Beam", "Rest", "Sleep Talk", "Thunder Wave", "Thunderbolt", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Regirock": {"level": 82, "abilities": ["Clear Body"], "items": ["Chesto Berry", "Choice Band", "Leftovers"], "moves": ["Curse", "Earthquake", "Explosion", "Rest", "Rock Slide", "Superpower", "Thunder Wave"]},
-  "Registeel": {"level": 82, "abilities": ["Clear Body"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Protect", "Rest", "Seismic Toss", "Sleep Talk", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Registeel": {"level": 82, "abilities": ["Clear Body"], "items": ["Leftovers"], "moves": ["Rest", "Seismic Toss", "Sleep Talk", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Relicanth": {"level": 88, "abilities": ["Rock Head", "Swift Swim"], "items": ["Chesto Berry", "Choice Band", "Leftovers"], "moves": ["Double-Edge", "Earthquake", "Hidden Power Flying", "Rest", "Rock Slide", "Sleep Talk", "Toxic"]},
   "Rhydon": {"level": 82, "abilities": ["Rock Head"], "items": ["Choice Band", "Leftovers"], "moves": ["Double-Edge", "Earthquake", "Megahorn", "Rock Slide", "Substitute", "Swords Dance"]},
   "Roselia": {"level": 88, "abilities": ["Natural Cure"], "items": ["Leftovers"], "moves": ["Aromatherapy", "Giga Drain", "Hidden Power Fire", "Spikes", "Stun Spore", "Synthesis"], "evs": {"atk": 0}},
