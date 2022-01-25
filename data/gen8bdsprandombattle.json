@@ -159,7 +159,7 @@
   "Magmortar": {"level": 84, "abilities": ["Flame Body", "Vital Spirit"], "items": ["Life Orb"], "moves": ["Earthquake", "Fire Blast", "Psychic", "Taunt", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Magnezone": {"level": 80, "abilities": ["Magnet Pull"], "items": ["Expert Belt"], "moves": ["Flash Cannon", "Mirror Coat", "Thunderbolt", "Volt Switch"]},
   "Mamoswine": {"level": 80, "abilities": ["Thick Fat"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Earthquake", "Ice Shard", "Icicle Crash", "Stealth Rock", "Stone Edge"]},
-  "Manaphy": {"level": 80, "abilities": ["Hydration"], "items": ["Leftovers", "Salac Berry"], "moves": ["Energy Ball", "Ice Beam", "Substitute", "Surf", "Tail Glow"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Manaphy": {"level": 76, "abilities": ["Hydration"], "items": ["Leftovers", "Salac Berry"], "moves": ["Energy Ball", "Ice Beam", "Substitute", "Surf", "Tail Glow"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Manectric": {"level": 84, "abilities": ["Lightning Rod"], "items": ["Choice Scarf"], "moves": ["Overheat", "Switcheroo", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Mantine": {"level": 84, "abilities": ["Water Absorb"], "items": ["Leftovers"], "moves": ["Defog", "Ice Beam", "Roost", "Scald"], "evs": {"hp": 81, "atk": 0}, "ivs": {"atk": 0}},
   "Marowak": {"level": 84, "abilities": ["Rock Head"], "items": ["Thick Club"], "moves": ["Double-Edge", "Earthquake", "Stealth Rock", "Stone Edge"]},
