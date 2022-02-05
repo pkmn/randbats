@@ -363,7 +363,7 @@ var GEN7RANDOMDOUBLESBATTLE = {
   Passimian: { level: 80, abilities: [ 'Defiant' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Close Combat', 'Knock Off', 'Protect', 'Rock Slide', 'Taunt', 'U-turn' ] },
   Pelipper: { level: 85, abilities: [ 'Drizzle' ], items: [ 'Sitrus Berry' ], moves: [ 'Hurricane', 'Protect', 'Scald', 'Tailwind', 'U-turn', 'Wide Guard' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Persian: { level: 85, abilities: [ 'Limber', 'Technician' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Fake Out', 'Hypnosis', 'Knock Off', 'Protect', 'Return', 'Taunt', 'U-turn' ] },
-  'Persian-Alola': { level: 79, abilities: [ 'Fur Coat', 'Technician' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Fake Out', 'Foul Play', 'Hidden Power Fighting', 'Icy Wind', 'Parting Shot', 'Protect', 'Snarl' ] },
+  'Persian-Alola': { level: 85, abilities: [ 'Fur Coat', 'Technician' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Fake Out', 'Foul Play', 'Hidden Power Fighting', 'Icy Wind', 'Parting Shot', 'Protect', 'Snarl' ] },
   Pheromosa: { level: 72, abilities: [ 'Beast Boost' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Bug Buzz', 'High Jump Kick', 'Ice Beam', 'Poison Jab', 'Protect', 'Speed Swap', 'U-turn' ], evs: { spa: 0 }, ivs: { spa: 0 } },
   Phione: { level: 81, abilities: [ 'Hydration' ], items: [ 'Sitrus Berry' ], moves: [ 'Helping Hand', 'Icy Wind', 'Protect', 'Scald', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Pidgeot: { level: 81, abilities: [ 'Big Pecks', 'Keen Eye', 'Tangled Feet' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Brave Bird', 'Double-Edge', 'Heat Wave', 'Protect', 'Return', 'Tailwind', 'U-turn' ] },
