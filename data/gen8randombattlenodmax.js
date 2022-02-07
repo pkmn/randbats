@@ -258,7 +258,7 @@ var GEN8RANDOMBATTLENODMAX = {
   Mudsdale: { level: 86, abilities: [ 'Stamina' ], items: [ 'Choice Band', 'Leftovers' ], moves: [ 'Body Press', 'Earthquake', 'Heavy Slam', 'Rock Slide', 'Stealth Rock' ] },
   Musharna: { level: 88, abilities: [ 'Synchronize' ], items: [ 'Leftovers' ], moves: [ 'Calm Mind', 'Moonblast', 'Moonlight', 'Psychic', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Naganadel: { level: 76, abilities: [ 'Beast Boost' ], items: [ 'Choice Specs', 'Life Orb' ], moves: [ 'Air Slash', 'Draco Meteor', 'Fire Blast', 'Nasty Plot', 'Sludge Wave', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Necrozma: { level: 84, abilities: [ 'Prism Armor' ], items: [ 'Leftovers' ], moves: [ 'Calm Mind', 'Heat Wave', 'Moonlight', 'Photon Geyser', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Necrozma: { level: 83, abilities: [ 'Prism Armor' ], items: [ 'Leftovers' ], moves: [ 'Calm Mind', 'Heat Wave', 'Moonlight', 'Photon Geyser', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Necrozma-Dawn-Wings': { level: 76, abilities: [ 'Prism Armor' ], items: [ 'Leftovers' ], moves: [ 'Calm Mind', 'Heat Wave', 'Moongeist Beam', 'Photon Geyser', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Necrozma-Dusk-Mane': { level: 72, abilities: [ 'Prism Armor' ], items: [ 'Weakness Policy' ], moves: [ 'Dragon Dance', 'Earthquake', 'Morning Sun', 'Photon Geyser', 'Sunsteel Strike' ] },
   Nidoking: { level: 82, abilities: [ 'Sheer Force' ], items: [ 'Life Orb' ], moves: [ 'Earth Power', 'Ice Beam', 'Sludge Wave', 'Substitute', 'Superpower' ], evs: { atk: 0 }, ivs: { atk: 0 } },
