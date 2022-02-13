@@ -293,7 +293,7 @@ var GEN7RANDOMBATTLE = {
   Lunala: { level: 76, abilities: [ 'Shadow Shield' ], items: [ 'Choice Scarf', 'Choice Specs', 'Leftovers' ], moves: [ 'Calm Mind', 'Focus Blast', 'Moonblast', 'Moongeist Beam', 'Psyshock', 'Roost' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Lunatone: { level: 88, abilities: [ 'Levitate' ], items: [ 'Choice Specs', 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Earth Power', 'Ice Beam', 'Moonlight', 'Power Gem', 'Psychic', 'Rock Polish', 'Stealth Rock', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Lurantis: { level: 88, abilities: [ 'Contrary' ], items: [ 'Assault Vest', 'Life Orb' ], moves: [ 'Hidden Power Ice', 'Knock Off', 'Leaf Storm', 'Superpower', 'Synthesis' ] },
-  Luvdisc: { level: 88, abilities: [ 'Swift Swim' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Ice Beam', 'Protect', 'Scald', 'Sweet Kiss', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Luvdisc: { level: 100, abilities: [ 'Swift Swim' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Ice Beam', 'Protect', 'Scald', 'Sweet Kiss', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Luxray: { level: 88, abilities: [ 'Guts', 'Intimidate' ], items: [ 'Assault Vest', 'Choice Band', 'Choice Scarf', 'Flame Orb' ], moves: [ 'Crunch', 'Facade', 'Ice Fang', 'Superpower', 'Volt Switch', 'Wild Charge' ] },
   Lycanroc: { level: 88, abilities: [ 'Sand Rush' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb', 'Lycanium Z' ], moves: [ 'Accelerock', 'Drill Run', 'Fire Fang', 'Stone Edge', 'Swords Dance' ] },
   'Lycanroc-Dusk': { level: 84, abilities: [ 'Tough Claws' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb', 'Lycanium Z' ], moves: [ 'Accelerock', 'Drill Run', 'Fire Fang', 'Return', 'Stone Edge', 'Swords Dance' ] },
