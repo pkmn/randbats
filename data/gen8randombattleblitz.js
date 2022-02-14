@@ -245,7 +245,7 @@ var GEN8RANDOMBATTLEBLITZ = {
   Metagross: { level: 79, abilities: [ 'Clear Body' ], items: [ 'Choice Band', 'Choice Scarf', 'Leftovers', 'Weakness Policy' ], moves: [ 'Agility', 'Bullet Punch', 'Earthquake', 'Explosion', 'Meteor Mash', 'Stealth Rock', 'Thunder Punch' ] },
   Mew: { level: 80, abilities: [ 'Synchronize' ], items: [ 'Choice Band', 'Choice Scarf', 'Lum Berry' ], moves: [ 'Brave Bird', 'Close Combat', 'Dragon Dance', 'Flare Blitz', 'Psychic Fangs', 'Swords Dance' ] },
   Mewtwo: { level: 72, abilities: [ 'Unnerve' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Fire Blast', 'Nasty Plot', 'Psystrike', 'Recover', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Mienshao: { level: 82, abilities: [ 'Regenerator' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'Fake Out', 'Knock Off', 'Poison Jab', 'Swords Dance', 'U-turn' ] },
+  Mienshao: { level: 82, abilities: [ 'Regenerator' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'Fake Out', 'Knock Off', 'Poison Jab', 'Stone Edge', 'Swords Dance', 'U-turn' ] },
   Milotic: { level: 82, abilities: [ 'Competitive', 'Marvel Scale' ], items: [ 'Leftovers' ], moves: [ 'Haze', 'Ice Beam', 'Recover', 'Scald', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Miltank: { level: 84, abilities: [ 'Sap Sipper', 'Scrappy', 'Thick Fat' ], items: [ 'Leftovers' ], moves: [ 'Body Slam', 'Earthquake', 'Heal Bell', 'Milk Drink', 'Stealth Rock', 'Toxic' ] },
   Mimikyu: { level: 76, abilities: [ 'Disguise' ], items: [ 'Life Orb' ], moves: [ 'Drain Punch', 'Play Rough', 'Shadow Claw', 'Shadow Sneak', 'Swords Dance' ] },
