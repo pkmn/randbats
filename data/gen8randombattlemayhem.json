@@ -150,7 +150,7 @@
   "Glastrier": {"level": 88, "abilities": ["Chilling Neigh"], "items": ["Heavy-Duty Boots", "Lum Berry"], "moves": ["Close Combat", "High Horsepower", "Icicle Crash", "Swords Dance"]},
   "Golduck": {"level": 88, "abilities": ["Cloud Nine", "Swift Swim"], "items": ["Choice Specs", "Leftovers", "Life Orb"], "moves": ["Calm Mind", "Focus Blast", "Ice Beam", "Psyshock", "Scald", "Substitute"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Golurk": {"level": 86, "abilities": ["No Guard"], "items": ["Choice Band", "Life Orb"], "moves": ["Dynamic Punch", "Earthquake", "Poltergeist", "Rock Polish", "Stone Edge"]},
-  "Goodra": {"level": 86, "abilities": ["Sap Sipper"], "items": ["Assault Vest", "Choice Scarf", "Choice Specs"], "moves": ["Draco Meteor", "Earthquake", "Fire Blast", "Power Whip", "Sludge Bomb", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Goodra": {"level": 85, "abilities": ["Sap Sipper"], "items": ["Assault Vest", "Choice Scarf", "Choice Specs"], "moves": ["Draco Meteor", "Earthquake", "Fire Blast", "Power Whip", "Sludge Bomb", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Gothitelle": {"level": 88, "abilities": ["Shadow Tag"], "items": ["Choice Scarf", "Leftovers"], "moves": ["Nasty Plot", "Psychic", "Shadow Ball", "Thunderbolt", "Trick"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Gourgeist": {"level": 88, "abilities": ["Frisk"], "items": ["Leftovers", "Life Orb"], "moves": ["Poltergeist", "Power Whip", "Shadow Sneak", "Synthesis", "Will-O-Wisp"]},
   "Gourgeist-Large": {"level": 88, "abilities": ["Frisk"], "items": ["Leftovers", "Life Orb"], "moves": ["Poltergeist", "Power Whip", "Shadow Sneak", "Synthesis", "Will-O-Wisp"]},
