@@ -233,7 +233,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Seaking: { level: 86, abilities: [ 'Swift Swim' ], items: [ 'Life Orb' ], moves: [ 'Megahorn', 'Rain Dance', 'Swords Dance', 'Waterfall' ] },
   Seviper: { level: 86, abilities: [ 'Infiltrator', 'Shed Skin' ], items: [ 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Crunch', 'Earthquake', 'Flamethrower', 'Giga Drain', 'Glare', 'Sludge Bomb', 'Switcheroo' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Sharpedo: { level: 84, abilities: [ 'Speed Boost' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Aqua Jet', 'Crunch', 'Earthquake', 'Liquidation', 'Protect' ] },
-  Shaymin: { level: 76, abilities: [ 'Natural Cure' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Healing Wish', 'Leech Seed', 'Psychic', 'Rest', 'Seed Flare', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Shaymin: { level: 80, abilities: [ 'Natural Cure' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Healing Wish', 'Leech Seed', 'Psychic', 'Rest', 'Seed Flare', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Shaymin-Sky': { level: 76, abilities: [ 'Serene Grace' ], items: [ 'Leftovers' ], moves: [ 'Air Slash', 'Leech Seed', 'Seed Flare', 'Substitute', 'Synthesis' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Shedinja: { level: 86, abilities: [ 'Wonder Guard' ], items: [ 'Focus Sash' ], moves: [ 'Shadow Claw', 'Shadow Sneak', 'Will-O-Wisp', 'X-Scissor' ] },
   Shiftry: { level: 86, abilities: [ 'Chlorophyll', 'Early Bird' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'Brick Break', 'Fake Out', 'Leaf Blade', 'Night Slash', 'Sucker Punch', 'Swords Dance' ] },
