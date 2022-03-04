@@ -173,7 +173,7 @@ var GEN3RANDOMBATTLE = {
   Shedinja: { level: 88, abilities: [ 'Wonder Guard' ], items: [ 'Lum Berry' ], moves: [ 'Agility', 'Baton Pass', 'Hidden Power Ground', 'Shadow Ball', 'Silver Wind', 'Toxic' ] },
   Shiftry: { level: 84, abilities: [ 'Chlorophyll', 'Early Bird' ], items: [ 'Leftovers', 'Salac Berry' ], moves: [ 'Brick Break', 'Explosion', 'Hidden Power Fire', 'Shadow Ball', 'Solar Beam', 'Sunny Day', 'Swords Dance' ] },
   Shuckle: { level: 88, abilities: [ 'Sturdy' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Encore', 'Protect', 'Rest', 'Toxic', 'Wrap' ] },
-  Skarmory: { level: 80, abilities: [ 'Keen Eye' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Drill Peck', 'Protect', 'Rest', 'Roar', 'Sleep Talk', 'Spikes', 'Toxic' ] },
+  Skarmory: { level: 80, abilities: [ 'Keen Eye' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Double-Edge', 'Drill Peck', 'Protect', 'Rest', 'Roar', 'Sleep Talk', 'Spikes', 'Toxic' ] },
   Slaking: { level: 82, abilities: [ 'Truant' ], items: [ 'Choice Band' ], moves: [ 'Double-Edge', 'Earthquake', 'Focus Punch', 'Return', 'Shadow Ball' ] },
   Slowbro: { level: 82, abilities: [ 'Own Tempo' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Calm Mind', 'Fire Blast', 'Ice Beam', 'Psychic', 'Rest', 'Sleep Talk', 'Surf', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Slowking: { level: 84, abilities: [ 'Own Tempo' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Calm Mind', 'Flamethrower', 'Ice Beam', 'Psychic', 'Rest', 'Sleep Talk', 'Surf', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },

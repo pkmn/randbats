@@ -375,7 +375,7 @@ var GEN5RANDOMBATTLE = {
   Volcarona: { level: 80, abilities: [ 'Flame Body' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Bug Buzz', 'Fiery Dance', 'Fire Blast', 'Giga Drain', 'Hidden Power Ground', 'Quiver Dance', 'Roost' ], evs: { atk: 0 } },
   Wailord: { level: 90, abilities: [ 'Water Veil' ], items: [ 'Choice Specs' ], moves: [ 'Hidden Power Grass', 'Hydro Pump', 'Ice Beam', 'Surf', 'Water Spout' ], evs: { atk: 0 }, ivs: { atk: 2, spa: 30 } },
   Walrein: { level: 90, abilities: [ 'Thick Fat' ], items: [ 'Leftovers' ], moves: [ 'Encore', 'Ice Beam', 'Protect', 'Roar', 'Surf', 'Toxic' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
-  Watchog: { level: 90, abilities: [ 'Analytic' ], items: [ 'Leftovers' ], moves: [ 'Baton Pass', 'Hypnosis', 'Return', 'Substitute', 'Super Fang', 'Swords Dance' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Watchog: { level: 90, abilities: [ 'Analytic' ], items: [ 'Leftovers' ], moves: [ 'Baton Pass', 'Hypnosis', 'Return', 'Substitute', 'Super Fang', 'Swords Dance' ] },
   Weavile: { level: 82, abilities: [ 'Pickpocket' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Ice Punch', 'Ice Shard', 'Low Kick', 'Night Slash', 'Pursuit', 'Swords Dance' ] },
   Weezing: { level: 86, abilities: [ 'Levitate' ], items: [ 'Black Sludge' ], moves: [ 'Fire Blast', 'Haze', 'Pain Split', 'Sludge Bomb', 'Will-O-Wisp' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Whimsicott: { level: 84, abilities: [ 'Prankster' ], items: [ 'Leftovers' ], moves: [ 'Encore', 'Giga Drain', 'Leech Seed', 'Stun Spore', 'Taunt', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },

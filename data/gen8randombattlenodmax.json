@@ -445,7 +445,7 @@
   "Xatu": {"level": 86, "abilities": ["Magic Bounce"], "items": ["Heavy-Duty Boots", "Leftovers"], "moves": ["Heat Wave", "Psychic", "Roost", "Teleport", "Thunder Wave"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Xerneas": {"level": 70, "abilities": ["Fairy Aura"], "items": ["Choice Scarf", "Choice Specs", "Power Herb"], "moves": ["Focus Blast", "Geomancy", "Moonblast", "Psyshock", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Xurkitree": {"level": 84, "abilities": ["Beast Boost"], "items": ["Blunder Policy", "Choice Scarf", "Choice Specs"], "moves": ["Dazzling Gleam", "Energy Ball", "Hypnosis", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Yveltal": {"level": 76, "abilities": ["Dark Aura"], "items": ["Assault Vest", "Heavy-Duty Boots", "Leftovers", "Life Orb"], "moves": ["Dark Pulse", "Defog", "Heat Wave", "Knock Off", "Oblivion Wing", "Roost", "Sucker Punch", "Taunt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Yveltal": {"level": 76, "abilities": ["Dark Aura"], "items": ["Assault Vest", "Heavy-Duty Boots", "Leftovers", "Life Orb"], "moves": ["Defog", "Heat Wave", "Knock Off", "Oblivion Wing", "Roost", "Sucker Punch", "Taunt"]},
   "Zacian": {"level": 72, "abilities": ["Intrepid Sword"], "items": ["Choice Band", "Lum Berry"], "moves": ["Close Combat", "Crunch", "Play Rough", "Psychic Fangs", "Swords Dance"]},
   "Zacian-Crowned": {"level": 65, "abilities": ["Intrepid Sword"], "items": ["Rusted Sword"], "moves": ["Behemoth Blade", "Close Combat", "Crunch", "Play Rough", "Psychic Fangs", "Swords Dance"]},
   "Zamazenta": {"level": 76, "abilities": ["Dauntless Shield"], "items": ["Choice Band"], "moves": ["Close Combat", "Crunch", "Psychic Fangs", "Wild Charge"]},
