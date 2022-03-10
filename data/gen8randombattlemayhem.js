@@ -119,7 +119,7 @@ var GEN8RANDOMBATTLEMAYHEM = {
   Emolga: { level: 88, abilities: [ 'Motor Drive' ], items: [ 'Choice Specs', 'Heavy-Duty Boots', 'Leftovers', 'Life Orb' ], moves: [ 'Air Slash', 'Defog', 'Energy Ball', 'Roost', 'Thunderbolt', 'Toxic', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Entei: { level: 85, abilities: [ 'Inner Focus' ], items: [ 'Choice Band' ], moves: [ 'Extreme Speed', 'Flare Blitz', 'Sacred Fire', 'Stomping Tantrum', 'Stone Edge' ] },
   Escavalier: { level: 86, abilities: [ 'Overcoat', 'Swarm' ], items: [ 'Choice Band', 'Leftovers' ], moves: [ 'Close Combat', 'Drill Run', 'Iron Head', 'Knock Off', 'Megahorn', 'Swords Dance' ] },
-  Espeon: { level: 88, abilities: [ 'Magic Bounce' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Calm Mind', 'Dazzling Gleam', 'Morning Sun', 'Psychic', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Espeon: { level: 87, abilities: [ 'Magic Bounce' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Calm Mind', 'Dazzling Gleam', 'Morning Sun', 'Psychic', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Eternatus: { level: 73, abilities: [ 'Pressure' ], items: [ 'Black Sludge', 'Metronome' ], moves: [ 'Dynamax Cannon', 'Flamethrower', 'Recover', 'Sludge Wave', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Excadrill: { level: 82, abilities: [ 'Mold Breaker', 'Sand Rush' ], items: [ 'Assault Vest', 'Leftovers', 'Life Orb' ], moves: [ 'Earthquake', 'Iron Head', 'Rapid Spin', 'Rock Slide', 'Swords Dance' ] },
   Exeggutor: { level: 88, abilities: [ 'Chlorophyll', 'Harvest' ], items: [ 'Leftovers', 'Sitrus Berry' ], moves: [ 'Giga Drain', 'Leech Seed', 'Psychic', 'Sleep Powder', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
