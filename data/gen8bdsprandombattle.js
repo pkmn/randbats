@@ -36,7 +36,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Beautifly: { level: 86, abilities: [ 'Swarm' ], items: [ 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Air Cutter', 'Bug Buzz', 'Energy Ball', 'Quiver Dance', 'Roost' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Beedrill: { level: 86, abilities: [ 'Sniper', 'Swarm' ], items: [ 'Black Sludge', 'Focus Sash' ], moves: [ 'Poison Jab', 'Protect', 'Toxic Spikes', 'U-turn' ], evs: { hp: 81 } },
   Bellossom: { level: 86, abilities: [ 'Chlorophyll' ], items: [ 'Leftovers' ], moves: [ 'Giga Drain', 'Moonblast', 'Quiver Dance', 'Sleep Powder', 'Strength Sap' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Bibarel: { level: 86, abilities: [ 'Simple' ], items: [ 'Chesto Berry', 'Focus Sash', 'Life Orb' ], moves: [ 'Aqua Jet', 'Aqua Tail', 'Curse', 'Quick Attack', 'Rest' ] },
+  Bibarel: { level: 85, abilities: [ 'Simple' ], items: [ 'Chesto Berry', 'Focus Sash', 'Life Orb' ], moves: [ 'Aqua Jet', 'Aqua Tail', 'Curse', 'Quick Attack', 'Rest' ] },
   Blastoise: { level: 82, abilities: [ 'Torrent' ], items: [ 'Leftovers', 'White Herb' ], moves: [ 'Earthquake', 'Ice Beam', 'Protect', 'Rapid Spin', 'Roar', 'Scald', 'Shell Smash' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Blaziken: { level: 76, abilities: [ 'Speed Boost' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Close Combat', 'Earthquake', 'Flare Blitz', 'Stone Edge', 'Swords Dance' ] },
   Blissey: { level: 80, abilities: [ 'Natural Cure' ], items: [ 'Leftovers' ], moves: [ 'Seismic Toss', 'Soft-Boiled', 'Stealth Rock', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
@@ -145,7 +145,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Leafeon: { level: 86, abilities: [ 'Chlorophyll' ], items: [ 'Life Orb', 'Lum Berry' ], moves: [ 'Double-Edge', 'Leaf Blade', 'Swords Dance', 'Synthesis', 'X-Scissor' ] },
   Ledian: { level: 86, abilities: [ 'Early Bird' ], items: [ 'Leftovers', 'Light Clay' ], moves: [ 'Knock Off', 'Light Screen', 'Reflect', 'Roost', 'U-turn' ] },
   Lickilicky: { level: 86, abilities: [ 'Oblivious' ], items: [ 'Choice Band', 'Leftovers' ], moves: [ 'Body Slam', 'Hammer Arm', 'Knock Off', 'Power Whip', 'Swords Dance' ] },
-  Linoone: { level: 86, abilities: [ 'Gluttony' ], items: [ 'Aguav Berry', 'Figy Berry', 'Iapapa Berry', 'Mago Berry', 'Wiki Berry' ], moves: [ 'Belly Drum', 'Extreme Speed', 'Iron Tail', 'Shadow Claw' ] },
+  Linoone: { level: 85, abilities: [ 'Gluttony' ], items: [ 'Aguav Berry', 'Figy Berry', 'Iapapa Berry', 'Mago Berry', 'Wiki Berry' ], moves: [ 'Belly Drum', 'Extreme Speed', 'Iron Tail', 'Shadow Claw' ], evs: { hp: 81 } },
   Lopunny: { level: 86, abilities: [ 'Cute Charm' ], items: [ 'Toxic Orb' ], moves: [ 'Facade', 'Healing Wish', 'High Jump Kick', 'Switcheroo' ] },
   Lucario: { level: 80, abilities: [ 'Justified' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'Extreme Speed', 'Meteor Mash', 'Stone Edge', 'Swords Dance' ] },
   Ludicolo: { level: 86, abilities: [ 'Swift Swim' ], items: [ 'Choice Specs', 'Life Orb' ], moves: [ 'Giga Drain', 'Hydro Pump', 'Ice Beam', 'Rain Dance', 'Scald' ], evs: { atk: 0 }, ivs: { atk: 0 } },
@@ -292,6 +292,6 @@ var GEN8BDSPRANDOMBATTLE = {
   'Wormadam-Trash': { level: 86, abilities: [ 'Overcoat' ], items: [ 'Leftovers' ], moves: [ 'Bug Buzz', 'Flash Cannon', 'Giga Drain', 'Quiver Dance', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Xatu: { level: 84, abilities: [ 'Magic Bounce' ], items: [ 'Leftovers' ], moves: [ 'Air Slash', 'Psychic', 'Roost', 'Teleport', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Yanmega: { level: 82, abilities: [ 'Speed Boost' ], items: [ 'Life Orb' ], moves: [ 'Air Slash', 'Bug Buzz', 'Giga Drain', 'Protect', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Zangoose: { level: 86, abilities: [ 'Toxic Boost' ], items: [ 'Toxic Orb' ], moves: [ 'Close Combat', 'Facade', 'Quick Attack', 'Shadow Claw', 'Swords Dance' ] },
+  Zangoose: { level: 85, abilities: [ 'Toxic Boost' ], items: [ 'Toxic Orb' ], moves: [ 'Close Combat', 'Facade', 'Quick Attack', 'Shadow Claw', 'Swords Dance' ] },
   Zapdos: { level: 82, abilities: [ 'Pressure', 'Static' ], items: [ 'Leftovers' ], moves: [ 'Defog', 'Discharge', 'Roost', 'Substitute', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } } 
 };
