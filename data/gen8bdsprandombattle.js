@@ -81,7 +81,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Dustox: { level: 86, abilities: [ 'Shield Dust' ], items: [ 'Black Sludge' ], moves: [ 'Bug Buzz', 'Defog', 'Roost', 'Sludge Bomb', 'Toxic', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Electivire: { level: 86, abilities: [ 'Motor Drive' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb' ], moves: [ 'Cross Chop', 'Earthquake', 'Flamethrower', 'Ice Punch', 'Volt Switch', 'Wild Charge' ] },
   Electrode: { level: 86, abilities: [ 'Aftermath', 'Static' ], items: [ 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Explosion', 'Light Screen', 'Taunt', 'Thunderbolt', 'Volt Switch' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Empoleon: { level: 82, abilities: [ 'Torrent' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Agility', 'Defog', 'Flash Cannon', 'Ice Beam', 'Scald', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Empoleon: { level: 82, abilities: [ 'Torrent' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Agility', 'Defog', 'Grass Knot', 'Ice Beam', 'Scald', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Entei: { level: 82, abilities: [ 'Inner Focus' ], items: [ 'Choice Band' ], moves: [ 'Bulldoze', 'Extreme Speed', 'Sacred Fire', 'Stone Edge' ] },
   Espeon: { level: 82, abilities: [ 'Magic Bounce' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Calm Mind', 'Dazzling Gleam', 'Morning Sun', 'Psychic', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Exeggutor: { level: 86, abilities: [ 'Chlorophyll', 'Harvest' ], items: [ 'Leftovers', 'Sitrus Berry' ], moves: [ 'Giga Drain', 'Leech Seed', 'Psychic', 'Sleep Powder', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
