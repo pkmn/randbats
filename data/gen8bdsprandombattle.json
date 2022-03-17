@@ -14,6 +14,7 @@
   "Arceus-Dark": {"level": 76, "abilities": ["Multitype"], "items": ["Dread Plate"], "moves": ["Calm Mind", "Fire Blast", "Judgment", "Recover", "Sludge Bomb"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Arceus-Dragon": {"level": 76, "abilities": ["Multitype"], "items": ["Draco Plate"], "moves": ["Calm Mind", "Fire Blast", "Judgment", "Recover", "Sludge Bomb"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Arceus-Electric": {"level": 76, "abilities": ["Multitype"], "items": ["Zap Plate"], "moves": ["Calm Mind", "Earth Power", "Ice Beam", "Judgment", "Recover"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Arceus-Fairy": {"level": 76, "abilities": ["Multitype"], "items": ["Pixie Plate"], "moves": ["Calm Mind", "Earth Power", "Fire Blast", "Judgment", "Recover"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Arceus-Fighting": {"level": 76, "abilities": ["Multitype"], "items": ["Fist Plate"], "moves": ["Calm Mind", "Ice Beam", "Judgment", "Recover", "Shadow Ball"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Arceus-Fire": {"level": 76, "abilities": ["Multitype"], "items": ["Flame Plate"], "moves": ["Calm Mind", "Judgment", "Recover", "Surf", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Arceus-Flying": {"level": 76, "abilities": ["Multitype"], "items": ["Sky Plate"], "moves": ["Calm Mind", "Earth Power", "Fire Blast", "Ice Beam", "Judgment", "Recover"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
