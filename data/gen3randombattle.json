@@ -11,7 +11,7 @@
   "Ariados": {"level": 88, "abilities": ["Insomnia", "Swarm"], "items": ["Leftovers"], "moves": ["Agility", "Baton Pass", "Signal Beam", "Sludge Bomb", "Spider Web", "Toxic"]},
   "Armaldo": {"level": 82, "abilities": ["Battle Armor"], "items": ["Choice Band", "Leftovers"], "moves": ["Double-Edge", "Earthquake", "Hidden Power Bug", "Rock Slide", "Swords Dance"], "ivs": {"atk": 30, "def": 30, "spd": 30}},
   "Articuno": {"level": 82, "abilities": ["Pressure"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Heal Bell", "Hidden Power Fire", "Ice Beam", "Protect", "Rest", "Roar", "Sleep Talk", "Toxic"], "evs": {"atk": 0}},
-  "Azumarill": {"level": 84, "abilities": ["Huge Power"], "items": ["Leftovers"], "moves": ["Encore", "Focus Punch", "Hidden Power Ghost", "Hydro Pump", "Return", "Substitute"]},
+  "Azumarill": {"level": 84, "abilities": ["Huge Power"], "items": ["Choice Band", "Leftovers"], "moves": ["Brick Break", "Encore", "Hidden Power Ghost", "Hydro Pump", "Return"]},
   "Banette": {"level": 84, "abilities": ["Insomnia"], "items": ["Leftovers", "Salac Berry"], "moves": ["Destiny Bond", "Endure", "Hidden Power Fighting", "Knock Off", "Shadow Ball", "Will-O-Wisp"]},
   "Beautifly": {"level": 88, "abilities": ["Swarm"], "items": ["Leftovers"], "moves": ["Hidden Power Bug", "Hidden Power Flying", "Morning Sun", "Stun Spore", "Substitute", "Toxic"], "ivs": {"atk": 30, "def": 30, "spd": 30}},
   "Beedrill": {"level": 88, "abilities": ["Swarm"], "items": ["Choice Band", "Salac Berry"], "moves": ["Brick Break", "Double-Edge", "Endure", "Hidden Power Bug", "Sludge Bomb", "Swords Dance"]},
