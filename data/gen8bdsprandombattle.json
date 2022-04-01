@@ -61,7 +61,7 @@
   "Crawdaunt": {"level": 80, "abilities": ["Adaptability"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Aqua Jet", "Crabhammer", "Dragon Dance", "Knock Off", "Superpower"]},
   "Cresselia": {"level": 82, "abilities": ["Levitate"], "items": ["Leftovers"], "moves": ["Calm Mind", "Moonblast", "Moonlight", "Psychic", "Thunder Wave"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Crobat": {"level": 82, "abilities": ["Infiltrator"], "items": ["Black Sludge"], "moves": ["Brave Bird", "Defog", "Roost", "Toxic", "U-turn"]},
-  "Darkrai": {"level": 76, "abilities": ["Bad Dreams"], "items": ["Leftovers"], "moves": ["Dark Pulse", "Focus Blast", "Hypnosis", "Nasty Plot"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Darkrai": {"level": 88, "abilities": ["Bad Dreams"], "items": ["Leftovers"], "moves": ["Dark Pulse", "Focus Blast", "Hypnosis", "Nasty Plot"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Delcatty": {"level": 86, "abilities": ["Wonder Skin"], "items": ["Leftovers", "Life Orb"], "moves": ["Double-Edge", "Fake Out", "Heal Bell", "Sucker Punch", "Thunder Wave"]},
   "Delibird": {"level": 100, "abilities": ["Vital Spirit"], "items": ["Focus Sash", "Leftovers"], "moves": ["Destiny Bond", "Freeze-Dry", "Rapid Spin", "Spikes"], "evs": {"hp": 81}},
   "Deoxys": {"level": 76, "abilities": ["Pressure"], "items": ["Focus Sash", "Leftovers", "Life Orb"], "moves": ["Ice Beam", "Knock Off", "Psycho Boost", "Stealth Rock", "Superpower", "Toxic Spikes"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
