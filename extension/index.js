@@ -16,6 +16,7 @@ var SUPPORTED = [
 // sets.
 
 var TOOLTIP = undefined;
+var original = undefined;
 try { TOOLTIP = BattleTooltips.prototype.showPokemonTooltip; } catch {}
 if (TOOLTIP) {
   for (var format of SUPPORTED) {
@@ -42,7 +43,7 @@ if (TOOLTIP) {
   }
 
   BattleTooltips.prototype.showPokemonTooltip = function (clientPokemon, serverPokemon) {
-    var original = TOOLTIP.apply(this, arguments);
+    original = TOOLTIP.apply(this, arguments);
     if (!clientPokemon || serverPokemon) return original;
 
     var format = toID(this.battle.tier);
@@ -77,13 +78,13 @@ if (TOOLTIP) {
 
     if (data.length === 1) {
       data[0].level = clientPokemon.level;
-      return original + displaySet(gen, gameType, letsgo, species, data[0]);
+      return original + displaySet(clientPokemon, gen, gameType, letsgo, species, data[0]);
     }
     if (toID(forme) !== id) {
       var match = [];
       for (var set of data) {
         set.level = clientPokemon.level;
-        if (set.name === forme) match.push(displaySet(gen, gameType, letsgo, species, set));
+        if (set.name === forme) match.push(displaySet(clientPokemon, gen, gameType, letsgo, species, set));
       }
       if (match.length === 1) return original + match[0];
     }
@@ -92,22 +93,22 @@ if (TOOLTIP) {
       set.level = clientPokemon.level;
       // Technically different formes will have different base stats, but given at this stage
       // we're still in the base forme we simply use the base forme base stats for everything.
-      buf += displaySet(gen, gameType, letsgo, species, set, set.name);
+      buf += displaySet(clientPokemon, gen, gameType, letsgo, species, set, set.name);
     }
     return buf;
   }
 
-  function displaySet(gen, gameType, letsgo, species, data, name) {
+  function displaySet(clientPokemon, gen, gameType, letsgo, species, data, name) {
     var stats = {};
     for (var stat in species.baseStats) {
       stats[stat] = calc(
-        gen,
-        stat,
-        species.baseStats[stat],
-        'ivs' in data && stat in data.ivs ? data.ivs[stat] : (gen < 3 ? 30 : 31),
-        'evs' in data && stat in data.evs ? data.evs[stat] : (gen < 3 ? 255 : letsgo ? 0 : 85),
-        data.level,
-        letsgo);
+          gen,
+          stat,
+          species.baseStats[stat],
+          'ivs' in data && stat in data.ivs ? data.ivs[stat] : (gen < 3 ? 30 : 31),
+          'evs' in data && stat in data.evs ? data.evs[stat] : (gen < 3 ? 255 : letsgo ? 0 : 85),
+          data.level,
+          letsgo);
     }
 
     var moves = data.moves;
@@ -118,6 +119,14 @@ if (TOOLTIP) {
       if (move.startsWith('Hidden Power')) noHP = false;
       if (!(multi && move === 'Ally Switch')) ms.push(move);
     }
+
+    // Get existing moves from the dialog, and filter those from possible move list.
+    var moveNames = clientPokemon.moveTrack.map(function(currentValue){
+      return currentValue[0];
+    });
+    moves = moves.filter(function(currentValue) {
+      return !moveNames.includes(currentValue);
+    });
 
     var buf = '<div style="border-top: 1px solid #888; background: #dedede">';
     if (name) buf += '<p><b>' + name + '</b></p>';
