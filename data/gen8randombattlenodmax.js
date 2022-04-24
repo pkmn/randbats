@@ -269,7 +269,7 @@ var GEN8RANDOMBATTLENODMAX = {
   Ninjask: { level: 88, abilities: [ 'Infiltrator' ], moves: [ 'Acrobatics', 'Leech Life', 'Swords Dance', 'U-turn' ] },
   Noctowl: { level: 88, abilities: [ 'Tinted Lens' ], items: [ 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Defog', 'Heat Wave', 'Hurricane', 'Nasty Plot', 'Roost' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Noivern: { level: 85, abilities: [ 'Infiltrator' ], items: [ 'Choice Specs', 'Heavy-Duty Boots', 'Life Orb' ], moves: [ 'Defog', 'Draco Meteor', 'Flamethrower', 'Hurricane', 'Roost', 'Switcheroo' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Obstagoon: { level: 84, abilities: [ 'Guts' ], items: [ 'Flame Orb' ], moves: [ 'Bulk Up', 'Close Combat', 'Facade', 'Knock Off', 'Parting Shot' ] },
+  Obstagoon: { level: 83, abilities: [ 'Guts' ], items: [ 'Flame Orb' ], moves: [ 'Bulk Up', 'Close Combat', 'Facade', 'Knock Off', 'Parting Shot' ] },
   Octillery: { level: 84, abilities: [ 'Moody' ], items: [ 'Choice Specs', 'Leftovers', 'Life Orb' ], moves: [ 'Energy Ball', 'Fire Blast', 'Gunk Shot', 'Hydro Pump', 'Ice Beam', 'Protect' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Omastar: { level: 87, abilities: [ 'Shell Armor', 'Swift Swim', 'Weak Armor' ], items: [ 'Leftovers', 'Life Orb', 'White Herb' ], moves: [ 'Earth Power', 'Hydro Pump', 'Ice Beam', 'Shell Smash', 'Spikes', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Oranguru: { level: 88, abilities: [ 'Inner Focus' ], items: [ 'Leftovers' ], moves: [ 'Focus Blast', 'Nasty Plot', 'Psychic', 'Thunderbolt', 'Trick Room' ], evs: { atk: 0, spe: 0 }, ivs: { atk: 0, spe: 0 } },
