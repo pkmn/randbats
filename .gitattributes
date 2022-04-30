@@ -1,0 +1,4 @@
+# generated, but still want to see diffs
+data/* linguist-vendored 
+# Github cruft
+*.scss -linguist-detectable
