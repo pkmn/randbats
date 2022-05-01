@@ -1,5 +1,5 @@
 var GEN8BDSPRANDOMBATTLE = {
-  Abomasnow: { level: 84, abilities: [ 'Snow Warning' ], items: [ 'Life Orb', 'Light Clay' ], moves: [ 'Aurora Veil', 'Blizzard', 'Earthquake', 'Ice Shard', 'Wood Hammer' ], evs: { hp: 77 } },
+  Abomasnow: { level: 86, abilities: [ 'Snow Warning' ], items: [ 'Life Orb', 'Light Clay' ], moves: [ 'Aurora Veil', 'Blizzard', 'Earthquake', 'Ice Shard', 'Wood Hammer' ] },
   Absol: { level: 84, abilities: [ 'Justified' ], items: [ 'Focus Sash', 'Life Orb' ], moves: [ 'Knock Off', 'Play Rough', 'Sucker Punch', 'Swords Dance' ] },
   Aerodactyl: { level: 86, abilities: [ 'Pressure' ], items: [ 'Leftovers' ], moves: [ 'Defog', 'Earthquake', 'Roost', 'Stealth Rock', 'Stone Edge' ] },
   Aggron: { level: 84, abilities: [ 'Rock Head' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Earthquake', 'Head Smash', 'Heavy Slam', 'Rock Polish', 'Superpower' ] },
@@ -70,7 +70,7 @@ var GEN8BDSPRANDOMBATTLE = {
   'Deoxys-Speed': { level: 76, abilities: [ 'Pressure' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Knock Off', 'Psychic', 'Stealth Rock', 'Taunt', 'Toxic Spikes' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Dewgong: { level: 88, abilities: [ 'Thick Fat' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Ice Beam', 'Perish Song', 'Protect', 'Rest', 'Sleep Talk', 'Surf' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Dialga: { level: 76, abilities: [ 'Pressure' ], items: [ 'Choice Scarf', 'Choice Specs', 'Leftovers' ], moves: [ 'Draco Meteor', 'Fire Blast', 'Flash Cannon', 'Stealth Rock', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Ditto: { level: 84, abilities: [ 'Imposter' ], items: [ 'Choice Scarf' ], moves: [ 'Transform' ] },
+  Ditto: { level: 86, abilities: [ 'Imposter' ], items: [ 'Choice Scarf' ], moves: [ 'Transform' ] },
   Dodrio: { level: 86, abilities: [ 'Early Bird', 'Tangled Feet' ], items: [ 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Brave Bird', 'Facade', 'Quick Attack', 'Roost', 'Steel Wing', 'Swords Dance' ] },
   Donphan: { level: 80, abilities: [ 'Sturdy' ], items: [ 'Choice Band', 'Leftovers' ], moves: [ 'Earthquake', 'Ice Shard', 'Knock Off', 'Rapid Spin', 'Stealth Rock', 'Stone Edge' ] },
   Dragonite: { level: 80, abilities: [ 'Multiscale' ], items: [ 'Leftovers', 'Lum Berry' ], moves: [ 'Dragon Dance', 'Earthquake', 'Extreme Speed', 'Outrage', 'Roost' ] },
