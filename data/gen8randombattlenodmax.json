@@ -250,7 +250,7 @@
   "Miltank": {"level": 88, "abilities": ["Sap Sipper", "Scrappy", "Thick Fat"], "items": ["Leftovers"], "moves": ["Body Slam", "Earthquake", "Heal Bell", "Milk Drink", "Stealth Rock", "Toxic"]},
   "Mimikyu": {"level": 84, "abilities": ["Disguise"], "items": ["Life Orb"], "moves": ["Drain Punch", "Play Rough", "Shadow Claw", "Shadow Sneak", "Swords Dance"]},
   "Moltres": {"level": 82, "abilities": ["Flame Body", "Pressure"], "items": ["Heavy-Duty Boots"], "moves": ["Air Slash", "Defog", "Fire Blast", "Hurricane", "Roost", "U-turn"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Moltres-Galar": {"level": 82, "abilities": ["Berserk"], "items": ["Chesto Berry", "Heavy-Duty Boots", "Leftovers"], "moves": ["Agility", "Fiery Wrath", "Hurricane", "Nasty Plot", "Rest"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Moltres-Galar": {"level": 81, "abilities": ["Berserk"], "items": ["Chesto Berry", "Heavy-Duty Boots", "Leftovers"], "moves": ["Agility", "Fiery Wrath", "Hurricane", "Nasty Plot", "Rest"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Morpeko": {"level": 88, "abilities": ["Hunger Switch"], "items": ["Choice Band", "Focus Sash", "Leftovers"], "moves": ["Aura Wheel", "Foul Play", "Parting Shot", "Protect", "Psychic Fangs", "Rapid Spin"]},
   "Mr. Mime": {"level": 88, "abilities": ["Filter"], "items": ["Choice Scarf", "Life Orb"], "moves": ["Dazzling Gleam", "Focus Blast", "Healing Wish", "Nasty Plot", "Psychic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Mr. Mime-Galar": {"level": 88, "abilities": ["Screen Cleaner", "Vital Spirit"], "items": ["Eviolite"], "moves": ["Focus Blast", "Freeze-Dry", "Nasty Plot", "Psychic", "Rapid Spin"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
