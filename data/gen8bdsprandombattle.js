@@ -1,7 +1,7 @@
 var GEN8BDSPRANDOMBATTLE = {
   Abomasnow: { level: 86, abilities: [ 'Snow Warning' ], items: [ 'Life Orb', 'Light Clay' ], moves: [ 'Aurora Veil', 'Blizzard', 'Earthquake', 'Ice Shard', 'Wood Hammer' ] },
   Absol: { level: 84, abilities: [ 'Justified' ], items: [ 'Focus Sash', 'Life Orb' ], moves: [ 'Knock Off', 'Play Rough', 'Sucker Punch', 'Swords Dance' ] },
-  Aerodactyl: { level: 86, abilities: [ 'Pressure' ], items: [ 'Leftovers' ], moves: [ 'Defog', 'Earthquake', 'Roost', 'Stealth Rock', 'Stone Edge' ] },
+  Aerodactyl: { level: 85, abilities: [ 'Pressure' ], items: [ 'Leftovers' ], moves: [ 'Defog', 'Earthquake', 'Roost', 'Stealth Rock', 'Stone Edge' ] },
   Aggron: { level: 84, abilities: [ 'Rock Head' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Earthquake', 'Head Smash', 'Heavy Slam', 'Rock Polish', 'Superpower' ] },
   Alakazam: { level: 80, abilities: [ 'Magic Guard' ], items: [ 'Life Orb' ], moves: [ 'Dazzling Gleam', 'Focus Blast', 'Nasty Plot', 'Psychic', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Altaria: { level: 88, abilities: [ 'Natural Cure' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Draco Meteor', 'Fire Blast', 'Haze', 'Hurricane', 'Roost' ], evs: { atk: 0 }, ivs: { atk: 0 } },
@@ -85,7 +85,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Empoleon: { level: 82, abilities: [ 'Torrent' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Agility', 'Defog', 'Grass Knot', 'Ice Beam', 'Scald', 'Stealth Rock' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Entei: { level: 82, abilities: [ 'Inner Focus' ], items: [ 'Choice Band' ], moves: [ 'Bulldoze', 'Extreme Speed', 'Sacred Fire', 'Stone Edge' ] },
   Espeon: { level: 82, abilities: [ 'Magic Bounce' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Calm Mind', 'Dazzling Gleam', 'Morning Sun', 'Psychic', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Exeggutor: { level: 86, abilities: [ 'Chlorophyll', 'Harvest' ], items: [ 'Leftovers', 'Sitrus Berry' ], moves: [ 'Giga Drain', 'Leech Seed', 'Psychic', 'Sleep Powder', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Exeggutor: { level: 85, abilities: [ 'Chlorophyll', 'Harvest' ], items: [ 'Leftovers', 'Sitrus Berry' ], moves: [ 'Giga Drain', 'Leech Seed', 'Psychic', 'Sleep Powder', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Exploud: { level: 84, abilities: [ 'Scrappy' ], items: [ 'Choice Specs' ], moves: [ 'Boomburst', 'Fire Blast', 'Focus Blast', 'Surf' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Farfetch’d': { level: 88, abilities: [ 'Defiant' ], items: [ 'Leek' ], moves: [ 'Brave Bird', 'Knock Off', 'Leaf Blade', 'Quick Attack', 'Slash' ] },
   Fearow: { level: 88, abilities: [ 'Sniper' ], items: [ 'Choice Band' ], moves: [ 'Drill Peck', 'Drill Run', 'Giga Impact', 'U-turn' ] },
