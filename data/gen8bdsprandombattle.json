@@ -142,7 +142,7 @@
   "Lanturn": {"level": 86, "abilities": ["Volt Absorb"], "items": ["Choice Specs", "Leftovers", "Life Orb"], "moves": ["Discharge", "Ice Beam", "Scald", "Thunder Wave", "Volt Switch"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Lapras": {"level": 88, "abilities": ["Water Absorb"], "items": ["Choice Specs"], "moves": ["Blizzard", "Freeze-Dry", "Surf", "Thunderbolt"], "evs": {"hp": 81, "atk": 0}, "ivs": {"atk": 0}},
   "Latias": {"level": 80, "abilities": ["Levitate"], "items": ["Soul Dew"], "moves": ["Calm Mind", "Draco Meteor", "Healing Wish", "Psychic", "Roost", "Surf"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Latios": {"level": 80, "abilities": ["Levitate"], "items": ["Soul Dew"], "moves": ["Calm Mind", "Draco Meteor", "Psychic", "Roost"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Latios": {"level": 76, "abilities": ["Levitate"], "items": ["Soul Dew"], "moves": ["Calm Mind", "Draco Meteor", "Psychic", "Roost"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Leafeon": {"level": 88, "abilities": ["Chlorophyll"], "items": ["Life Orb", "Lum Berry"], "moves": ["Double-Edge", "Leaf Blade", "Swords Dance", "Synthesis", "X-Scissor"]},
   "Ledian": {"level": 88, "abilities": ["Early Bird"], "items": ["Leftovers", "Light Clay"], "moves": ["Knock Off", "Light Screen", "Reflect", "Roost", "U-turn"], "evs": {"hp": 81}},
   "Lickilicky": {"level": 88, "abilities": ["Oblivious"], "items": ["Choice Band", "Leftovers"], "moves": ["Body Slam", "Hammer Arm", "Knock Off", "Power Whip", "Swords Dance"]},
