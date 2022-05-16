@@ -21,7 +21,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         git diff --quiet && exit 0
-        npm install --no-package-lock --no-save json-stringify-pretty-compact
+        npm install --no-package-lock --no-save json-stringify-pretty-compact@3.0.0
         node update
     - name: Commit and push if it changed
       run: |-
