@@ -16,7 +16,7 @@ var GEN1RANDOMBATTLE = {
   Charmander: { level: 88, moves: [ 'Body Slam', 'Counter', 'Fire Blast', 'Seismic Toss', 'Slash', 'Submission', 'Swords Dance' ] },
   Charmeleon: { level: 80, moves: [ 'Body Slam', 'Counter', 'Fire Blast', 'Slash', 'Submission', 'Swords Dance' ] },
   Clefable: { level: 77, moves: [ 'Blizzard', 'Body Slam', 'Counter', 'Hyper Beam', 'Psychic', 'Sing', 'Thunder Wave', 'Thunderbolt' ] },
-  Clefairy: { level: 80, moves: [ 'Blizzard', 'Body Slam', 'Counter', 'Psychic', 'Seismic Toss', 'Sing', 'Thunder Wave', 'Thunderbolt' ] },
+  Clefairy: { level: 88, moves: [ 'Blizzard', 'Body Slam', 'Counter', 'Psychic', 'Seismic Toss', 'Sing', 'Thunder Wave', 'Thunderbolt' ] },
   Cloyster: { level: 68, moves: [ 'Blizzard', 'Double-Edge', 'Explosion', 'Hyper Beam', 'Surf' ] },
   Cubone: { level: 88, moves: [ 'Blizzard', 'Body Slam', 'Earthquake', 'Seismic Toss' ] },
   Dewgong: { level: 74, moves: [ 'Blizzard', 'Body Slam', 'Hyper Beam', 'Mimic', 'Rest', 'Surf' ] },
