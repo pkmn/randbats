@@ -401,7 +401,7 @@ var GEN7RANDOMBATTLE = {
   Rapidash: { level: 88, abilities: [ 'Flash Fire' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Flare Blitz', 'High Horsepower', 'Morning Sun', 'Wild Charge', 'Will-O-Wisp' ] },
   Raticate: { level: 88, abilities: [ 'Guts' ], items: [ 'Flame Orb' ], moves: [ 'Facade', 'Protect', 'Stomping Tantrum', 'Sucker Punch', 'Swords Dance', 'U-turn' ] },
   'Raticate-Alola': { level: 88, abilities: [ 'Hustle' ], items: [ 'Focus Sash', 'Life Orb' ], moves: [ 'Double-Edge', 'Knock Off', 'Return', 'Sucker Punch', 'Swords Dance' ] },
-  Rayquaza: { level: 76, abilities: [ 'Air Lock' ], items: [ 'Assault Vest', 'Choice Band', 'Dragonium Z', 'Lum Berry' ], moves: [ 'Draco Meteor', 'Dragon Dance', 'Earthquake', 'Extreme Speed', 'Outrage', 'V-create' ] },
+  Rayquaza: { level: 76, abilities: [ 'Air Lock' ], items: [ 'Assault Vest', 'Choice Band', 'Choice Scarf', 'Dragonium Z', 'Lum Berry' ], moves: [ 'Draco Meteor', 'Dragon Ascent', 'Dragon Dance', 'Earthquake', 'Extreme Speed', 'Outrage', 'V-create' ] },
   Regice: { level: 88, abilities: [ 'Clear Body' ], items: [ 'Chesto Berry', 'Leftovers', 'Weakness Policy' ], moves: [ 'Focus Blast', 'Ice Beam', 'Rest', 'Rock Polish', 'Sleep Talk', 'Thunder Wave', 'Thunderbolt' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
   Regigigas: { level: 88, abilities: [ 'Slow Start' ], items: [ 'Leftovers' ], moves: [ 'Confuse Ray', 'Drain Punch', 'Knock Off', 'Return', 'Substitute', 'Thunder Wave' ] },
   Regirock: { level: 88, abilities: [ 'Sturdy' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Curse', 'Drain Punch', 'Rest', 'Rock Slide', 'Stealth Rock', 'Stone Edge', 'Thunder Wave', 'Toxic' ] },
