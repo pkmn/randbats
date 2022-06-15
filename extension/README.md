@@ -29,8 +29,15 @@ account for the move.
 
 ## Install
 
-- [Chrome](https://chrome.google.com/webstore/detail/pok%C3%A9mon-showdown-randbats/iboincafmiolbldihenlnpjlgeggpgdp)
+- ~~[Chrome](https://chrome.google.com/webstore/detail/pok%C3%A9mon-showdown-randbats/iboincafmiolbldihenlnpjlgeggpgdp)~~
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/pkmn-randbats-tooltip/)
+
+The Chrome extension has been [taken down by Google due to a DMCA
+notice](https://pkmn.cc/randbats-DMCA.png) from a company acting on behalf of Nintendo. As such, the
+only way to use this extension on Chrome is by going to `chrome://extensions` in your browser,
+checking the box for 'Developer Mode', running the [`build`](build) script and then loading the code
+from the [`chrome/`](chrome) directory in this repository via ['Load unpacked
+extension'](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked).
 
 ## Caveats
 
