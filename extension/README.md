@@ -33,11 +33,14 @@ account for the move.
 - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/pkmn-randbats-tooltip/)
 
 The Chrome extension has been [taken down by Google due to a DMCA
-notice](https://pkmn.cc/randbats-DMCA.png) from a company acting on behalf of Nintendo. As such, the
-only way to use this extension on Chrome is by going to `chrome://extensions` in your browser,
-checking the box for 'Developer Mode', running the [`build`](build) script and then loading the code
-from the [`chrome/`](chrome) directory in this repository via ['Load unpacked
-extension'](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked).
+notice](https://pkmn.cc/randbats-DMCA.png) from a company acting on [behalf of
+Nintendo](https://cdn.discordapp.com/attachments/491775824509272070/986762892349161592/unknown.png).
+As such, the only way to use this extension on Chrome is by manually downloading `chrome.zip` from
+the [latest release](https://github.com/pkmn/randbats/releases/) and unzipping it somewhere on your
+hard drive, going to `chrome://extensions` in your browser, checking the box for 'Developer Mode',
+and then using ['Load unpacked
+extension'](https://developer.chrome.com/docs/extensions/mv3/getstarted/#unpacked) to load the
+unzipped contents of the extension.
 
 ## Caveats
 
