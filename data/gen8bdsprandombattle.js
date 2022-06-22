@@ -196,7 +196,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Phione: { level: 88, abilities: [ 'Hydration' ], items: [ 'Life Orb' ], moves: [ 'Ice Beam', 'Rain Dance', 'Rest', 'Scald' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Pidgeot: { level: 88, abilities: [ 'Big Pecks', 'Keen Eye', 'Tangled Feet' ], items: [ 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Brave Bird', 'Defog', 'Quick Attack', 'Roost', 'Steel Wing', 'U-turn' ] },
   Pikachu: { level: 88, abilities: [ 'Lightning Rod' ], items: [ 'Light Ball' ], moves: [ 'Grass Knot', 'Surf', 'Volt Switch', 'Volt Tackle' ] },
-  Pinsir: { level: 88, abilities: [ 'Mold Breaker', 'Moxie' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'Earthquake', 'Stealth Rock', 'Stone Edge', 'X-Scissor' ] },
+  Pinsir: { level: 87, abilities: [ 'Mold Breaker', 'Moxie' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Close Combat', 'Earthquake', 'Stealth Rock', 'Stone Edge', 'X-Scissor' ] },
   Plusle: { level: 88, abilities: [ 'Lightning Rod' ], items: [ 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Grass Knot', 'Nasty Plot', 'Nuzzle', 'Thunderbolt', 'Volt Switch' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Politoed: { level: 88, abilities: [ 'Drizzle' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Encore', 'Hypnosis', 'Ice Beam', 'Rest', 'Scald' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Poliwrath: { level: 86, abilities: [ 'Swift Swim', 'Water Absorb' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Bulk Up', 'Drain Punch', 'Poison Jab', 'Rain Dance', 'Waterfall' ] },
