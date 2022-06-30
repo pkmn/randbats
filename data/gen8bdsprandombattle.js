@@ -116,7 +116,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Gyarados: { level: 82, abilities: [ 'Intimidate', 'Moxie' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb' ], moves: [ 'Dragon Dance', 'Earthquake', 'Ice Fang', 'Stone Edge', 'Waterfall' ] },
   Hariyama: { level: 84, abilities: [ 'Thick Fat' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Bulk Up', 'Bullet Punch', 'Close Combat', 'Knock Off', 'Poison Jab', 'Stone Edge' ] },
   Heatran: { level: 80, abilities: [ 'Flash Fire' ], items: [ 'Leftovers' ], moves: [ 'Earth Power', 'Flash Cannon', 'Lava Plume', 'Roar', 'Stealth Rock', 'Taunt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Heracross: { level: 82, abilities: [ 'Guts' ], items: [ 'Flame Orb' ], moves: [ 'Close Combat', 'Facade', 'Megahorn', 'Stone Edge', 'Throat Chop' ] },
+  Heracross: { level: 81, abilities: [ 'Guts' ], items: [ 'Flame Orb' ], moves: [ 'Close Combat', 'Facade', 'Megahorn', 'Stone Edge', 'Throat Chop' ] },
   Hippowdon: { level: 82, abilities: [ 'Sand Stream' ], items: [ 'Leftovers' ], moves: [ 'Earthquake', 'Slack Off', 'Stealth Rock', 'Stone Edge', 'Whirlwind' ] },
   Hitmonchan: { level: 84, abilities: [ 'Iron Fist' ], items: [ 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Bulk Up', 'Drain Punch', 'Ice Punch', 'Mach Punch', 'Rapid Spin', 'Stone Edge' ] },
   Hitmonlee: { level: 86, abilities: [ 'Reckless' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Bulk Up', 'Bullet Punch', 'Earthquake', 'High Jump Kick', 'Stone Edge' ] },
