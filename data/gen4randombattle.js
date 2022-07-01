@@ -159,7 +159,7 @@ var GEN4RANDOMBATTLE = {
   Magcargo: { level: 88, abilities: [ 'Flame Body' ], items: [ 'Leftovers' ], moves: [ 'Fire Blast', 'Hidden Power Rock', 'Lava Plume', 'Recover', 'Stealth Rock', 'Toxic', 'Will-O-Wisp' ], evs: { atk: 0 } },
   Magmortar: { level: 88, abilities: [ 'Flame Body' ], items: [ 'Choice Scarf', 'Choice Specs', 'Leftovers' ], moves: [ 'Fire Blast', 'Focus Blast', 'Hidden Power Grass', 'Hidden Power Ice', 'Substitute', 'Thunderbolt' ], evs: { atk: 0 } },
   Magnezone: { level: 80, abilities: [ 'Magnet Pull' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Explosion', 'Flash Cannon', 'Hidden Power Grass', 'Hidden Power Ice', 'Magnet Rise', 'Substitute', 'Thunderbolt' ], evs: { atk: 0 } },
-  Mamoswine: { level: 80, abilities: [ 'Snow Cloak' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'Earthquake', 'Endeavor', 'Ice Shard', 'Stealth Rock', 'Stone Edge', 'Superpower' ] },
+  Mamoswine: { level: 82, abilities: [ 'Snow Cloak' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'Earthquake', 'Endeavor', 'Ice Shard', 'Stealth Rock', 'Stone Edge', 'Superpower' ] },
   Manaphy: { level: 76, abilities: [ 'Hydration' ], items: [ 'Leftovers' ], moves: [ 'Energy Ball', 'Ice Beam', 'Surf', 'Tail Glow' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Manectric: { level: 88, abilities: [ 'Static' ], items: [ 'Choice Scarf', 'Choice Specs' ], moves: [ 'Flamethrower', 'Hidden Power Grass', 'Overheat', 'Switcheroo', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 2, spa: 30 } },
   Mantine: { level: 88, abilities: [ 'Swift Swim', 'Water Absorb' ], items: [ 'Leftovers' ], moves: [ 'Rest', 'Sleep Talk', 'Surf', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },

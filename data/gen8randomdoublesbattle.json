@@ -419,7 +419,7 @@
   "Venusaur-Gmax": {"level": 80, "abilities": ["Chlorophyll", "Overgrow"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Earth Power", "Energy Ball", "Leech Seed", "Protect", "Sleep Powder", "Sludge Bomb"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Vespiquen": {"level": 98, "abilities": ["Unnerve"], "items": ["Sitrus Berry"], "moves": ["Air Slash", "Roost", "Tailwind", "Toxic Spikes"], "evs": {"hp": 81, "atk": 0}, "ivs": {"atk": 0}},
   "Victini": {"level": 81, "abilities": ["Victory Star"], "items": ["Assault Vest", "Choice Band", "Choice Scarf", "Sitrus Berry"], "moves": ["Bolt Strike", "Glaciate", "Protect", "U-turn", "V-create", "Zen Headbutt"]},
-  "Vikavolt": {"level": 86, "abilities": ["Levitate"], "items": ["Choice Specs", "Sitrus Berry"], "moves": ["Bug Buzz", "Energy Ball", "Protect", "Sticky Web", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Vikavolt": {"level": 86, "abilities": ["Levitate"], "items": ["Sitrus Berry"], "moves": ["Bug Buzz", "Energy Ball", "Protect", "Sticky Web", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Vileplume": {"level": 88, "abilities": ["Chlorophyll", "Effect Spore"], "items": ["Sitrus Berry"], "moves": ["Aromatherapy", "Energy Ball", "Pollen Puff", "Sleep Powder", "Sludge Bomb", "Strength Sap"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Virizion": {"level": 86, "abilities": ["Justified"], "items": ["Sitrus Berry"], "moves": ["Close Combat", "Coaching", "Leaf Blade", "Protect", "Stone Edge", "Swords Dance"]},
   "Volcanion": {"level": 80, "abilities": ["Water Absorb"], "items": ["Assault Vest", "Sitrus Berry"], "moves": ["Earth Power", "Heat Wave", "Protect", "Sludge Bomb", "Steam Eruption"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
