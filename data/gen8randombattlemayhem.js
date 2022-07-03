@@ -181,7 +181,7 @@ var GEN8RANDOMBATTLEMAYHEM = {
   Indeedee: { level: 85, abilities: [ 'Psychic Surge' ], items: [ 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Calm Mind', 'Expanding Force', 'Hyper Voice', 'Mystical Fire', 'Trick' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Indeedee-F': { level: 86, abilities: [ 'Psychic Surge' ], items: [ 'Choice Scarf', 'Life Orb' ], moves: [ 'Calm Mind', 'Expanding Force', 'Healing Wish', 'Hyper Voice', 'Mystical Fire' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Inteleon: { level: 80, abilities: [ 'Torrent' ], items: [ 'Choice Specs' ], moves: [ 'Air Slash', 'Dark Pulse', 'Hydro Pump', 'Ice Beam', 'Scald', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  'Inteleon-Gmax': { level: 88, abilities: [ 'Sniper' ], items: [ 'Scope Lens' ], moves: [ 'Air Slash', 'Focus Energy', 'Ice Beam', 'Surf' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  'Inteleon-Gmax': { level: 87, abilities: [ 'Sniper' ], items: [ 'Scope Lens' ], moves: [ 'Air Slash', 'Focus Energy', 'Ice Beam', 'Surf' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Jellicent: { level: 88, abilities: [ 'Water Absorb' ], items: [ 'Leftovers' ], moves: [ 'Ice Beam', 'Recover', 'Scald', 'Shadow Ball', 'Toxic', 'Will-O-Wisp' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Jirachi: { level: 82, abilities: [ 'Serene Grace' ], items: [ 'Assault Vest', 'Choice Scarf', 'Leftovers' ], moves: [ 'Body Slam', 'Fire Punch', 'Iron Head', 'Stealth Rock', 'Toxic', 'Trick', 'U-turn' ] },
   Jolteon: { level: 84, abilities: [ 'Volt Absorb' ], items: [ 'Choice Specs' ], moves: [ 'Hyper Voice', 'Shadow Ball', 'Thunderbolt', 'Volt Switch' ], evs: { atk: 0 }, ivs: { atk: 0 } },
