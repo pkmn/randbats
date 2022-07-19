@@ -124,7 +124,7 @@ var GEN1RANDOMBATTLE = {
   Seaking: { level: 77, moves: [ 'Agility', 'Blizzard', 'Double-Edge', 'Hyper Beam', 'Surf' ] },
   Seel: { level: 88, moves: [ 'Blizzard', 'Body Slam', 'Mimic', 'Rest', 'Surf' ] },
   Shellder: { level: 88, moves: [ 'Blizzard', 'Double-Edge', 'Explosion', 'Surf' ] },
-  Slowbro: { level: 71, moves: [ 'Amnesia', 'Blizzard', 'Psychic', 'Rest', 'Surf', 'Thunder Wave' ] },
+  Slowbro: { level: 68, moves: [ 'Amnesia', 'Blizzard', 'Psychic', 'Rest', 'Surf', 'Thunder Wave' ] },
   Slowpoke: { level: 88, moves: [ 'Amnesia', 'Blizzard', 'Earthquake', 'Psychic', 'Rest', 'Surf', 'Thunder Wave' ] },
   Snorlax: { level: 68, moves: [ 'Amnesia', 'Blizzard', 'Body Slam', 'Earthquake', 'Hyper Beam', 'Rest', 'Self-Destruct', 'Thunderbolt' ] },
   Spearow: { level: 88, moves: [ 'Agility', 'Double-Edge', 'Drill Peck', 'Leer', 'Mimic', 'Mirror Move', 'Substitute', 'Toxic' ] },
