@@ -42,7 +42,7 @@
   "Blissey": {"level": 80, "abilities": ["Natural Cure"], "items": ["Leftovers"], "moves": ["Seismic Toss", "Soft-Boiled", "Stealth Rock", "Teleport", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Boltund": {"level": 88, "abilities": ["Strong Jaw"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Bulk Up", "Crunch", "Fire Fang", "Play Rough", "Psychic Fangs", "Thunder Fang", "Volt Switch"]},
   "Bouffalant": {"level": 88, "abilities": ["Reckless", "Sap Sipper"], "items": ["Choice Band", "Leftovers"], "moves": ["Close Combat", "Earthquake", "Head Charge", "Megahorn", "Swords Dance"]},
-  "Braviary": {"level": 86, "abilities": ["Defiant"], "items": ["Choice Band", "Choice Scarf", "Heavy-Duty Boots", "Leftovers"], "moves": ["Brave Bird", "Bulk Up", "Close Combat", "Retaliate", "Roost", "U-turn"]},
+  "Braviary": {"level": 86, "abilities": ["Defiant"], "items": ["Heavy-Duty Boots", "Leftovers"], "moves": ["Brave Bird", "Bulk Up", "Close Combat", "Roost"]},
   "Bronzong": {"level": 84, "abilities": ["Levitate"], "items": ["Leftovers"], "moves": ["Earthquake", "Iron Head", "Protect", "Stealth Rock", "Toxic"]},
   "Butterfree": {"level": 88, "abilities": ["Compound Eyes"], "items": ["Heavy-Duty Boots"], "moves": ["Energy Ball", "Hurricane", "Quiver Dance", "Sleep Powder"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Butterfree-Gmax": {"level": 88, "abilities": ["Tinted Lens"], "items": ["Heavy-Duty Boots"], "moves": ["Air Slash", "Bug Buzz", "Quiver Dance", "Sleep Powder"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
