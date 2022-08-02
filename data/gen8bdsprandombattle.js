@@ -1,6 +1,6 @@
 var GEN8BDSPRANDOMBATTLE = {
   Abomasnow: { level: 87, abilities: [ 'Snow Warning' ], items: [ 'Life Orb', 'Light Clay' ], moves: [ 'Aurora Veil', 'Blizzard', 'Earthquake', 'Ice Shard', 'Wood Hammer' ] },
-  Absol: { level: 86, abilities: [ 'Justified' ], items: [ 'Focus Sash', 'Life Orb' ], moves: [ 'Knock Off', 'Play Rough', 'Sucker Punch', 'Swords Dance' ] },
+  Absol: { level: 85, abilities: [ 'Justified' ], items: [ 'Focus Sash', 'Life Orb' ], moves: [ 'Knock Off', 'Play Rough', 'Sucker Punch', 'Swords Dance' ] },
   Aerodactyl: { level: 85, abilities: [ 'Pressure' ], items: [ 'Leftovers' ], moves: [ 'Defog', 'Earthquake', 'Roost', 'Stealth Rock', 'Stone Edge' ] },
   Aggron: { level: 84, abilities: [ 'Rock Head' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Earthquake', 'Head Smash', 'Heavy Slam', 'Rock Polish', 'Superpower' ] },
   Alakazam: { level: 80, abilities: [ 'Magic Guard' ], items: [ 'Life Orb' ], moves: [ 'Dazzling Gleam', 'Focus Blast', 'Nasty Plot', 'Psychic', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
