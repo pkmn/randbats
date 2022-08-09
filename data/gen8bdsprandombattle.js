@@ -49,7 +49,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Carnivine: { level: 88, abilities: [ 'Levitate' ], items: [ 'Leftovers', 'Lum Berry' ], moves: [ 'Crunch', 'Power Whip', 'Sleep Powder', 'Substitute', 'Swords Dance' ] },
   Castform: { level: 88, abilities: [ 'Forecast' ], items: [ 'Choice Specs' ], moves: [ 'Flamethrower', 'Ice Beam', 'Scald', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Celebi: { level: 82, abilities: [ 'Natural Cure' ], items: [ 'Choice Scarf', 'Choice Specs', 'Expert Belt', 'Leftovers' ], moves: [ 'Dazzling Gleam', 'Giga Drain', 'Leaf Storm', 'Nasty Plot', 'Psychic', 'Recover', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Charizard: { level: 88, abilities: [ 'Solar Power' ], items: [ 'Life Orb' ], moves: [ 'Air Slash', 'Earthquake', 'Fire Blast', 'Focus Blast', 'Roost' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Charizard: { level: 87, abilities: [ 'Solar Power' ], items: [ 'Life Orb' ], moves: [ 'Air Slash', 'Earthquake', 'Fire Blast', 'Focus Blast', 'Roost' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Chatot: { level: 88, abilities: [ 'Big Pecks', 'Keen Eye', 'Tangled Feet' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Boomburst', 'Chatter', 'Nasty Plot', 'Substitute', 'U-turn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Cherrim: { level: 88, abilities: [ 'Flower Gift' ], items: [ 'Choice Scarf' ], moves: [ 'Dazzling Gleam', 'Giga Drain', 'Healing Wish', 'Petal Dance' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Chimecho: { level: 87, abilities: [ 'Levitate' ], items: [ 'Leftovers', 'Light Clay' ], moves: [ 'Healing Wish', 'Light Screen', 'Psychic', 'Recover', 'Reflect', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
