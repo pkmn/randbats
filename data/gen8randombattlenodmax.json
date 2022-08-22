@@ -223,7 +223,7 @@
   "Lycanroc": {"level": 88, "abilities": ["Sand Rush"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Accelerock", "Close Combat", "Psychic Fangs", "Stone Edge", "Swords Dance"]},
   "Lycanroc-Dusk": {"level": 82, "abilities": ["Tough Claws"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Accelerock", "Close Combat", "Psychic Fangs", "Stone Edge", "Swords Dance"]},
   "Lycanroc-Midnight": {"level": 88, "abilities": ["No Guard"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Close Combat", "Iron Tail", "Stealth Rock", "Stone Edge", "Sucker Punch", "Swords Dance"]},
-  "Machamp": {"level": 86, "abilities": ["Guts", "No Guard"], "items": ["Choice Band", "Flame Orb"], "moves": ["Bullet Punch", "Close Combat", "Dynamic Punch", "Facade", "Knock Off", "Stone Edge"]},
+  "Machamp": {"level": 85, "abilities": ["Guts", "No Guard"], "items": ["Choice Band", "Flame Orb"], "moves": ["Bullet Punch", "Close Combat", "Dynamic Punch", "Facade", "Knock Off", "Stone Edge"]},
   "Magearna": {"level": 76, "abilities": ["Soul-Heart"], "items": ["Leftovers"], "moves": ["Agility", "Calm Mind", "Flash Cannon", "Fleur Cannon"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Magearna-Original": {"level": 76, "abilities": ["Soul-Heart"], "items": ["Leftovers"], "moves": ["Agility", "Calm Mind", "Flash Cannon", "Fleur Cannon"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Magmortar": {"level": 88, "abilities": ["Flame Body", "Vital Spirit"], "items": ["Assault Vest", "Choice Scarf", "Choice Specs", "Heavy-Duty Boots", "Life Orb"], "moves": ["Earthquake", "Fire Blast", "Focus Blast", "Psychic", "Taunt", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
