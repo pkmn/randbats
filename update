@@ -75,7 +75,7 @@ const serialize = async (data, file) => {
   const index = {};
   for (const format of Dex.formats.all()) {
     if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
-    if (SKIP.some(s => format.id.includes(s))) continue;
+    if (SKIP.some(s => format.id.includes(s)) || !format.mod.startsWith('gen')) continue;
 
     // Of course, PS is braindead and Format#gen always reports 0
     const gen = Number(format.id.charAt(3));
