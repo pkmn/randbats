@@ -361,7 +361,7 @@
   "Silvally-Rock": {"level": 88, "abilities": ["RKS System"], "items": ["Rock Memory"], "moves": ["Flame Charge", "Multi-Attack", "Parting Shot", "Psychic Fangs", "Swords Dance"]},
   "Silvally-Steel": {"level": 86, "abilities": ["RKS System"], "items": ["Steel Memory"], "moves": ["Defog", "Flamethrower", "Multi-Attack", "Parting Shot", "Thunderbolt", "Toxic"]},
   "Silvally-Water": {"level": 88, "abilities": ["RKS System"], "items": ["Water Memory"], "moves": ["Defog", "Ice Beam", "Multi-Attack", "Parting Shot", "Thunderbolt", "Toxic"]},
-  "Sirfetch’d": {"level": 86, "abilities": ["Scrappy"], "items": ["Choice Band", "Choice Scarf", "Life Orb"], "moves": ["Brave Bird", "Close Combat", "First Impression", "Knock Off", "Poison Jab", "Swords Dance"]},
+  "Sirfetch’d": {"level": 85, "abilities": ["Scrappy"], "items": ["Choice Band", "Choice Scarf", "Life Orb"], "moves": ["Brave Bird", "Close Combat", "First Impression", "Knock Off", "Poison Jab", "Swords Dance"]},
   "Skarmory": {"level": 82, "abilities": ["Sturdy"], "items": ["Leftovers"], "moves": ["Body Press", "Brave Bird", "Roost", "Spikes", "Stealth Rock", "Whirlwind"]},
   "Skuntank": {"level": 88, "abilities": ["Aftermath"], "items": ["Black Sludge", "Life Orb"], "moves": ["Crunch", "Defog", "Fire Blast", "Poison Jab", "Sucker Punch", "Taunt", "Toxic"]},
   "Slowbro": {"level": 80, "abilities": ["Regenerator"], "items": ["Leftovers"], "moves": ["Future Sight", "Ice Beam", "Scald", "Slack Off", "Teleport", "Thunder Wave"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
