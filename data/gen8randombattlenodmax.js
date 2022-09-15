@@ -334,7 +334,7 @@ var GEN8RANDOMBATTLENODMAX = {
   Scizor: { level: 82, abilities: [ 'Technician' ], items: [ 'Choice Band', 'Leftovers', 'Life Orb' ], moves: [ 'Bullet Punch', 'Dual Wingbeat', 'Knock Off', 'Roost', 'Superpower', 'Swords Dance', 'U-turn' ] },
   Scolipede: { level: 83, abilities: [ 'Speed Boost' ], items: [ 'Black Sludge', 'Focus Sash', 'Heavy-Duty Boots', 'Life Orb' ], moves: [ 'Earthquake', 'Megahorn', 'Poison Jab', 'Protect', 'Spikes', 'Swords Dance', 'Toxic Spikes' ] },
   Scrafty: { level: 86, abilities: [ 'Intimidate', 'Moxie' ], items: [ 'Choice Band', 'Lum Berry' ], moves: [ 'Close Combat', 'Dragon Dance', 'Ice Punch', 'Knock Off', 'Poison Jab' ] },
-  Scyther: { level: 88, abilities: [ 'Technician' ], items: [ 'Choice Band', 'Eviolite', 'Heavy-Duty Boots' ], moves: [ 'Brick Break', 'Dual Wingbeat', 'Knock Off', 'Roost', 'Swords Dance', 'U-turn' ] },
+  Scyther: { level: 87, abilities: [ 'Technician' ], items: [ 'Choice Band', 'Eviolite', 'Heavy-Duty Boots' ], moves: [ 'Brick Break', 'Dual Wingbeat', 'Knock Off', 'Roost', 'Swords Dance', 'U-turn' ] },
   Seaking: { level: 88, abilities: [ 'Lightning Rod', 'Swift Swim' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Drill Run', 'Knock Off', 'Megahorn', 'Swords Dance', 'Waterfall' ] },
   Seismitoad: { level: 84, abilities: [ 'Swift Swim', 'Water Absorb' ], items: [ 'Life Orb' ], moves: [ 'Earthquake', 'Liquidation', 'Rain Dance', 'Sludge Bomb', 'Stealth Rock' ] },
   Sharpedo: { level: 84, abilities: [ 'Speed Boost' ], items: [ 'Life Orb' ], moves: [ 'Close Combat', 'Crunch', 'Hydro Pump', 'Protect' ] },
