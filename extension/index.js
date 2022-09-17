@@ -48,7 +48,10 @@ if (TOOLTIP) {
     var format = toID(this.battle.tier);
     if (!format || !format.includes('random')) return original;
 
-    var species = Dex.species.get(clientPokemon.speciesForme);
+    var species = Dex.species.get(
+      clientPokemon.volatiles.formechange
+      ? clientPokemon.volatiles.formechange[1]
+      : clientPokemon.speciesForme);
     if (!species) return original;
 
     var gen = Number(format.charAt(3));
