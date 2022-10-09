@@ -270,7 +270,7 @@
   "Quagsire": {"level": 84, "abilities": ["Unaware"], "items": ["Leftovers"], "moves": ["Earthquake", "Encore", "Recover", "Scald", "Toxic"]},
   "Qwilfish": {"level": 84, "abilities": ["Intimidate"], "items": ["Black Sludge"], "moves": ["Destiny Bond", "Poison Jab", "Spikes", "Taunt", "Thunder Wave", "Toxic Spikes", "Waterfall"]},
   "Raichu": {"level": 90, "abilities": ["Lightning Rod"], "items": ["Choice Specs", "Leftovers", "Life Orb"], "moves": ["Encore", "Focus Blast", "Grass Knot", "Hidden Power Ice", "Nasty Plot", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}},
-  "Raikou": {"level": 82, "abilities": ["Pressure"], "items": ["Leftovers", "Life Orb"], "moves": ["Calm Mind", "Hidden Power Ice", "Substitute", "Thunderbolt", "Volt Switch", "aurashpere"], "evs": {"atk": 0}, "ivs": {"atk": 2, "def": 30}},
+  "Raikou": {"level": 82, "abilities": ["Pressure"], "items": ["Choice Specs", "Leftovers", "Life Orb"], "moves": ["Aura Sphere", "Calm Mind", "Hidden Power Ice", "Substitute", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}},
   "Rampardos": {"level": 88, "abilities": ["Mold Breaker", "Sheer Force"], "items": ["Choice Band", "Life Orb"], "moves": ["Crunch", "Earthquake", "Fire Punch", "Head Smash", "Rock Polish", "Superpower"]},
   "Rapidash": {"level": 88, "abilities": ["Flash Fire"], "items": ["Choice Band", "Choice Scarf", "Leftovers", "Life Orb"], "moves": ["Drill Run", "Flare Blitz", "Megahorn", "Morning Sun", "Wild Charge", "Will-O-Wisp"]},
   "Raticate": {"level": 90, "abilities": ["Guts"], "items": ["Flame Orb", "Toxic Orb"], "moves": ["Crunch", "Facade", "Flame Wheel", "Sucker Punch", "Swords Dance", "U-turn"]},
