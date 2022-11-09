@@ -62,6 +62,8 @@ if (TOOLTIP) {
       format = 'gen' + gen + 'randomdoublesbattle';
     } else if (format.includes('monotype') || format.includes('unrated')) {
       format = 'gen' + gen + 'randombattle';
+    } else if (format.includes('mayhem') || format.includes('nodmax')) {
+      format = 'gen' + gen + 'randombattlenodmax'
     }
     if (!DATA[format]) return original;
 
