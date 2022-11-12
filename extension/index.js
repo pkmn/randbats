@@ -36,7 +36,7 @@ if (TOOLTIP) {
         }
         DATA[f] = data;
       });
-      request.open('GET', 'https://pkmn.github.io/randbats/data/' + f + '.json');
+      request.open('GET', 'https://pkmn.github.io/randbats/data/stats/' + f + '.json');
       request.send(null);
     })(format);
   }
@@ -113,25 +113,26 @@ if (TOOLTIP) {
         letsgo);
     }
 
-    var moves = data.moves;
+
     var noHP = true;
-    var multi = !['singles', 'doubles'].includes(gameType);
-    var ms = [];
-    for (var move of moves) {
-      if (move.startsWith('Hidden Power')) noHP = false;
-      if (!(multi && move === 'Ally Switch')) ms.push(move);
+    for (var move in data.moves) {
+      if (move.startsWith('Hidden Power')) {
+        noHP = false;
+        break;
+      }
     }
 
     var buf = '<div style="border-top: 1px solid #888; background: #dedede">';
     if (name) buf += '<p><b>' + name + '</b></p>';
     if (gen >= 3 && !letsgo) {
-      buf += '<p><small>Abilities:</small> ' + data.abilities.join(', ') + '</p>';
+      buf += '<p><small>Abilities:</small> ' + display(data.abilities) + '</p>';
     }
     if (gen >= 2 && !(letsgo && !data.items)) {
-      buf +=
-        '<p><small>Items:</small> ' + (data.items ? data.items.join(', ') : '(No Item)') + '</p>';
+      buf += '<p><small>Items:</small> ' +
+        (data.items ? display(data.items) : '(No Item)') + '</p>';
     }
-    buf += '<p><small>Moves:</small> ' + moves.join(', ') + '</p>';
+    var multi = !['singles', 'doubles'].includes(gameType);
+    buf += '<p><small>Moves:</small> ' + display(data.moves, multi) + '</p>';
 
     buf += '<p>';
     for (var statName of Dex.statNamesExceptHP) {
@@ -148,6 +149,16 @@ if (TOOLTIP) {
 
     buf += '</div>';
     return buf;
+  }
+
+  function display(stats, multi) {
+    var buf = [];
+    for (var key in stats) {
+      if (stats[key] === 0 || (multi && key === 'Ally Switch')) continue;
+      buf.push(key + (stats[key] === 1
+        ? '' : ' <small>(' + Math.round(stats[key] * 100) + '%)</small>'));
+    }
+    return buf.join(', ');
   }
 
   function tr(num) {
