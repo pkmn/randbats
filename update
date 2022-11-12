@@ -167,7 +167,9 @@ const serialize = async (data, file) => {
       compact: true,
       breakLength: 1000,
     }).slice(1, -1);
+    // TODO: remove legacy JS files from top-level
     fs.writeFileSync(`data/${format.id}.js`, `var ${format.id.toUpperCase()} = {\n ${code}\n};`);
+    fs.writeFileSync(`data/js/${format.id}.js`, `var ${format.id.toUpperCase()} = {\n ${code}\n};`);
   }
   fs.writeFileSync('data/index.json', stringify(index));
 })().catch(err => {
