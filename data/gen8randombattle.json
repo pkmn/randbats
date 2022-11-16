@@ -379,7 +379,7 @@
   "Starmie": {"level": 84, "abilities": ["Analytic", "Natural Cure"], "items": ["Choice Specs", "Heavy-Duty Boots", "Leftovers", "Life Orb"], "moves": ["Hydro Pump", "Ice Beam", "Psyshock", "Rapid Spin", "Recover", "Scald", "Thunderbolt"]},
   "Steelix": {"level": 84, "abilities": ["Rock Head", "Sturdy"], "items": ["Leftovers"], "moves": ["Dragon Dance", "Earthquake", "Head Smash", "Heavy Slam", "Stealth Rock", "Toxic"]},
   "Stonjourner": {"level": 88, "abilities": ["Power Spot"], "items": ["Life Orb"], "moves": ["Earthquake", "Heat Crash", "Rock Polish", "Stealth Rock", "Stone Edge"]},
-  "Stoutland": {"level": 86, "abilities": ["Intimidate", "Sand Rush", "Scrappy"], "items": ["Choice Band", "Choice Scarf"], "moves": ["Crunch", "Facade", "Play Rough", "Superpower", "Wild Charge"]},
+  "Stoutland": {"level": 86, "abilities": ["Intimidate", "Scrappy"], "items": ["Choice Band", "Choice Scarf"], "moves": ["Crunch", "Facade", "Play Rough", "Superpower", "Wild Charge"]},
   "Stunfisk": {"level": 84, "abilities": ["Static"], "items": ["Assault Vest", "Leftovers"], "moves": ["Discharge", "Earth Power", "Foul Play", "Sludge Bomb", "Stealth Rock"]},
   "Stunfisk-Galar": {"level": 84, "abilities": ["Mimicry"], "items": ["Leftovers"], "moves": ["Earthquake", "Pain Split", "Stealth Rock", "Stone Edge", "Thunder Wave"]},
   "Sudowoodo": {"level": 87, "abilities": ["Rock Head"], "items": ["Choice Band", "Leftovers"], "moves": ["Earthquake", "Head Smash", "Stealth Rock", "Sucker Punch", "Wood Hammer"]},
