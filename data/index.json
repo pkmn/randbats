@@ -1,9 +1,6 @@
 {
-  "gen8randombattle.json": [91774, 14765],
-  "gen8randombattleblitz.json": [91774, 14765],
-  "gen8randomdoublesbattle.json": [88639, 14138],
   "gen4sharedpowerrandombattle.json": [64180, 9526],
-  "gen8randombattlenodmax.json": [92444, 14751],
+  "gen8randombattle.json": [91774, 14765],
   "gen8bdsprandombattle.json": [56254, 8880],
   "gen7randombattle.json": [122745, 18859],
   "gen7randomdoublesbattle.json": [118143, 17465],
@@ -13,5 +10,6 @@
   "gen4randombattle.json": [64180, 9526],
   "gen3randombattle.json": [45749, 6485],
   "gen2randombattle.json": [20688, 3359],
-  "gen1randombattle.json": [16348, 2442]
+  "gen1randombattle.json": [16348, 2442],
+  "gen8randomdoublesbattle.json": [88639, 14138]
 }
