@@ -261,7 +261,7 @@
   "Swellow": {"level": 84, "abilities": ["Guts"], "items": ["Toxic Orb"], "moves": ["Brave Bird", "Facade", "Protect", "Quick Attack", "U-turn"]},
   "Tangrowth": {"level": 84, "abilities": ["Chlorophyll"], "items": ["Expert Belt", "Leftovers"], "moves": ["Earthquake", "Hidden Power Fire", "Hidden Power Ice", "Leaf Storm", "Power Whip", "Rock Slide", "Sleep Powder", "Stun Spore", "Swords Dance", "Synthesis"]},
   "Tauros": {"level": 88, "abilities": ["Intimidate"], "items": ["Choice Band"], "moves": ["Double-Edge", "Earthquake", "Payback", "Pursuit", "Return", "Stone Edge"]},
-  "Tentacruel": {"level": 82, "abilities": ["Clear Body", "Liquid Ooze"], "items": ["Black Sludge", "Choice Scarf", "Choice Specs"], "moves": ["Hydro Pump", "Ice Beam", "Rapid Spin", "Sludge Bomb", "Surf", "Toxic Spikes"]},
+  "Tentacruel": {"level": 82, "abilities": ["Clear Body", "Liquid Ooze"], "items": ["Black Sludge", "Choice Scarf"], "moves": ["Hydro Pump", "Ice Beam", "Rapid Spin", "Sludge Bomb", "Surf", "Toxic Spikes"]},
   "Togekiss": {"level": 82, "abilities": ["Serene Grace"], "items": ["Leftovers"], "moves": ["Air Slash", "Aura Sphere", "Fire Blast", "Heal Bell", "Nasty Plot", "Roost", "Thunder Wave"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Torkoal": {"level": 88, "abilities": ["White Smoke"], "items": ["Leftovers"], "moves": ["Earthquake", "Explosion", "Lava Plume", "Rapid Spin", "Stealth Rock", "Toxic", "Yawn"]},
   "Torterra": {"level": 84, "abilities": ["Overgrow"], "items": ["Leftovers", "Life Orb"], "moves": ["Earthquake", "Leech Seed", "Roar", "Rock Polish", "Stealth Rock", "Stone Edge", "Synthesis", "Wood Hammer"]},
