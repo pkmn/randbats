@@ -14,7 +14,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   Araquanid: { level: 84, abilities: [ 'Water Bubble' ], items: [ 'Sitrus Berry' ], moves: [ 'Leech Life', 'Liquidation', 'Lunge', 'Protect', 'Sticky Web', 'Wide Guard' ] },
   Arcanine: { level: 84, abilities: [ 'Intimidate' ], items: [ 'Assault Vest', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Close Combat', 'Extreme Speed', 'Flare Blitz', 'Morning Sun', 'Protect', 'Snarl', 'Will-O-Wisp' ], evs: { hp: 77 } },
   Archeops: { level: 86, abilities: [ 'Defeatist' ], items: [ 'Choice Band', 'Sitrus Berry' ], moves: [ 'Aqua Tail', 'Dual Wingbeat', 'Earthquake', 'Protect', 'Rock Slide', 'U-turn' ] },
-  Arctovish: { level: 88, abilities: [ 'Slush Rush', 'Water Absorb' ], items: [ 'Blunder Policy', 'Sitrus Berry' ], moves: [ 'Blizzard', 'Fishious Rend', 'Icicle Crash', 'Protect', 'Super Fang' ] },
+  Arctovish: { level: 88, abilities: [ 'Slush Rush', 'Water Absorb' ], items: [ 'Assault Vest', 'Blunder Policy', 'Sitrus Berry' ], moves: [ 'Blizzard', 'Fishious Rend', 'Icicle Crash', 'Protect', 'Super Fang' ] },
   Arctozolt: { level: 88, abilities: [ 'Slush Rush', 'Volt Absorb' ], items: [ 'Assault Vest', 'Blunder Policy', 'Sitrus Berry' ], moves: [ 'Blizzard', 'Bolt Beak', 'Icicle Crash', 'Low Kick', 'Protect' ] },
   Armaldo: { level: 88, abilities: [ 'Swift Swim' ], items: [ 'Choice Band' ], moves: [ 'Knock Off', 'Liquidation', 'Stone Edge', 'Superpower', 'X-Scissor' ] },
   Aromatisse: { level: 86, abilities: [ 'Aroma Veil', 'Healer' ], items: [ 'Sitrus Berry' ], moves: [ 'Heal Pulse', 'Moonblast', 'Protect', 'Trick Room', 'Wish' ], evs: { atk: 0 }, ivs: { atk: 0 } },
