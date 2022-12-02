@@ -65,7 +65,7 @@ var GEN1RANDOMBATTLEBLITZ = {
   Kingler: { level: 77, moves: [ 'Body Slam', 'Crabhammer', 'Hyper Beam', 'Swords Dance' ] },
   Koffing: { level: 88, moves: [ 'Explosion', 'Fire Blast', 'Sludge', 'Thunderbolt' ] },
   Krabby: { level: 88, moves: [ 'Blizzard', 'Body Slam', 'Crabhammer', 'Swords Dance' ] },
-  Lapras: { level: 71, moves: [ 'Blizzard', 'Body Slam', 'Confuse Ray', 'Rest', 'Sing', 'Surf', 'Thunderbolt' ] },
+  Lapras: { level: 74, moves: [ 'Blizzard', 'Body Slam', 'Confuse Ray', 'Rest', 'Sing', 'Surf', 'Thunderbolt' ] },
   Lickitung: { level: 77, moves: [ 'Blizzard', 'Body Slam', 'Earthquake', 'Hyper Beam', 'Swords Dance' ] },
   Machamp: { level: 77, moves: [ 'Body Slam', 'Counter', 'Earthquake', 'Hyper Beam', 'Rock Slide', 'Submission' ] },
   Machoke: { level: 80, moves: [ 'Body Slam', 'Counter', 'Earthquake', 'Rock Slide', 'Submission' ] },
