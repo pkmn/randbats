@@ -1,8 +1,7 @@
 var DATA = {};
 
 var SUPPORTED = [
-  'gen8randombattle', 'gen8randombattlenodmax', 'gen8randomdoublesbattle',
-  'gen8bdsprandombattle', 'gen8randombattleblitz', 'gen7randombattle',
+  'gen8randombattle', 'gen8randomdoublesbattle', 'gen8bdsprandombattle', 'gen7randombattle',
   'gen7letsgorandombattle', 'gen7randomdoublesbattle', 'gen6randombattle',
   'gen5randombattle', 'gen4randombattle', 'gen3randombattle',
   'gen2randombattle', 'gen1randombattle',
@@ -62,6 +61,8 @@ if (TOOLTIP) {
       format = 'gen' + gen + 'randomdoublesbattle';
     } else if (format.includes('monotype') || format.includes('unrated')) {
       format = 'gen' + gen + 'randombattle';
+    } else if (format.endsWith('blitz')) {
+      format = format.slice(0, -5);
     }
     if (!DATA[format]) return original;
 
