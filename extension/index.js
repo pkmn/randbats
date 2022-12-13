@@ -1,6 +1,7 @@
 var DATA = {};
 
 var SUPPORTED = [
+  'gen9randombattle', 'gen9randomdoublesbattle',
   'gen8randombattle', 'gen8randomdoublesbattle', 'gen8bdsprandombattle', 'gen7randombattle',
   'gen7letsgorandombattle', 'gen7randomdoublesbattle', 'gen6randombattle',
   'gen5randombattle', 'gen4randombattle', 'gen3randombattle',
@@ -115,10 +116,12 @@ if (TOOLTIP) {
     }
 
     var noHP = true;
-    for (var move in data.moves) {
-      if (move.startsWith('Hidden Power')) {
-        noHP = false;
-        break;
+    if (data.moves) {
+      for (var move in data.moves) {
+        if (move.startsWith('Hidden Power')) {
+          noHP = false;
+          break;
+        }
       }
     }
 
@@ -132,7 +135,37 @@ if (TOOLTIP) {
         (data.items ? display(data.items) : '(No Item)') + '</p>';
     }
     var multi = !['singles', 'doubles'].includes(gameType);
-    buf += '<p><small>Moves:</small> ' + display(data.moves, multi) + '</p>';
+    if (data.roles) {
+      var roles = filter(data.roles);
+      if (gen === 9) {
+        var teraTypes = {};
+        for (var role of roles) {
+          for (var teraType in roles[role].teraTypes) {
+            teraTypes[teraType] = teraTypes[teraType] || 0;
+            teraTypes[teraType] += roles[role].teraTypes[teraTypes] * roles[role].weight;
+          }
+        }
+        const sorted = {};
+        for (var entry of Object.entries(teraTypes).sort(compare)) {
+          sorted[entry[0]] = entry[1];
+        }
+        buf += '<p><small>Tera Types:</small> ' + display(sorted) + '</p>';
+      }
+      var moves = {};
+      for (var role of roles) {
+        for (var move in roles[role].moves) {
+          moves[move] = moves[teraType] || 0;
+          moves[move] += roles[role].moves[teraTypes] * roles[role].weight;
+        }
+      }
+      const sorted = {};
+      for (var entry of Object.entries(moves).sort(compare)) {
+        sorted[entry[0]] = entry[1];
+      }
+      buf += '<p><small>Moves:</small> ' + display(moves, multi) + '</p>';
+    } else {
+      buf += '<p><small>Moves:</small> ' + display(data.moves, multi) + '</p>';
+    }
 
     buf += '<p>';
     for (var statName of Dex.statNamesExceptHP) {
@@ -149,6 +182,14 @@ if (TOOLTIP) {
 
     buf += '</div>';
     return buf;
+  }
+
+  function compare(a, b) {
+    return b[1] - a[1] || a[0].localeCompare(b[0]);
+  }
+
+  function filter(roles) {
+    return Object.values(roles); // TODO
   }
 
   function display(stats, multi) {
