@@ -13,6 +13,7 @@ Dex.includeModData();
 const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
 const SKIP = ['factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'blitz'];
+const SETS = ['gen9randombattle', 'gen9randomdoublebattle'];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const CMP = {
   stats: (a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]),
@@ -52,9 +53,13 @@ const getForme = (dex, pool, set) => {
   return dex.species.get(matches.length ? matches[0] : set.species);
 };
 
-const getMoves = (species, doubles) => {
+const getMoves = (species, doubles, sets) => {
   const moves = new Map();
-  if (doubles && species.randomDoubleBattleMoves) {
+  if (sets) {
+    for (const set of (sets[species.id]?.sets || [])) {
+      set.movepool.forEach(move =>  moves.set(Dex.toID(move), 0));
+    }
+  } if (doubles && species.randomDoubleBattleMoves) {
     species.randomDoubleBattleMoves.forEach(m => moves.set(m, 0));
   } else {
     if (species.essentialMove) moves.set(species.essentialMove, 0);
@@ -63,6 +68,14 @@ const getMoves = (species, doubles) => {
     if (species.randomBattleMoves) species.randomBattleMoves.forEach(m => moves.set(m, 0));
   }
   return moves;
+};
+
+const getTeraTypes = (species, sets) => {
+  const types = new Map();
+  for (const set of (sets?.[species.id]?.sets || [])) {
+    set.teraTypes.forEach(type =>  types.set(type, 0));
+  }
+  return types;
 };
 
 const round = v => Math.round(v * 1e4) / 1e4;
@@ -92,6 +105,9 @@ const serialize = async (data, file, factor = 1) => {
     const generator = Teams.getGenerator(format, SEED);
     const IVS = gen < 3 ? 30 : 31;
     const EVS = gen < 3 ? 255 : 85;
+    const sets = SETS.includes(format.id)
+      ? require('./vendor/pokemon-showdown/data/random-sets.json')
+      : undefined;
 
     const pool = {};
     for (const species of dex.species.all()) {
@@ -99,7 +115,7 @@ const serialize = async (data, file, factor = 1) => {
       if (letsgo && (species.num < 1 || species.num > 151 && ![808, 809].includes(species.num))) {
         continue;
       }
-      const moves = getMoves(species, doubles);
+      const moves = getMoves(species, doubles, sets);
       if (!moves.size) continue;
       const base = typeof species.battleOnly === 'string' ? species.battleOnly : species.name;
       pool[base] = (pool[base] || {});
@@ -115,7 +131,8 @@ const serialize = async (data, file, factor = 1) => {
           level: set.species === 'Zoroark' ? 0 : set.level,
           abilities: new Map(),
           items: new Map(),
-          moves: getMoves(forme, doubles),
+          moves: getMoves(forme, doubles, sets),
+          teraTypes: getTeraTypes(forme, sets),
           ivs: {},
           evs: {},
         });
@@ -143,6 +160,7 @@ const serialize = async (data, file, factor = 1) => {
         }
         if (set.ability) s.abilities.set(set.ability, (s.abilities.get(set.ability) || 0) + 1);
         if (set.item) s.items.set(set.item, (s.items.get(set.item) || 0) + 1);
+        if (set.teraType) s.teraTypes.set(set.teraType, (s.teraTypes.get(set.teraType) || 0) + 1);
       }
     }
 
@@ -159,6 +177,11 @@ const serialize = async (data, file, factor = 1) => {
       if (data.items.size) {
         o.items = Array.from(data.items.keys()).sort();
         s.items = Object.fromEntries(Array.from(data.items.entries())
+          .map(e => [e[0], round(e[1] / data.n)]).sort(CMP.entries));
+      }
+      if (data.teraTypes.size) {
+        o.teraTypes = Array.from(data.teraTypes.keys()).sort();
+        s.teraTypes = Object.fromEntries(Array.from(data.teraTypes.entries())
           .map(e => [e[0], round(e[1] / data.n)]).sort(CMP.entries));
       }
       o.moves = Array.from(data.moves.keys()).map(m => dex.moves.get(m).name).sort();
