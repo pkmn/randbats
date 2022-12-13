@@ -20,6 +20,11 @@ const CMP = {
   entries: (a, b) => b[1] - a[1] || a[0].localeCompare(b[0]),
 };
 
+// gen9randomdoublebattle currently uses the same sets as singles
+const getSets = format => format.id.startsWith('gen9')
+  ? require('./vendor/pokemon-showdown/data/random-sets.json')
+  : undefined;
+
 const getForme = (dex, pool, set) => {
   if (set.gigantamax) {
     return dex.species.get(set.species.startsWith('Pikachu')
@@ -52,9 +57,13 @@ const getForme = (dex, pool, set) => {
   return dex.species.get(matches.length ? matches[0] : set.species);
 };
 
-const getMoves = (species, doubles) => {
+const getMoves = (species, doubles, sets) => {
   const moves = new Map();
-  if (doubles && species.randomDoubleBattleMoves) {
+  if (sets) {
+    for (const set of (sets[species.id]?.sets || [])) {
+      set.movepool.forEach(move =>  moves.set(Dex.toID(move), 0));
+    }
+  } if (doubles && species.randomDoubleBattleMoves) {
     species.randomDoubleBattleMoves.forEach(m => moves.set(m, 0));
   } else {
     if (species.essentialMove) moves.set(species.essentialMove, 0);
@@ -63,6 +72,19 @@ const getMoves = (species, doubles) => {
     if (species.randomBattleMoves) species.randomBattleMoves.forEach(m => moves.set(m, 0));
   }
   return moves;
+};
+
+const getRoles = (species, sets) => {
+  if (!sets || !sets[species.id]?.sets) return undefined;
+  const moves = {};
+  const teraTypes = {};
+  for (const set of sets[species.id].sets) {
+    moves[set.role] = new Map();
+    set.movepool.forEach(move => moves[set.role].set(Dex.toID(move), 0));
+    teraTypes[set.role] = new Map();
+    set.teraTypes.forEach(type => teraTypes[set.role].set(type, 0));
+  }
+  return {moves, teraTypes};
 };
 
 const round = v => Math.round(v * 1e4) / 1e4;
@@ -93,6 +115,7 @@ const serialize = async (data, file, factor = 1) => {
     const generator = Teams.getGenerator(format, SEED);
     const IVS = gen < 3 ? 30 : 31;
     const EVS = gen < 3 ? 255 : 85;
+    const sets = getSets(format);
 
     const pool = {};
     for (const species of dex.species.all()) {
@@ -100,7 +123,7 @@ const serialize = async (data, file, factor = 1) => {
       if (letsgo && (species.num < 1 || species.num > 151 && ![808, 809].includes(species.num))) {
         continue;
       }
-      const moves = getMoves(species, doubles);
+      const moves = getMoves(species, doubles, sets);
       if (!moves.size) continue;
       const base = typeof species.battleOnly === 'string' ? species.battleOnly : species.name;
       pool[base] = (pool[base] || {});
@@ -111,17 +134,21 @@ const serialize = async (data, file, factor = 1) => {
     for (let i = 0; i < N; i++) {
       for (const set of generator.getTeam()) {
         const forme = getForme(dex, pool, set);
+        const roles = getRoles(forme, sets);
         const s = formes[forme.name] || (formes[forme.name] = {
           n: 0,
           level: set.species === 'Zoroark' ? 0 : set.level,
           abilities: new Map(),
           items: new Map(),
-          moves: getMoves(forme, doubles),
+          moves: roles ? roles.moves : getMoves(forme, doubles),
+          teraTypes: roles.teraTypes,
+          roles: new Map(),
           ivs: {},
           evs: {},
         });
         s.n++;
-        for (const m of set.moves) s.moves.set(m, (s.moves.get(m) || 0) + 1);
+        const moves = set.role ? s.moves[set.role] : s.moves;
+        for (const m of set.moves) moves.set(m, (moves.get(m) || 0) + 1);
         for (const stat in set.ivs) {
           if (set.ivs[stat] !== IVS) {
             if (!(stat in s.ivs)) {
@@ -144,6 +171,11 @@ const serialize = async (data, file, factor = 1) => {
         }
         if (set.ability) s.abilities.set(set.ability, (s.abilities.get(set.ability) || 0) + 1);
         if (set.item) s.items.set(set.item, (s.items.get(set.item) || 0) + 1);
+        if (set.teraType) {
+          s.teraTypes[set.role].set(set.teraType,
+            (s.teraTypes[set.role].get(set.teraType) || 0) + 1);
+        }
+        if (set.role) s.roles.set(set.role, (s.roles.get(set.role) || 0) + 1);
       }
     }
 
@@ -162,9 +194,28 @@ const serialize = async (data, file, factor = 1) => {
         s.items = Object.fromEntries(Array.from(data.items.entries())
           .map(e => [e[0], round(e[1] / data.n)]).sort(CMP.entries));
       }
-      o.moves = Array.from(data.moves.keys()).map(m => dex.moves.get(m).name).sort();
-      s.moves = Object.fromEntries(Array.from(data.moves.entries())
-        .map(e => [dex.moves.get(e[0]).name, round(e[1] / data.n)]).sort(CMP.entries));
+      if (sets) {
+        o.roles = {};
+        s.roles = {};
+        for (const [role, n] of Array.from(data.roles.entries()).sort((a, b) => b[1] - a[1])) {
+          o.roles[role] = {
+            teraTypes: Array.from(data.teraTypes[role].keys()).sort(),
+            moves: Array.from(data.moves[role].keys()).map(m => dex.moves.get(m).name).sort(),
+          };
+          s.roles[role] = {
+            weight: round(n / data.n),
+            teraTypes: Object.fromEntries(Array.from(data.teraTypes[role].entries())
+              .map(e => [e[0], round(e[1] / n)]).sort(CMP.entries)),
+            moves: Object.fromEntries(Array.from(data.moves[role].entries())
+              .map(e => [dex.moves.get(e[0]).name, round(e[1] / n)]).sort(CMP.entries)),
+          };
+        }
+      } else {
+        o.moves = Array.from(data.moves.keys()).map(m => dex.moves.get(m).name).sort();
+        s.moves = Object.fromEntries(Array.from(data.moves.entries())
+          .map(e => [dex.moves.get(e[0]).name, round(e[1] / data.n)]).sort(CMP.entries));
+      }
+
       if (!letsgo) {
         for (const [stat, val] of Object.entries(data.evs).sort((CMP.stats))) {
           if (val !== -1) {
