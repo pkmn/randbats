@@ -114,7 +114,6 @@ if (TOOLTIP) {
         letsgo);
     }
 
-
     var noHP = true;
     for (var move in data.moves) {
       if (move.startsWith('Hidden Power')) {
