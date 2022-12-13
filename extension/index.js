@@ -1,9 +1,9 @@
 var DATA = {};
 
 var SUPPORTED = [
-  'gen8randombattle', 'gen8randomdoublesbattle', 'gen8bdsprandombattle', 'gen7randombattle',
-  'gen7letsgorandombattle', 'gen7randomdoublesbattle', 'gen6randombattle',
-  'gen5randombattle', 'gen4randombattle', 'gen3randombattle',
+  'gen9randombattle', 'gen8randombattle', 'gen8randomdoublesbattle', 'gen8bdsprandombattle',
+  'gen7randombattle', 'gen7letsgorandombattle', 'gen7randomdoublesbattle',
+  'gen6randombattle', 'gen5randombattle', 'gen4randombattle', 'gen3randombattle',
   'gen2randombattle', 'gen1randombattle',
 ];
 
@@ -81,13 +81,15 @@ if (TOOLTIP) {
 
     if (data.length === 1) {
       data[0].level = clientPokemon.level;
-      return original + displaySet(gen, gameType, letsgo, species, data[0]);
+      return original + displaySet(gen, gameType, letsgo, species, data[0], undefined, clientPokemon);
     }
     if (toID(forme) !== id) {
       var match = [];
       for (var set of data) {
         set.level = clientPokemon.level;
-        if (set.name === forme) match.push(displaySet(gen, gameType, letsgo, species, set));
+        if (set.name === forme) {
+          match.push(displaySet(gen, gameType, letsgo, species, set, undefined, clientPokemon));
+        }
       }
       if (match.length === 1) return original + match[0];
     }
@@ -96,12 +98,12 @@ if (TOOLTIP) {
       set.level = clientPokemon.level;
       // Technically different formes will have different base stats, but given at this stage
       // we're still in the base forme we simply use the base forme base stats for everything.
-      buf += displaySet(gen, gameType, letsgo, species, set, set.name);
+      buf += displaySet(gen, gameType, letsgo, species, set, set.name, clientPokemon);
     }
     return buf;
   }
 
-  function displaySet(gen, gameType, letsgo, species, data, name) {
+  function displaySet(gen, gameType, letsgo, species, data, name, clientPokemon) {
     var stats = {};
     for (var stat in species.baseStats) {
       stats[stat] = calc(
@@ -116,10 +118,12 @@ if (TOOLTIP) {
 
 
     var noHP = true;
-    for (var move in data.moves) {
-      if (move.startsWith('Hidden Power')) {
-        noHP = false;
-        break;
+    if (data.moves) {
+      for (var move in data.moves) {
+        if (move.startsWith('Hidden Power')) {
+          noHP = false;
+          break;
+        }
       }
     }
 
@@ -133,7 +137,42 @@ if (TOOLTIP) {
         (data.items ? display(data.items) : '(No Item)') + '</p>';
     }
     var multi = !['singles', 'doubles'].includes(gameType);
-    buf += '<p><small>Moves:</small> ' + display(data.moves, multi) + '</p>';
+    if (data.roles) {
+      var roles = filter(data.roles, clientPokemon);
+      if (gen === 9) {
+        var total = 0;
+        var teraTypes = {};
+        for (var role of roles) {
+          total += role.weight;
+          for (var teraType in role.teraTypes) {
+            teraTypes[teraType] = (teraTypes[teraType] || 0) +
+              (role.teraTypes[teraType] * role.weight);
+          }
+        }
+        for (var teraType in teraTypes) teraTypes[teraType] /= total;
+        var sorted = {};
+        for (var entry of Object.entries(teraTypes).sort(compare)) {
+          sorted[entry[0]] = entry[1];
+        }
+        buf += '<p><small>Tera Types:</small> ' + display(sorted) + '</p>';
+      }
+      var total = 0;
+      var moves = {};
+      for (var role of roles) {
+        total += role.weight;
+        for (var move in role.moves) {
+          moves[move] = (moves[move] || 0) + (role.moves[move] * role.weight);
+        }
+      }
+      for (var move in moves) moves[move] /= total;
+      var sorted = {};
+      for (var entry of Object.entries(moves).sort(compare)) {
+        sorted[entry[0]] = entry[1];
+      }
+      buf += '<p><small>Moves:</small> ' + display(moves, multi) + '</p>';
+    } else {
+      buf += '<p><small>Moves:</small> ' + display(data.moves, multi) + '</p>';
+    }
 
     buf += '<p>';
     for (var statName of Dex.statNamesExceptHP) {
@@ -152,11 +191,30 @@ if (TOOLTIP) {
     return buf;
   }
 
+  function compare(a, b) {
+    return b[1] - a[1] || a[0].localeCompare(b[0]);
+  }
+
+  function filter(roles, clientPokemon) {
+    var all = Object.values(roles);
+    if (!clientPokemon) return all;
+
+    var possible = [];
+    outer: for (var role of all) {
+      if (clientPokemon.teraType && !role.teraTypes[clientPokemon.teraType]) continue;
+      for (var moveslot of clientPokemon.moveTrack) {
+        if (!role.moves[moveslot[0]]) continue outer;
+      }
+      possible.push(role);
+    }
+    return possible;
+  }
+
   function display(stats, multi) {
     var buf = [];
     for (var key in stats) {
       if (stats[key] === 0 || (multi && key === 'Ally Switch')) continue;
-      buf.push(key + (stats[key] === 1
+      buf.push(key + (stats[key] >= 1
         ? '' : ' <small>(' + Math.round(stats[key] * 100) + '%)</small>'));
     }
     return buf.join(', ');
