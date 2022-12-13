@@ -96,6 +96,7 @@ const serialize = async (data, file, factor = 1) => {
   for (const format of Dex.formats.all()) {
     if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
     if (SKIP.some(s => format.id.includes(s)) || !format.mod.startsWith('gen')) continue;
+    const start = process.hrtime.bigint();
 
     // Of course, PS is braindead and Format#gen always reports 0
     const gen = Number(format.id.charAt(3));
@@ -216,6 +217,7 @@ const serialize = async (data, file, factor = 1) => {
       breakLength: 1000,
     }).slice(1, -1);
     fs.writeFileSync(`data/js/${format.id}.js`, `var ${format.id.toUpperCase()} = {\n ${code}\n};`);
+    console.log(`${format.name}: ${(Number(process.hrtime.bigint() - start) / 1e9).toFixed(3)}s`);
   }
   fs.writeFileSync('data/index.json', stringify(index.options));
   fs.writeFileSync('data/stats/index.json', stringify(index.stats));
