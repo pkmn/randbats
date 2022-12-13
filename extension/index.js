@@ -1,7 +1,6 @@
 var DATA = {};
 
 var SUPPORTED = [
-  'gen9randombattle', 'gen9randomdoublesbattle',
   'gen8randombattle', 'gen8randomdoublesbattle', 'gen8bdsprandombattle', 'gen7randombattle',
   'gen7letsgorandombattle', 'gen7randomdoublesbattle', 'gen6randombattle',
   'gen5randombattle', 'gen4randombattle', 'gen3randombattle',
@@ -115,6 +114,7 @@ if (TOOLTIP) {
         letsgo);
     }
 
+
     var noHP = true;
     for (var move in data.moves) {
       if (move.startsWith('Hidden Power')) {
@@ -125,9 +125,6 @@ if (TOOLTIP) {
 
     var buf = '<div style="border-top: 1px solid #888; background: #dedede">';
     if (name) buf += '<p><b>' + name + '</b></p>';
-    if (gen === 9) {
-      buf += '<p><small>Tera Types:</small> ' + display(data.teraTypes) + '</p>';
-    }
     if (gen >= 3 && !letsgo) {
       buf += '<p><small>Abilities:</small> ' + display(data.abilities) + '</p>';
     }
