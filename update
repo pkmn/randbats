@@ -141,7 +141,7 @@ const serialize = async (data, file, factor = 1) => {
           abilities: new Map(),
           items: new Map(),
           moves: roles ? roles.moves : getMoves(forme, doubles),
-          teraTypes: roles.teraTypes,
+          teraTypes: roles?.teraTypes,
           roles: new Map(),
           ivs: {},
           evs: {},
