@@ -21,19 +21,24 @@ if (TOOLTIP) {
     (function (f) {
       var request = new XMLHttpRequest();
       request.addEventListener('load', function() {
-        var data = {};
-        var json = JSON.parse(request.responseText);
-        for (var name in json) {
-          var pokemon = json[name];
-          data[pokemon.level] = data[pokemon.level] || {};
-          var species = Dex.species.get(name);
-          var id = toID(species.forme === 'Gmax'
-            ? species.baseSpecies
-            : species.battleOnly || species.name);
-          data[pokemon.level][id] = data[pokemon.level][id] || [];
-          data[pokemon.level][id].push(Object.assign({name: name}, pokemon));
+        try {
+          var data = {};
+          var json = JSON.parse(request.responseText);
+          for (var name in json) {
+            var pokemon = json[name];
+            data[pokemon.level] = data[pokemon.level] || {};
+            var species = Dex.species.get(name);
+            var id = toID(species.forme === 'Gmax'
+              ? species.baseSpecies
+              : species.battleOnly || species.name);
+            data[pokemon.level][id] = data[pokemon.level][id] || [];
+            data[pokemon.level][id].push(Object.assign({name: name}, pokemon));
+          }
+          DATA[f] = data;
+        } catch (err) {
+          console.error('Unable to load data for ' + f +
+            ' - please check to see if your Pokémon Showdown Randbats Tooltip is up to date.');
         }
-        DATA[f] = data;
       });
       request.open('GET', 'https://pkmn.github.io/randbats/data/stats/' + f + '.json');
       request.send(null);
