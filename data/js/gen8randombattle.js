@@ -96,7 +96,7 @@ var GEN8RANDOMBATTLE = {
   Diggersby: { level: 80, abilities: [ 'Huge Power' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb' ], moves: [ 'Body Slam', 'Earthquake', 'Knock Off', 'Quick Attack', 'Swords Dance', 'U-turn' ] },
   Ditto: { level: 76, abilities: [ 'Imposter' ], items: [ 'Choice Scarf' ], moves: [ 'Transform' ] },
   Doublade: { level: 82, abilities: [ 'No Guard' ], items: [ 'Eviolite' ], moves: [ 'Close Combat', 'Iron Head', 'Shadow Claw', 'Shadow Sneak', 'Swords Dance' ] },
-  Dracovish: { level: 80, abilities: [ 'Strong Jaw' ], items: [ 'Choice Band' ], moves: [ 'Crunch', 'Fishious Rend', 'Ice Fang', 'Low Kick', 'Psychic Fangs' ] },
+  Dracovish: { level: 80, abilities: [ 'Sand Rush', 'Strong Jaw' ], items: [ 'Choice Band' ], moves: [ 'Crunch', 'Fishious Rend', 'Ice Fang', 'Low Kick', 'Psychic Fangs' ] },
   Dracozolt: { level: 78, abilities: [ 'Hustle' ], items: [ 'Choice Band', 'Choice Scarf' ], moves: [ 'Aerial Ace', 'Bolt Beak', 'Earthquake', 'Low Kick', 'Outrage' ] },
   Dragalge: { level: 86, abilities: [ 'Adaptability' ], items: [ 'Black Sludge', 'Choice Specs' ], moves: [ 'Draco Meteor', 'Dragon Pulse', 'Flip Turn', 'Focus Blast', 'Sludge Wave', 'Toxic Spikes' ] },
   Dragapult: { level: 78, abilities: [ 'Clear Body', 'Infiltrator' ], items: [ 'Choice Specs' ], moves: [ 'Draco Meteor', 'Fire Blast', 'Shadow Ball', 'Thunderbolt', 'U-turn' ] },

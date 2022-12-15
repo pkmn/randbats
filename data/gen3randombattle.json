@@ -188,7 +188,7 @@
   "Sudowoodo": {"level": 88, "abilities": ["Rock Head"], "items": ["Choice Band", "Leftovers"], "moves": ["Brick Break", "Double-Edge", "Earthquake", "Explosion", "Rock Slide", "Toxic"]},
   "Suicune": {"level": 80, "abilities": ["Pressure"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Calm Mind", "Ice Beam", "Rest", "Sleep Talk", "Substitute", "Surf", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Sunflora": {"level": 88, "abilities": ["Chlorophyll"], "items": ["Leftovers"], "moves": ["Hidden Power Fire", "Leech Seed", "Razor Leaf", "Solar Beam", "Sunny Day", "Synthesis", "Toxic"], "evs": {"atk": 0}},
-  "Swalot": {"level": 88, "abilities": ["Liquid Ooze"], "items": ["Choice Band", "Leftovers"], "moves": ["Encore", "Explosion", "Hidden Power Ground", "Ice Beam", "Sludge Bomb", "Toxic", "Yawn"]},
+  "Swalot": {"level": 88, "abilities": ["Liquid Ooze", "Sticky Hold"], "items": ["Choice Band", "Leftovers"], "moves": ["Encore", "Explosion", "Hidden Power Ground", "Ice Beam", "Sludge Bomb", "Toxic", "Yawn"]},
   "Swampert": {"level": 80, "abilities": ["Torrent"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Earthquake", "Hydro Pump", "Ice Beam", "Protect", "Rest", "Rock Slide", "Sleep Talk", "Surf", "Toxic"]},
   "Swellow": {"level": 82, "abilities": ["Guts"], "items": ["Choice Band"], "moves": ["Aerial Ace", "Double-Edge", "Hidden Power Fighting", "Hidden Power Ground", "Quick Attack", "Return"], "ivs": {"spa": 30, "spd": 30}},
   "Tangela": {"level": 88, "abilities": ["Chlorophyll"], "items": ["Leftovers"], "moves": ["Hidden Power Grass", "Leech Seed", "Morning Sun", "Sleep Powder", "Stun Spore"], "evs": {"atk": 0}, "ivs": {"atk": 2, "spa": 30}},
