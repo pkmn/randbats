@@ -20,7 +20,7 @@
   "Cubone": {"level": 88, "moves": ["Blizzard", "Body Slam", "Earthquake", "Seismic Toss"]},
   "Dewgong": {"level": 74, "moves": ["Blizzard", "Body Slam", "Hyper Beam", "Mimic", "Rest", "Surf"]},
   "Diglett": {"level": 88, "moves": ["Body Slam", "Earthquake", "Rock Slide", "Slash"]},
-  "Ditto": {"level": 88, "moves": ["Transform"]},
+  "Ditto": {"level": 100, "moves": ["Transform"]},
   "Dodrio": {"level": 74, "moves": ["Agility", "Body Slam", "Drill Peck", "Hyper Beam"]},
   "Doduo": {"level": 88, "moves": ["Agility", "Body Slam", "Double-Edge", "Drill Peck"]},
   "Dragonair": {"level": 80, "moves": ["Blizzard", "Body Slam", "Hyper Beam", "Thunder Wave", "Thunderbolt"]},
