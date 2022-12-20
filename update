@@ -151,7 +151,7 @@ const serialize = async (data, file, factor = 1) => {
         const roles = getRoles(forme, sets);
         const s = formes[forme.name] || (formes[forme.name] = {
           n: 0,
-          level: set.species === 'Zoroark' ? 0 : set.level,
+          level: set.baseSpecies === 'Zoroark' ? 0 : set.level,
           abilities: new Map(),
           items: new Map(),
           moves: roles ? roles.moves : getMoves(forme, doubles),

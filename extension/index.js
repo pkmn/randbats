@@ -71,7 +71,7 @@ if (TOOLTIP) {
     }
     if (!DATA[format]) return original;
 
-    var data = DATA[format][species.name === 'Zoroark' ? 0 : clientPokemon.level];
+    var data = DATA[format][species.baseSpecies === 'Zoroark' ? 0 : clientPokemon.level];
     if (!data) return original;
 
     var cosmetic = species.cosmeticFormes && species.cosmeticFormes.includes(species.name);
