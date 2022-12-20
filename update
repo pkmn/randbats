@@ -23,7 +23,7 @@ const CMP = {
 
 const verify = sets => {
   for (const species in sets) {
-    for (const set of species.sets) {
+    for (const set of sets[species].sets) {
       for (const field of Object.keys(set)) {
         if (!FIELDS.includes(field)) {
           throw new Error(`Unexpected field in set: '${field}'`);
