@@ -9,7 +9,7 @@ var GEN8RANDOMBATTLE = {
   Alakazam: { level: 78, abilities: [ 'Magic Guard' ], items: [ 'Focus Sash', 'Life Orb' ], moves: [ 'Counter', 'Focus Blast', 'Nasty Plot', 'Psychic', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Alcremie-Gmax': { level: 86, abilities: [ 'Aroma Veil', 'Sweet Veil' ], items: [ 'Leftovers' ], moves: [ 'Calm Mind', 'Dazzling Gleam', 'Mystical Fire', 'Psychic', 'Recover' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Altaria: { level: 90, abilities: [ 'Natural Cure' ], items: [ 'Heavy-Duty Boots', 'Leftovers', 'Life Orb' ], moves: [ 'Defog', 'Draco Meteor', 'Earthquake', 'Fire Blast', 'Roost', 'Toxic' ] },
-  Amoonguss: { level: 84, abilities: [ 'Regenerator' ], items: [ 'Black Sludge' ], moves: [ 'Clear Smog', 'Giga Drain', 'Sludge Bomb', 'Spore', 'Synthesis', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Amoonguss: { level: 84, abilities: [ 'Regenerator' ], items: [ 'Black Sludge' ], moves: [ 'Giga Drain', 'Sludge Bomb', 'Spore', 'Synthesis', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Appletun: { level: 90, abilities: [ 'Thick Fat' ], items: [ 'Leftovers' ], moves: [ 'Apple Acid', 'Dragon Pulse', 'Leech Seed', 'Recover' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Appletun-Gmax': { level: 90, abilities: [ 'Thick Fat' ], items: [ 'Leftovers' ], moves: [ 'Apple Acid', 'Draco Meteor', 'Leech Seed', 'Recover' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Araquanid: { level: 80, abilities: [ 'Water Bubble' ], items: [ 'Heavy-Duty Boots', 'Leftovers' ], moves: [ 'Leech Life', 'Liquidation', 'Mirror Coat', 'Sticky Web', 'Toxic' ] },
