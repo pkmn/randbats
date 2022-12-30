@@ -112,7 +112,7 @@ var GEN1RANDOMBATTLE = {
   Raticate: { level: 77, moves: [ 'Blizzard', 'Body Slam', 'Hyper Beam', 'Super Fang' ] },
   Rattata: { level: 88, moves: [ 'Blizzard', 'Body Slam', 'Quick Attack', 'Super Fang', 'Thunderbolt' ] },
   Rhydon: { level: 68, moves: [ 'Body Slam', 'Earthquake', 'Hyper Beam', 'Rock Slide', 'Substitute' ] },
-  Rhyhorn: { level: 88, moves: [ 'Body Slam', 'Earthquake', 'Rock Slide', 'Substitute' ] },
+  Rhyhorn: { level: 88, moves: [ 'Body Slam', 'Earthquake', 'Rock Slide', 'Substitute' ], evs: { hp: 251 } },
   Sandshrew: { level: 88, moves: [ 'Body Slam', 'Earthquake', 'Rock Slide', 'Swords Dance' ] },
   Sandslash: { level: 77, moves: [ 'Body Slam', 'Earthquake', 'Rock Slide', 'Swords Dance' ] },
   Scyther: { level: 77, moves: [ 'Agility', 'Hyper Beam', 'Slash', 'Swords Dance' ] },

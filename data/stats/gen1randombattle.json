@@ -112,7 +112,7 @@
   "Raticate": {"level": 77, "moves": {"Blizzard": 1, "Body Slam": 1, "Hyper Beam": 1, "Super Fang": 1}},
   "Rattata": {"level": 88, "moves": {"Blizzard": 1, "Body Slam": 1, "Super Fang": 1, "Thunderbolt": 0.6684, "Quick Attack": 0.3316}},
   "Rhydon": {"level": 68, "moves": {"Body Slam": 1, "Earthquake": 1, "Rock Slide": 1, "Substitute": 0.6666, "Hyper Beam": 0.3334}},
-  "Rhyhorn": {"level": 88, "moves": {"Body Slam": 1, "Earthquake": 1, "Rock Slide": 1, "Substitute": 1}},
+  "Rhyhorn": {"level": 88, "moves": {"Body Slam": 1, "Earthquake": 1, "Rock Slide": 1, "Substitute": 1}, "evs": {"hp": 251}},
   "Sandshrew": {"level": 88, "moves": {"Body Slam": 1, "Earthquake": 1, "Rock Slide": 1, "Swords Dance": 1}},
   "Sandslash": {"level": 77, "moves": {"Body Slam": 1, "Earthquake": 1, "Rock Slide": 1, "Swords Dance": 1}},
   "Scyther": {"level": 77, "moves": {"Agility": 1, "Hyper Beam": 1, "Slash": 1, "Swords Dance": 1}},
