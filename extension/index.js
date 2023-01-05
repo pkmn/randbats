@@ -206,7 +206,7 @@ if (TOOLTIP) {
 
     var possible = [];
     outer: for (var role of all) {
-      if (clientPokemon.teraType && !role.teraTypes[clientPokemon.teraType]) continue;
+      if (clientPokemon.terastallized && !role.teraTypes[clientPokemon.terastallized]) continue;
       for (var moveslot of clientPokemon.moveTrack) {
         if (!role.moves[moveslot[0]]) continue outer;
       }
