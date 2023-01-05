@@ -144,37 +144,14 @@ if (TOOLTIP) {
     var multi = !['singles', 'doubles'].includes(gameType);
     if (data.roles) {
       var roles = filter(data.roles, clientPokemon);
-      if (gen === 9) {
-        var total = 0;
-        var teraTypes = {};
-        for (var role of roles) {
-          total += role.weight;
-          for (var teraType in role.teraTypes) {
-            teraTypes[teraType] = (teraTypes[teraType] || 0) +
-              (role.teraTypes[teraType] * role.weight);
-          }
-        }
-        for (var teraType in teraTypes) teraTypes[teraType] /= total;
-        var sorted = {};
-        for (var entry of Object.entries(teraTypes).sort(compare)) {
-          sorted[entry[0]] = entry[1];
-        }
-        buf += '<p><small>Tera Types:</small> ' + display(sorted) + '</p>';
-      }
-      var total = 0;
-      var moves = {};
       for (var role of roles) {
-        total += role.weight;
-        for (var move in role.moves) {
-          moves[move] = (moves[move] || 0) + (role.moves[move] * role.weight);
+        buf += '<p><small style="text-decoration: underline;">' + role[0] + '</small> ' +
+          '<small>(' + Math.round(role[1].weight * 100) + '%)</small><div style="margin-left: 0.5em">';
+        if (gen === 9) {
+          buf += '<p><small>Tera Types:</small> ' + display(role[1].teraTypes) + '</p>';
         }
+        buf += '<p><small>Moves:</small> ' + display(role[1].moves, multi) + '</p></div>';
       }
-      for (var move in moves) moves[move] /= total;
-      var sorted = {};
-      for (var entry of Object.entries(moves).sort(compare)) {
-        sorted[entry[0]] = entry[1];
-      }
-      buf += '<p><small>Moves:</small> ' + display(moves, multi) + '</p>';
     } else {
       buf += '<p><small>Moves:</small> ' + display(data.moves, multi) + '</p>';
     }
@@ -201,14 +178,15 @@ if (TOOLTIP) {
   }
 
   function filter(roles, clientPokemon) {
-    var all = Object.values(roles);
+    var all = Object.entries(roles);
     if (!clientPokemon) return all;
+    console.log(clientPokemon);
 
     var possible = [];
     outer: for (var role of all) {
-      if (clientPokemon.terastallized && !role.teraTypes[clientPokemon.terastallized]) continue;
+      if (clientPokemon.terastallized && !role[1].teraTypes[clientPokemon.terastallized]) continue;
       for (var moveslot of clientPokemon.moveTrack) {
-        if (!role.moves[moveslot[0]]) continue outer;
+        if (!role[1].moves[moveslot[0]]) continue outer;
       }
       possible.push(role);
     }
