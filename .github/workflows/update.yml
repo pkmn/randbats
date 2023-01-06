@@ -15,7 +15,7 @@ jobs:
       run:  |-
         git submodule update --init --recursive --remote
         git diff --quiet && exit 0
-        npm -C vendor/pokemon-showdown --no-package-lock --no-optional install
+        npm -C vendor/pokemon-showdown --no-package-lock --no-save --omit=optional install esbuild
         node vendor/pokemon-showdown/build
     - name: Fetch latest data
       run: |-
