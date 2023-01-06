@@ -176,7 +176,7 @@ const displayStats = (letsgo, data, o, s) => {
       o.ivs = o.ivs || {};
       o.ivs[stat] = val;
     }
-    s.evs = o.ivs;
+    s.ivs = o.ivs;
   }
 };
 
