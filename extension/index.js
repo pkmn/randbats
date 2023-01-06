@@ -109,19 +109,6 @@ if (TOOLTIP) {
   }
 
   function displaySet(gen, gameType, letsgo, species, data, name, clientPokemon) {
-    var stats = {};
-    for (var stat in species.baseStats) {
-      stats[stat] = calc(
-        gen,
-        stat,
-        species.baseStats[stat],
-        'ivs' in data && stat in data.ivs ? data.ivs[stat] : (gen < 3 ? 30 : 31),
-        'evs' in data && stat in data.evs ? data.evs[stat] : (gen < 3 ? 255 : letsgo ? 0 : 85),
-        data.level,
-        letsgo);
-    }
-
-
     var noHP = true;
     if (data.moves) {
       for (var move in data.moves) {
@@ -134,29 +121,59 @@ if (TOOLTIP) {
 
     var buf = '<div style="border-top: 1px solid #888; background: #dedede">';
     if (name) buf += '<p><b>' + name + '</b></p>';
-    if (gen >= 3 && !letsgo) {
-      buf += '<p><small>Abilities:</small> ' + display(data.abilities) + '</p>';
-    }
-    if (gen >= 2 && !(letsgo && !data.items)) {
-      buf += '<p><small>Items:</small> ' +
-        (data.items ? display(data.items) : '(No Item)') + '</p>';
-    }
+
     var multi = !['singles', 'doubles'].includes(gameType);
     if (data.roles) {
       var roles = filter(data.roles, clientPokemon);
+      var i = 0;
       for (var role of roles) {
-        buf += '<p><small style="text-decoration: underline;">' + role[0] + '</small> ' +
-          '<small>(' + Math.round(role[1].weight * 100) + '%)</small><div style="margin-left: 0.5em">';
+        buf += (i == 0 ? '<div>' : '<div style="border-top: 1px solid #888;">');
+        buf += '<p><span style="text-decoration: underline;">' + role[0] + '</span> ' +
+          '<small>(' + Math.round(role[1].weight * 100) + '%)</small>';
+          if (gen >= 3 && !letsgo) {
+            buf += '<p><small>Abilities:</small> ' + display(role[1].abilities) + '</p>';
+          }
+          if (gen >= 2 && !(letsgo && !role[1].items)) {
+            buf += '<p><small>Items:</small> ' +
+              (role[1].items ? display(role[1].items) : '(No Item)') + '</p>';
+          }
         if (gen === 9) {
           buf += '<p><small>Tera Types:</small> ' + display(role[1].teraTypes) + '</p>';
         }
-        buf += '<p><small>Moves:</small> ' + display(role[1].moves, multi) + '</p></div>';
+        buf += '<p><small>Moves:</small> ' + display(role[1].moves, multi) + '</p>';
+        buf += displayStats(gen, letsgo, species, role[1], data.level, noHP) + '</div>';
+        i++;
       }
     } else {
+      if (gen >= 3 && !letsgo) {
+        buf += '<p><small>Abilities:</small> ' + display(data.abilities) + '</p>';
+      }
+      if (gen >= 2 && !(letsgo && !data.items)) {
+        buf += '<p><small>Items:</small> ' +
+          (data.items ? display(data.items) : '(No Item)') + '</p>';
+      }
       buf += '<p><small>Moves:</small> ' + display(data.moves, multi) + '</p>';
+      buf += displayStats(gen, letsgo, species, data, data.level, noHP);
     }
 
-    buf += '<p>';
+    buf += '</div>';
+    return buf;
+  }
+
+  function displayStats(gen, letsgo, species, data, level, noHP) {
+    var stats = {};
+    for (var stat in species.baseStats) {
+      stats[stat] = calc(
+        gen,
+        stat,
+        species.baseStats[stat],
+        'ivs' in data && stat in data.ivs ? data.ivs[stat] : (gen < 3 ? 30 : 31),
+        'evs' in data && stat in data.evs ? data.evs[stat] : (gen < 3 ? 255 : letsgo ? 0 : 85),
+        level,
+        letsgo);
+    }
+
+    buf ='<p>';
     for (var statName of Dex.statNamesExceptHP) {
       if (gen === 1 && statName === 'spd') continue;
       var known = gen === 1 || (gen === 2 && noHP) ||
@@ -168,8 +185,6 @@ if (TOOLTIP) {
       buf += (italic ? '<i>' : '') + stats[statName] + (italic ? '</i>' : '');
     }
     buf += '</p>';
-
-    buf += '</div>';
     return buf;
   }
 
@@ -180,7 +195,6 @@ if (TOOLTIP) {
   function filter(roles, clientPokemon) {
     var all = Object.entries(roles);
     if (!clientPokemon) return all;
-    console.log(clientPokemon);
 
     var possible = [];
     outer: for (var role of all) {
