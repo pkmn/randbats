@@ -259,8 +259,8 @@ const displayStats = (letsgo, data, o, s) => {
           o.roles[role] = {};
           s.roles[role] = {weight: round(d.n / data.n)};
 
-          // displayAbilities(gen, letsgo, d, o.roles[role], s.roles[role]);
-          // displayItems(d, o.roles[role], s.roles[role]);
+          displayAbilities(gen, letsgo, d, o.roles[role], s.roles[role]);
+          displayItems(d, o.roles[role], s.roles[role]);
 
           o.roles[role].teraTypes = Array.from(d.teraTypes.keys()).sort();
           s.roles[role].teraTypes = Object.fromEntries(Array.from(d.teraTypes.entries())
@@ -270,7 +270,7 @@ const displayStats = (letsgo, data, o, s) => {
           s.roles[role].moves = Object.fromEntries(Array.from(d.moves.entries())
               .map(e => [dex.moves.get(e[0]).name, round(e[1] / d.n)]).sort(CMP.entries));
 
-          // displayStats(letsgo, d, o.roles[role], s.roles[role]);
+          displayStats(letsgo, d, o.roles[role], s.roles[role]);
         }
       } else {
         o.moves = Array.from(data.moves.keys()).map(m => dex.moves.get(m).name).sort();
