@@ -90,15 +90,21 @@ const getMoves = (species, doubles, sets) => {
 
 const getRoles = (species, sets) => {
   if (!sets || !sets[species.id]?.sets) return undefined;
-  const moves = {};
-  const teraTypes = {};
+  const roles = {};
   for (const set of sets[species.id].sets) {
-    moves[set.role] = new Map();
-    set.movepool.forEach(move => moves[set.role].set(Dex.toID(move), 0));
-    teraTypes[set.role] = new Map();
-    set.teraTypes.forEach(type => teraTypes[set.role].set(type, 0));
+    roles[set.role] = {
+      n: 0,
+      abilities: new Map(),
+      items: new Map(),
+      moves: new Map(),
+      teraTypes: new Map(),
+      ivs: {},
+      evs: {},
+    },
+    set.movepool.forEach(move => roles[set.role].moves.set(Dex.toID(move), 0));
+    set.teraTypes.forEach(type => roles[set.role].teraTypes.set(type, 0));
   }
-  return {moves, teraTypes};
+  return roles;
 };
 
 const round = v => Math.round(v * 1e4) / 1e4;
@@ -108,6 +114,70 @@ const serialize = async (data, file, factor = 1) => {
   await fs.promises.writeFile(`data/${file}`, json);
   const compressed = await gzip(json);
   return [json.length, compressed.length];
+};
+
+const increment = (gen, s, set) => {
+  s.n++;
+  if (set.ability) s.abilities.set(set.ability, (s.abilities.get(set.ability) || 0) + 1);
+  if (set.item) s.items.set(set.item, (s.items.get(set.item) || 0) + 1);
+
+  const IVS = gen < 3 ? 30 : 31;
+  const EVS = gen < 3 ? 255 : 85;
+  for (const stat in set.ivs) {
+    if (set.ivs[stat] !== IVS) {
+      if (!(stat in s.ivs)) {
+        s.ivs[stat] = set.ivs[stat];
+      } else if (s.ivs[stat] !== set.ivs[stat]) {
+        s.ivs[stat] = -1;
+      }
+    } else if (stat in s.ivs) {
+      s.ivs[stat] = -1;
+    }
+    if (set.evs[stat] !== EVS) {
+      if (!(stat in s.evs)) {
+        s.evs[stat] = set.evs[stat];
+      } else if (s.evs[stat] !== set.evs[stat]) {
+        s.evs[stat] = -1;
+      }
+    } else if (stat in s.evs) {
+      s.evs[stat] = -1;
+    }
+  }
+};
+
+const displayAbilities = (gen, letsgo, data, o, s) => {
+  if (gen >= 3 && !letsgo) {
+    o.abilities = Array.from(data.abilities.keys()).sort();
+    s.abilities = Object.fromEntries(Array.from(data.abilities.entries())
+      .map(e => [e[0], round(e[1] / data.n)]).sort(CMP.entries));
+  }
+};
+
+const displayItems = (data, o, s) => {
+  if (data.items.size) {
+    o.items = Array.from(data.items.keys()).sort();
+    s.items = Object.fromEntries(Array.from(data.items.entries())
+      .map(e => [e[0], round(e[1] / data.n)]).sort(CMP.entries));
+  }
+};
+
+const displayStats = (letsgo, data, o, s) => {
+  if (!letsgo) {
+    for (const [stat, val] of Object.entries(data.evs).sort((CMP.stats))) {
+      if (val !== -1) {
+        o.evs = o.evs || {};
+        o.evs[stat] = val;
+      }
+    }
+    s.evs = o.evs;
+  }
+  for (const [stat, val] of Object.entries(data.ivs).sort((CMP.stats))) {
+    if (val !== -1) {
+      o.ivs = o.ivs || {};
+      o.ivs[stat] = val;
+    }
+    s.evs = o.ivs;
+  }
 };
 
 (async () => {
@@ -127,8 +197,6 @@ const serialize = async (data, file, factor = 1) => {
     const letsgo = format.id.includes('letsgo');
     const doubles = format.gameType === 'doubles';
     const generator = Teams.getGenerator(format, SEED);
-    const IVS = gen < 3 ? 30 : 31;
-    const EVS = gen < 3 ? 255 : 85;
     const sets = getSets(format);
 
     const pool = {};
@@ -152,44 +220,26 @@ const serialize = async (data, file, factor = 1) => {
         const s = formes[forme.name] || (formes[forme.name] = {
           n: 0,
           level: set.species.startsWith('Zoroark') ? 0 : set.level,
+          roles,
           abilities: new Map(),
           items: new Map(),
-          moves: roles ? roles.moves : getMoves(forme, doubles),
-          teraTypes: roles?.teraTypes,
-          roles: new Map(),
+          moves: roles ? undefined : getMoves(forme, doubles),
+          roles,
           ivs: {},
           evs: {},
         });
-        s.n++;
-        const moves = set.role ? s.moves[set.role] : s.moves;
+
+        const moves = set.role ? s.roles[set.role].moves : s.moves;
         for (const m of set.moves) moves.set(m, (moves.get(m) || 0) + 1);
-        for (const stat in set.ivs) {
-          if (set.ivs[stat] !== IVS) {
-            if (!(stat in s.ivs)) {
-              s.ivs[stat] = set.ivs[stat];
-            } else if (s.ivs[stat] !== set.ivs[stat]) {
-              s.ivs[stat] = -1;
-            }
-          } else if (stat in s.ivs) {
-            s.ivs[stat] = -1;
-          }
-          if (set.evs[stat] !== EVS) {
-            if (!(stat in s.evs)) {
-              s.evs[stat] = set.evs[stat];
-            } else if (s.evs[stat] !== set.evs[stat]) {
-              s.evs[stat] = -1;
-            }
-          } else if (stat in s.evs) {
-            s.evs[stat] = -1;
+
+        increment(gen, s, set);
+        if (set.role) {
+          increment(gen, s.roles[set.role], set);
+          if (set.teraType) {
+            s.roles[set.role].teraTypes.set(set.teraType,
+              (s.roles[set.role].teraTypes.get(set.teraType) || 0) + 1);
           }
         }
-        if (set.ability) s.abilities.set(set.ability, (s.abilities.get(set.ability) || 0) + 1);
-        if (set.item) s.items.set(set.item, (s.items.get(set.item) || 0) + 1);
-        if (set.teraType) {
-          s.teraTypes[set.role].set(set.teraType,
-            (s.teraTypes[set.role].get(set.teraType) || 0) + 1);
-        }
-        if (set.role) s.roles.set(set.role, (s.roles.get(set.role) || 0) + 1);
       }
     }
 
@@ -198,31 +248,29 @@ const serialize = async (data, file, factor = 1) => {
     for (const [name, data] of Object.entries(formes).sort(CMP.str)) {
       const o = {level: data.level};
       const s = {level: data.level};
-      if (gen >= 3 && !letsgo) {
-        o.abilities = Array.from(data.abilities.keys()).sort();
-        s.abilities = Object.fromEntries(Array.from(data.abilities.entries())
-          .map(e => [e[0], round(e[1] / data.n)]).sort(CMP.entries));
-      }
-      if (data.items.size) {
-        o.items = Array.from(data.items.keys()).sort();
-        s.items = Object.fromEntries(Array.from(data.items.entries())
-          .map(e => [e[0], round(e[1] / data.n)]).sort(CMP.entries));
-      }
+
+      displayAbilities(gen, letsgo, data, o, s);
+      displayItems(data, o, s);
+
       if (sets) {
         o.roles = {};
         s.roles = {};
-        for (const [role, n] of Array.from(data.roles.entries()).sort((a, b) => b[1] - a[1])) {
-          o.roles[role] = {
-            teraTypes: Array.from(data.teraTypes[role].keys()).sort(),
-            moves: Array.from(data.moves[role].keys()).map(m => dex.moves.get(m).name).sort(),
-          };
-          s.roles[role] = {
-            weight: round(n / data.n),
-            teraTypes: Object.fromEntries(Array.from(data.teraTypes[role].entries())
-              .map(e => [e[0], round(e[1] / n)]).sort(CMP.entries)),
-            moves: Object.fromEntries(Array.from(data.moves[role].entries())
-              .map(e => [dex.moves.get(e[0]).name, round(e[1] / n)]).sort(CMP.entries)),
-          };
+        for (const [role, d] of Object.entries(data.roles).sort((a, b) => b[1].n - a[1].n)) {
+          o.roles[role] = {};
+          s.roles[role] = {weight: round(d.n / data.n)};
+
+          // displayAbilities(gen, letsgo, d, o.roles[role], s.roles[role]);
+          // displayItems(d, o.roles[role], s.roles[role]);
+
+          o.roles[role].teraTypes = Array.from(d.teraTypes.keys()).sort();
+          s.roles[role].teraTypes = Object.fromEntries(Array.from(d.teraTypes.entries())
+          .map(e => [e[0], round(e[1] / d.n)]).sort(CMP.entries));
+
+          o.roles[role].moves = Array.from(d.moves.keys()).map(m => dex.moves.get(m).name).sort();
+          s.roles[role].moves = Object.fromEntries(Array.from(d.moves.entries())
+              .map(e => [dex.moves.get(e[0]).name, round(e[1] / d.n)]).sort(CMP.entries));
+
+          // displayStats(letsgo, d, o.roles[role], s.roles[role]);
         }
       } else {
         o.moves = Array.from(data.moves.keys()).map(m => dex.moves.get(m).name).sort();
@@ -230,23 +278,9 @@ const serialize = async (data, file, factor = 1) => {
           .map(e => [dex.moves.get(e[0]).name, round(e[1] / data.n)]).sort(CMP.entries));
       }
 
-      if (!letsgo) {
-        for (const [stat, val] of Object.entries(data.evs).sort((CMP.stats))) {
-          if (val !== -1) {
-            o.evs = o.evs || {};
-            o.evs[stat] = val;
-          }
-        }
-        s.evs = o.evs;
-      }
-      for (const [stat, val] of Object.entries(data.ivs).sort((CMP.stats))) {
-        if (val !== -1) {
-          o.ivs = o.ivs || {};
-          o.ivs[stat] = val;
-        }
-        s.evs = o.ivs;
-      }
-      options[name] = o;
+      displayStats(letsgo, data, o, s);
+
+      options[name] = o
       stats[name] = s;
     }
 
