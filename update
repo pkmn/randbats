@@ -41,9 +41,9 @@ const verify = sets => {
 // gen9randomdoublebattle currently uses the same sets as singles
 const getSets = format => format.id.startsWith('gen9')
   ? verify(require('./vendor/pokemon-showdown/data/random-sets.json'))
-  : undefined; //unnecessary
+  : undefined;
 
-const getForme = (dex, pool, set) => { //unnecessary
+const getForme = (dex, pool, set) => {
   if (set.gigantamax) {
     return dex.species.get(set.species.startsWith('Pikachu')
       ? 'Pikachu-Gmax'
@@ -92,7 +92,7 @@ const getMoves = (species, doubles, sets) => {
   return moves;
 };
 
-const getRoles = (species, sets) => { //unnecessary
+const getRoles = (species, sets) => { 
   if (!sets || !sets[species.id]?.sets) return undefined;
   const roles = {};
   for (const set of sets[species.id].sets) {
@@ -204,7 +204,6 @@ const displayStats = (letsgo, data, o, s) => {
     const dex = Dex.forFormat(format);
     const letsgo = format.id.includes('letsgo');
     const doubles = format.gameType === 'doubles';
-    const generator = Teams.getGenerator(format, SEED); // unnecessary
     const sets = getSets(format);
 
     const pool = {};
