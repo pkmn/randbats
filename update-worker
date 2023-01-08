@@ -1,0 +1,51 @@
+const {parentPort, workerData, threadId} = require('worker_threads');
+const {Dex, Teams} = require('./vendor/pokemon-showdown');
+const {getSets, getForme, getMoves, getRoles, increment} = require('./update');
+
+//vars and functions from update script
+const m = threadId + 1;
+const SEED = [1 * m, 2 * m, 3 * m, 4 * m];
+
+// Thread specific info
+const pool = workerData;
+const N = parseInt(process.argv[2]);
+const format = Dex.formats.get(process.argv[3]);
+
+// variables ported from update main function
+const formes = {};
+const generator = Teams.getGenerator(format, SEED);
+const dex = Dex.forFormat(format);
+const sets = getSets(format);
+const doubles = format.gameType === 'doubles';
+const gen = Number(format.id.charAt(3));
+
+for (let i = 0; i < N; i++) {
+    for (const set of generator.getTeam()) {
+      const forme = getForme(dex, pool, set);
+      const roles = getRoles(forme, sets);
+      const s = formes[forme.name] || (formes[forme.name] = {
+        n: 0,
+        level: set.species.startsWith('Zoroark') ? 0 : set.level,
+        roles,
+        abilities: new Map(),
+        items: new Map(),
+        moves: roles ? undefined : getMoves(forme, doubles),
+        roles,
+        ivs: {},
+        evs: {},
+      });
+
+      const moves = set.role ? s.roles[set.role].moves : s.moves;
+      for (const m of set.moves) moves.set(m, (moves.get(m) || 0) + 1);
+
+      increment(gen, s, set);
+      if (set.role) {
+        increment(gen, s.roles[set.role], set);
+        if (set.teraType) {
+          s.roles[set.role].teraTypes.set(set.teraType,
+            (s.roles[set.role].teraTypes.get(set.teraType) || 0) + 1);
+        }
+      }
+    }
+  }
+parentPort.postMessage(formes);

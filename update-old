@@ -6,15 +6,12 @@ const util = require('util');
 const stringify = require('json-stringify-pretty-compact');
 const zlib = require('zlib');
 const gzip = util.promisify(zlib.gzip);
-const {Worker, isMainThread} = require('worker_threads');
 
 const {Dex, Teams} = require('./vendor/pokemon-showdown');
-
 Dex.includeModData();
 
 const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
-const NUM_WORKERS = 4;
 const FORMAT_ARG = process.argv[3];
 const SKIP = ['factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'blitz', 'generated'];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
@@ -41,9 +38,9 @@ const verify = sets => {
 // gen9randomdoublebattle currently uses the same sets as singles
 const getSets = format => format.id.startsWith('gen9')
   ? verify(require('./vendor/pokemon-showdown/data/random-sets.json'))
-  : undefined; //unnecessary
+  : undefined;
 
-const getForme = (dex, pool, set) => { //unnecessary
+const getForme = (dex, pool, set) => {
   if (set.gigantamax) {
     return dex.species.get(set.species.startsWith('Pikachu')
       ? 'Pikachu-Gmax'
@@ -92,7 +89,7 @@ const getMoves = (species, doubles, sets) => {
   return moves;
 };
 
-const getRoles = (species, sets) => { //unnecessary
+const getRoles = (species, sets) => {
   if (!sets || !sets[species.id]?.sets) return undefined;
   const roles = {};
   for (const set of sets[species.id].sets) {
@@ -185,9 +182,7 @@ const displayStats = (letsgo, data, o, s) => {
 };
 
 (async () => {
-  if(!isMainThread) {
-    return;
-  }
+  console.log("start");
   fs.rmSync('data', {recursive: true, force: true});
   fs.mkdirSync('data/js', {recursive: true});
   fs.mkdirSync('data/stats');
@@ -204,7 +199,7 @@ const displayStats = (letsgo, data, o, s) => {
     const dex = Dex.forFormat(format);
     const letsgo = format.id.includes('letsgo');
     const doubles = format.gameType === 'doubles';
-    const generator = Teams.getGenerator(format, SEED); // unnecessary
+    const generator = Teams.getGenerator(format, SEED);
     const sets = getSets(format);
 
     const pool = {};
@@ -220,50 +215,36 @@ const displayStats = (letsgo, data, o, s) => {
       pool[base][species.name] = moves;
     }
 
-    const workers = Array(NUM_WORKERS);
-    for(let i = 0; i < NUM_WORKERS; i++) {
-      workers[i] = new Promise((resolve, reject) => {
-        const numteams = Math.floor(N / NUM_WORKERS) + (i === NUM_WORKERS ? N % NUM_WORKERS : 0);
-        const w = new Worker(__dirname + '/update-worker', 
-          {workerData: pool, argv: [numteams, format.id]});
-        w.on('message', resolve);
-      });
-    }
-    const formesList = await Promise.all(workers);
-    const formes = formesList[0];
-    const attributesToIterate = ['abilities', 'items', 'moves', 'teraTypes'];
-    for(let forme of formesList.slice(1)) {
-      for(let pkmn in forme) {
-        if(!formes[pkmn]) {
-          formes[pkmn] = forme[pkmn];
-          continue;
-        }
-        const currPkmn = formes[pkmn];
-        const updatePkmn = forme[pkmn];
-        currPkmn.n += updatePkmn.n;
-        for(const attribute of attributesToIterate) {
-          if(!currPkmn[attribute]) {
-            continue;
-          }
-          for(const [k, count] of updatePkmn[attribute][Symbol.iterator]()) {
-            currPkmn[attribute].set(k, count + (currPkmn[attribute].get(k) || 0));
-          }
-        }
+    const formes = {};
+    for (let i = 0; i < N; i++) {
+      for (const set of generator.getTeam()) {
+        const forme = getForme(dex, pool, set);
+        const roles = getRoles(forme, sets);
+        const s = formes[forme.name] || (formes[forme.name] = {
+          n: 0,
+          level: set.species.startsWith('Zoroark') ? 0 : set.level,
+          roles,
+          abilities: new Map(),
+          items: new Map(),
+          moves: roles ? undefined : getMoves(forme, doubles),
+          roles,
+          ivs: {},
+          evs: {},
+        });
 
-        if(currPkmn.roles) {
-          for(const role in currPkmn.roles) {
-            const roleSet = currPkmn.roles[role];
-            roleSet.n += updatePkmn.roles[role].n;
-            for(const attribute of attributesToIterate) {
-              for(const [k, count] of updatePkmn.roles[role][attribute][Symbol.iterator]()) {
-                roleSet[attribute].set(k, count + (roleSet[attribute].get(k) || 0));
-              }
-            }
+        const moves = set.role ? s.roles[set.role].moves : s.moves;
+        for (const m of set.moves) moves.set(m, (moves.get(m) || 0) + 1);
+
+        increment(gen, s, set);
+        if (set.role) {
+          increment(gen, s.roles[set.role], set);
+          if (set.teraType) {
+            s.roles[set.role].teraTypes.set(set.teraType,
+              (s.roles[set.role].teraTypes.get(set.teraType) || 0) + 1);
           }
         }
       }
     }
-
     const options = {};
     const stats = {};
     for (const [name, data] of Object.entries(formes).sort(CMP.str)) {
@@ -323,4 +304,3 @@ const displayStats = (letsgo, data, o, s) => {
   process.exit(1);
 });
 
-module.exports = {getSets, getForme, getMoves, getRoles, increment};
