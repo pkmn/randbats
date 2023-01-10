@@ -193,7 +193,7 @@ var GEN5RANDOMBATTLE = {
   'Landorus-Therian': { level: 80, abilities: [ 'Intimidate' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Leftovers', 'Life Orb' ], moves: [ 'Earthquake', 'Rock Polish', 'Stealth Rock', 'Stone Edge', 'Superpower', 'Swords Dance', 'U-turn' ] },
   Lanturn: { level: 84, abilities: [ 'Volt Absorb' ], items: [ 'Choice Specs', 'Leftovers' ], moves: [ 'Heal Bell', 'Ice Beam', 'Scald', 'Thunder Wave', 'Thunderbolt', 'Volt Switch' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Lapras: { level: 86, abilities: [ 'Water Absorb' ], items: [ 'Leftovers' ], moves: [ 'Heal Bell', 'Hydro Pump', 'Ice Beam', 'Substitute', 'Thunderbolt', 'Toxic' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
-  Latias: { level: 80, abilities: [ 'Levitate' ], items: [ 'Choice Specs', 'Leftovers' ], moves: [ 'Calm Mind', 'Draco Meteor', 'Healing Wish', 'Hidden Power Fire', 'Psyshock', 'Roost', 'Surf' ], evs: { atk: 0 } },
+  Latias: { level: 82, abilities: [ 'Levitate' ], items: [ 'Choice Specs', 'Leftovers' ], moves: [ 'Calm Mind', 'Draco Meteor', 'Healing Wish', 'Hidden Power Fire', 'Psyshock', 'Roost', 'Surf' ], evs: { atk: 0 } },
   Latios: { level: 80, abilities: [ 'Levitate' ], items: [ 'Choice Specs', 'Life Orb' ], moves: [ 'Draco Meteor', 'Hidden Power Fire', 'Psyshock', 'Roost', 'Surf', 'Trick' ], evs: { atk: 0 } },
   Leafeon: { level: 90, abilities: [ 'Chlorophyll' ], items: [ 'Life Orb' ], moves: [ 'Leaf Blade', 'Return', 'Swords Dance', 'X-Scissor' ] },
   Leavanny: { level: 90, abilities: [ 'Swarm' ], items: [ 'Leftovers' ], moves: [ 'Leaf Blade', 'Swords Dance', 'Synthesis', 'X-Scissor' ] },
