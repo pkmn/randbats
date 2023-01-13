@@ -36,7 +36,7 @@ var GEN4RANDOMBATTLE = {
   Beautifly: { level: 88, abilities: [ 'Swarm' ], items: [ 'Choice Scarf', 'Choice Specs', 'Focus Sash', 'Life Orb' ], moves: [ 'Bug Buzz', 'Hidden Power Ground', 'Psychic', 'Stun Spore', 'U-turn' ], ivs: { spa: 30, spd: 30 } },
   Beedrill: { level: 88, abilities: [ 'Swarm' ], items: [ 'Choice Band', 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Brick Break', 'Poison Jab', 'Swords Dance', 'Toxic Spikes', 'U-turn', 'X-Scissor' ] },
   Bellossom: { level: 88, abilities: [ 'Chlorophyll' ], items: [ 'Heat Rock', 'Leftovers', 'Life Orb' ], moves: [ 'Hidden Power Fire', 'Leaf Storm', 'Moonlight', 'Sleep Powder', 'Sludge Bomb', 'Solar Beam', 'Sunny Day' ], evs: { atk: 0 } },
-  Bibarel: { level: 88, abilities: [ 'Simple', 'Unaware' ], items: [ 'Chesto Berry' ], moves: [ 'Curse', 'Quick Attack', 'Rest', 'Waterfall' ] },
+  Bibarel: { level: 88, abilities: [ 'Simple' ], items: [ 'Chesto Berry' ], moves: [ 'Curse', 'Quick Attack', 'Rest', 'Waterfall' ] },
   Blastoise: { level: 84, abilities: [ 'Torrent' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Ice Beam', 'Rapid Spin', 'Rest', 'Roar', 'Sleep Talk', 'Surf', 'Toxic' ] },
   Blaziken: { level: 84, abilities: [ 'Blaze' ], items: [ 'Choice Band', 'Choice Scarf', 'Expert Belt', 'Focus Sash', 'Life Orb' ], moves: [ 'Agility', 'Fire Blast', 'Flare Blitz', 'Stone Edge', 'Superpower', 'Thunder Punch', 'Vacuum Wave' ] },
   Blissey: { level: 80, abilities: [ 'Natural Cure' ], items: [ 'Leftovers' ], moves: [ 'Aromatherapy', 'Flamethrower', 'Ice Beam', 'Protect', 'Seismic Toss', 'Soft-Boiled', 'Stealth Rock', 'Thunder Wave', 'Toxic', 'Wish' ], evs: { atk: 0 }, ivs: { atk: 0 } },
