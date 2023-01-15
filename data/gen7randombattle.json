@@ -51,7 +51,7 @@
   "Avalugg": {"level": 88, "abilities": ["Sturdy"], "items": ["Leftovers"], "moves": ["Avalanche", "Earthquake", "Rapid Spin", "Recover", "Roar", "Toxic"]},
   "Azelf": {"level": 82, "abilities": ["Levitate"], "items": ["Focus Sash", "Leftovers", "Life Orb"], "moves": ["Dazzling Gleam", "Explosion", "Fire Blast", "Knock Off", "Nasty Plot", "Psyshock", "Stealth Rock", "Taunt"]},
   "Azumarill": {"level": 80, "abilities": ["Huge Power"], "items": ["Choice Band", "Normalium Z", "Sitrus Berry"], "moves": ["Aqua Jet", "Belly Drum", "Knock Off", "Liquidation", "Play Rough", "Superpower"]},
-  "Banette": {"level": 88, "abilities": ["Cursed Body", "Insomnia"], "items": ["Focus Sash", "Leftovers"], "moves": ["Destiny Bond", "Knock Off", "Shadow Claw", "Shadow Sneak", "Sucker Punch", "Taunt", "Will-O-Wisp"]},
+  "Banette": {"level": 88, "abilities": ["Cursed Body", "Insomnia"], "items": ["Focus Sash", "Leftovers", "Life Orb"], "moves": ["Destiny Bond", "Knock Off", "Shadow Claw", "Shadow Sneak", "Sucker Punch", "Taunt", "Will-O-Wisp"]},
   "Banette-Mega": {"level": 84, "abilities": ["Cursed Body", "Insomnia"], "items": ["Banettite"], "moves": ["Destiny Bond", "Knock Off", "Shadow Claw", "Sucker Punch", "Taunt", "Will-O-Wisp"]},
   "Barbaracle": {"level": 86, "abilities": ["Tough Claws"], "items": ["Choice Band", "Choice Scarf", "White Herb"], "moves": ["Earthquake", "Liquidation", "Low Kick", "Shell Smash", "Stone Edge"]},
   "Basculin": {"level": 88, "abilities": ["Adaptability"], "items": ["Choice Band"], "moves": ["Aqua Jet", "Crunch", "Head Smash", "Liquidation", "Superpower"]},

@@ -380,7 +380,7 @@ var GEN7RANDOMDOUBLESBATTLE = {
   Primeape: { level: 84, abilities: [ 'Defiant', 'Vital Spirit' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Close Combat', 'Ice Punch', 'Poison Jab', 'Protect', 'Rock Slide', 'Stomping Tantrum', 'Stone Edge', 'Taunt', 'U-turn' ] },
   Probopass: { level: 77, abilities: [ 'Sturdy' ], items: [ 'Sitrus Berry' ], moves: [ 'Flash Cannon', 'Helping Hand', 'Power Gem', 'Protect', 'Stealth Rock', 'Thunder Wave', 'Wide Guard' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Purugly: { level: 84, abilities: [ 'Thick Fat' ], items: [ 'Choice Band', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Fake Out', 'Knock Off', 'Protect', 'Quick Attack', 'Return', 'U-turn' ] },
-  Pyroar: { level: 78, abilities: [ 'Unnerve' ], items: [ 'Grassium Z', 'Life Orb', 'Power Herb', 'Sitrus Berry' ], moves: [ 'Fire Blast', 'Hyper Voice', 'Protect', 'Solar Beam', 'Sunny Day', 'Will-O-Wisp' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Pyroar: { level: 78, abilities: [ 'Unnerve' ], items: [ 'Grassium Z', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Fire Blast', 'Hyper Voice', 'Protect', 'Solar Beam', 'Sunny Day', 'Will-O-Wisp' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Pyukumuku: { level: 88, abilities: [ 'Unaware' ], items: [ 'Light Clay', 'Sitrus Berry' ], moves: [ 'Counter', 'Helping Hand', 'Light Screen', 'Memento', 'Reflect' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Quagsire: { level: 86, abilities: [ 'Unaware' ], items: [ 'Sitrus Berry' ], moves: [ 'Earthquake', 'Icy Wind', 'Protect', 'Recover', 'Scald', 'Toxic' ] },
   Qwilfish: { level: 85, abilities: [ 'Intimidate' ], items: [ 'Sitrus Berry' ], moves: [ 'Destiny Bond', 'Liquidation', 'Poison Jab', 'Protect', 'Swords Dance', 'Taunt', 'Thunder Wave' ] },
