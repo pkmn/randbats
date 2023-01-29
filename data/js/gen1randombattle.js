@@ -101,7 +101,7 @@ var GEN1RANDOMBATTLE = {
   Pikachu: { level: 88, moves: [ 'Agility', 'Body Slam', 'Seismic Toss', 'Surf', 'Thunder', 'Thunder Wave', 'Thunderbolt' ] },
   Pinsir: { level: 77, moves: [ 'Body Slam', 'Hyper Beam', 'Seismic Toss', 'Submission', 'Swords Dance' ] },
   Poliwag: { level: 88, moves: [ 'Amnesia', 'Blizzard', 'Hypnosis', 'Psychic', 'Surf' ] },
-  Poliwhirl: { level: 77, moves: [ 'Amnesia', 'Blizzard', 'Counter', 'Hypnosis', 'Psychic', 'Surf' ] },
+  Poliwhirl: { level: 76, moves: [ 'Amnesia', 'Blizzard', 'Counter', 'Hypnosis', 'Psychic', 'Surf' ] },
   Poliwrath: { level: 76, moves: [ 'Amnesia', 'Blizzard', 'Body Slam', 'Earthquake', 'Hypnosis', 'Psychic', 'Submission', 'Surf' ] },
   Ponyta: { level: 88, moves: [ 'Agility', 'Body Slam', 'Fire Blast', 'Reflect' ] },
   Porygon: { level: 77, moves: [ 'Blizzard', 'Double-Edge', 'Psychic', 'Recover', 'Thunder Wave', 'Thunderbolt', 'Tri Attack' ] },
