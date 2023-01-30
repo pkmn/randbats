@@ -27,6 +27,7 @@ if (TOOLTIP) {
           for (var name in json) {
             var pokemon = json[name];
             data[pokemon.level] = data[pokemon.level] || {};
+            // Dex.forGen not important here because we're not looking at stats
             var species = Dex.species.get(name);
             var id = toID(species.forme === 'Gmax'
               ? species.baseSpecies
@@ -52,15 +53,15 @@ if (TOOLTIP) {
     var format = toID(this.battle.tier);
     if (!format || !format.includes('random')) return original;
 
-    var species = Dex.species.get(
+    var gen = Number(format.charAt(3));
+    var letsgo = format.includes('letsgo');
+    var gameType = this.battle.gameType;
+
+    var species = Dex.forGen(gen).species.get(
       clientPokemon.volatiles.formechange
       ? clientPokemon.volatiles.formechange[1]
       : clientPokemon.speciesForme);
     if (!species) return original;
-
-    var gen = Number(format.charAt(3));
-    var letsgo = format.includes('letsgo');
-    var gameType = this.battle.gameType;
 
     if (!['singles', 'doubles'].includes(gameType)) {
       format = 'gen' + gen + 'randomdoublesbattle';
