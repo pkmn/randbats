@@ -1,0 +1,6 @@
+3,4c3,4
+<   "name": "Pokémon Showdown Randbats Tooltip",
+<   "description": "Enhanced tooltip functionality for Pokémon Showdown Random Battle formats.",
+---
+>   "name": "Showdown Randbats Tooltip",
+>   "description": "Enhanced tooltip functionality for Showdown's Random Battle formats.",

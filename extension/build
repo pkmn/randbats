@@ -1,6 +1,14 @@
 #!/bin/sh
+
 cd "$(dirname "$0")"
+
 cp index.js *.png chrome
-cp index.js *.png firefox
 rm -f chrome.zip && zip -r chrome.zip chrome
+
+patch chrome/manifest.json webstore.patch
+rm -f chrome.webstore.zip && zip -r chrome.webstore.zip chrome
+patch --reverse chrome/manifest.json webstore.patch
+
+cp index.js *.png firefox
 rm -f firefox.zip && cd firefox && zip -r ../firefox.zip *
+
