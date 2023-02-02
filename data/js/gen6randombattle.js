@@ -401,7 +401,7 @@ var GEN6RANDOMBATTLE = {
   Slowbro: { level: 80, abilities: [ 'Regenerator' ], items: [ 'Choice Specs', 'Leftovers' ], moves: [ 'Fire Blast', 'Ice Beam', 'Psyshock', 'Scald', 'Slack Off', 'Thunder Wave', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   'Slowbro-Mega': { level: 80, abilities: [ 'Regenerator' ], items: [ 'Slowbronite' ], moves: [ 'Calm Mind', 'Fire Blast', 'Ice Beam', 'Psyshock', 'Scald', 'Slack Off' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Slowking: { level: 84, abilities: [ 'Regenerator' ], items: [ 'Assault Vest', 'Choice Specs', 'Leftovers', 'Life Orb' ], moves: [ 'Dragon Tail', 'Fire Blast', 'Ice Beam', 'Nasty Plot', 'Psychic', 'Psyshock', 'Scald', 'Slack Off', 'Thunder Wave', 'Toxic', 'Trick Room' ] },
-  Slurpuff: { level: 84, abilities: [ 'Unburden' ], items: [ 'Sitrus Berry' ], moves: [ 'Belly Drum', 'Drain Punch', 'Play Rough', 'Return' ], evs: { hp: 81 } },
+  Slurpuff: { level: 82, abilities: [ 'Unburden' ], items: [ 'Sitrus Berry' ], moves: [ 'Belly Drum', 'Drain Punch', 'Play Rough', 'Return' ], evs: { hp: 81 } },
   Smeargle: { level: 88, abilities: [ 'Own Tempo' ], items: [ 'Focus Sash' ], moves: [ 'Destiny Bond', 'Spore', 'Stealth Rock', 'Sticky Web', 'Whirlwind' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Snorlax: { level: 82, abilities: [ 'Thick Fat' ], items: [ 'Assault Vest', 'Chesto Berry', 'Choice Band', 'Leftovers' ], moves: [ 'Body Slam', 'Crunch', 'Curse', 'Earthquake', 'Fire Punch', 'Pursuit', 'Rest', 'Return', 'Sleep Talk', 'Whirlwind' ] },
   Solrock: { level: 88, abilities: [ 'Levitate' ], items: [ 'Focus Sash', 'Leftovers', 'Life Orb', 'Light Clay' ], moves: [ 'Earthquake', 'Explosion', 'Light Screen', 'Morning Sun', 'Reflect', 'Rock Slide', 'Stealth Rock', 'Will-O-Wisp' ] },
