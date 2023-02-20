@@ -128,7 +128,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Hypno: { level: 88, abilities: [ 'Inner Focus', 'Insomnia' ], items: [ 'Life Orb' ], moves: [ 'Focus Blast', 'Psychic', 'Shadow Ball', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Illumise: { level: 88, abilities: [ 'Prankster' ], items: [ 'Leftovers' ], moves: [ 'Bug Buzz', 'Encore', 'Roost', 'Thunder Wave', 'Wish' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Infernape: { level: 80, abilities: [ 'Blaze' ], items: [ 'Choice Band', 'Choice Scarf', 'Leftovers', 'Life Orb' ], moves: [ 'Close Combat', 'Flare Blitz', 'Mach Punch', 'Stealth Rock', 'Stone Edge', 'Swords Dance', 'U-turn' ] },
-  Jirachi: { level: 80, abilities: [ 'Serene Grace' ], items: [ 'Leftovers' ], moves: [ 'Healing Wish', 'Stealth Rock', 'Thunder Wave', 'U-turn', 'Zen Headbutt' ] },
+  Jirachi: { level: 80, abilities: [ 'Serene Grace' ], items: [ 'Choice Scarf', 'Choice Specs', 'Leftovers' ], moves: [ 'Calm Mind', 'Dazzling Gleam', 'Flash Cannon', 'Psychic', 'Shadow Ball', 'Thunderbolt', 'U-turn' ] },
   Jolteon: { level: 84, abilities: [ 'Volt Absorb' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Baton Pass', 'Shadow Ball', 'Thunderbolt', 'Volt Switch', 'Yawn' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Jumpluff: { level: 88, abilities: [ 'Infiltrator' ], moves: [ 'Acrobatics', 'Leech Seed', 'Sleep Powder', 'Strength Sap', 'Substitute' ] },
   Jynx: { level: 86, abilities: [ 'Dry Skin' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Ice Beam', 'Lovely Kiss', 'Nasty Plot', 'Psychic', 'Substitute' ], evs: { hp: 81, atk: 0 }, ivs: { atk: 0 } },
