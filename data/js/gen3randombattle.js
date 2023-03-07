@@ -46,7 +46,7 @@ var GEN3RANDOMBATTLE = {
   Donphan: { level: 82, abilities: [ 'Sturdy' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Earthquake', 'Rapid Spin', 'Rest', 'Rock Slide', 'Sleep Talk', 'Toxic' ] },
   Dragonite: { level: 82, abilities: [ 'Inner Focus' ], items: [ 'Choice Band', 'Leftovers', 'Lum Berry' ], moves: [ 'Double-Edge', 'Dragon Dance', 'Earthquake', 'Flamethrower', 'Heal Bell', 'Hidden Power Flying', 'Ice Beam', 'Substitute' ], ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30 } },
   Dugtrio: { level: 80, abilities: [ 'Arena Trap' ], items: [ 'Choice Band', 'Liechi Berry' ], moves: [ 'Aerial Ace', 'Earthquake', 'Hidden Power Bug', 'Rock Slide', 'Substitute' ] },
-  Dunsparce: { level: 80, abilities: [ 'Serene Grace' ], items: [ 'Chesto Berry', 'Choice Band', 'Leftovers' ], moves: [ 'Body Slam', 'Curse', 'Headbutt', 'Rest', 'Rock Slide', 'Shadow Ball', 'Thunder Wave' ] },
+  Dunsparce: { level: 88, abilities: [ 'Serene Grace' ], items: [ 'Chesto Berry', 'Choice Band', 'Leftovers' ], moves: [ 'Body Slam', 'Curse', 'Headbutt', 'Rest', 'Rock Slide', 'Shadow Ball', 'Thunder Wave' ] },
   Dusclops: { level: 82, abilities: [ 'Pressure' ], items: [ 'Chesto Berry', 'Leftovers' ], moves: [ 'Focus Punch', 'Ice Beam', 'Pain Split', 'Rest', 'Shadow Ball', 'Sleep Talk', 'Substitute', 'Will-O-Wisp' ] },
   Dustox: { level: 90, abilities: [ 'Shield Dust' ], items: [ 'Leftovers' ], moves: [ 'Hidden Power Ground', 'Light Screen', 'Moonlight', 'Sludge Bomb', 'Toxic', 'Whirlwind' ] },
   Electabuzz: { level: 84, abilities: [ 'Static' ], items: [ 'Leftovers', 'Petaya Berry' ], moves: [ 'Cross Chop', 'Fire Punch', 'Focus Punch', 'Hidden Power Grass', 'Ice Punch', 'Substitute', 'Thunderbolt' ] },

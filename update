@@ -15,30 +15,43 @@ const N = +process.argv[2] || 100_000;
 const SKIP =
   ['factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'blitz', 'generated', 'joltemons'];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
-const FIELDS = ['role', 'movepool', 'teraTypes'];
+const FIELDS = {
+  gen9: ['role', 'movepool', 'teraTypes'],
+  gen1: ['level', 'moves', 'essentialMove', 'exclusiveMoves', 'comboMoves'],
+  other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
+}
 const CMP = {
   stats: (a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]),
   str: (a, b) => a[0].localeCompare(b[0]),
   entries: (a, b) => b[1] - a[1] || a[0].localeCompare(b[0]),
 };
 
-const verify = sets => {
-  for (const species in sets) {
-    for (const set of sets[species].sets) {
-      for (const field of Object.keys(set)) {
-        if (!FIELDS.includes(field)) {
-          throw new Error(`Unexpected field in set: '${field}'`);
+const verify = (data, type) => {
+  for (const species in data) {
+    if (type === 'gen9') {
+      for (const set of data[species].sets) {
+        for (const field of Object.keys(set)) {
+          if (!FIELDS[type].includes(field)) {
+            throw new Error(`Unexpected field in set: '${field}'`);
+          }
+        }
+      }
+    } else {
+      for (const field of Object.keys(data[species])) {
+        if (!FIELDS[type].includes(field)) {
+          throw new Error(`Unexpected field in data: '${field}'`);
         }
       }
     }
   }
-  return sets;
+  return data;
 };
 
-// gen9randomdoublebattle currently uses the same sets as singles
-const getSets = format => format.id.startsWith('gen9')
-  ? verify(require('./vendor/pokemon-showdown/data/random-sets.json'))
-  : undefined;
+const getData = format => format.id.startsWith('gen9')
+  // gen9randomdoublebattle currently uses the same sets as singles
+  ? verify(require('./vendor/pokemon-showdown/data/random-sets.json'), 'gen9')
+  : verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-data.json`),
+    format.mod === 'gen1' ? 'gen1' : 'other');
 
 const getForme = (dex, pool, set) => {
   if (set.gigantamax) {
@@ -72,19 +85,21 @@ const getForme = (dex, pool, set) => {
   return dex.species.get(matches.length ? matches[0] : set.species);
 };
 
-const getMoves = (species, doubles, sets) => {
+const getMoves = (data, doubles, sets) => {
   const moves = new Map();
+  if (!data) return moves;
   if (sets) {
-    for (const set of (sets[species.id]?.sets || [])) {
+    for (const set of data.sets) {
       set.movepool.forEach(move =>  moves.set(Dex.toID(move), 0));
     }
-  } if (doubles && species.randomDoubleBattleMoves) {
-    species.randomDoubleBattleMoves.forEach(m => moves.set(m, 0));
+  } else if (doubles && data.doublesMoves) {
+    data.doublesMoves.forEach(m => moves.set(m, 0));
   } else {
-    if (species.essentialMove) moves.set(species.essentialMove, 0);
-    if (species.exclusiveMoves) species.exclusiveMoves.forEach(m => moves.set(m, 0));
-    if (species.comboMoves) species.comboMoves.forEach(m => moves.set(m, 0));
-    if (species.randomBattleMoves) species.randomBattleMoves.forEach(m => moves.set(m, 0));
+    if (data.essentialMove) moves.set(data.essentialMove, 0);
+    if (data.exclusiveMoves) data.exclusiveMoves.forEach(m => moves.set(m, 0));
+    if (data.comboMoves) data.comboMoves.forEach(m => moves.set(m, 0));
+    if (data.randomBattleMoves) data.randomBattleMoves.forEach(m => moves.set(m, 0));
+    if (data.moves) data.moves.forEach(m => moves.set(m, 0));
   }
   return moves;
 };
@@ -198,7 +213,8 @@ const displayStats = (letsgo, data, o, s) => {
     const letsgo = format.id.includes('letsgo');
     const doubles = format.gameType === 'doubles';
     const generator = Teams.getGenerator(format, SEED);
-    const sets = getSets(format);
+    const data = getData(format);
+    const sets = format.id.startsWith('gen9');
 
     const pool = {};
     for (const species of dex.species.all()) {
@@ -206,7 +222,7 @@ const displayStats = (letsgo, data, o, s) => {
       if (letsgo && (species.num < 1 || species.num > 151 && ![808, 809].includes(species.num))) {
         continue;
       }
-      const moves = getMoves(species, doubles, sets);
+      const moves = getMoves(data[species.id], doubles, sets);
       if (!moves.size) continue;
       const base = typeof species.battleOnly === 'string' ? species.battleOnly : species.name;
       pool[base] = (pool[base] || {});
@@ -217,7 +233,7 @@ const displayStats = (letsgo, data, o, s) => {
     for (let i = 0; i < N; i++) {
       for (const set of generator.getTeam()) {
         const forme = getForme(dex, pool, set);
-        const roles = getRoles(forme, sets);
+        const roles = getRoles(forme, data);
         const s = formes[forme.name] || (formes[forme.name] = {
           n: 0,
           level: set.species.startsWith('Zoroark') ? 0 : set.level,
@@ -302,4 +318,3 @@ const displayStats = (letsgo, data, o, s) => {
   console.error(err);
   process.exit(1);
 });
-
