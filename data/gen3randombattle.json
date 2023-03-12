@@ -30,7 +30,7 @@
   "Claydol": {"level": 80, "abilities": ["Levitate"], "items": ["Leftovers"], "moves": ["Earthquake", "Explosion", "Ice Beam", "Psychic", "Rapid Spin", "Toxic"]},
   "Clefable": {"level": 84, "abilities": ["Cute Charm"], "items": ["Leftovers"], "moves": ["Calm Mind", "Counter", "Ice Beam", "Return", "Shadow Ball", "Soft-Boiled", "Thunder Wave", "Thunderbolt"]},
   "Cloyster": {"level": 80, "abilities": ["Shell Armor"], "items": ["Leftovers"], "moves": ["Explosion", "Ice Beam", "Rapid Spin", "Spikes", "Surf", "Toxic"]},
-  "Corsola": {"level": 90, "abilities": ["Natural Cure"], "items": ["Leftovers"], "moves": ["Calm Mind", "Confuse Ray", "Ice Beam", "Recover", "Surf", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Corsola": {"level": 90, "abilities": ["Natural Cure"], "items": ["Leftovers"], "moves": ["Calm Mind", "Ice Beam", "Recover", "Surf", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Cradily": {"level": 84, "abilities": ["Suction Cups"], "items": ["Leftovers"], "moves": ["Barrier", "Earthquake", "Hidden Power Grass", "Mirror Coat", "Recover", "Rock Slide", "Toxic"]},
   "Crawdaunt": {"level": 88, "abilities": ["Hyper Cutter", "Shell Armor"], "items": ["Choice Band", "Leftovers"], "moves": ["Brick Break", "Crunch", "Double-Edge", "Hidden Power Ghost", "Ice Beam", "Surf"]},
   "Crobat": {"level": 82, "abilities": ["Inner Focus"], "items": ["Choice Band", "Leftovers"], "moves": ["Aerial Ace", "Haze", "Hidden Power Ground", "Shadow Ball", "Sludge Bomb", "Taunt", "Toxic"]},
