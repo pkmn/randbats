@@ -310,7 +310,7 @@
   "Shaymin-Sky": {"level": 76, "abilities": ["Serene Grace"], "items": ["Choice Specs", "Leftovers", "Life Orb"], "moves": ["Air Slash", "Earth Power", "Hidden Power Fire", "Hidden Power Ice", "Leech Seed", "Seed Flare", "Substitute"], "evs": {"atk": 0}},
   "Shedinja": {"level": 90, "abilities": ["Wonder Guard"], "items": ["Focus Sash"], "moves": ["Shadow Claw", "Shadow Sneak", "Swords Dance", "Will-O-Wisp", "X-Scissor"], "evs": {"hp": 81}},
   "Shiftry": {"level": 88, "abilities": ["Early Bird"], "items": ["Life Orb"], "moves": ["Dark Pulse", "Hidden Power Fire", "Leaf Storm", "Nature Power", "Seed Bomb", "Sucker Punch", "Swords Dance"]},
-  "Shuckle": {"level": 90, "abilities": ["Sturdy"], "items": ["Leftovers"], "moves": ["Encore", "Protect", "Stealth Rock", "Toxic", "Wrap"]},
+  "Shuckle": {"level": 90, "abilities": ["Sturdy"], "items": ["Leftovers"], "moves": ["Encore", "Knock Off", "Protect", "Stealth Rock", "Toxic"]},
   "Sigilyph": {"level": 84, "abilities": ["Magic Guard"], "items": ["Flame Orb"], "moves": ["Cosmic Power", "Psycho Shift", "Roost", "Stored Power"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Simipour": {"level": 88, "abilities": ["Torrent"], "items": ["Choice Specs", "Leftovers", "Life Orb"], "moves": ["Focus Blast", "Hidden Power Grass", "Hydro Pump", "Ice Beam", "Nasty Plot", "Substitute"], "evs": {"atk": 0}},
   "Simisage": {"level": 88, "abilities": ["Overgrow"], "items": ["Leftovers", "Life Orb"], "moves": ["Focus Blast", "Giga Drain", "Hidden Power Rock", "Leech Seed", "Nasty Plot", "Substitute"], "evs": {"atk": 0}},

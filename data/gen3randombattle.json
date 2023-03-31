@@ -50,7 +50,7 @@
   "Dusclops": {"level": 82, "abilities": ["Pressure"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Focus Punch", "Ice Beam", "Pain Split", "Rest", "Shadow Ball", "Sleep Talk", "Substitute", "Will-O-Wisp"]},
   "Dustox": {"level": 90, "abilities": ["Shield Dust"], "items": ["Leftovers"], "moves": ["Hidden Power Ground", "Light Screen", "Moonlight", "Sludge Bomb", "Toxic", "Whirlwind"]},
   "Electabuzz": {"level": 84, "abilities": ["Static"], "items": ["Leftovers", "Petaya Berry"], "moves": ["Cross Chop", "Fire Punch", "Focus Punch", "Hidden Power Grass", "Ice Punch", "Substitute", "Thunderbolt"]},
-  "Electrode": {"level": 84, "abilities": ["Soundproof", "Static"], "items": ["Leftovers"], "moves": ["Explosion", "Hidden Power Grass", "Hidden Power Ice", "Substitute", "Thunder Wave", "Thunderbolt", "Toxic"]},
+  "Electrode": {"level": 84, "abilities": ["Static"], "items": ["Leftovers"], "moves": ["Explosion", "Hidden Power Grass", "Hidden Power Ice", "Substitute", "Thunder Wave", "Thunderbolt", "Toxic"]},
   "Entei": {"level": 82, "abilities": ["Pressure"], "items": ["Leftovers"], "moves": ["Body Slam", "Calm Mind", "Fire Blast", "Flamethrower", "Hidden Power Grass", "Hidden Power Ice", "Solar Beam", "Substitute", "Sunny Day"]},
   "Espeon": {"level": 82, "abilities": ["Synchronize"], "items": ["Leftovers"], "moves": ["Baton Pass", "Calm Mind", "Hidden Power Fire", "Morning Sun", "Psychic", "Reflect"], "evs": {"atk": 0}},
   "Exeggutor": {"level": 82, "abilities": ["Chlorophyll"], "items": ["Leftovers"], "moves": ["Explosion", "Giga Drain", "Hidden Power Fire", "Hidden Power Ice", "Leech Seed", "Psychic", "Sleep Powder", "Solar Beam", "Sunny Day"]},

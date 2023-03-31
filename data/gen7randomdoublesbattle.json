@@ -117,7 +117,7 @@
   "Dedenne": {"level": 86, "abilities": ["Cheek Pouch"], "items": ["Sitrus Berry"], "moves": ["Eerie Impulse", "Helping Hand", "Nuzzle", "Recycle", "Super Fang", "Thunderbolt"]},
   "Delcatty": {"level": 89, "abilities": ["Wonder Skin"], "items": ["Silk Scarf", "Sitrus Berry"], "moves": ["Double-Edge", "Fake Out", "Helping Hand", "Protect", "Sucker Punch", "Thunder Wave"]},
   "Delibird": {"level": 96, "abilities": ["Hustle"], "items": ["Life Orb"], "moves": ["Aerial Ace", "Brick Break", "Fake Out", "Ice Punch", "Ice Shard", "Protect"], "evs": {"hp": 81}},
-  "Delphox": {"level": 76, "abilities": ["Blaze", "Magician"], "items": ["Choice Scarf", "Life Orb", "Sitrus Berry"], "moves": ["Calm Mind", "Fire Blast", "Grass Knot", "Heat Wave", "Protect", "Psyshock", "Switcheroo"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Delphox": {"level": 76, "abilities": ["Blaze"], "items": ["Choice Scarf", "Life Orb", "Sitrus Berry"], "moves": ["Calm Mind", "Fire Blast", "Grass Knot", "Heat Wave", "Protect", "Psyshock", "Switcheroo"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Deoxys": {"level": 70, "abilities": ["Pressure"], "items": ["Life Orb"], "moves": ["Extreme Speed", "Fire Punch", "Ice Beam", "Knock Off", "Protect", "Psycho Boost", "Superpower"]},
   "Deoxys-Attack": {"level": 70, "abilities": ["Pressure"], "items": ["Life Orb"], "moves": ["Extreme Speed", "Fire Punch", "Ice Beam", "Knock Off", "Protect", "Psycho Boost", "Superpower"]},
   "Deoxys-Defense": {"level": 70, "abilities": ["Pressure"], "items": ["Light Clay", "Sitrus Berry"], "moves": ["Light Screen", "Protect", "Recover", "Reflect", "Seismic Toss", "Stealth Rock", "Taunt", "Trick Room"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
