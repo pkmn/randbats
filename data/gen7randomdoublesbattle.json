@@ -439,7 +439,7 @@
   "Shiinotic": {"level": 88, "abilities": ["Effect Spore", "Rain Dish"], "items": ["Sitrus Berry"], "moves": ["Giga Drain", "Leech Seed", "Moonblast", "Protect", "Spore", "Strength Sap"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Shuckle": {"level": 79, "abilities": ["Sturdy"], "items": ["Mental Herb", "Sitrus Berry"], "moves": ["Encore", "Guard Split", "Helping Hand", "Knock Off", "Stealth Rock", "Sticky Web", "Toxic"]},
   "Sigilyph": {"level": 80, "abilities": ["Magic Guard"], "items": ["Life Orb"], "moves": ["Air Slash", "Calm Mind", "Heat Wave", "Protect", "Psyshock", "Tailwind"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Silvally": {"level": 72, "abilities": ["RKS System"], "items": ["Assault Vest", "Choice Scarf", "Sitrus Berry"], "moves": ["Crunch", "Double-Edge", "Explosion", "Flame Charge", "Ice Beam", "Parting Shot", "Protect", "Swords Dance", "U-turn"]},
+  "Silvally": {"level": 72, "abilities": ["RKS System"], "items": ["Assault Vest", "Choice Band", "Choice Scarf", "Sitrus Berry"], "moves": ["Crunch", "Double-Edge", "Explosion", "Flame Charge", "Ice Beam", "Parting Shot", "Protect", "Swords Dance", "U-turn"]},
   "Silvally-Bug": {"level": 72, "abilities": ["RKS System"], "items": ["Bug Memory"], "moves": ["Flamethrower", "Ice Beam", "Protect", "Thunderbolt", "U-turn"], "evs": {"hp": 81}},
   "Silvally-Dark": {"level": 72, "abilities": ["RKS System"], "items": ["Dark Memory"], "moves": ["Ice Beam", "Multi-Attack", "Parting Shot", "Protect", "Snarl", "Thunder Wave", "U-turn"]},
   "Silvally-Dragon": {"level": 72, "abilities": ["RKS System"], "items": ["Dragon Memory"], "moves": ["Flamethrower", "Ice Beam", "Multi-Attack", "Parting Shot", "Protect", "Thunder Wave", "U-turn"]},

@@ -79,7 +79,7 @@ var GEN5RANDOMBATTLE = {
   Cradily: { level: 86, abilities: [ 'Storm Drain' ], items: [ 'Leftovers' ], moves: [ 'Earthquake', 'Recover', 'Rock Slide', 'Seed Bomb', 'Stealth Rock', 'Swords Dance', 'Toxic' ] },
   Crawdaunt: { level: 85, abilities: [ 'Adaptability' ], items: [ 'Life Orb' ], moves: [ 'Crunch', 'Dragon Dance', 'Superpower', 'Waterfall' ] },
   Cresselia: { level: 82, abilities: [ 'Levitate' ], items: [ 'Leftovers' ], moves: [ 'Calm Mind', 'Hidden Power Fighting', 'Moonlight', 'Psychic', 'Thunder Wave', 'Toxic' ], evs: { atk: 0 } },
-  Crobat: { level: 82, abilities: [ 'Infiltrator', 'Inner Focus' ], items: [ 'Black Sludge' ], moves: [ 'Brave Bird', 'Heat Wave', 'Roost', 'Sludge Bomb', 'Super Fang', 'Taunt', 'Toxic', 'U-turn' ] },
+  Crobat: { level: 82, abilities: [ 'Infiltrator', 'Inner Focus' ], items: [ 'Black Sludge' ], moves: [ 'Brave Bird', 'Heat Wave', 'Roost', 'Super Fang', 'Taunt', 'Toxic', 'U-turn' ] },
   Crustle: { level: 84, abilities: [ 'Sturdy' ], items: [ 'Custap Berry', 'Leftovers', 'White Herb' ], moves: [ 'Earthquake', 'Rock Blast', 'Shell Smash', 'Spikes', 'Stealth Rock', 'Stone Edge', 'X-Scissor' ] },
   Cryogonal: { level: 85, abilities: [ 'Levitate' ], items: [ 'Leftovers' ], moves: [ 'Hidden Power Fire', 'Ice Beam', 'Rapid Spin', 'Recover', 'Toxic' ] },
   Darkrai: { level: 72, abilities: [ 'Bad Dreams' ], items: [ 'Leftovers' ], moves: [ 'Dark Pulse', 'Dark Void', 'Focus Blast', 'Nasty Plot', 'Substitute' ], evs: { atk: 0 }, ivs: { atk: 0 } },
