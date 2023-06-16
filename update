@@ -47,9 +47,9 @@ const verify = (data, type) => {
   return data;
 };
 
-const getData = format => format.id.startsWith('gen9')
-  // gen9randomdoublebattle currently uses the same sets as singles
-  ? verify(require('./vendor/pokemon-showdown/data/random-sets.json'), 'gen9')
+const getData = (format, doubles) => format.id.startsWith('gen9')
+  ? verify(require(`./vendor/pokemon-showdown/data/random-${doubles ? 'doubles-' : ''}sets.json`),
+    'gen9')
   : verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-data.json`),
     format.mod === 'gen1' ? 'gen1' : 'other');
 
@@ -213,7 +213,7 @@ const displayStats = (letsgo, data, o, s) => {
     const letsgo = format.id.includes('letsgo');
     const doubles = format.gameType === 'doubles';
     const generator = Teams.getGenerator(format, SEED);
-    const data = getData(format);
+    const data = getData(format, doubles);
     const sets = format.id.startsWith('gen9');
 
     const pool = {};
