@@ -1,7 +1,8 @@
 var DATA = {};
 
 var SUPPORTED = [
-  'gen9randombattle', 'gen8randombattle', 'gen8randomdoublesbattle', 'gen8bdsprandombattle',
+  'gen9randombattle', 'gen9randomdoublesbattle',
+  'gen8randombattle', 'gen8randomdoublesbattle', 'gen8bdsprandombattle',
   'gen7randombattle', 'gen7letsgorandombattle', 'gen7randomdoublesbattle',
   'gen6randombattle', 'gen5randombattle', 'gen4randombattle', 'gen3randombattle',
   'gen2randombattle', 'gen1randombattle',
