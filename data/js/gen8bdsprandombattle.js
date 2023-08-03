@@ -112,7 +112,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Gorebyss: { level: 87, abilities: [ 'Swift Swim' ], items: [ 'White Herb' ], moves: [ 'Hydro Pump', 'Ice Beam', 'Psychic', 'Shell Smash' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Granbull: { level: 84, abilities: [ 'Intimidate' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Crunch', 'Earthquake', 'Heal Bell', 'Play Rough', 'Thunder Wave' ] },
   Groudon: { level: 76, abilities: [ 'Drought' ], items: [ 'Leftovers' ], moves: [ 'Precipice Blades', 'Rock Polish', 'Stone Edge', 'Swords Dance' ] },
-  Grumpig: { level: 88, abilities: [ 'Thick Fat' ], items: [ 'Life Orb' ], moves: [ 'Focus Blast', 'Nasty Plot', 'Psyshock', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Grumpig: { level: 87, abilities: [ 'Thick Fat' ], items: [ 'Life Orb' ], moves: [ 'Focus Blast', 'Nasty Plot', 'Psyshock', 'Shadow Ball' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Gyarados: { level: 83, abilities: [ 'Intimidate', 'Moxie' ], items: [ 'Choice Band', 'Choice Scarf', 'Life Orb' ], moves: [ 'Dragon Dance', 'Earthquake', 'Ice Fang', 'Stone Edge', 'Waterfall' ] },
   Hariyama: { level: 84, abilities: [ 'Thick Fat' ], items: [ 'Choice Band', 'Life Orb' ], moves: [ 'Bulk Up', 'Bullet Punch', 'Close Combat', 'Knock Off', 'Poison Jab', 'Stone Edge' ] },
   Heatran: { level: 80, abilities: [ 'Flash Fire' ], items: [ 'Leftovers' ], moves: [ 'Earth Power', 'Flash Cannon', 'Lava Plume', 'Roar', 'Stealth Rock', 'Taunt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
