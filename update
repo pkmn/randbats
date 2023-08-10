@@ -7,7 +7,7 @@ const stringify = require('json-stringify-pretty-compact');
 const zlib = require('zlib');
 const gzip = util.promisify(zlib.gzip);
 
-const {Dex, Teams} = require('./vendor/pokemon-showdown');
+const { Dex, Teams } = require('./vendor/pokemon-showdown');
 Dex.includeModData();
 
 const SEED = [1, 2, 3, 4];
@@ -17,6 +17,7 @@ const SKIP =
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
   gen9: ['role', 'movepool', 'teraTypes'],
+  gen7randombattle: ['role', 'movepool', 'preferredTypes'],
   gen1: ['level', 'moves', 'essentialMove', 'exclusiveMoves', 'comboMoves'],
   other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
 }
@@ -28,7 +29,7 @@ const CMP = {
 
 const verify = (data, type) => {
   for (const species in data) {
-    if (type === 'gen9') {
+    if (type === 'gen9' || type == 'gen7randombattle') {
       for (const set of data[species].sets) {
         for (const field of Object.keys(set)) {
           if (!FIELDS[type].includes(field)) {
@@ -50,10 +51,20 @@ const verify = (data, type) => {
 const getData = (format, doubles) => format.id.startsWith('gen9')
   ? verify(require(`./vendor/pokemon-showdown/data/random-${doubles ? 'doubles-' : ''}sets.json`),
     'gen9')
-  : verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-data.json`),
-    format.mod === 'gen1' ? 'gen1' : 'other');
+  : format.id === 'gen7randombattle' ?
+    verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-sets.json`),
+      'gen7randombattle')
+    : format.id === 'gen7randomdoublesbattle' ?
+      verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-doubles-data.json`),
+        'other')
+      : verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-data.json`),
+        format.mod === 'gen1' ? 'gen1' : 'other');
 
 const getForme = (dex, pool, set) => {
+  if (dex.gen === 7 && set.species === 'Rayquaza' &&
+    set.moves.includes('dragonascent') && !dex.items.get(set.item).zMove) {
+    return dex.species.get('Rayquaza-Mega');
+  }
   if (set.gigantamax) {
     return dex.species.get(set.species.startsWith('Pikachu')
       ? 'Pikachu-Gmax'
@@ -90,7 +101,7 @@ const getMoves = (data, doubles, sets) => {
   if (!data) return moves;
   if (sets) {
     for (const set of data.sets) {
-      set.movepool.forEach(move =>  moves.set(Dex.toID(move), 0));
+      set.movepool.forEach(move => moves.set(Dex.toID(move), 0));
     }
   } else if (doubles && data.doublesMoves) {
     data.doublesMoves.forEach(m => moves.set(m, 0));
@@ -108,17 +119,19 @@ const getRoles = (species, sets) => {
   if (!sets || !sets[species.id]?.sets) return undefined;
   const roles = {};
   for (const set of sets[species.id].sets) {
-    roles[set.role] = {
+    const r = roles[set.role] = {
       n: 0,
       abilities: new Map(),
       items: new Map(),
       moves: new Map(),
-      teraTypes: new Map(),
       ivs: {},
       evs: {},
-    },
-    set.movepool.forEach(move => roles[set.role].moves.set(Dex.toID(move), 0));
-    set.teraTypes.forEach(type => roles[set.role].teraTypes.set(type, 0));
+    };
+    set.movepool.forEach(move => r.moves.set(Dex.toID(move), 0));
+    if (set.teraTypes) {
+      r.teraTypes = new Map();
+      set.teraTypes.forEach(type => r.teraTypes.set(type, 0));
+    }
   }
   return roles;
 };
@@ -126,7 +139,7 @@ const getRoles = (species, sets) => {
 const round = v => Math.round(v * 1e4) / 1e4;
 
 const serialize = async (data, file, factor = 1) => {
-  const json = stringify(data, {maxLength: factor * 1000});
+  const json = stringify(data, { maxLength: factor * 1000 });
   await fs.promises.writeFile(`data/${file}`, json);
   const compressed = await gzip(json);
   return [json.length, compressed.length];
@@ -197,11 +210,11 @@ const displayStats = (letsgo, data, o, s) => {
 };
 
 (async () => {
-  fs.rmSync('data', {recursive: true, force: true});
-  fs.mkdirSync('data/js', {recursive: true});
+  fs.rmSync('data', { recursive: true, force: true });
+  fs.mkdirSync('data/js', { recursive: true });
   fs.mkdirSync('data/stats');
 
-  const index = {options: {}, stats: {}};
+  const index = { options: {}, stats: {} };
   for (const format of Dex.formats.all()) {
     if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
     if (SKIP.some(s => format.id.includes(s)) || !format.mod.startsWith('gen')) continue;
@@ -214,11 +227,11 @@ const displayStats = (letsgo, data, o, s) => {
     const doubles = format.gameType === 'doubles';
     const generator = Teams.getGenerator(format, SEED);
     const data = getData(format, doubles);
-    const sets = format.id.startsWith('gen9');
+    const sets = format.id.startsWith('gen9') || format.id === 'gen7randombattle';
 
     const pool = {};
     for (const species of dex.species.all()) {
-      if  (species.gen > gen) continue;
+      if (species.gen > gen) continue;
       if (letsgo && (species.num < 1 || species.num > 151 && ![808, 809].includes(species.num))) {
         continue;
       }
@@ -263,8 +276,8 @@ const displayStats = (letsgo, data, o, s) => {
     const options = {};
     const stats = {};
     for (const [name, data] of Object.entries(formes).sort(CMP.str)) {
-      const o = {level: data.level};
-      const s = {level: data.level};
+      const o = { level: data.level };
+      const s = { level: data.level };
 
       displayAbilities(gen, letsgo, data, o, s);
       displayItems(data, o, s);
@@ -274,18 +287,20 @@ const displayStats = (letsgo, data, o, s) => {
         s.roles = {};
         for (const [role, d] of Object.entries(data.roles).sort((a, b) => b[1].n - a[1].n)) {
           o.roles[role] = {};
-          s.roles[role] = {weight: round(d.n / data.n)};
+          s.roles[role] = { weight: round(d.n / data.n) };
 
           displayAbilities(gen, letsgo, d, o.roles[role], s.roles[role]);
           displayItems(d, o.roles[role], s.roles[role]);
 
-          o.roles[role].teraTypes = Array.from(d.teraTypes.keys()).sort();
-          s.roles[role].teraTypes = Object.fromEntries(Array.from(d.teraTypes.entries())
-          .map(e => [e[0], round(e[1] / d.n)]).sort(CMP.entries));
+          if (d.teraTypes) {
+            o.roles[role].teraTypes = Array.from(d.teraTypes.keys()).sort();
+            s.roles[role].teraTypes = Object.fromEntries(Array.from(d.teraTypes.entries())
+              .map(e => [e[0], round(e[1] / d.n)]).sort(CMP.entries));
+          }
 
           o.roles[role].moves = Array.from(d.moves.keys()).map(m => dex.moves.get(m).name).sort();
           s.roles[role].moves = Object.fromEntries(Array.from(d.moves.entries())
-              .map(e => [dex.moves.get(e[0]).name, round(e[1] / d.n)]).sort(CMP.entries));
+            .map(e => [dex.moves.get(e[0]).name, round(e[1] / d.n)]).sort(CMP.entries));
 
           displayStats(letsgo, d, o.roles[role], s.roles[role]);
         }
