@@ -108,7 +108,7 @@
   "Druddigon": {"level": 84, "abilities": ["Mold Breaker", "Rough Skin"], "items": ["Choice Band", "Leftovers", "Life Orb"], "moves": ["Earthquake", "Glare", "Gunk Shot", "Outrage", "Stealth Rock", "Sucker Punch", "Superpower"]},
   "Dubwool": {"level": 86, "abilities": ["Bulletproof", "Fluffy"], "items": ["Leftovers"], "moves": ["Body Press", "Cotton Guard", "Rest", "Sleep Talk"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Dugtrio": {"level": 82, "abilities": ["Arena Trap"], "items": ["Choice Band"], "moves": ["Earthquake", "Memento", "Stone Edge", "Sucker Punch"]},
-  "Dugtrio-Alola": {"level": 82, "abilities": ["Sand Force", "Sand Veil", "Tangling Hair"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Earthquake", "Iron Head", "Stealth Rock", "Stone Edge", "Sucker Punch"]},
+  "Dugtrio-Alola": {"level": 82, "abilities": ["Sand Force", "Tangling Hair"], "items": ["Choice Band", "Focus Sash", "Life Orb"], "moves": ["Earthquake", "Iron Head", "Stealth Rock", "Stone Edge", "Sucker Punch"]},
   "Dunsparce": {"level": 90, "abilities": ["Serene Grace"], "items": ["Leftovers"], "moves": ["Body Slam", "Coil", "Earthquake", "Roost"]},
   "Duraludon": {"level": 84, "abilities": ["Light Metal"], "items": ["Assault Vest", "Focus Sash", "Life Orb"], "moves": ["Body Press", "Draco Meteor", "Flash Cannon", "Stealth Rock", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Durant": {"level": 78, "abilities": ["Hustle"], "items": ["Choice Band", "Life Orb"], "moves": ["First Impression", "Hone Claws", "Iron Head", "Rock Slide", "Superpower"]},
