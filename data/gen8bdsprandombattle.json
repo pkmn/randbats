@@ -131,7 +131,7 @@
   "Jirachi": {"level": 80, "abilities": ["Serene Grace"], "items": ["Choice Scarf", "Choice Specs", "Leftovers"], "moves": ["Calm Mind", "Dazzling Gleam", "Flash Cannon", "Psychic", "Shadow Ball", "Thunderbolt", "U-turn"]},
   "Jolteon": {"level": 84, "abilities": ["Volt Absorb"], "items": ["Leftovers", "Life Orb"], "moves": ["Baton Pass", "Shadow Ball", "Thunderbolt", "Volt Switch", "Yawn"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Jumpluff": {"level": 88, "abilities": ["Infiltrator"], "moves": ["Acrobatics", "Leech Seed", "Sleep Powder", "Strength Sap", "Substitute"]},
-  "Jynx": {"level": 86, "abilities": ["Dry Skin"], "items": ["Focus Sash", "Leftovers"], "moves": ["Ice Beam", "Lovely Kiss", "Nasty Plot", "Psychic", "Substitute"], "evs": {"hp": 81, "atk": 0}, "ivs": {"atk": 0}},
+  "Jynx": {"level": 85, "abilities": ["Dry Skin"], "items": ["Focus Sash", "Leftovers"], "moves": ["Ice Beam", "Lovely Kiss", "Nasty Plot", "Psychic", "Substitute"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Kabutops": {"level": 84, "abilities": ["Battle Armor", "Swift Swim", "Weak Armor"], "items": ["Leftovers", "Life Orb", "Lum Berry"], "moves": ["Knock Off", "Liquidation", "Rapid Spin", "Stone Edge", "Swords Dance"]},
   "Kangaskhan": {"level": 87, "abilities": ["Scrappy"], "items": ["Choice Band", "Life Orb"], "moves": ["Crunch", "Double-Edge", "Earthquake", "Fake Out", "Hammer Arm"]},
   "Kecleon": {"level": 88, "abilities": ["Protean"], "items": ["Focus Sash", "Leftovers"], "moves": ["Drain Punch", "Fake Out", "Shadow Sneak", "Stealth Rock", "Thunder Wave"]},
