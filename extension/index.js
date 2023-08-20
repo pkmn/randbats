@@ -202,11 +202,21 @@ if (TOOLTIP) {
     outer: for (var role of all) {
       if (clientPokemon.terastallized && !role[1].teraTypes[clientPokemon.terastallized]) continue;
       for (var moveslot of clientPokemon.moveTrack) {
-        if (!role[1].moves[moveslot[0]]) continue outer;
+        if (!role[1].moves[moveslot[0]] &&
+            (moveslot[0] !== 'Hidden Power' || !hasHiddenPower(role[1].moves))) {
+          continue outer;
+        }
       }
       possible.push(role);
     }
     return possible;
+  }
+
+  function hasHiddenPower(moves) {
+    for (var move in moves) {
+      if (move.startsWith('Hidden Power')) return true;
+    }
+    return false;
   }
 
   function display(stats, multi) {
