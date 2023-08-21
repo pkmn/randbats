@@ -83,8 +83,13 @@ if (TOOLTIP) {
     var forme = cosmetic ? species.baseSpecies : clientPokemon.speciesForme;
     if (forme.startsWith('Pikachu')) forme = forme.endsWith('Gmax') ? 'Pikachu-Gmax' : 'Pikachu';
 
+    var d = data;
     data = data[id];
     if (!data) return original;
+
+    if (id === 'greninja' && 'greninjabond' in d) {
+      data = data.concat(d['greninjabond']);
+    }
 
     if (data.length === 1) {
       data[0].level = clientPokemon.level;
@@ -127,6 +132,7 @@ if (TOOLTIP) {
     var multi = !['singles', 'doubles'].includes(gameType);
     if (data.roles) {
       var roles = filter(data.roles, clientPokemon);
+      if (!roles.length) return '';
       var i = 0;
       for (var role of roles) {
         buf += (i == 0 ? '<div>' : '<div style="border-top: 1px solid #888;">');
@@ -200,6 +206,7 @@ if (TOOLTIP) {
 
     var possible = [];
     outer: for (var role of all) {
+      if (clientPokemon.ability && !role[1].abilities[clientPokemon.ability]) continue;
       if (clientPokemon.terastallized && !role[1].teraTypes[clientPokemon.terastallized]) continue;
       for (var moveslot of clientPokemon.moveTrack) {
         if (!role[1].moves[moveslot[0]] &&
