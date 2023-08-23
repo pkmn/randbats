@@ -29,4 +29,4 @@ jobs:
         git add -A
         HEAD=$(git -C vendor/pokemon-showdown rev-parse HEAD | cut -c1-8)
         git commit -m "Import smogon/pokemon-showdown@${HEAD}" || exit 0
-        git push
+        git push || exit 0
