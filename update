@@ -18,7 +18,7 @@ const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
   gen9: ['role', 'movepool', 'teraTypes'],
   gen7randombattle: ['role', 'movepool', 'preferredTypes'],
-  gen1: ['level', 'moves', 'essentialMove', 'exclusiveMoves', 'comboMoves'],
+  gen1: ['level', 'moves', 'essentialMoves', 'exclusiveMoves', 'comboMoves'],
   other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
 }
 const CMP = {
@@ -106,7 +106,7 @@ const getMoves = (data, doubles, sets) => {
   } else if (doubles && data.doublesMoves) {
     data.doublesMoves.forEach(m => moves.set(m, 0));
   } else {
-    if (data.essentialMove) moves.set(data.essentialMove, 0);
+    if (data.essentialMoves) data.essentialMoves.forEach(m => moves.set(m, 0));
     if (data.exclusiveMoves) data.exclusiveMoves.forEach(m => moves.set(m, 0));
     if (data.comboMoves) data.comboMoves.forEach(m => moves.set(m, 0));
     if (data.randomBattleMoves) data.randomBattleMoves.forEach(m => moves.set(m, 0));
