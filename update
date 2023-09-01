@@ -12,8 +12,10 @@ Dex.includeModData();
 
 const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
-const SKIP =
-  ['factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'blitz', 'generated', 'joltemons'];
+const SKIP = [
+  'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype',
+  'blitz', 'generated', 'joltemons', 'pokebilities',
+];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
   gen9: ['role', 'movepool', 'teraTypes'],
