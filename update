@@ -19,10 +19,11 @@ const SKIP = [
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
   gen9: ['role', 'movepool', 'teraTypes'],
-  gen7randombattle: ['role', 'movepool', 'preferredTypes'],
+  roles: ['role', 'movepool', 'preferredTypes'],
   gen1: ['level', 'moves', 'essentialMoves', 'exclusiveMoves', 'comboMoves'],
   other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
-}
+};
+const ROLES = ['gen7randombattle', 'gen6randombattle'];
 const CMP = {
   stats: (a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]),
   str: (a, b) => a[0].localeCompare(b[0]),
@@ -31,7 +32,7 @@ const CMP = {
 
 const verify = (data, type) => {
   for (const species in data) {
-    if (type === 'gen9' || type == 'gen7randombattle') {
+    if (type === 'gen9' || type === 'roles') {
       for (const set of data[species].sets) {
         for (const field of Object.keys(set)) {
           if (!FIELDS[type].includes(field)) {
@@ -53,9 +54,9 @@ const verify = (data, type) => {
 const getData = (format, doubles) => format.id.startsWith('gen9')
   ? verify(require(`./vendor/pokemon-showdown/data/random-${doubles ? 'doubles-' : ''}sets.json`),
     'gen9')
-  : format.id === 'gen7randombattle' ?
+  : ROLES.includes(format.id) ?
     verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-sets.json`),
-      'gen7randombattle')
+      'roles')
     : format.id === 'gen7randomdoublesbattle' ?
       verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-doubles-data.json`),
         'other')
@@ -229,7 +230,7 @@ const displayStats = (letsgo, data, o, s) => {
     const doubles = format.gameType === 'doubles';
     const generator = Teams.getGenerator(format, SEED);
     const data = getData(format, doubles);
-    const sets = format.id.startsWith('gen9') || format.id === 'gen7randombattle';
+    const sets = format.id.startsWith('gen9') || ROLES.includes(format.id);
 
     const pool = {};
     for (const species of dex.species.all()) {
