@@ -74,7 +74,7 @@
   "Conkeldurr": {"level": 84, "abilities": ["Guts"], "items": ["Flame Orb"], "moves": ["Close Combat", "Drain Punch", "Ice Punch", "Knock Off", "Mach Punch", "Protect"]},
   "Copperajah": {"level": 88, "abilities": ["Sheer Force"], "items": ["Life Orb"], "moves": ["Heat Crash", "High Horsepower", "Iron Head", "Play Rough", "Power Whip", "Protect", "Stone Edge"]},
   "Corsola": {"level": 95, "abilities": ["Regenerator"], "items": ["Sitrus Berry"], "moves": ["Icy Wind", "Life Dew", "Recover", "Scald", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Corviknight": {"level": 80, "abilities": ["Mirror Armor", "Unnerve"], "items": ["Sitrus Berry"], "moves": ["Body Press", "Brave Bird", "Bulk Up", "Roost", "Tailwind"]},
+  "Corviknight": {"level": 80, "abilities": ["Mirror Armor"], "items": ["Sitrus Berry"], "moves": ["Body Press", "Brave Bird", "Bulk Up", "Roost", "Tailwind"]},
   "Cradily": {"level": 88, "abilities": ["Storm Drain"], "items": ["Sitrus Berry"], "moves": ["Power Whip", "Protect", "Recover", "Stealth Rock", "Stone Edge", "String Shot"]},
   "Cramorant": {"level": 88, "abilities": ["Gulp Missile"], "items": ["Life Orb", "Sitrus Berry"], "moves": ["Brave Bird", "Ice Beam", "Protect", "Roost", "Surf", "Tailwind"]},
   "Crawdaunt": {"level": 86, "abilities": ["Adaptability"], "items": ["Sitrus Berry"], "moves": ["Aqua Jet", "Close Combat", "Crabhammer", "Knock Off", "Protect", "Swords Dance"]},
