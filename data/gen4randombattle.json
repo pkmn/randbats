@@ -68,7 +68,7 @@
   "Deoxys-Attack": {"level": 75, "abilities": ["Pressure"], "items": ["Focus Sash", "Life Orb"], "moves": ["Extreme Speed", "Hidden Power Fire", "Ice Beam", "Psycho Boost", "Shadow Ball", "Stealth Rock", "Superpower"]},
   "Deoxys-Defense": {"level": 77, "abilities": ["Pressure"], "items": ["Leftovers"], "moves": ["Recover", "Seismic Toss", "Spikes", "Stealth Rock", "Taunt", "Toxic"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Deoxys-Speed": {"level": 79, "abilities": ["Pressure"], "items": ["Leftovers", "Light Clay"], "moves": ["Light Screen", "Psycho Boost", "Reflect", "Spikes", "Stealth Rock", "Superpower", "Taunt"]},
-  "Dewgong": {"level": 90, "abilities": ["Thick Fat"], "items": ["Chesto Berry", "Leftovers"], "moves": ["Encore", "Ice Beam", "Rest", "Sleep Talk", "Surf", "Toxic"], "evs": {"hp": 81, "atk": 0}, "ivs": {"atk": 0}},
+  "Dewgong": {"level": 90, "abilities": ["Hydration", "Thick Fat"], "items": ["Chesto Berry", "Damp Rock", "Leftovers"], "moves": ["Encore", "Ice Beam", "Rain Dance", "Rest", "Surf", "Toxic"], "evs": {"hp": 81, "atk": 0}, "ivs": {"atk": 0}},
   "Dialga": {"level": 71, "abilities": ["Pressure"], "items": ["Chesto Berry", "Choice Scarf", "Choice Specs", "Expert Belt", "Leftovers", "Life Orb", "Lum Berry"], "moves": ["Aura Sphere", "Bulk Up", "Draco Meteor", "Dragon Claw", "Earthquake", "Fire Blast", "Outrage", "Rest", "Sleep Talk", "Stealth Rock", "Thunderbolt", "Toxic"]},
   "Ditto": {"level": 100, "abilities": ["Limber"], "items": ["Salac Berry", "Sitrus Berry"], "moves": ["Transform"]},
   "Dodrio": {"level": 88, "abilities": ["Early Bird"], "items": ["Choice Band", "Life Orb"], "moves": ["Brave Bird", "Double-Edge", "Pursuit", "Quick Attack", "Return", "Roost"]},
