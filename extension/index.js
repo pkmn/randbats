@@ -29,7 +29,7 @@ if (TOOLTIP) {
             var pokemon = json[name];
             // Zoroark has an actual level but the "Illusion Level Mod" means the server will lie
             // about its level making it difficult to find. Instead we special case things here and
-            // below to always just set Zororak's level to 0 for searching (the actual clientPokemon
+            // below to always just set Zoroark's level to 0 for searching (the actual clientPokemon
             // level gets used for computing stats)
             if (name.startsWith('Zoroark')) pokemon.level = 0;
             data[pokemon.level] = data[pokemon.level] || {};
