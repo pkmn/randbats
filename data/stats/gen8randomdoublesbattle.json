@@ -445,7 +445,7 @@
   "Zarude-Dada": {"level": 80, "abilities": {"Leaf Guard": 1}, "items": {"Sitrus Berry": 1}, "moves": {"Darkest Lariat": 1, "Power Whip": 1, "Protect": 0.7956, "Close Combat": 0.6214, "Jungle Healing": 0.583}},
   "Zekrom": {"level": 72, "abilities": {"Teravolt": 1}, "items": {"Sitrus Berry": 1}, "moves": {"Bolt Strike": 1, "Dragon Claw": 1, "Dragon Dance": 1, "Roost": 1}},
   "Zeraora": {"level": 78, "abilities": {"Volt Absorb": 1}, "items": {"Assault Vest": 0.8979, "Life Orb": 0.1021}, "moves": {"Plasma Fists": 1, "Knock Off": 0.6376, "Snarl": 0.6034, "Grass Knot": 0.5928, "Close Combat": 0.5841, "Fake Out": 0.5822}},
-  "Zoroark": {"level": 0, "abilities": {"Illusion": 1}, "items": {"Life Orb": 0.5465, "Sitrus Berry": 0.4535}, "moves": {"Dark Pulse": 1, "Protect": 0.7002, "Nasty Plot": 0.6872, "Flamethrower": 0.5442, "Focus Blast": 0.5357, "Sludge Bomb": 0.5327}, "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Zoroark": {"level": 84, "abilities": {"Illusion": 1}, "items": {"Life Orb": 0.5465, "Sitrus Berry": 0.4535}, "moves": {"Dark Pulse": 1, "Protect": 0.7002, "Nasty Plot": 0.6872, "Flamethrower": 0.5442, "Focus Blast": 0.5357, "Sludge Bomb": 0.5327}, "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Zygarde": {"level": 72, "abilities": {"Power Construct": 1}, "items": {"Sitrus Berry": 1}, "moves": {"Thousand Arrows": 1, "Dragon Dance": 0.8232, "Coil": 0.793, "Extreme Speed": 0.6961, "Iron Tail": 0.6441, "Glare": 0.0436}},
   "Zygarde-10%": {"level": 77, "abilities": {"Power Construct": 1}, "items": {"Sitrus Berry": 1}, "moves": {"Dragon Dance": 1, "Protect": 1, "Thousand Arrows": 1, "Extreme Speed": 0.3471, "Stone Edge": 0.3458, "Iron Tail": 0.3071}}
 }

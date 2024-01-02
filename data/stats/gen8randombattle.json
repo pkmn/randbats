@@ -456,7 +456,7 @@
   "Zarude-Dada": {"level": 78, "abilities": {"Leaf Guard": 1}, "items": {"Leftovers": 0.8376, "Choice Scarf": 0.1155, "Choice Band": 0.047}, "moves": {"Darkest Lariat": 1, "Power Whip": 1, "Bulk Up": 0.8376, "Jungle Healing": 0.5825, "Close Combat": 0.4175, "U-turn": 0.1624}},
   "Zekrom": {"level": 69, "abilities": {"Teravolt": 1}, "items": {"Lum Berry": 1}, "moves": {"Bolt Strike": 1, "Dragon Dance": 1, "Outrage": 1, "Roost": 1}},
   "Zeraora": {"level": 76, "abilities": {"Volt Absorb": 1}, "items": {"Life Orb": 0.5775, "Assault Vest": 0.3569, "Choice Band": 0.0656}, "moves": {"Plasma Fists": 1, "Bulk Up": 0.5775, "Close Combat": 0.4945, "Knock Off": 0.4926, "Blaze Kick": 0.492, "Play Rough": 0.4842, "Volt Switch": 0.2695, "Grass Knot": 0.1897}},
-  "Zoroark": {"level": 0, "abilities": {"Illusion": 1}, "items": {"Life Orb": 0.6528, "Choice Scarf": 0.1862, "Focus Sash": 0.161}, "moves": {"Dark Pulse": 1, "Flamethrower": 1, "Sludge Bomb": 1, "Nasty Plot": 0.8138, "Trick": 0.1862}, "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Zoroark": {"level": 84, "abilities": {"Illusion": 1}, "items": {"Life Orb": 0.6528, "Choice Scarf": 0.1862, "Focus Sash": 0.161}, "moves": {"Dark Pulse": 1, "Flamethrower": 1, "Sludge Bomb": 1, "Nasty Plot": 0.8138, "Trick": 0.1862}, "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Zygarde": {"level": 70, "abilities": {"Power Construct": 1}, "items": {"Leftovers": 1}, "moves": {"Dragon Dance": 1, "Outrage": 1, "Substitute": 1, "Thousand Arrows": 1}},
   "Zygarde-10%": {"level": 82, "abilities": {"Aura Break": 1}, "items": {"Life Orb": 0.6544, "Choice Band": 0.2133, "Focus Sash": 0.1323}, "moves": {"Outrage": 1, "Thousand Arrows": 1, "Coil": 0.7867, "Extreme Speed": 0.615, "Iron Tail": 0.5983}}
 }

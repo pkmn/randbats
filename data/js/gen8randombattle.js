@@ -456,7 +456,7 @@ var GEN8RANDOMBATTLE = {
   'Zarude-Dada': { level: 78, abilities: [ 'Leaf Guard' ], items: [ 'Choice Band', 'Choice Scarf', 'Leftovers' ], moves: [ 'Bulk Up', 'Close Combat', 'Darkest Lariat', 'Jungle Healing', 'Power Whip', 'U-turn' ] },
   Zekrom: { level: 69, abilities: [ 'Teravolt' ], items: [ 'Lum Berry' ], moves: [ 'Bolt Strike', 'Dragon Dance', 'Outrage', 'Roost' ] },
   Zeraora: { level: 76, abilities: [ 'Volt Absorb' ], items: [ 'Assault Vest', 'Choice Band', 'Life Orb' ], moves: [ 'Blaze Kick', 'Bulk Up', 'Close Combat', 'Grass Knot', 'Knock Off', 'Plasma Fists', 'Play Rough', 'Volt Switch' ] },
-  Zoroark: { level: 0, abilities: [ 'Illusion' ], items: [ 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Dark Pulse', 'Flamethrower', 'Nasty Plot', 'Sludge Bomb', 'Trick' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Zoroark: { level: 84, abilities: [ 'Illusion' ], items: [ 'Choice Scarf', 'Focus Sash', 'Life Orb' ], moves: [ 'Dark Pulse', 'Flamethrower', 'Nasty Plot', 'Sludge Bomb', 'Trick' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Zygarde: { level: 70, abilities: [ 'Power Construct' ], items: [ 'Leftovers' ], moves: [ 'Dragon Dance', 'Outrage', 'Substitute', 'Thousand Arrows' ] },
   'Zygarde-10%': { level: 82, abilities: [ 'Aura Break' ], items: [ 'Choice Band', 'Focus Sash', 'Life Orb' ], moves: [ 'Coil', 'Extreme Speed', 'Iron Tail', 'Outrage', 'Thousand Arrows' ] } 
 };

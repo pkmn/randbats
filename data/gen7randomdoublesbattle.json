@@ -575,7 +575,7 @@
   "Zebstrika": {"level": 79, "abilities": ["Lightning Rod", "Motor Drive", "Sap Sipper"], "items": ["Life Orb"], "moves": ["Hidden Power Grass", "Overheat", "Protect", "Volt Switch", "Wild Charge"]},
   "Zekrom": {"level": 70, "abilities": ["Teravolt"], "items": ["Sitrus Berry"], "moves": ["Bolt Strike", "Draco Meteor", "Dragon Claw", "Hone Claws", "Protect", "Roost", "Tailwind"]},
   "Zeraora": {"level": 70, "abilities": ["Volt Absorb"], "items": ["Assault Vest", "Life Orb"], "moves": ["Close Combat", "Fake Out", "Grass Knot", "Hidden Power Ice", "Knock Off", "Plasma Fists", "Protect", "Volt Switch"]},
-  "Zoroark": {"level": 0, "abilities": ["Illusion"], "items": ["Expert Belt", "Life Orb", "Sitrus Berry"], "moves": ["Dark Pulse", "Flamethrower", "Focus Blast", "Knock Off", "Nasty Plot", "Protect", "Sucker Punch", "U-turn"]},
+  "Zoroark": {"level": 70, "abilities": ["Illusion"], "items": ["Expert Belt", "Life Orb", "Sitrus Berry"], "moves": ["Dark Pulse", "Flamethrower", "Focus Blast", "Knock Off", "Nasty Plot", "Protect", "Sucker Punch", "U-turn"]},
   "Zygarde": {"level": 70, "abilities": ["Aura Break"], "items": ["Sitrus Berry"], "moves": ["Coil", "Dragon Dance", "Extreme Speed", "Protect", "Rock Slide", "Stone Edge", "Thousand Arrows"]},
   "Zygarde-10%": {"level": 81, "abilities": ["Aura Break"], "items": ["Sitrus Berry"], "moves": ["Dragon Dance", "Extreme Speed", "Iron Tail", "Protect", "Thousand Arrows"]}
 }

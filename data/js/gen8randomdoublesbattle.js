@@ -445,7 +445,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   'Zarude-Dada': { level: 80, abilities: [ 'Leaf Guard' ], items: [ 'Sitrus Berry' ], moves: [ 'Close Combat', 'Darkest Lariat', 'Jungle Healing', 'Power Whip', 'Protect' ] },
   Zekrom: { level: 72, abilities: [ 'Teravolt' ], items: [ 'Sitrus Berry' ], moves: [ 'Bolt Strike', 'Dragon Claw', 'Dragon Dance', 'Roost' ] },
   Zeraora: { level: 78, abilities: [ 'Volt Absorb' ], items: [ 'Assault Vest', 'Life Orb' ], moves: [ 'Close Combat', 'Fake Out', 'Grass Knot', 'Knock Off', 'Plasma Fists', 'Snarl' ] },
-  Zoroark: { level: 0, abilities: [ 'Illusion' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Dark Pulse', 'Flamethrower', 'Focus Blast', 'Nasty Plot', 'Protect', 'Sludge Bomb' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Zoroark: { level: 84, abilities: [ 'Illusion' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Dark Pulse', 'Flamethrower', 'Focus Blast', 'Nasty Plot', 'Protect', 'Sludge Bomb' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Zygarde: { level: 72, abilities: [ 'Power Construct' ], items: [ 'Sitrus Berry' ], moves: [ 'Coil', 'Dragon Dance', 'Extreme Speed', 'Glare', 'Iron Tail', 'Thousand Arrows' ] },
   'Zygarde-10%': { level: 77, abilities: [ 'Power Construct' ], items: [ 'Sitrus Berry' ], moves: [ 'Dragon Dance', 'Extreme Speed', 'Iron Tail', 'Protect', 'Stone Edge', 'Thousand Arrows' ] } 
 };
