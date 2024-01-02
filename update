@@ -252,8 +252,7 @@ const displayStats = (letsgo, data, o, s) => {
         const roles = getRoles(forme, data);
         const s = formes[forme.name] || (formes[forme.name] = {
           n: 0,
-          // TODO: level: set.level,
-          level: set.species.startsWith('Zoroark') ? 0 : set.level,
+          level: set.level,
           roles,
           abilities: new Map(),
           items: new Map(),
