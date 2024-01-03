@@ -23,7 +23,10 @@ const FIELDS = {
   gen1: ['level', 'moves', 'essentialMoves', 'exclusiveMoves', 'comboMoves'],
   other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
 };
-const ROLES = ['gen7randombattle', 'gen6randombattle', 'gen5randombattle', 'gen4randombattle'];
+const ROLES = [
+  'gen7randombattle', 'gen6randombattle', 'gen5randombattle',
+  'gen4randombattle', 'gen3randombattle',
+];
 const CMP = {
   stats: (a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]),
   str: (a, b) => a[0].localeCompare(b[0]),
