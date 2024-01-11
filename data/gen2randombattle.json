@@ -85,7 +85,7 @@
   "Noctowl": {"level": 77, "items": ["Leftovers"], "moves": ["Hypnosis", "Night Shade", "Thief", "Toxic", "Whirlwind"]},
   "Octillery": {"level": 73, "items": ["Leftovers"], "moves": ["Flamethrower", "Hidden Power Electric", "Ice Beam", "Rest", "Sleep Talk", "Surf"]},
   "Omastar": {"level": 69, "items": ["Leftovers"], "moves": ["Hidden Power Electric", "Ice Beam", "Rest", "Sleep Talk", "Surf"]},
-  "Parasect": {"level": 77, "items": ["Leftovers"], "moves": ["Body Slam", "Giga Drain", "Hidden Power Bug", "Spore", "Swords Dance", "Synthesis"]},
+  "Parasect": {"level": 80, "items": ["Leftovers"], "moves": ["Body Slam", "Giga Drain", "Hidden Power Bug", "Spore", "Swords Dance", "Synthesis"]},
   "Persian": {"level": 73, "items": ["Leftovers", "Mint Berry"], "moves": ["Body Slam", "Hypnosis", "Iron Tail", "Rest", "Return", "Thunder"]},
   "Pidgeot": {"level": 73, "items": ["Leftovers"], "moves": ["Curse", "Hidden Power Ground", "Rest", "Return", "Sleep Talk", "Toxic", "Whirlwind"]},
   "Pikachu": {"level": 69, "items": ["Light Ball"], "moves": ["Encore", "Hidden Power Ice", "Substitute", "Surf", "Thunderbolt"]},

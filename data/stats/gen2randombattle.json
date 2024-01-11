@@ -85,7 +85,7 @@
   "Noctowl": {"level": 77, "items": {"Leftovers": 0.2445}, "moves": {"Night Shade": 1, "Hypnosis": 0.7568, "Thief": 0.7555, "Toxic": 0.7544, "Whirlwind": 0.7333}},
   "Octillery": {"level": 73, "items": {"Leftovers": 1}, "moves": {"Surf": 1, "Rest": 0.9322, "Sleep Talk": 0.9322, "Ice Beam": 0.3855, "Hidden Power Electric": 0.3785, "Flamethrower": 0.3717}},
   "Omastar": {"level": 69, "items": {"Leftovers": 1}, "moves": {"Rest": 1, "Sleep Talk": 1, "Surf": 1, "Ice Beam": 0.5006, "Hidden Power Electric": 0.4994}},
-  "Parasect": {"level": 77, "items": {"Leftovers": 1}, "moves": {"Giga Drain": 0.9568, "Spore": 0.9355, "Hidden Power Bug": 0.8377, "Synthesis": 0.8094, "Body Slam": 0.2742, "Swords Dance": 0.1864}},
+  "Parasect": {"level": 80, "items": {"Leftovers": 1}, "moves": {"Giga Drain": 0.9568, "Spore": 0.9355, "Hidden Power Bug": 0.8377, "Synthesis": 0.8094, "Body Slam": 0.2742, "Swords Dance": 0.1864}},
   "Persian": {"level": 73, "items": {"Mint Berry": 0.765, "Leftovers": 0.235}, "moves": {"Rest": 0.765, "Thunder": 0.7491, "Iron Tail": 0.7457, "Hypnosis": 0.7402, "Body Slam": 0.7078, "Return": 0.2922}},
   "Pidgeot": {"level": 73, "items": {"Leftovers": 1}, "moves": {"Return": 1, "Rest": 0.8961, "Sleep Talk": 0.8961, "Curse": 0.425, "Hidden Power Ground": 0.3811, "Toxic": 0.3257, "Whirlwind": 0.0759}},
   "Pikachu": {"level": 69, "items": {"Light Ball": 1}, "moves": {"Thunderbolt": 1, "Hidden Power Ice": 0.7586, "Encore": 0.7566, "Substitute": 0.7494, "Surf": 0.7354}},
