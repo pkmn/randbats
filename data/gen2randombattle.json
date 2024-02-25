@@ -1,5 +1,5 @@
 {
-  "Aerodactyl": {"level": 67, "items": ["Leftovers", "Mint Berry"], "moves": ["Ancient Power", "Curse", "Earthquake", "Hidden Power Flying", "Rest", "Whirlwind"]},
+  "Aerodactyl": {"level": 69, "items": ["Leftovers", "Mint Berry"], "moves": ["Ancient Power", "Curse", "Earthquake", "Hidden Power Flying", "Rest", "Whirlwind"]},
   "Aipom": {"level": 77, "items": ["Leftovers"], "moves": ["Agility", "Baton Pass", "Curse", "Return", "Shadow Ball"]},
   "Alakazam": {"level": 67, "items": ["Leftovers"], "moves": ["Encore", "Fire Punch", "Ice Punch", "Psychic", "Recover", "Thunder Punch", "Thunder Wave"]},
   "Ampharos": {"level": 69, "items": ["Leftovers"], "moves": ["Fire Punch", "Hidden Power Ice", "Rest", "Sleep Talk", "Thunder Wave", "Thunderbolt"]},
@@ -77,7 +77,7 @@
   "Misdreavus": {"level": 65, "items": ["Leftovers"], "moves": ["Mean Look", "Pain Split", "Perish Song", "Psychic", "Shadow Ball", "Thief", "Thunderbolt"]},
   "Moltres": {"level": 67, "items": ["Leftovers"], "moves": ["Fire Blast", "Hidden Power Grass", "Rest", "Sleep Talk", "Sunny Day"]},
   "Mr. Mime": {"level": 69, "items": ["Leftovers"], "moves": ["Encore", "Fire Punch", "Hypnosis", "Ice Punch", "Psychic", "Thief", "Thunder Wave", "Thunderbolt"]},
-  "Muk": {"level": 67, "items": ["Leftovers"], "moves": ["Curse", "Explosion", "Fire Blast", "Hidden Power Ground", "Sludge Bomb"]},
+  "Muk": {"level": 69, "items": ["Leftovers"], "moves": ["Curse", "Explosion", "Fire Blast", "Hidden Power Ground", "Sludge Bomb"]},
   "Murkrow": {"level": 77, "items": ["Leftovers"], "moves": ["Drill Peck", "Haze", "Hidden Power Dark", "Hidden Power Fire", "Pursuit", "Thief", "Toxic"]},
   "Nidoking": {"level": 65, "items": ["Leftovers"], "moves": ["Earthquake", "Fire Blast", "Ice Beam", "Lovely Kiss", "Morning Sun", "Thunder"]},
   "Nidoqueen": {"level": 69, "items": ["Leftovers"], "moves": ["Earthquake", "Fire Blast", "Ice Beam", "Lovely Kiss", "Moonlight", "Thunder"]},
