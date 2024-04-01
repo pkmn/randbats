@@ -25,7 +25,7 @@ const FIELDS = {
 };
 const ROLES = [
   'gen7randombattle', 'gen6randombattle', 'gen5randombattle',
-  'gen4randombattle', 'gen3randombattle',
+  'gen4randombattle', 'gen3randombattle', 'gen2randombattle',
 ];
 const CMP = {
   stats: (a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]),
