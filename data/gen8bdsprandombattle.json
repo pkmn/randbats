@@ -48,7 +48,7 @@
   "Camerupt": {"level": 88, "abilities": ["Solid Rock"], "items": ["Focus Sash", "Leftovers"], "moves": ["Earth Power", "Explosion", "Fire Blast", "Lava Plume", "Stealth Rock"]},
   "Carnivine": {"level": 88, "abilities": ["Levitate"], "items": ["Leftovers", "Lum Berry"], "moves": ["Crunch", "Power Whip", "Sleep Powder", "Substitute", "Swords Dance"]},
   "Castform": {"level": 88, "abilities": ["Forecast"], "items": ["Choice Specs"], "moves": ["Flamethrower", "Ice Beam", "Scald", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Celebi": {"level": 81, "abilities": ["Natural Cure"], "items": ["Choice Scarf", "Choice Specs", "Leftovers"], "moves": ["Dazzling Gleam", "Giga Drain", "Leaf Storm", "Nasty Plot", "Psychic", "Recover", "U-turn"]},
+  "Celebi": {"level": 80, "abilities": ["Natural Cure"], "items": ["Choice Scarf", "Choice Specs", "Leftovers"], "moves": ["Dazzling Gleam", "Giga Drain", "Leaf Storm", "Nasty Plot", "Psychic", "Recover", "U-turn"]},
   "Charizard": {"level": 87, "abilities": ["Blaze", "Solar Power"], "items": ["Life Orb"], "moves": ["Air Slash", "Earthquake", "Fire Blast", "Focus Blast", "Roost"]},
   "Chatot": {"level": 88, "abilities": ["Tangled Feet"], "items": ["Focus Sash", "Leftovers"], "moves": ["Boomburst", "Chatter", "Nasty Plot", "Substitute", "U-turn"]},
   "Cherrim": {"level": 88, "abilities": ["Flower Gift"], "items": ["Choice Scarf"], "moves": ["Dazzling Gleam", "Giga Drain", "Healing Wish", "Petal Dance"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
