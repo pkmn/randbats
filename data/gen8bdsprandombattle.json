@@ -207,7 +207,7 @@
   "Quagsire": {"level": 84, "abilities": ["Unaware"], "items": ["Leftovers"], "moves": ["Earthquake", "Recover", "Scald", "Toxic"]},
   "Qwilfish": {"level": 86, "abilities": ["Intimidate"], "items": ["Black Sludge", "Focus Sash"], "moves": ["Destiny Bond", "Poison Jab", "Spikes", "Thunder Wave", "Toxic Spikes", "Waterfall"]},
   "Raichu": {"level": 87, "abilities": ["Lightning Rod"], "items": ["Focus Sash", "Life Orb"], "moves": ["Focus Blast", "Grass Knot", "Nasty Plot", "Surf", "Thunderbolt"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Raikou": {"level": 81, "abilities": ["Pressure"], "items": ["Leftovers"], "moves": ["Calm Mind", "Scald", "Substitute", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Raikou": {"level": 82, "abilities": ["Pressure"], "items": ["Leftovers"], "moves": ["Calm Mind", "Scald", "Substitute", "Thunderbolt", "Volt Switch"], "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Rampardos": {"level": 88, "abilities": ["Sheer Force"], "items": ["Life Orb"], "moves": ["Crunch", "Earthquake", "Head Smash", "Rock Polish", "Zen Headbutt"]},
   "Rapidash": {"level": 88, "abilities": ["Flash Fire"], "items": ["Leftovers"], "moves": ["Flare Blitz", "High Horsepower", "Hypnosis", "Morning Sun", "Swords Dance", "Will-O-Wisp"]},
   "Raticate": {"level": 88, "abilities": ["Guts"], "items": ["Flame Orb"], "moves": ["Crunch", "Facade", "Flame Wheel", "Protect", "Sucker Punch", "Swords Dance"]},

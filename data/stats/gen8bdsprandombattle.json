@@ -207,7 +207,7 @@
   "Quagsire": {"level": 84, "abilities": {"Unaware": 1}, "items": {"Leftovers": 1}, "moves": {"Earthquake": 1, "Recover": 1, "Scald": 1, "Toxic": 1}},
   "Qwilfish": {"level": 86, "abilities": {"Intimidate": 1}, "items": {"Black Sludge": 0.8044, "Focus Sash": 0.1956}, "moves": {"Waterfall": 1, "Poison Jab": 0.6934, "Destiny Bond": 0.598, "Spikes": 0.5881, "Thunder Wave": 0.5805, "Toxic Spikes": 0.5399}},
   "Raichu": {"level": 87, "abilities": {"Lightning Rod": 1}, "items": {"Life Orb": 0.8528, "Focus Sash": 0.1472}, "moves": {"Focus Blast": 1, "Nasty Plot": 1, "Thunderbolt": 1, "Surf": 0.7318, "Grass Knot": 0.2682}, "evs": {"atk": 0}, "ivs": {"atk": 0}},
-  "Raikou": {"level": 81, "abilities": {"Pressure": 1}, "items": {"Leftovers": 1}, "moves": {"Scald": 1, "Substitute": 1, "Thunderbolt": 1, "Calm Mind": 0.8014, "Volt Switch": 0.1986}, "evs": {"atk": 0}, "ivs": {"atk": 0}},
+  "Raikou": {"level": 82, "abilities": {"Pressure": 1}, "items": {"Leftovers": 1}, "moves": {"Scald": 1, "Substitute": 1, "Thunderbolt": 1, "Calm Mind": 0.8014, "Volt Switch": 0.1986}, "evs": {"atk": 0}, "ivs": {"atk": 0}},
   "Rampardos": {"level": 88, "abilities": {"Sheer Force": 1}, "items": {"Life Orb": 1}, "moves": {"Head Smash": 1, "Rock Polish": 0.797, "Zen Headbutt": 0.7445, "Crunch": 0.736, "Earthquake": 0.7225}},
   "Rapidash": {"level": 88, "abilities": {"Flash Fire": 1}, "items": {"Leftovers": 1}, "moves": {"Flare Blitz": 1, "Morning Sun": 0.846, "High Horsepower": 0.6985, "Hypnosis": 0.6193, "Swords Dance": 0.5365, "Will-O-Wisp": 0.2997}},
   "Raticate": {"level": 88, "abilities": {"Guts": 1}, "items": {"Flame Orb": 1}, "moves": {"Facade": 1, "Flame Wheel": 1, "Swords Dance": 0.7635, "Crunch": 0.6968, "Sucker Punch": 0.3032, "Protect": 0.2365}},
