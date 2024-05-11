@@ -55,15 +55,15 @@ const verify = (data, type) => {
 };
 
 const getData = (format, doubles) => format.id.startsWith('gen9')
-  ? verify(require(`./vendor/pokemon-showdown/data/random-${doubles ? 'doubles-' : ''}sets.json`),
+  ? verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}/${doubles ? 'doubles-' : ''}sets.json`),
     'gen9')
   : ROLES.includes(format.id) ?
-    verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-sets.json`),
+    verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}/sets.json`),
       'roles')
     : format.id === 'gen7randomdoublesbattle' ?
       verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-doubles-data.json`),
         'other')
-      : verify(require(`./vendor/pokemon-showdown/data/mods/${format.mod}/random-data.json`),
+      : verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}/data.json`),
         format.mod === 'gen1' ? 'gen1' : 'other');
 
 const getForme = (dex, pool, set) => {
