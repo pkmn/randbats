@@ -13,7 +13,7 @@ Dex.includeModData();
 const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
 const SKIP = [
-  'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype',
+  'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'chimera',
   'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood',
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
