@@ -14,7 +14,7 @@ const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
 const SKIP = [
   'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'chimera',
-  'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood',
+  'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood', 'baby',
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
