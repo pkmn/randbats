@@ -114,7 +114,7 @@
   "Rhydon": {"level": 68, "moves": ["Body Slam", "Earthquake", "Rock Slide", "Substitute"], "evs": {"hp": 251}},
   "Rhyhorn": {"level": 84, "moves": ["Body Slam", "Earthquake", "Rock Slide", "Substitute"]},
   "Sandshrew": {"level": 88, "moves": ["Body Slam", "Earthquake", "Rock Slide", "Swords Dance"]},
-  "Sandslash": {"level": 76, "moves": ["Body Slam", "Earthquake", "Rock Slide", "Slash", "Swords Dance"]},
+  "Sandslash": {"level": 76, "moves": ["Body Slam", "Earthquake", "Rock Slide", "Swords Dance"]},
   "Scyther": {"level": 75, "moves": ["Agility", "Hyper Beam", "Slash", "Swords Dance"]},
   "Seadra": {"level": 77, "moves": ["Agility", "Blizzard", "Double-Edge", "Hydro Pump", "Hyper Beam", "Smokescreen", "Surf"]},
   "Seaking": {"level": 78, "moves": ["Agility", "Blizzard", "Double-Edge", "Hyper Beam", "Surf"]},
