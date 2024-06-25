@@ -14,7 +14,7 @@ const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
 const SKIP = [
   'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'chimera',
-  'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood', 'baby',
+  'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood',
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
@@ -54,9 +54,9 @@ const verify = (data, type) => {
   return data;
 };
 
-const getData = (format, doubles) => format.id.startsWith('gen9')
-  ? verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}/${doubles ? 'doubles-' : ''}sets.json`),
-    'gen9')
+const getData = (format, doubles, baby) => format.id.startsWith('gen9')
+  ? verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}${baby
+      ? 'baby' : ''}/${doubles ? 'doubles-' : ''}sets.json`), 'gen9')
   : ROLES.includes(format.id) ?
     verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}/sets.json`),
       'roles')
@@ -230,9 +230,10 @@ const displayStats = (letsgo, data, o, s) => {
     const gen = Number(format.id.charAt(3));
     const dex = Dex.forFormat(format);
     const letsgo = format.id.includes('letsgo');
+    const baby = format.id.includes('baby');
     const doubles = format.gameType === 'doubles';
     const generator = Teams.getGenerator(format, SEED);
-    const data = getData(format, doubles);
+    const data = getData(format, doubles, baby);
     const sets = format.id.startsWith('gen9') || ROLES.includes(format.id);
 
     const pool = {};
