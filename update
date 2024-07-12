@@ -18,8 +18,8 @@ const SKIP = [
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
-  gen9: ['role', 'movepool', 'teraTypes'],
-  roles: ['role', 'movepool', 'preferredTypes'],
+  gen9: ['role', 'movepool', 'teraTypes', 'abilities'],
+  roles: ['role', 'movepool', 'preferredTypes', 'abilities'],
   gen1: ['level', 'moves', 'essentialMoves', 'exclusiveMoves', 'comboMoves'],
   other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
 };
