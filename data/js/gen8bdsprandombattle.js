@@ -52,7 +52,7 @@ var GEN8BDSPRANDOMBATTLE = {
   Charizard: { level: 87, abilities: [ 'Blaze', 'Solar Power' ], items: [ 'Life Orb' ], moves: [ 'Air Slash', 'Earthquake', 'Fire Blast', 'Focus Blast', 'Roost' ] },
   Chatot: { level: 88, abilities: [ 'Tangled Feet' ], items: [ 'Focus Sash', 'Leftovers' ], moves: [ 'Boomburst', 'Chatter', 'Nasty Plot', 'Substitute', 'U-turn' ] },
   Cherrim: { level: 88, abilities: [ 'Flower Gift' ], items: [ 'Choice Scarf' ], moves: [ 'Dazzling Gleam', 'Giga Drain', 'Healing Wish', 'Petal Dance' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Chimecho: { level: 87, abilities: [ 'Levitate' ], items: [ 'Leftovers', 'Light Clay' ], moves: [ 'Healing Wish', 'Light Screen', 'Psychic', 'Recover', 'Reflect', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
+  Chimecho: { level: 88, abilities: [ 'Levitate' ], items: [ 'Leftovers', 'Light Clay' ], moves: [ 'Healing Wish', 'Light Screen', 'Psychic', 'Recover', 'Reflect', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Claydol: { level: 84, abilities: [ 'Levitate' ], items: [ 'Leftovers' ], moves: [ 'Earthquake', 'Ice Beam', 'Psychic', 'Rapid Spin', 'Stealth Rock' ] },
   Clefable: { level: 80, abilities: [ 'Magic Guard', 'Unaware' ], items: [ 'Leftovers', 'Life Orb' ], moves: [ 'Calm Mind', 'Fire Blast', 'Moonblast', 'Moonlight', 'Stealth Rock', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Cloyster: { level: 82, abilities: [ 'Skill Link' ], items: [ 'White Herb' ], moves: [ 'Hydro Pump', 'Icicle Spear', 'Rock Blast', 'Shell Smash' ], evs: { hp: 81 } },
