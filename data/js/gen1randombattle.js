@@ -122,7 +122,7 @@ var GEN1RANDOMBATTLE = {
   Shellder: { level: 90, moves: [ 'Blizzard', 'Double-Edge', 'Explosion', 'Surf' ] },
   Slowbro: { level: 68, moves: [ 'Amnesia', 'Blizzard', 'Psychic', 'Rest', 'Surf', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 2 } },
   Slowpoke: { level: 84, moves: [ 'Amnesia', 'Blizzard', 'Earthquake', 'Psychic', 'Rest', 'Surf', 'Thunder Wave' ] },
-  Snorlax: { level: 69, moves: [ 'Amnesia', 'Blizzard', 'Body Slam', 'Earthquake', 'Hyper Beam', 'Rest', 'Self-Destruct', 'Thunderbolt' ] },
+  Snorlax: { level: 69, moves: [ 'Amnesia', 'Blizzard', 'Body Slam', 'Earthquake', 'Hyper Beam', 'Rest', 'Self-Destruct' ] },
   Spearow: { level: 89, moves: [ 'Agility', 'Double-Edge', 'Drill Peck', 'Leer', 'Mimic', 'Mirror Move', 'Substitute' ] },
   Squirtle: { level: 90, moves: [ 'Blizzard', 'Body Slam', 'Counter', 'Hydro Pump', 'Seismic Toss', 'Surf' ] },
   Starmie: { level: 68, moves: [ 'Blizzard', 'Hydro Pump', 'Psychic', 'Recover', 'Surf', 'Thunder Wave', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 2 } },
