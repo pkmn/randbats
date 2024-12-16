@@ -1,16 +1,17 @@
 {
-  "gen9randombattle.json": [238004, 28799],
-  "gen9randomdoublesbattle.json": [215945, 25965],
+  "gen9randombattle.json": [237987, 28756],
+  "gen9randomdoublesbattle.json": [215878, 25952],
+  "gen9pickyourteamrandombattle.json": [237987, 28735],
   "gen9babyrandombattle.json": [95350, 11954],
   "gen8randombattle.json": [90979, 14612],
   "gen8randomdoublesbattle.json": [87880, 13904],
   "gen8bdsprandombattle.json": [56356, 8800],
-  "gen7randombattle.json": [229923, 27914],
+  "gen7randombattle.json": [229974, 27930],
   "gen7letsgorandombattle.json": [11264, 2173],
-  "gen6randombattle.json": [180570, 21633],
-  "gen5randombattle.json": [148826, 17920],
-  "gen4randombattle.json": [115541, 13601],
-  "gen3randombattle.json": [96140, 10042],
-  "gen2randombattle.json": [42295, 4635],
-  "gen1randombattle.json": [16843, 2555]
+  "gen6randombattle.json": [180498, 21623],
+  "gen5randombattle.json": [148798, 17925],
+  "gen4randombattle.json": [115490, 13598],
+  "gen3randombattle.json": [96134, 10026],
+  "gen2randombattle.json": [42419, 4649],
+  "gen1randombattle.json": [16845, 2551]
 }
