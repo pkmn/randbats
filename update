@@ -15,7 +15,7 @@ const N = +process.argv[2] || 100_000;
 const SKIP = [
   'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'chimera',
   'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood', 'apex',
-  'aprilfoolsday',
+  'aprilfoolsday', 'fusionevolution',
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
