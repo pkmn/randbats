@@ -157,7 +157,7 @@ const createSetKey = (set) => {
     set.level.toString(),
     Dex.toID(set.item),
     Dex.toID(set.ability),
-    set.moves.sort().join(",")
+    set.moves.map(m => Dex.toID(m)).sort().join(",")
   ].join(",");
 
   return set.teraType ? `${baseKey},${Dex.toID(set.teraType)}` : baseKey;
