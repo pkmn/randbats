@@ -154,13 +154,13 @@ const serialize = async (data, file, factor = 1) => {
 
 const createSetKey = (set) => {
   const baseKey = [
-    formatString(set.level.toString()),
-    formatString(set.item),
-    formatString(set.ability),
+    set.level.toString(),
+    Dex.toID(set.item),
+    Dex.toID(set.ability),
     set.moves.sort().join(",")
   ].join(",");
 
-  return set.teraType ? `${baseKey},${formatString(set.teraType)}` : baseKey;
+  return set.teraType ? `${baseKey},${Dex.toID(set.teraType)}` : baseKey;
 };
 
 const incrementFullSet = (s, set) => {
@@ -211,19 +211,6 @@ const displayItems = (data, o, s) => {
     s.items = Object.fromEntries(Array.from(data.items.entries())
       .map(e => [e[0], round(e[1] / data.n)]).sort(CMP.entries));
   }
-};
-
-const formatString = (s) => {
-  return s.toLowerCase()
-      .replaceAll("-", "")
-      .replaceAll(".", "")
-      .replaceAll("\'", "")
-      .replaceAll("%", "")
-      .replaceAll("*", "")
-      .replaceAll(":", "")
-      .replaceAll("_", "")
-      .replaceAll("’", "")
-      .replaceAll(" ", "")
 };
 
 const displayStats = (letsgo, data, o, s) => {
@@ -356,7 +343,7 @@ const displayStats = (letsgo, data, o, s) => {
 
       options[name] = o
       stats[name] = s;
-      full[formatString(name)] = fullSets[name];
+      full[Dex.toID(name)] = fullSets[name];
     }
 
     index.options[`${format.id}.json`] = await serialize(options, `${format.id}.json`);
@@ -373,6 +360,7 @@ const displayStats = (letsgo, data, o, s) => {
   }
   fs.writeFileSync('data/index.json', stringify(index.options));
   fs.writeFileSync('data/stats/index.json', stringify(index.stats));
+  fs.writeFileSync('data/full/index.json', stringify(index.stats));
 })().catch(err => {
   console.error(err);
   process.exit(1);
