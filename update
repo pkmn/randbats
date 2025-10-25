@@ -238,7 +238,7 @@ const displayStats = (letsgo, data, o, s) => {
   fs.mkdirSync('data/stats');
   fs.mkdirSync('data/full');
 
-  const index = { options: {}, stats: {} };
+  const index = { options: {}, stats: {}, full: {} };
   for (const format of Dex.formats.all()) {
     if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
     if (SKIP.some(s => format.id.includes(s)) || !format.mod.startsWith('gen')) continue;
@@ -348,7 +348,7 @@ const displayStats = (letsgo, data, o, s) => {
 
     index.options[`${format.id}.json`] = await serialize(options, `${format.id}.json`);
     index.stats[`${format.id}.json`] = await serialize(stats, `stats/${format.id}.json`, 10);
-    index.stats[`${format.id}.json`] = await serialize(full, `full/${format.id}.json`, 100);
+    index.full[`${format.id}.json`] = await serialize(full, `full/${format.id}.json`, 100);
     const code = util.inspect(options, {
       depth: Infinity,
       maxArrayLength: Infinity,
@@ -360,7 +360,7 @@ const displayStats = (letsgo, data, o, s) => {
   }
   fs.writeFileSync('data/index.json', stringify(index.options));
   fs.writeFileSync('data/stats/index.json', stringify(index.stats));
-  fs.writeFileSync('data/full/index.json', stringify(index.stats));
+  fs.writeFileSync('data/full/index.json', stringify(index.full));
 })().catch(err => {
   console.error(err);
   process.exit(1);
