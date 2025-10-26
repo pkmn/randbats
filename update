@@ -152,6 +152,22 @@ const serialize = async (data, file, factor = 1) => {
   return [json.length, compressed.length];
 };
 
+const createSetKey = (set) => {
+  const baseKey = [
+    set.level.toString(),
+    Dex.toID(set.item),
+    Dex.toID(set.ability),
+    set.moves.map(m => Dex.toID(m)).sort().join(",")
+  ].join(",");
+
+  return set.teraType ? `${baseKey},${Dex.toID(set.teraType)}` : baseKey;
+};
+
+const incrementFullSet = (s, set) => {
+  const fullSet = createSetKey(set);
+  s[fullSet] = (s[fullSet] || 0) + 1;
+};
+
 const increment = (gen, s, set) => {
   s.n++;
   if (set.ability) s.abilities.set(set.ability, (s.abilities.get(set.ability) || 0) + 1);
@@ -220,8 +236,9 @@ const displayStats = (letsgo, data, o, s) => {
   fs.rmSync('data', { recursive: true, force: true });
   fs.mkdirSync('data/js', { recursive: true });
   fs.mkdirSync('data/stats');
+  fs.mkdirSync('data/full');
 
-  const index = { options: {}, stats: {} };
+  const index = { options: {}, stats: {}, full: {} };
   for (const format of Dex.formats.all()) {
     if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
     if (SKIP.some(s => format.id.includes(s)) || !format.mod.startsWith('gen')) continue;
@@ -251,6 +268,7 @@ const displayStats = (letsgo, data, o, s) => {
     }
 
     const formes = {};
+    const fullSets = new Map();
     for (let i = 0; i < N; i++) {
       for (const set of generator.getTeam()) {
         const forme = getForme(dex, pool, set);
@@ -266,10 +284,12 @@ const displayStats = (letsgo, data, o, s) => {
           ivs: {},
           evs: {},
         });
+        const f = fullSets[forme.name] || (fullSets[forme.name] = {});
 
         const moves = set.role ? s.roles[set.role].moves : s.moves;
         for (const m of set.moves) moves.set(m, (moves.get(m) || 0) + 1);
 
+        incrementFullSet(f, set);
         increment(gen, s, set);
         if (set.role) {
           increment(gen, s.roles[set.role], set);
@@ -283,6 +303,7 @@ const displayStats = (letsgo, data, o, s) => {
 
     const options = {};
     const stats = {};
+    const full = {};
     for (const [name, data] of Object.entries(formes).sort(CMP.str)) {
       const o = { level: data.level };
       const s = { level: data.level };
@@ -322,10 +343,12 @@ const displayStats = (letsgo, data, o, s) => {
 
       options[name] = o
       stats[name] = s;
+      full[Dex.toID(name)] = fullSets[name];
     }
 
     index.options[`${format.id}.json`] = await serialize(options, `${format.id}.json`);
     index.stats[`${format.id}.json`] = await serialize(stats, `stats/${format.id}.json`, 10);
+    index.full[`${format.id}.json`] = await serialize(full, `full/${format.id}.json`, 100);
     const code = util.inspect(options, {
       depth: Infinity,
       maxArrayLength: Infinity,
@@ -337,6 +360,7 @@ const displayStats = (letsgo, data, o, s) => {
   }
   fs.writeFileSync('data/index.json', stringify(index.options));
   fs.writeFileSync('data/stats/index.json', stringify(index.stats));
+  fs.writeFileSync('data/full/index.json', stringify(index.full));
 })().catch(err => {
   console.error(err);
   process.exit(1);
