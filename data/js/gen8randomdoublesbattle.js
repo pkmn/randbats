@@ -104,7 +104,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   Druddigon: { level: 87, abilities: [ 'Mold Breaker', 'Sheer Force' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Dragon Claw', 'Fire Punch', 'Glare', 'Gunk Shot', 'Protect', 'Sucker Punch' ] },
   Dubwool: { level: 90, abilities: [ 'Bulletproof', 'Fluffy' ], items: [ 'Life Orb' ], moves: [ 'Double-Edge', 'Swords Dance', 'Thunder Wave', 'Wild Charge', 'Zen Headbutt' ] },
   Dugtrio: { level: 88, abilities: [ 'Arena Trap' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'High Horsepower', 'Memento', 'Protect', 'Rock Slide', 'Sucker Punch' ] },
-  'Dugtrio-Alola': { level: 88, abilities: [ 'Sand Force', 'Tangling Hair' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'High Horsepower', 'Iron Head', 'Memento', 'Protect', 'Rock Slide', 'Sucker Punch' ] },
+  'Dugtrio-Alola': { level: 88, abilities: [ 'Sand Force', 'Sand Veil', 'Tangling Hair' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'High Horsepower', 'Iron Head', 'Memento', 'Protect', 'Rock Slide', 'Sucker Punch' ] },
   Dunsparce: { level: 90, abilities: [ 'Serene Grace' ], items: [ 'Sitrus Berry' ], moves: [ 'Glare', 'Headbutt', 'Protect', 'Rock Slide' ] },
   Duraludon: { level: 87, abilities: [ 'Stalwart' ], items: [ 'Assault Vest', 'Choice Scarf', 'Choice Specs', 'Life Orb', 'Sitrus Berry' ], moves: [ 'Body Press', 'Draco Meteor', 'Dragon Pulse', 'Flash Cannon', 'Protect', 'Snarl', 'Thunderbolt' ], evs: { atk: 0 }, ivs: { atk: 0 } },
   Durant: { level: 82, abilities: [ 'Hustle' ], items: [ 'Life Orb' ], moves: [ 'First Impression', 'Iron Head', 'Protect', 'Stomping Tantrum', 'Superpower', 'X-Scissor' ] },
