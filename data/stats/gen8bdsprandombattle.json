@@ -1,6 +1,6 @@
 {
   "Abomasnow": {"level": 86, "abilities": {"Snow Warning": 1}, "items": {"Light Clay": 0.7356, "Life Orb": 0.2644}, "moves": {"Blizzard": 1, "Wood Hammer": 0.8018, "Aurora Veil": 0.7356, "Earthquake": 0.7356, "Ice Shard": 0.7269}},
-  "Absol": {"level": 84, "abilities": {"Justified": 1}, "items": {"Life Orb": 0.8456, "Focus Sash": 0.1544}, "moves": {"Knock Off": 1, "Play Rough": 1, "Sucker Punch": 1, "Swords Dance": 1}},
+  "Absol": {"level": 83, "abilities": {"Justified": 1}, "items": {"Life Orb": 0.8456, "Focus Sash": 0.1544}, "moves": {"Knock Off": 1, "Play Rough": 1, "Sucker Punch": 1, "Swords Dance": 1}},
   "Aerodactyl": {"level": 85, "abilities": {"Pressure": 1}, "items": {"Leftovers": 1}, "moves": {"Earthquake": 1, "Roost": 1, "Stone Edge": 1, "Stealth Rock": 0.6465, "Defog": 0.3535}},
   "Aggron": {"level": 86, "abilities": {"Rock Head": 1}, "items": {"Life Orb": 0.8215, "Choice Band": 0.1785}, "moves": {"Head Smash": 1, "Heavy Slam": 1, "Rock Polish": 0.8215, "Superpower": 0.5967, "Earthquake": 0.5818}},
   "Alakazam": {"level": 80, "abilities": {"Magic Guard": 1}, "items": {"Life Orb": 1}, "moves": {"Psychic": 1, "Focus Blast": 0.9363, "Nasty Plot": 0.7975, "Dazzling Gleam": 0.7254, "Shadow Ball": 0.5409}, "evs": {"atk": 0}, "ivs": {"atk": 0}},
