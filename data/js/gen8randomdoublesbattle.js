@@ -38,7 +38,7 @@ var GEN8RANDOMDOUBLESBATTLE = {
   'Blastoise-Gmax': { level: 80, abilities: [ 'Torrent' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Fake Out', 'Flip Turn', 'Follow Me', 'Icy Wind', 'Life Dew', 'Muddy Water' ] },
   Blaziken: { level: 78, abilities: [ 'Speed Boost' ], items: [ 'Life Orb' ], moves: [ 'Close Combat', 'Flare Blitz', 'Knock Off', 'Protect', 'Swords Dance' ] },
   Blissey: { level: 88, abilities: [ 'Healer' ], items: [ 'Sitrus Berry' ], moves: [ 'Ally Switch', 'Heal Pulse', 'Helping Hand', 'Protect', 'Seismic Toss', 'Soft-Boiled', 'Thunder Wave', 'Toxic' ], evs: { atk: 0 }, ivs: { atk: 0 } },
-  Boltund: { level: 86, abilities: [ 'Strong Jaw' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Crunch', 'Fire Fang', 'Nuzzle', 'Play Rough', 'Protect', 'Psychic Fangs', 'Snarl', 'Thunder Fang' ] },
+  Boltund: { level: 86, abilities: [ 'Competitive', 'Strong Jaw' ], items: [ 'Life Orb', 'Sitrus Berry' ], moves: [ 'Crunch', 'Fire Fang', 'Nuzzle', 'Play Rough', 'Protect', 'Psychic Fangs', 'Snarl', 'Thunder Fang' ] },
   Bouffalant: { level: 86, abilities: [ 'Reckless', 'Sap Sipper' ], items: [ 'Assault Vest', 'Sitrus Berry' ], moves: [ 'Close Combat', 'Head Charge', 'Lash Out', 'Protect', 'Wild Charge' ] },
   Braviary: { level: 82, abilities: [ 'Defiant' ], items: [ 'Sitrus Berry' ], moves: [ 'Brave Bird', 'Bulk Up', 'Close Combat', 'Roost', 'Tailwind' ] },
   Bronzong: { level: 88, abilities: [ 'Levitate' ], items: [ 'Sitrus Berry' ], moves: [ 'Ally Switch', 'Body Press', 'Iron Head', 'Trick Room' ], evs: { spe: 0 }, ivs: { spe: 0 } },
