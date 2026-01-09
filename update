@@ -79,7 +79,7 @@ const getForme = (dex, pool, set) => {
   }
 
   const item = dex.items.get(set.item);
-  if (item.megaStone) return dex.species.get(item.megaStone);
+  if (item.megaStone) return dex.species.get(item.megaStone[set.species]);
 
   const formes = Object.keys(pool[set.species] || pool[set.name]);
   if (formes.length === 1) return dex.species.get(formes[0]);
