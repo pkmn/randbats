@@ -88,6 +88,8 @@ if (TOOLTIP) {
     var forme = cosmetic ? species.baseSpecies : clientPokemon.speciesForme;
     if (forme.startsWith('Pikachu')) forme = forme.endsWith('Gmax') ? 'Pikachu-Gmax' : 'Pikachu';
 
+    if (id === 'mausholdfour') id = 'maushold';
+
     var d = data;
     data = data[id];
     if (!data) return original;
