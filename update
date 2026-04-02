@@ -16,6 +16,7 @@ const SKIP = [
   'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'chimera',
   'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood', 'apex',
   'aprilfoolsday', 'fusionevolution', 'donotuse', 'megasrevisited',
+  'regeneration'
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
