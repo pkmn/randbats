@@ -16,7 +16,7 @@ const SKIP = [
   'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'chimera',
   'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood', 'apex',
   'aprilfoolsday', 'fusionevolution', 'donotuse', 'megasrevisited',
-  'regeneration'
+  'regeneration', 'megainvasion'
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
@@ -26,8 +26,9 @@ const FIELDS = {
   other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
 };
 const ROLES = [
-  'gen7randombattle', 'gen6randombattle', 'gen5randombattle',
-  'gen4randombattle', 'gen3randombattle', 'gen2randombattle',
+  'gen8randombattle', 'gen8randomdoublesbattle', 'gen7randombattle',
+  'gen6randombattle', 'gen5randombattle', 'gen4randombattle',
+  'gen3randombattle', 'gen2randombattle',
 ];
 const CMP = {
   stats: (a, b) => ORDER.indexOf(a[0]) - ORDER.indexOf(b[0]),
