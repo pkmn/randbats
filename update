@@ -26,6 +26,7 @@ const FIELDS = {
   other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
 };
 const ROLES = [
+  'gen9championsrandombattle',
   'gen8randombattle', 'gen8randomdoublesbattle', 'gen7randombattle',
   'gen6randombattle', 'gen5randombattle', 'gen4randombattle',
   'gen3randombattle', 'gen2randombattle',
@@ -57,7 +58,8 @@ const verify = (data, type) => {
   return data;
 };
 
-const getData = (format, doubles, baby) => format.id.startsWith('gen9')
+const getData = (format, doubles, baby) =>
+  format.id.startsWith('gen9') && format.mod !== 'champions'
   ? verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}${baby
       ? 'baby' : ''}/${doubles ? 'doubles-' : ''}sets.json`), 'gen9')
   : ROLES.includes(format.id) ?
@@ -243,7 +245,8 @@ const displayStats = (letsgo, data, o, s) => {
   const index = { options: {}, stats: {}, full: {} };
   for (const format of Dex.formats.all()) {
     if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
-    if (SKIP.some(s => format.id.includes(s)) || !format.mod.startsWith('gen')) continue;
+    if (SKIP.some(s => format.id.includes(s))) continue;
+    if (!format.mod.startsWith('gen') && format.mod !== 'champions') continue;
     const start = process.hrtime.bigint();
 
     // Of course, PS is braindead and Format#gen always reports 0
