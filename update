@@ -16,7 +16,7 @@ const SKIP = [
   'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'chimera',
   'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood', 'apex',
   'aprilfoolsday', 'fusionevolution', 'donotuse', 'megasrevisited',
-  'regeneration', 'megainvasion'
+  'regeneration', 'megainvasion', 'b12p6',
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
@@ -270,7 +270,7 @@ const displayStats = (letsgo, data, o, s) => {
       const base = typeof species.battleOnly === 'string' ? species.battleOnly : species.name;
       pool[base] = (pool[base] || {});
       pool[base][species.name] = moves;
-    }
+    }``
 
     const formes = {};
     const fullSets = new Map();
