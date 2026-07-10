@@ -61,7 +61,7 @@ var GEN1RANDOMBATTLE = {
   Kabuto: { level: 88, moves: [ 'Blizzard', 'Body Slam', 'Slash', 'Surf' ] },
   Kabutops: { level: 75, moves: [ 'Body Slam', 'Hyper Beam', 'Slash', 'Surf', 'Swords Dance' ] },
   Kadabra: { level: 74, moves: [ 'Counter', 'Psychic', 'Recover', 'Reflect', 'Seismic Toss', 'Thunder Wave' ], evs: { atk: 0 }, ivs: { atk: 2 } },
-  Kangaskhan: { level: 73, moves: [ 'Blizzard', 'Body Slam', 'Counter', 'Earthquake', 'Hyper Beam', 'Rock Slide', 'Surf' ] },
+  Kangaskhan: { level: 73, moves: [ 'Blizzard', 'Body Slam', 'Counter', 'Earthquake', 'Hyper Beam', 'Rock Slide' ] },
   Kingler: { level: 76, moves: [ 'Body Slam', 'Crabhammer', 'Hyper Beam', 'Swords Dance' ] },
   Koffing: { level: 90, moves: [ 'Explosion', 'Fire Blast', 'Sludge', 'Thunderbolt' ] },
   Krabby: { level: 89, moves: [ 'Blizzard', 'Body Slam', 'Crabhammer', 'Stomp', 'Swords Dance' ] },
