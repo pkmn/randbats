@@ -16,7 +16,7 @@ const SKIP = [
   'factory', 'unrated', 'cup', 'staff', 'cap', 'monotype', 'chimera',
   'blitz', 'generated', 'joltemons', 'pokebilities', 'firstblood', 'apex',
   'aprilfoolsday', 'fusionevolution', 'donotuse', 'megasrevisited',
-  'regeneration', 'megainvasion', 'b12p6',
+  'regeneration', 'megainvasion', 'b12p6', "mixandmega"
 ];
 const ORDER = ['hp', 'atk', 'def', 'spa', 'spd', 'spe'];
 const FIELDS = {
@@ -26,7 +26,7 @@ const FIELDS = {
   other: ['level', 'moves', 'doublesLevel', 'doublesMoves', 'noDynamaxMoves'],
 };
 const ROLES = [
-  'gen9championsrandombattle',
+  'gen9championsrandombattle', 'gen9championsrandomdoublesbattle',
   'gen8randombattle', 'gen8randomdoublesbattle', 'gen7randombattle',
   'gen6randombattle', 'gen5randombattle', 'gen4randombattle',
   'gen3randombattle', 'gen2randombattle',
@@ -59,9 +59,10 @@ const verify = (data, type) => {
 };
 
 const getData = (format, doubles, baby) =>
-  format.id.startsWith('gen9') && format.mod !== 'champions'
+  format.id.startsWith('gen9')
   ? verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}${baby
-      ? 'baby' : ''}/${doubles ? 'doubles-' : ''}sets.json`), 'gen9')
+      ? 'baby' : ''}/${doubles ? 'doubles-' : ''}sets.json`),
+  ROLES.includes(format.id) ? 'roles' : 'gen9')
   : ROLES.includes(format.id) ?
     verify(require(`./vendor/pokemon-showdown/data/random-battles/${format.mod}/sets.json`),
       'roles')
