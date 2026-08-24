@@ -193,7 +193,7 @@ if (TOOLTIP) {
         ('ivs' in data && statName in data.ivs) || ('evs' in data && statName in data.evs);
       var statLabel = gen === 1 && statName === 'spa' ? 'spc' : statName;
       buf += statName === 'atk' ? '<small>' : '<small> / ';
-      buf += '' + BattleText[statLabel].statShortName + '&nbsp;</small>';
+      buf += '' + BattleTextParser.statShortName(statLabel) + '&nbsp;</small>';
       var italic = !known && (statName === 'atk' || statName === 'spe');
       buf += (italic ? '<i>' : '') + stats[statName] + (italic ? '</i>' : '');
     }
