@@ -1,9 +1,10 @@
 var DATA = {};
 
 var SUPPORTED = [
+  'gen9championsrandombattle', 'gen9championsrandomdoublesbattle',
   'gen9randombattle', 'gen9randomdoublesbattle', 'gen9babyrandombattle',
-  'gen8randombattle', 'gen8randomdoublesbattle', 'gen8bdsprandombattle',
-  'gen7randombattle', 'gen7letsgorandombattle', 'gen7randomdoublesbattle',
+  'gen8randombattle', 'gen8bdsprandombattle',
+  'gen7randombattle', 'gen7letsgorandombattle',
   'gen6randombattle', 'gen5randombattle', 'gen4randombattle', 'gen3randombattle',
   'gen2randombattle', 'gen1randombattle',
 ];
@@ -61,6 +62,7 @@ if (TOOLTIP) {
 
     var gen = Number(format.charAt(3));
     var letsgo = format.includes('letsgo');
+    var champions = format.includes('champions');
     var gameType = this.battle.gameType;
 
     var species = Dex.forGen(gen).species.get(
@@ -70,9 +72,9 @@ if (TOOLTIP) {
     if (!species) return original;
 
     if (!['singles', 'doubles'].includes(gameType)) {
-      format = 'gen' + gen + 'randomdoublesbattle';
+      format = 'gen' + gen + (champions ? 'champions' : '') + 'randomdoublesbattle';
     } else if (format.includes('monotype') || format.includes('unrated')) {
-      format = 'gen' + gen + 'randombattle';
+      format = 'gen' + gen + (champions ? 'champions' : '') + 'randombattle';
     } else if (format.endsWith('blitz')) {
       format = format.slice(0, -5);
     }
@@ -98,14 +100,14 @@ if (TOOLTIP) {
 
     if (data.length === 1) {
       data[0].level = clientPokemon.level;
-      return original + displaySet(gen, gameType, letsgo, species, data[0], undefined, clientPokemon);
+      return original + displaySet(gen, gameType, letsgo, champions, species, data[0], undefined, clientPokemon);
     }
     if (toID(forme) !== id) {
       var match = [];
       for (var set of data) {
         set.level = clientPokemon.level;
         if (set.name === forme) {
-          match.push(displaySet(gen, gameType, letsgo, species, set, undefined, clientPokemon));
+          match.push(displaySet(gen, gameType, letsgo, champions, species, set, undefined, clientPokemon));
         }
       }
       if (match.length === 1) return original + match[0];
@@ -115,12 +117,12 @@ if (TOOLTIP) {
       set.level = clientPokemon.level;
       // Technically different formes will have different base stats, but given at this stage
       // we're still in the base forme we simply use the base forme base stats for everything.
-      buf += displaySet(gen, gameType, letsgo, species, set, set.name, clientPokemon);
+      buf += displaySet(gen, gameType, letsgo, champions, species, set, set.name, clientPokemon);
     }
     return buf;
   }
 
-  function displaySet(gen, gameType, letsgo, species, data, name, clientPokemon) {
+  function displaySet(gen, gameType, letsgo, champions, species, data, name, clientPokemon) {
     var noHP = true;
     if (data.moves) {
       for (var move in data.moves) {
@@ -150,11 +152,11 @@ if (TOOLTIP) {
             buf += '<p><small>Items:</small> ' +
               (role[1].items ? display(role[1].items) : '(No Item)') + '</p>';
           }
-        if (gen === 9) {
+        if (gen === 9 && 'teraTypes' in role[1]) {
           buf += '<p><small>Tera Types:</small> ' + display(role[1].teraTypes) + '</p>';
         }
         buf += '<p><small>Moves:</small> ' + display(role[1].moves, multi) + '</p>';
-        buf += displayStats(gen, letsgo, species, role[1], data.level, noHP) + '</div>';
+        buf += displayStats(gen, letsgo, champions, species, role[1], data.level, noHP) + '</div>';
         i++;
       }
     } else {
@@ -166,14 +168,14 @@ if (TOOLTIP) {
           (data.items ? display(data.items) : '(No Item)') + '</p>';
       }
       buf += '<p><small>Moves:</small> ' + display(data.moves, multi) + '</p>';
-      buf += displayStats(gen, letsgo, species, data, data.level, noHP);
+      buf += displayStats(gen, letsgo, champions, species, data, data.level, noHP);
     }
 
     buf += '</div>';
     return buf;
   }
 
-  function displayStats(gen, letsgo, species, data, level, noHP) {
+  function displayStats(gen, letsgo, champions, species, data, level, noHP) {
     var stats = {};
     for (var stat in species.baseStats) {
       stats[stat] = calc(
@@ -181,9 +183,10 @@ if (TOOLTIP) {
         stat,
         species.baseStats[stat],
         'ivs' in data && stat in data.ivs ? data.ivs[stat] : (gen < 3 ? 30 : 31),
-        'evs' in data && stat in data.evs ? data.evs[stat] : (gen < 3 ? 255 : letsgo ? 0 : 85),
+        'evs' in data && stat in data.evs ? data.evs[stat] : (gen < 3 ? 255 : letsgo ? 0 : champions ? 11 : 85),
         level,
-        letsgo);
+        letsgo,
+        champions);
     }
 
     buf ='<p>';
@@ -244,12 +247,14 @@ if (TOOLTIP) {
     return num >>> 0
   }
 
-  function calc(gen, stat, base, iv, ev, level, letsgo) {
+  function calc(gen, stat, base, iv, ev, level, letsgo, champions) {
     if (gen < 3) iv = Math.floor(iv / 2) * 2;
     if (stat === 'hp') {
+      if (champions) return tr((2 * base + 31 + Math.max(2 * ev - 1, 0)) * level / 100) + level + 10;
       var val = base === 1 ? base : tr(tr(2 * base + iv + tr(ev / 4) + 100) * level / 100 + 10);
       return letsgo ? val + 20 : val;
     } else {
+      if (champions) return tr((2 * base + 31 + Math.max(2 * ev - 1, 0)) * level / 100) + 5;
       var val = tr(tr(2 * base + iv + tr(ev / 4)) * level / 100 + 5);
       return letsgo ? tr(val * 102 / 100) + 20 : val;
     }
