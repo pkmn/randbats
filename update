@@ -173,13 +173,13 @@ const incrementFullSet = (s, set) => {
   s[fullSet] = (s[fullSet] || 0) + 1;
 };
 
-const increment = (gen, s, set) => {
+const increment = (gen, champions, s, set) => {
   s.n++;
   if (set.ability) s.abilities.set(set.ability, (s.abilities.get(set.ability) || 0) + 1);
   if (set.item) s.items.set(set.item, (s.items.get(set.item) || 0) + 1);
 
   const IVS = gen < 3 ? 30 : 31;
-  const EVS = gen < 3 ? 255 : 85;
+  const EVS = gen < 3 ? 255 : champions ? 11 : 85;
   for (const stat in set.ivs) {
     if (set.ivs[stat] !== IVS) {
       if (!(stat in s.ivs)) {
@@ -254,6 +254,7 @@ const displayStats = (letsgo, data, o, s) => {
     const gen = Number(format.id.charAt(3));
     const dex = Dex.forFormat(format);
     const letsgo = format.id.includes('letsgo');
+    const champions = format.id.includes('champions');
     const baby = format.id.includes('baby');
     const doubles = format.gameType === 'doubles';
     const generator = Teams.getGenerator(format, SEED);
@@ -271,7 +272,7 @@ const displayStats = (letsgo, data, o, s) => {
       const base = typeof species.battleOnly === 'string' ? species.battleOnly : species.name;
       pool[base] = (pool[base] || {});
       pool[base][species.name] = moves;
-    }``
+    }
 
     const formes = {};
     const fullSets = new Map();
@@ -296,9 +297,9 @@ const displayStats = (letsgo, data, o, s) => {
         for (const m of set.moves) moves.set(m, (moves.get(m) || 0) + 1);
 
         incrementFullSet(f, set);
-        increment(gen, s, set);
+        increment(gen, champions, s, set);
         if (set.role) {
-          increment(gen, s.roles[set.role], set);
+          increment(gen, champions, s.roles[set.role], set);
           if (set.teraType) {
             s.roles[set.role].teraTypes.set(set.teraType,
               (s.roles[set.role].teraTypes.get(set.teraType) || 0) + 1);
