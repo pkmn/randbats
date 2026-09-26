@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title><b>Showdown++</b> - Options page</title></head>
+<style>
+  body {
+    padding: 1em 1em 2em;
+    position: relative;
+  }
+  label {
+    font-size: 13px;
+  }
+  .option--row {
+    display: block;
+    margin-bottom: 1.5em;
+  }
+  #status {
+    position: absolute;
+    bottom: .25em;
+  }
+</style>
+<body>
+<div class="option--row">
+<label>
+    <input type="checkbox" id="calc" />
+    InstaCalc
+  </label></div>
+<div class="option--row">
+  <label>
+    <input type="checkbox" id="typechart" />
+    Typechart
+  </label>
+</div>
+<button id="save">Save</button>
+<div id="status"></div>
+
+<script src="options.js"></script>
+</body>
+</html>
