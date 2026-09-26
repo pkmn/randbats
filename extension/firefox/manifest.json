@@ -9,7 +9,12 @@
     "48": "/48x48.png",
     "128": "/128x128.png"
   },
-  "web_accessible_resources": ["/index.js"],
+  "permissions": ["storage"],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "web_accessible_resources": ["/index.js", "/instacalc.js", "/data.js", "/calc.js", "/typechart.js"],
   "content_scripts": [
     {
       "matches": ["*://*.pokemonshowdown.com/*", "*://*.psim.us/*"],
