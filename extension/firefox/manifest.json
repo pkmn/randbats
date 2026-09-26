@@ -3,6 +3,15 @@
   "name": "Pokémon Showdown Randbats Tooltip",
   "description": "Enhanced tooltip functionality for Pokémon Showdown Random Battle formats.",
   "version": "1.6.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "randbats-instacalc@localfork.pkmn",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
   "icons": {
     "16": "/16x16.png",
     "32": "/32x32.png",
