@@ -5,7 +5,7 @@
   "Arbok": {"level": 78, "moves": {"Earthquake": 1, "Glare": 1, "Hyper Beam": 1, "Rock Slide": 0.6682, "Body Slam": 0.3318}},
   "Arcanine": {"level": 75, "moves": {"Body Slam": 1, "Fire Blast": 1, "Hyper Beam": 1, "Agility": 0.3369, "Flamethrower": 0.3344, "Reflect": 0.1661, "Rest": 0.1626}},
   "Articuno": {"level": 70, "moves": {"Blizzard": 1, "Reflect": 0.6666, "Ice Beam": 0.6642, "Rest": 0.5023, "Agility": 0.4977, "Hyper Beam": 0.4977, "Mimic": 0.1715}},
-  "Beedrill": {"level": 81, "moves": {"Hyper Beam": 1, "Swords Dance": 1, "Twineedle": 1, "Agility": 0.6706, "Mega Drain": 0.3294}},
+  "Beedrill": {"level": 84, "moves": {"Hyper Beam": 1, "Swords Dance": 1, "Twineedle": 1, "Agility": 0.6706, "Mega Drain": 0.3294}},
   "Bellsprout": {"level": 88, "moves": {"Double-Edge": 1, "Razor Leaf": 1, "Sleep Powder": 1, "Stun Spore": 0.6537, "Swords Dance": 0.3463}},
   "Blastoise": {"level": 75, "moves": {"Blizzard": 1, "Body Slam": 1, "Surf": 0.6785, "Earthquake": 0.5067, "Rest": 0.4933, "Hydro Pump": 0.3215}},
   "Bulbasaur": {"level": 91, "moves": {"Body Slam": 1, "Razor Leaf": 1, "Sleep Powder": 1, "Swords Dance": 1}},

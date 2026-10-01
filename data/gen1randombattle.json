@@ -5,7 +5,7 @@
   "Arbok": {"level": 78, "moves": ["Body Slam", "Earthquake", "Glare", "Hyper Beam", "Rock Slide"]},
   "Arcanine": {"level": 75, "moves": ["Agility", "Body Slam", "Fire Blast", "Flamethrower", "Hyper Beam", "Reflect", "Rest"]},
   "Articuno": {"level": 70, "moves": ["Agility", "Blizzard", "Hyper Beam", "Ice Beam", "Mimic", "Reflect", "Rest"]},
-  "Beedrill": {"level": 81, "moves": ["Agility", "Hyper Beam", "Mega Drain", "Swords Dance", "Twineedle"]},
+  "Beedrill": {"level": 84, "moves": ["Agility", "Hyper Beam", "Mega Drain", "Swords Dance", "Twineedle"]},
   "Bellsprout": {"level": 88, "moves": ["Double-Edge", "Razor Leaf", "Sleep Powder", "Stun Spore", "Swords Dance"]},
   "Blastoise": {"level": 75, "moves": ["Blizzard", "Body Slam", "Earthquake", "Hydro Pump", "Rest", "Surf"]},
   "Bulbasaur": {"level": 91, "moves": ["Body Slam", "Razor Leaf", "Sleep Powder", "Swords Dance"]},
