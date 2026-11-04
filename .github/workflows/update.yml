@@ -28,5 +28,9 @@ jobs:
         git config user.email "actions@users.noreply.github.com"
         git add -A
         HEAD=$(git -C vendor/pokemon-showdown rev-parse HEAD | cut -c1-8)
-        git commit -m "Import smogon/pokemon-showdown@${HEAD}" || exit 0
+        MESSAGE="Import smogon/pokemon-showdown@${HEAD}"
+        if git diff --cached --quiet -- vendor/pokemon-showdown; then
+          MESSAGE="Import Fubs/randbats-enumerator@$(git -C vendor/randbats-enumerator rev-parse HEAD | cut -c1-8)"
+        fi
+        git commit -m "$MESSAGE" || exit 0
         git push || exit 0

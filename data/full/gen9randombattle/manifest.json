@@ -1,0 +1,28 @@
+{
+  "format": "gen9randombattle",
+  "fresh": true,
+  "exact_slots": [1, 2, 3, 4, 5],
+  "estimated_slots": [6],
+  "slot6_estimate": {
+    "method": "Slots 1-5 exact enumeration, slot 6 Rao-Blackwellized sampling",
+    "teams": 399999960,
+    "seeds": [301, 302],
+    "threads": 30
+  },
+  "generated": "2026-11-01T23:27:17Z",
+  "code": "618dd3b947d9255240a644c03615422242e3b393f809b20d3e3f70aab34d6cd8",
+  "fingerprint": "8fbd51537446fe2751967b83a681d3cde804588aac1fa105e5f40da19ccb47b7",
+  "logic": "56475efc85eee36e1b523c01f48fbe39fba26034de4cca9c533309377414d9ac",
+  "ps": "5b01be81011ec12efa25dcfff49ea279a6029d6f",
+  "patches": [
+    {
+      "ps": "62597d90b2f888200dead4762f739f638ac1cf7c",
+      "levels": {
+        "Brute Bonnet": [80, 79],
+        "Lycanroc-Midnight": [89, 88],
+        "Swampert": [83, 82],
+        "Iron Thorns": [82, 81]
+      }
+    }
+  ]
+}
