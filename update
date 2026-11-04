@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
+const crypto = require('crypto');
 const fs = require('fs');
 const util = require('util');
 const stringify = require('json-stringify-pretty-compact');
@@ -371,7 +372,17 @@ const displayStats = (letsgo, data, o, s) => {
   }
   if (fs.existsSync(ENUMERATOR)) {
     fs.cpSync(ENUMERATOR, 'data/full/gen9randombattle', { recursive: true });
-    console.log(`[Gen 9] Random Battle (exact): ${fs.readdirSync(ENUMERATOR).length} files`);
+    // The copy is stale for this PS if a source its inputs come from has changed since it was last
+    // found fresh, whether or not the enumerator's own checks are still running.
+    const file = 'data/full/gen9randombattle/manifest.json';
+    const { format, fresh, ...rest } = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const hash = f => fs.existsSync(`vendor/pokemon-showdown/${f}`) ? crypto.createHash('sha256')
+      .update(fs.readFileSync(`vendor/pokemon-showdown/${f}`)).digest('hex') : null;
+    const changed = Object.keys(rest.inputs || {}).filter(f => hash(f) !== rest.inputs[f]);
+    const reason = !rest.inputs ? 'the manifest lists no inputs to check'
+      : changed.length && `PS has changed ${changed.join(', ')} since these files were last found fresh`;
+    if (fresh && reason) fs.writeFileSync(file, stringify({ format, fresh: false, stale: { reason }, ...rest }));
+    console.log(`[Gen 9] Random Battle (exact): ${fresh && !reason ? 'fresh' : 'stale'}`);
   }
   fs.writeFileSync('data/index.json', stringify(index.options));
   fs.writeFileSync('data/stats/index.json', stringify(index.stats));

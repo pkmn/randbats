@@ -13,7 +13,10 @@ jobs:
       uses: actions/checkout@v4
     - name: Update submodule
       run:  |-
-        git submodule update --init --recursive --remote
+        git submodule update --init --recursive --remote vendor/pokemon-showdown
+        # The exact gen9randombattle data is optional: without it, update leaves it out.
+        git submodule update --init --remote vendor/randbats-enumerator ||
+          echo "::warning::could not update vendor/randbats-enumerator"
         git diff --quiet && exit 0
         npm -C vendor/pokemon-showdown --no-package-lock --no-save --omit=optional install esbuild
         node vendor/pokemon-showdown/build

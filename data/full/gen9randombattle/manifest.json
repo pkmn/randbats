@@ -1,6 +1,8 @@
 {
   "format": "gen9randombattle",
   "fresh": true,
+  "checked_at": "2026-11-04T04:24:30Z",
+  "checked_ps": "62597d90b2f888200dead4762f739f638ac1cf7c",
   "exact_slots": [1, 2, 3, 4, 5],
   "estimated_slots": [6],
   "slot6_estimate": {
@@ -24,5 +26,26 @@
         "Iron Thorns": [82, 81]
       }
     }
-  ]
+  ],
+  "inputs": {
+    "config/formats.ts": "2cecf49d16e2734a38e2acb08583ceb1df35363c8ab6a46da29700e3002e751e",
+    "data/abilities.ts": "e942ef6a75cdd50095f6b68c27e772ea91f2202714a30b04539ff17b7b93c065",
+    "data/formats-data.ts": "3e0b75701b4723e57d7557aaa50b13e0c05cf80bf586d18d20608b3214fa161a",
+    "data/items.ts": "6a9c7eeb9cfda861d9fb22084b10af46d03da4729981424ff155399907b66ed4",
+    "data/moves.ts": "19d96eac13d7d89f13b42a975672ee75b8ad4dac011c66898ea811f2e3ef7681",
+    "data/pokedex.ts": "5e572601f4700f99835845eee5cd3e53362e43d885e2753fcc32418f636b83ed",
+    "data/rulesets.ts": "75422eecf4489e7a23ccdf161c2af8caaee1a22bb2736957413de46335e34d6e",
+    "data/typechart.ts": "7b0eae126bdcf98edfd71cbe75af00b763f5f0d5db36024b6f3e7c5e4aea95ac",
+    "data/random-battles/gen9/sets.json": "6d97f98b0f1238f4b4e18795d053ac6a08f9beac873660f0d98070faeda24fcb",
+    "data/random-battles/gen9/teams.ts": "b09c2b9d39eb6c710d9381557125f7da5b81bd3e911ad7c0f6bc99037940cadd",
+    "sim/dex.ts": "e4541bdef8f8256e045549969b6b20a27083fd7078af91f59ac378335efee2b5",
+    "sim/dex-abilities.ts": "9ec7acb30cef3c2681977ab833931b2a89e7bb48a884ae7f959981bc93797d3f",
+    "sim/dex-data.ts": "6721e00d27766f1f981bd8c67a119cb838a5cd52de54520b807ac3e78eb80b6b",
+    "sim/dex-formats.ts": "d2297e9e0a320ac536ed62f85008e5f093e2a5cbf89dbf9a4a5e5bc82fbcd5ad",
+    "sim/dex-items.ts": "2b1034b79b4c365fa05ff8c5cf6d4acb0bb82a406752451e4635f64d58e1fc4a",
+    "sim/dex-moves.ts": "5c15a78ff4a491c1eecbda909c63535924589aba7e15b73a895d41e6b504f02f",
+    "sim/dex-species.ts": "5f47308e655371968c3b4ddc6680cf0da1c92022c330625ca5cce71e3f0e43ce",
+    "sim/prng.ts": "a3d9ff1e802fa34555c2d7db5fbf93bc306f9b0dccfc6fc871006e6377a5a919",
+    "sim/teams.ts": "58b78336904801fcec5cd003c1a7af7718adbd31ddd1155bff72913663c9b2cd"
+  }
 }
