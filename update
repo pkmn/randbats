@@ -371,10 +371,10 @@ const displayStats = (letsgo, data, o, s) => {
     console.log(`${format.name}: ${(Number(process.hrtime.bigint() - start) / 1e9).toFixed(3)}s`);
   }
   if (fs.existsSync(ENUMERATOR)) {
-    fs.cpSync(ENUMERATOR, 'data/full/gen9randombattle', { recursive: true });
+    fs.cpSync(ENUMERATOR, 'data/exact/gen9randombattle', { recursive: true });
     // The copy is stale for this PS if a source its inputs come from has changed since it was last
     // found fresh, whether or not the enumerator's own checks are still running.
-    const file = 'data/full/gen9randombattle/manifest.json';
+    const file = 'data/exact/gen9randombattle/manifest.json';
     const { format, fresh, ...rest } = JSON.parse(fs.readFileSync(file, 'utf8'));
     const hash = f => fs.existsSync(`vendor/pokemon-showdown/${f}`) ? crypto.createHash('sha256')
       .update(fs.readFileSync(`vendor/pokemon-showdown/${f}`)).digest('hex') : null;
