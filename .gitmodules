@@ -1,3 +1,8 @@
 [submodule "vendor/pokemon-showdown"]
 	path = vendor/pokemon-showdown
 	url = https://github.com/smogon/pokemon-showdown.git
+[submodule "vendor/randbats-enumerator"]
+	path = vendor/randbats-enumerator
+	url = https://github.com/Fubs/randbats-enumerator.git
+	branch = main
+	shallow = true

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
+const crypto = require('crypto');
 const fs = require('fs');
 const util = require('util');
 const stringify = require('json-stringify-pretty-compact');
@@ -9,6 +10,10 @@ const gzip = util.promisify(zlib.gzip);
 
 const { Dex, Teams } = require('./vendor/pokemon-showdown');
 Dex.includeModData();
+
+// Exact per-slot gen9randombattle set distributions, computed from PS's team generator rather than
+// sampled, as https://github.com/Fubs/randbats-enumerator publishes them.
+const ENUMERATOR = 'vendor/randbats-enumerator/data/gen9randombattle';
 
 const SEED = [1, 2, 3, 4];
 const N = +process.argv[2] || 100_000;
@@ -364,6 +369,20 @@ const displayStats = (letsgo, data, o, s) => {
     }).slice(1, -1);
     fs.writeFileSync(`data/js/${format.id}.js`, `var ${format.id.toUpperCase()} = {\n ${code}\n};`);
     console.log(`${format.name}: ${(Number(process.hrtime.bigint() - start) / 1e9).toFixed(3)}s`);
+  }
+  if (fs.existsSync(ENUMERATOR)) {
+    fs.cpSync(ENUMERATOR, 'data/exact/gen9randombattle', { recursive: true });
+    // The copy is stale for this PS if a source its inputs come from has changed since it was last
+    // found fresh, whether or not the enumerator's own checks are still running.
+    const file = 'data/exact/gen9randombattle/manifest.json';
+    const { format, fresh, ...rest } = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const hash = f => fs.existsSync(`vendor/pokemon-showdown/${f}`) ? crypto.createHash('sha256')
+      .update(fs.readFileSync(`vendor/pokemon-showdown/${f}`)).digest('hex') : null;
+    const changed = Object.keys(rest.inputs || {}).filter(f => hash(f) !== rest.inputs[f]);
+    const reason = !rest.inputs ? 'the manifest lists no inputs to check'
+      : changed.length && `PS has changed ${changed.join(', ')} since these files were last found fresh`;
+    if (fresh && reason) fs.writeFileSync(file, stringify({ format, fresh: false, stale: { reason }, ...rest }));
+    console.log(`[Gen 9] Random Battle (exact): ${fresh && !reason ? 'fresh' : 'stale'}`);
   }
   fs.writeFileSync('data/index.json', stringify(index.options));
   fs.writeFileSync('data/stats/index.json', stringify(index.stats));
