@@ -1,8 +1,8 @@
 {
   "format": "gen9randombattle",
   "fresh": true,
-  "checked_at": "2026-11-04T04:24:30Z",
-  "checked_ps": "62597d90b2f888200dead4762f739f638ac1cf7c",
+  "checked_at": "2026-11-04T07:57:18Z",
+  "checked_ps": "16db150abae0829180b8721da3bff0e51896a223",
   "exact_slots": [1, 2, 3, 4, 5],
   "estimated_slots": [6],
   "slot6_estimate": {
@@ -28,7 +28,7 @@
     }
   ],
   "inputs": {
-    "config/formats.ts": "2cecf49d16e2734a38e2acb08583ceb1df35363c8ab6a46da29700e3002e751e",
+    "config/formats.ts": "25297f666d3b738d6326e449b94e7991bd2e5065daa6bc20b9aee3b9331e3460",
     "data/abilities.ts": "e942ef6a75cdd50095f6b68c27e772ea91f2202714a30b04539ff17b7b93c065",
     "data/formats-data.ts": "3e0b75701b4723e57d7557aaa50b13e0c05cf80bf586d18d20608b3214fa161a",
     "data/items.ts": "6a9c7eeb9cfda861d9fb22084b10af46d03da4729981424ff155399907b66ed4",
