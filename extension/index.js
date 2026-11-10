@@ -83,12 +83,13 @@ if (TOOLTIP) {
     var data = DATA[format][species.baseSpecies === 'Zoroark' ? 0 : clientPokemon.level];
     if (!data) return original;
 
-    var cosmetic = species.cosmeticFormes && species.cosmeticFormes.includes(species.name);
-    var id = toID((species.forme === 'Gmax' || cosmetic)
+    var id = toID(species.forme === 'Gmax'
       ? species.baseSpecies : species.battleOnly || species.name);
-    if (id.startsWith('pikachu')) id = id.endsWith('gmax') ? 'pikachugmax' : 'pikachu';
-    var forme = cosmetic ? species.baseSpecies : clientPokemon.speciesForme;
-    if (forme.startsWith('Pikachu')) forme = forme.endsWith('Gmax') ? 'Pikachu-Gmax' : 'Pikachu';
+    var forme = clientPokemon.speciesForme;
+    if (!data[id]) {
+      id = toID(species.baseSpecies);
+      forme = species.baseSpecies;
+    }
 
     var d = data;
     data = data[id];
