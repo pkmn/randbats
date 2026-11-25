@@ -250,7 +250,8 @@ const displayStats = (letsgo, data, o, s) => {
 
   const index = { options: {}, stats: {}, full: {} };
   for (const format of Dex.formats.all()) {
-    if (!format.team || !['singles', 'doubles'].includes(format.gameType)) continue;
+    if (!['random', 'randomBaby'].includes(format.team)) continue;
+    if (!['singles', 'doubles'].includes(format.gameType)) continue;
     if (SKIP.some(s => format.id.includes(s))) continue;
     if (!format.mod.startsWith('gen') && format.mod !== 'champions') continue;
     const start = process.hrtime.bigint();
