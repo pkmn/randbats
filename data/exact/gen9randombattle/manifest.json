@@ -1,6 +1,10 @@
 {
   "format": "gen9randombattle",
-  "fresh": true,
+  "fresh": false,
+  "stale": {
+    "ps": "29f2d9969159fd23f8bb96e177a70072fe573b0e",
+    "reason": "PS has changed what the generator reads since these files were computed"
+  },
   "checked_at": "2026-11-22T22:44:18Z",
   "checked_ps": "e7f50cd7bcb36348c631534a97ae8323b8189541",
   "exact_slots": [1, 2, 3, 4, 5],
